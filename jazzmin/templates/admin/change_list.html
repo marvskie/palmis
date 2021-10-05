@@ -1,0 +1,479 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_list jazzmin %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'vendor/select2/css/select2.min.css' %}">
+
+    {% if cl.formset or action_form %}
+        <script type="text/javascript" src="{% url 'admin:jsi18n' %}"></script>
+    {% endif %}
+    {{ media.css }}
+    {% if not actions_on_top and not actions_on_bottom %}
+        <style>
+            #changelist table thead th:first-child {width: inherit}
+        </style>
+    {% endif %}
+    <style>
+        .content-header .breadcrumb{
+            line-height: unset;
+        }
+    </style>
+{% endblock %}
+
+{% block extrahead %}
+    {{ block.super }}
+    {{ media.js }}
+{% endblock %}
+
+{% block bodyclass %}{{ block.super }} app-{{ opts.app_label }} model-{{ opts.model_name }} change-list{% endblock %}
+
+{% block breadcrumbs %}
+    <ol class="breadcrumb float-sm-right" style="font-size: 12px;padding: unset;margin: unset;">
+        <li class="breadcrumb-item"><a href="{% url 'admin:index' %}"><i class="fa fa-tachometer-alt"></i> {% trans 'Home' %}</a></li>
+        <li class="breadcrumb-item"><a href="{% url 'admin:app_list' app_label=opts.app_label %}">{{ opts.app_config.verbose_name }}</a></li>
+        <li class="breadcrumb-item active">{{ cl.opts.verbose_name_plural|capfirst }}</li>
+    </ol>
+{% endblock %}
+
+{% block content_title %}
+    {% if cl.opts.verbose_name_plural == "Inventory" or cl.opts.verbose_name_plural == "Facility" or cl.opts.verbose_name_plural == "Reports" %}
+         {% trans 'Facilities and Realstate Management Information System' %}
+    {% else %}
+         {{ cl.opts.verbose_name_plural|capfirst }}
+    {% endif %}
+{% endblock %}
+
+{% block coltype %}flex{% endblock %}
+
+{% block content %}
+        <div id="pamuprofile_id" class="cod49" hidden>
+            <div class="pamu_image cod48">
+            </div>
+        </div>
+            <div class="col-12 cod2">
+            <div class="famis-tab-menu">
+                {% if cl.opts.verbose_name_plural == "Inventory" %}
+                    <a href="/famis/inventory/" style="background-color:#37571b;color: white;text-decoration: none;">Inventory</a>
+                    <a href="/famis/reports/">Reports</a>
+                    <a href="/famis/tutorials/">Tutorials</a>
+                {% endif %}
+
+                {% if cl.opts.verbose_name_plural == "Reports"  %}
+                    <a href="/famis/inventory/">Inventory</a>
+                    <a href="/famis/reports/" style="background-color:#37571b;color: white;text-decoration: none;">Reports</a>
+                    <a href="/famis/tutorials/">Tutorials</a>
+                {% endif %}
+
+                {% if cl.opts.verbose_name_plural == "Tutorials" %}
+                    <a href="/famis/inventory/">Inventory</a>
+                    <a href="/famis/reports/">Reports</a>
+                    <a href="/famis/tutorials/" style="background-color:#37571b;color: white;text-decoration: none;">Tutorials</a>
+                {% endif %}
+            </div>
+            {% if cl.opts.verbose_name_plural == "xFacility" %}
+                <div class="col-10 cod3">
+                    <ul class="nav nav-tabs cod4">
+                        <li><button class="tablink cod5" onclick="openPage('Inventory', this, 'white')" id="defaultOpen">Inventory</button></li>
+                        <li><button class="tablink cod5" onclick="openPage('Reports', this, 'white')">Reports</button></li>
+                        <li><button class="tablink cod5" onclick="openPage('Tutorial', this, 'white')">Tutorial</button></li>
+                        <li class="cod6">
+                            <form action="" class="form-inline ml-3">
+                                <div class="input-group input-group-sm cod7">
+                                    <input class="form-control form-control-navbar" name="q" type="search" placeholder="Inquiry...">
+                                    <!-- <input type="search" class="light-table-filter" data-table="table-data" placeholder="Inquiry..."> -->
+                                    <div class="input-group-append" >
+                                        <button class="btn btn-navbar cod8" type="submit">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content col-12 cod9">
+                    <div id="Inventory" class="tabcontent cod10">
+                        <div class="cod11">
+                            <div>
+                              <table class="cod12">
+                                 <tr>
+                                    <td width="10%">
+                                        <form id="pamu_form_id" name="checkbox_select_PAMU_Select_All">
+                                          <select name="PAMU">
+                                             <option data-count="" value="Select All">Select All</option>
+                                             {% for list in jazzmin_settings.pamus %}
+                                                <option data-count="" value="{{ list }}">{{ list }}</option>
+                                             {% endfor %}
+                                          </select>
+                                        </form>
+                                     </td>
+                                     <td width="10%">
+                                        <form id="unit_form_id" name="checkbox_select_UNIT_Select_All">
+                                          <select id="pamuunit" name="UNIT">
+                                            <option data-count="" value="Select All">Select All</option>
+                                            {% for list in jazzmin_settings.unit_list %}
+                                                <option data-count="" value="{{ list }}">{{ list }}</option>
+                                            {% endfor %}
+                                        </select>
+                                        </form>
+                                     </td>
+                                     <td width="10%">
+                                         <form id="type_of_facility_form_id" name="checkbox_select_Type of Facility_Select_All">
+                                              <select name="Type of Facility">
+                                                  <option data-count="" value="Select All">Select All</option>
+                                                  {% for list in jazzmin_settings.facility_type %}
+                                                    <option data-count="" value="{{ list }}">{{ list }}</option>
+                                                  {% endfor %}
+                                              </select>
+                                        </form>
+                                     </td>
+                                     <td width="10%">
+                                         <form id="mode_of_acquisition_form_id" name="checkbox_select_Mode of Acquisition_Select_All">
+                                              <select name="Mode of Acquisition">
+                                                  <option data-count="" value="Select All">Select All</option>
+                                                  {% for list in jazzmin_settings.Acquisition_Mode %}
+                                                     <option data-count="" value="{{ list }}">{{ list }}</option>
+                                                  {% endfor %}
+                                              </select>
+                                        </form>
+                                     </td>
+                                     <td width="10%">
+                                         <form id="edit_field_form_id" name="checkbox_select_Edit Field_Select_All">
+                                              <select name="Edit Field" id="Edit Field">
+                                                  <!-- Facility Tables -->
+                                                  <option data-count="" value="Select All">Select All</option>
+                                                  {% for list in jazzmin_settings.edit_field %}
+                                                    <option data-count="" value="{{ list }}">{{ list }}</option>
+                                                  {% endfor %}
+                                              </select>
+                                        </form>
+                                     </td>
+                                 </tr>
+                              </table>
+                            </div>
+                        </div>
+                        <div class="cod13">
+                            <div class="cod14">
+                                <div class="row cod15">
+                                    <div class="cod16">
+                                        <label class="cod17">Show:</label>
+                                        <select class="cod18" id="select_range" onchange="onselectrange()">
+                                            <option value="10">10</option>
+                                            <option value="50">50</option>
+                                            <option value="100">100</option>
+                                        </select>
+                                        <label class="cod19">entries.</label>
+                                    </div>
+                                    <!-- '''''''''''''''''''''''''''''''' -->
+                                    <div class="cod20">
+                                        <label class="cod21">Facilities:</label>
+                                        <label class="cod22">F</label>
+                                        <label class="cod21">Real State:</label>
+                                        <label class="cod23">R</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row cod24">
+                                <div class="table-responsive cod25">
+                                    <table class="table100 table-hover table-data cod26" id="myTable">
+                                        <thead>
+                                            <tr class="row100 head">
+                                                <!-- For Facility Table Header -->
+                                                <th class="column100" id="nr" >#</th>
+                                                <th class="column100 theader1" id="PAMU" >PAMU</th>
+                                                <th class="column100 theader1" id="Sub unit" >Sub unit</th>
+                                                <th class="column100 theader1" id="Location"  >Location</th>
+                                                <th class="column100 theader1" id="Name of Facility" >Name of Facility</th>
+                                                <th class="column100 theader1" id="Facility Classification" hidden>Facility Classification</th>
+                                                <th class="column100 theader1" id="Area/ lnM/ Width" hidden>Area/ lnM/ Width</th>
+                                                <th class="column100 theader1" id="Bldg/ Utility Code" hidden>Bldg/ Utility Code</th>
+                                                <th class="column100 theader1" id="Building Administrator" hidden>Building Administrator</th>
+                                                <th class="column100 theader1" id="Mode of Acquisition" hidden>Mode of Acquisition</th>
+                                                <th class="column100 theader1" id="Year Acquired" hidden>Year Acquired</th>
+                                                <th class="column100 theader1" id="Master Developmental Plan Alignment" hidden>Master Developmental Plan Alignment</th>
+                                                <th class="column100 theader1" id="Building insurance Nr" hidden>Building insurance Nr</th>
+                                                <th class="column100 theader1" id="Amount of insurance" hidden>Amount of insurance</th>
+                                                <th class="column100 theader1" id="Original Amount" hidden>Original Amount</th>
+                                                <th class="column100 theader1" id="Appraised Value" hidden>Appraised Value</th>
+                                                <th class="column100 theader1" id="Date of Appraised Value" hidden>Date of Appraised Value</th>
+                                                <th class="column100 theader1" id="Amount enhanced/ repair" hidden>Amount enhanced/ repair</th>
+                                                <th class="column100 theader1" id="Date/ Year of enhanced/repair" hidden>Date/ Year of enhanced/repair</th>
+
+                                                <th class="column100 theader1" id="Fund" hidden>Fund</th>
+
+                                                <th class="column100 theader1" id="Date Requested" hidden>Date Requested</th>
+                                                <th class="column100 theader1" id="Date of Repair/ Enhancement" hidden>Date of Repair/ Enhancement</th>
+                                                <th class="column100 theader1" id="Amount of Repair/ Enhancement" hidden>Amount of Repair/ Enhancement</th>
+                                                <th class="column100 theader1" id="Qualitative scale" hidden>Qualitative scale</th>
+
+                                                <!-- For Real eState Table Header -->
+                                                <th class="column100 theader2" id="Camp Code" hidden>Camp Code</th>
+                                                <th class="column100 theader2" id="Name of Camp" hidden>Name of Camp</th>
+                                                <th class="column100 theader2" id="Region" hidden>Region</th>
+                                                <th class="column100 theader2" id="Total Area (Hectares)" hidden>Total Area (Hectares)</th>
+                                                <th class="column100 theader2" id="Total Perimeter (Meter)" hidden>Total Perimeter (Meter)</th>
+                                                <th class="column100 theader2" id="Topography" hidden>Topography</th>
+                                                <th class="column100 theader2" id="Basis of Development" hidden>Basis of Development</th>
+                                                <th class="column100 theader2" id="Perimeter with Fence (Meter)" hidden>Perimeter with Fence (Meter)</th>
+                                                <th class="column100 theader2" id="Type of Fence" hidden>Type of Fence</th>
+                                                <th class="column100 theader2" id="Development Year Aquired" hidden>Development Year Aquired</th>
+                                                <th class="column100 theader2" id="Unit Code/ Administrator" hidden>Unit Code/ Administrator</th>
+                                                <th class="column100 theader2" id="Tenant Unit/ LGU/ CIV" hidden>Tenant Unit/ LGU/ CIV</th>
+                                                <th class="column100 theader2" id="Total Area Occupied/ Developed" hidden>Total Area Occupied/ Developed</th>
+                                                <th class="column100 theader2" id="Nr of facility established" hidden>Nr of facility established</th>
+                                                <th class="column100 theader2" id="Type of Ownership" hidden>Type of Ownership</th>
+                                                <th class="column100 theader2" id="Authority of Ownership" hidden>Authority of Ownership</th>
+                                                <th class="column100 theader2" id="Date Acquired" hidden>Date Acquired</th>
+                                                <th class="column100 theader2" id="Date of renewal(if acquired through MOA, Reso, etc)" hidden>Date of renewal(if acquired through MOA, Reso, etc)</th>
+                                                <th class="column100 theader2" id="Progress of titling" hidden>Progress of titling</th>
+                                                <th class="column100 theader2" id="Date of Progress titling" hidden>Date of Progress titling</th>
+                                                <th class="column100 theader2" id="Unit in-charge of titling" hidden>Unit in-charge of titling</th>
+                                                <th class="column100 theader2" id="Amount programmed for titling" hidden>Amount programmed for titling</th>
+                                                <th class="column100 theader2" id="Amount downloaded for titling" hidden>Amount downloaded for titling</th>
+                                                <th class="column100 theader2" id="Area of Idle land(Sq M/ Has)" hidden>Area of Idle land(Sq M/ Has)</th>
+                                                <th class="column100 theader2" id="Area of Land Leased" hidden>Area of Land Leased</th>
+
+                                                <th class="column100 theader2" id="Year Leased" hidden>Year Leased</th>
+                                                <th class="column100 theader2" id="Date of Expiration" hidden>Date of Expiration</th>
+                                                <th class="column100 theader2" id="Economic zone classification" hidden>Economic zone classification</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <label id="max_value_id" hidden="true">{{ cl.full_result_count }}</label>
+                                            {% for list in cl.result_list %}
+                                                {% if forloop.counter|divisibleby:2 %}
+                                                    <tr id="{{ 'tablerow' }}{{ forloop.counter }}" class="row100 cod27">
+                                                {% else %} 
+                                                    <tr id="{{ 'tablerow' }}{{ forloop.counter }}" class="row100 cod27">
+                                                {% endif %}
+                                                        <td class="column100 tdata1" id="{{ 'nr' }}{{ forloop.counter }}" >{{ forloop.counter }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'PAMU'}}{{ forloop.counter }}" >{{ list.pamu }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Sub unit'}}{{ forloop.counter }}" >{{ list.sub_unit }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Location'}}{{ forloop.counter }}" >{{ list.location }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Name of Facility'}}{{ forloop.counter }}" >{{ list.name_of_facility }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Facility Classification'}}{{ forloop.counter }}" hidden>{{ list.facility_classification }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Area/ lnM/ Width'}}{{ forloop.counter }}" hidden>{{ list.area_or_inm_or_width }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Bldg/ Utility Code'}}{{ forloop.counter }}" hidden>{{ list.bldg_or_utility_code }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Building Administrator'}}{{ forloop.counter }}" hidden>{{ list.building_administrator }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Mode of Acquisition'}}{{ forloop.counter }}" hidden>{{ list.mode_of_acquisition }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Year Acquired'}}{{ forloop.counter }}" hidden>{{ list.year_acquired }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Master Developmental Plan Alignment'}}{{ forloop.counter }}" hidden>{{ list.master_developmental_plan_alignment }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Building insurance Nr'}}{{ forloop.counter }}" hidden>{{ list.building_insurance_nr }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Amount of insurance'}}{{ forloop.counter }}" hidden>{{ list.amount_of_insurance }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Original Amount'}}{{ forloop.counter }}" hidden>{{ list.original_amount }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Appraised Value'}}{{ forloop.counter }}" hidden>{{ list.appraised_value }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Date of Appraised Value'}}{{ forloop.counter }}" hidden>{{ list.date_of_appraised_value }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Amount enhanced/ repair'}}{{ forloop.counter }}" hidden>{{ list.amount_enhanced_or_repair }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Date/ Year of enhanced/repair'}}{{ forloop.counter }}" hidden>{{ list.date_or_year_of_enhanced_or_repair }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Fund'}}{{ forloop.counter }}" hidden>{{ list.fund }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Date of Repair/ Enhancement'}}{{ forloop.counter }}" hidden>{{ list.date_of_repair_or_enhancement }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Amount of Repair/ Enhancement'}}{{ forloop.counter }}" hidden>{{ list.amount_of_repair_or_enhancement }}</td>
+                                                        <td class="column100 tdata1" id="{{ 'Qualitative scale'}}{{ forloop.counter }}" hidden>{{ list.qualitative_scale }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Camp Code'}}{{ forloop.counter }}" hidden>{{ list.camp_code }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Name of Camp'}}{{ forloop.counter }}" hidden>{{ list.name_of_Camp }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Region'}}{{ forloop.counter }}" hidden>{{ list.region }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Total Area (Hectares)'}}{{ forloop.counter }}" hidden>{{ list.total_area_or_hectares }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Total Perimeter (Meter)'}}{{ forloop.counter }}" hidden>{{ list.total_perimeter_or_meter }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Topography'}}{{ forloop.counter }}" hidden>{{ list.topography }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Basis of Development'}}{{ forloop.counter }}" hidden>{{ basis.basis_of_development }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Perimeter with Fence (Meter)'}}{{ forloop.counter }}" hidden>{{ list.perimeter_with_fence_or_meter }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Type of Fence'}}{{ forloop.counter }}" hidden>{{ list.type_of_fence }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Development Year Acquired'}}{{ forloop.counter }}" hidden>{{ list.development_year_acquired }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Unit Code/ Administrator'}}{{ forloop.counter }}" hidden>{{ list.unit_code_administrator }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Tenant Unit/ LGU/ CIV'}}{{ forloop.counter }}" hidden>{{ list.tenant_unit_or_lgu_or_civ }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Total Area Occupied/ Developed'}}{{ forloop.counter }}" hidden>{{ list.total_area_occupied_developed }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Nr of facility established'}}{{ forloop.counter }}" hidden>{{ list.nr_of_facility_established }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Type of Ownership'}}{{ forloop.counter }}" hidden>{{ list.type_of_ownership }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Authority of Ownership'}}{{ forloop.counter }}" hidden>{{ list.authority_of_ownership }}{{ forloop.counter }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Date Acquired'}}{{ forloop.counter }}" hidden>{{ list.date_acquired }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Date of renewal(if acquired through MOA, Reso, etc)'}}{{ forloop.counter }}" hidden>{{ list.date_of_renewal }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Progress of titling'}}{{ forloop.counter }}" hidden>{{ list.progress_of_titling }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Date of Progress Titling'}}{{ forloop.counter }}" hidden>{{ list.date_of_progress_titling }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Unit in-charge of titling'}}{{ forloop.counter }}" hidden>{{ list.unit_in_charge_of_titling }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Amount programmed for titling'}}{{ forloop.counter }}" hidden>{{ list.amount_programmed_for_titling }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Amount downloaded for titling'}}{{ forloop.counter }}" hidden>{{ list.amount_downloaded_for_titling }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Area of Idle land(Sq M/ Has)'}}{{ forloop.counter }}" hidden>{{ list.area_of_idle_land }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Area of Land Leased'}}{{ forloop.counter }}" hidden>{{ list.area_of_land_leased }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Year Leased'}}{{ forloop.counter }}" hidden>{{ list.year_leased }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Date of Expiration'}}{{ forloop.counter }}" hidden>{{ list.date_of_expiration }}</td>
+                                                        <td class="column100 tdata2" id="{{ 'Economic zone classification'}}{{ forloop.counter }}" hidden>{{ list.economic_zone_classification }}</td>
+                                                </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="cod28">
+                                    <div class="cod29">
+                                        <div class="cod30" id="myChart"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cod31">
+                                <div class="row">
+                                    <div class="cod11">
+                                      <div class="cod32" id="showvaluesof">
+                                      </div>
+                                    </div>
+                                    <div class="pagination cod31">
+                                      <a onclick="prev_show()" id="cod47"><<</a>
+                                      <div class="cod34" id="displaynrdiv">
+                                      </div>
+                                      <a onclick="nextshow()" id="cod35">>></a>
+                                      <div class="cod36">
+                                          <label class="cod37">Go to page:</label>
+                                          <select class="cod38" id="select_betrange" onchange="goto_page()">
+                                          </select>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Reports" class="tabcontent cod44">
+                       <!--  <iframe width="640" height="360" src="/famis/facility/import/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                        <div class="cod40">
+                            <a class="cod41" href="/famis/facility/add/">Add</a>
+                            <a class="cod41" href="/famis/facilitymaintenance/add/">Repair Facilities</a>
+                        </div>
+                        <div class="table-responsive cod42">
+                        </div>
+                    </div>
+                    <div id="Tutorial" class="tabcontent cod44">
+                        <div class="cod45">
+                            <h6 class="cod46"><a href="">Add a data series to your chart</a></h6>
+                              <p>On the worksheet that contains your chart data, in the cells directly next to or below your existing source data for the chart, enter the new data series you want to add. Click the worksheet that contains your chart. Right-click the chart, and then choose Select Data. The Select Data Source dialog box appears on the worksheet that contains the ...
+                              </p>
+                            
+                            <h6 class="cod46"><a href="">Select data for a chart</a></h6>
+                              <p>To create a chart in Excel for the web, you need to select at least one cell in a range of data (a set of cells). Your chart will include all data in that range. Arrange data for charts. This table lists the best ways to arrange your data for a given chart.
+                              </p>
+                            
+                            <h6 class="cod46"><a href="">Add or remove data labels in a chart</a></h6>
+                              <p>Depending on what you want to highlight on a chart, you can add labels to one series, all the series (the whole chart), or one data point. Add data labels. You can add data labels to show the data point values from the Excel sheet in the chart. This step applies to Word for Mac only: On the View menu, click Print Layout.
+                              </p>
+                            
+                            <h6 class="cod46"><a href="">Add a trend or moving average line to a chart</a></h6>
+                              <p>Add a trendline. Select a chart. Select the + to the top right of the chart. Select Trendline. Note: Excel displays the Trendline option only if you select a chart that has more than one data series without selecting a data series. In the Add Trendline dialog box, select any data series options you want, and click OK.
+                              </p>
+                            
+                            <h6 class="cod46"><a href="">Add a legend to a chart</a></h6>
+                              <p>Click Chart Filters next to the chart, and click Select Data. Select an entry in the Legend Entries (Series) list, and click Edit. In the Series Name field, type a new legend entry. Tip: You can also select a cell from which the text is retrieved.
+                              </p>
+                            
+                            <h6 class="cod46"><a href="">Present your data in a scatter chart or a line chart</a></h6>
+                              <p>Create a line chart. Select the data you want to plot in the chart. Click the Insert tab, and then click Line, and pick an option from the available line chart styles . With the chart selected, click the Chart Design tab to do any of the following: Click Add Chart Element to modify details like the title, labels, and the legend.
+                              </p>
+                        </div>
+                    </div>
+                </div>
+            {% else %}
+                <div class="card card-primary card-outline">
+                <div class="card-header" style="white-space: nowrap;">
+                    {% if cl.opts.verbose_name_plural == "Reports" %}
+                    <div class="row">
+                        <a href="" style="padding: 4px 4px 4px 4px;background-color:#37571b;color: white;font-style: none;border-radius: 7px;margin-left: 10px;">Repair Facility</a>
+                    </div>
+                    {% endif %}
+                    {% if cl.opts.verbose_name_plural == "Inventory" or cl.opts.verbose_name_plural == "Facility" or cl.opts.verbose_name_plural == "Reports" %}
+                        <h4 class="card-title" style="display: none;">
+                    {% else %}
+                        <h4 class="card-title">
+                    {% endif %}
+                            {{ title }}{% block pretitle %}{% endblock %}
+                        </h4>
+                    {% if cl.opts.verbose_name_plural == "Inventory" or cl.opts.verbose_name_plural == "Facility" or cl.opts.verbose_name_plural == "Reports" %}
+                        <div class="card-tools form-inline" style="float: unset;">
+                    {% else %}
+                        <div class="card-tools form-inline">
+                    {% endif %}
+                        {% block date_hierarchy %}
+                            {% if cl.date_hierarchy %}
+                                {% date_hierarchy cl %}
+                            {% endif %}
+                        {% endblock %}
+                            
+                        {% block search %}
+                            {% search_form cl %}
+                        {% endblock %}
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form id="changelist-form" method="post"{% if cl.formset and cl.formset.is_multipart %}enctype="multipart/form-data"{% endif %} novalidate>{% csrf_token %}
+                        <div id="content-main">
+                            {% if cl.formset and cl.formset.errors %}
+                            <p class="errornote">
+                                {% if cl.formset.total_error_count == 1 %}
+                                    {% trans "Please correct the error below." %}
+                                {% else %}
+                                    {% trans "Please correct the errors below." %}
+                                {% endif %}
+                            </p>
+                            {{ cl.formset.non_form_errors }}
+                            {% endif %}
+                            <div class="module{% if cl.has_filters %} filtered{% endif %}" id="changelist"></div>
+                            <div class="row">
+                                <div class="col-12">
+                                    {% if cl.formset %}
+                                        <div>{{ cl.formset.management_form }}</div>
+                                    {% endif %}
+                                    
+                                    {% block result_list %}
+                                        <div class="row">
+                                            {% if cl.opts.verbose_name_plural == "Reports" %}
+                                            <div class="col-12 col-sm-8" hidden>
+                                            {% else %}
+                                            <div class="col-12 col-sm-8">
+                                            {% endif %}
+                                                {% if action_form and actions_on_top and cl.show_admin_actions %}
+                                                    {% admin_actions %}
+                                                {% endif %}
+                                            </div>
+
+                                            {% if cl.opts.verbose_name_plural == "Reports" %}
+                                            <div class="col-12 col-sm-4" hidden>
+                                            {% else %}
+                                            <div class="col-12 col-sm-4">
+                                            {% endif %}
+                                                {% block object-tools %}
+                                                    {% block object-tools-items %}
+                                                        {% change_list_object_tools %}
+                                                    {% endblock %}
+                                                {% endblock %}
+                                            </div>
+                                        </div>
+                                        <div class="result_list">
+                                            {% result_list cl %}
+                                        </div>
+                                        {% if action_form and actions_on_bottom and cl.show_admin_actions %}
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    {% admin_actions %}
+                                                </div>
+                                            </div>
+                                        {% endif %}
+                                    {% endblock %}
+                                </div>
+                            </div>
+                            {% if cl.opts.verbose_name_plural == "Reports" %}
+                            <div class="row" hidden>
+                            {% else %}
+                            <div class="row">
+                            {% endif %}
+                                {% block pagination %}{% pagination cl %}{% endblock %}
+                            </div>
+                        </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br class="clear"/>
+            {% endif %}
+        </div>
+{% endblock %}
+
+{% block extrajs %}
+    {{  block.super }}
+    <script type="text/javascript" src="{% static 'vendor/select2/js/select2.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'jazzmin/js/change_list.js' %}"></script>
+{% endblock %}

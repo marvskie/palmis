@@ -1,0 +1,72 @@
+[
+{
+    "model": "mobility.category",
+    "pk": 1,
+    "fields": {
+        "name": "Truck, Light",
+        "transport_type": "GMA",
+        "prefix": "TL",
+        "code": "TL"
+    }
+},
+{
+    "model": "mobility.category",
+    "pk": 2,
+    "fields": {
+        "name": "Truck, Medium",
+        "transport_type": "GMA",
+        "prefix": "TM",
+        "code": "TM"
+    }
+},
+{
+    "model": "mobility.category",
+    "pk": 3,
+    "fields": {
+        "name": "Truck, Heavy",
+        "transport_type": "GMA",
+        "prefix": "TH",
+        "code": "TH"
+    }
+},
+{
+    "model": "mobility.category",
+    "pk": 4,
+    "fields": {
+        "name": "Special Purpose Vehicle",
+        "transport_type": "GMA",
+        "prefix": "SPV",
+        "code": "SPV"
+    }
+},
+{
+    "model": "mobility.category",
+    "pk": 5,
+    "fields": {
+        "name": "Combat Vehicle",
+        "transport_type": "GMA",
+        "prefix": "ACV",
+        "code": "ACV"
+    }
+},
+{
+    "model": "mobility.category",
+    "pk": 6,
+    "fields": {
+        "name": "Watecraft",
+        "transport_type": "SMA",
+        "prefix": "SMA",
+        "code": "ZSMA"
+    }
+},
+{
+    "model": "mobility.category",
+    "pk": 7,
+    "fields": {
+        "name": "Aircraft",
+        "transport_type": "AMA",
+        "prefix": "AMA",
+        "code": "AMA"
+    }
+}
+]

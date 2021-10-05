@@ -1,0 +1,389 @@
+[
+{
+    "model": "commons.role",
+    "pk": 1,
+    "fields": {
+        "organization": 1,
+        "name": "Chief",
+        "code": "ppb_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 2,
+    "fields": {
+        "organization": 1,
+        "name": "Deputy",
+        "code": "ppb_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 3,
+    "fields": {
+        "organization": 1,
+        "name": "Staff",
+        "code": "ppb_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 4,
+    "fields": {
+        "organization": 2,
+        "name": "Chief",
+        "code": "mb_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 5,
+    "fields": {
+        "organization": 2,
+        "name": "Deputy",
+        "code": "mb_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 6,
+    "fields": {
+        "organization": 2,
+        "name": "Staff",
+        "code": "mb_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 7,
+    "fields": {
+        "organization": 3,
+        "name": "Chief",
+        "code": "eb_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 8,
+    "fields": {
+        "organization": 3,
+        "name": "Deputy",
+        "code": "eb_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 9,
+    "fields": {
+        "organization": 3,
+        "name": "Staff",
+        "code": "eb_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 10,
+    "fields": {
+        "organization": 4,
+        "name": "Chief",
+        "code": "fpb_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 11,
+    "fields": {
+        "organization": 4,
+        "name": "Deputy",
+        "code": "fpb_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 12,
+    "fields": {
+        "organization": 4,
+        "name": "Staff",
+        "code": "fpb_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 13,
+    "fields": {
+        "organization": 5,
+        "name": "Chief",
+        "code": "tosb_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 14,
+    "fields": {
+        "organization": 5,
+        "name": "Deputy",
+        "code": "tosb_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 15,
+    "fields": {
+        "organization": 5,
+        "name": "Staff",
+        "code": "tosb_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 16,
+    "fields": {
+        "organization": 6,
+        "name": "Chief",
+        "code": "lsdb_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 17,
+    "fields": {
+        "organization": 6,
+        "name": "Deputy",
+        "code": "lsdb_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 18,
+    "fields": {
+        "organization": 6,
+        "name": "Staff",
+        "code": "lsdb_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 19,
+    "fields": {
+        "organization": 7,
+        "name": "Chief",
+        "code": "samb_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 20,
+    "fields": {
+        "organization": 7,
+        "name": "Deputy",
+        "code": "samb_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 21,
+    "fields": {
+        "organization": 7,
+        "name": "Staff",
+        "code": "samb_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 22,
+    "fields": {
+        "organization": 8,
+        "name": "Chief",
+        "code": "camb_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 23,
+    "fields": {
+        "organization": 8,
+        "name": "Deputy",
+        "code": "camb_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 24,
+    "fields": {
+        "organization": 8,
+        "name": "Staff",
+        "code": "camb_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 25,
+    "fields": {
+        "organization": 9,
+        "name": "Chief",
+        "code": "lob_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 26,
+    "fields": {
+        "organization": 9,
+        "name": "Deputy",
+        "code": "lob_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 27,
+    "fields": {
+        "organization": 9,
+        "name": "Staff",
+        "code": "lob_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 28,
+    "fields": {
+        "organization": 10,
+        "name": "Chief",
+        "code": "admin_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 29,
+    "fields": {
+        "organization": 10,
+        "name": "Deputy",
+        "code": "admin_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 30,
+    "fields": {
+        "organization": 10,
+        "name": "Staff",
+        "code": "admin_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 31,
+    "fields": {
+        "organization": 11,
+        "name": "Chief",
+        "code": "exe_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 32,
+    "fields": {
+        "organization": 11,
+        "name": "Deputy",
+        "code": "exe_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 33,
+    "fields": {
+        "organization": 11,
+        "name": "Ex-O",
+        "code": "exe_e"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 34,
+    "fields": {
+        "organization": 11,
+        "name": "Staff",
+        "code": "exe_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 35,
+    "fields": {
+        "organization": 12,
+        "name": "Chief",
+        "code": "pamu_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 36,
+    "fields": {
+        "organization": 12,
+        "name": "Deputy",
+        "code": "pamu_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 37,
+    "fields": {
+        "organization": 12,
+        "name": "Staff",
+        "code": "pamu_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 38,
+    "fields": {
+        "organization": 13,
+        "name": "Chief",
+        "code": "fssu_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 39,
+    "fields": {
+        "organization": 13,
+        "name": "Deputy",
+        "code": "fssu_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 40,
+    "fields": {
+        "organization": 13,
+        "name": "Staff",
+        "code": "fssu_s"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 41,
+    "fields": {
+        "organization": 14,
+        "name": "Chief",
+        "code": "ascom_c"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 42,
+    "fields": {
+        "organization": 14,
+        "name": "Deputy",
+        "code": "ascom_d"
+    }
+},
+{
+    "model": "commons.role",
+    "pk": 43,
+    "fields": {
+        "organization": 14,
+        "name": "Staff",
+        "code": "ascom_s"
+    }
+}
+]

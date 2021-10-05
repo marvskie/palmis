@@ -1,0 +1,82 @@
+[
+{
+    "model": "mobility.tonnage",
+    "pk": 1,
+    "fields": {
+        "name": "1/4",
+        "order": 100
+    }
+},
+{
+    "model": "mobility.tonnage",
+    "pk": 2,
+    "fields": {
+        "name": "1/2",
+        "order": 200
+    }
+},
+{
+    "model": "mobility.tonnage",
+    "pk": 3,
+    "fields": {
+        "name": "3/4",
+        "order": 300
+    }
+},
+{
+    "model": "mobility.tonnage",
+    "pk": 4,
+    "fields": {
+        "name": "1 1/4",
+        "order": 500
+    }
+},
+{
+    "model": "mobility.tonnage",
+    "pk": 5,
+    "fields": {
+        "name": "1 1/2",
+        "order": 600
+    }
+},
+{
+    "model": "mobility.tonnage",
+    "pk": 6,
+    "fields": {
+        "name": "2 1/2",
+        "order": 1000
+    }
+},
+{
+    "model": "mobility.tonnage",
+    "pk": 7,
+    "fields": {
+        "name": "5",
+        "order": 10000
+    }
+},
+{
+    "model": "mobility.tonnage",
+    "pk": 8,
+    "fields": {
+        "name": "6 -10",
+        "order": 10100
+    }
+},
+{
+    "model": "mobility.tonnage",
+    "pk": 9,
+    "fields": {
+        "name": "7",
+        "order": 10200
+    }
+},
+{
+    "model": "mobility.tonnage",
+    "pk": 10,
+    "fields": {
+        "name": "25",
+        "order": 11000
+    }
+}
+]

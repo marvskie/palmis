@@ -1,0 +1,274 @@
+[
+{
+    "model": "commons.pamu",
+    "pk": 1,
+    "fields": {
+        "code": "0100",
+        "name": "1ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 2,
+    "fields": {
+        "code": "0200",
+        "name": "2ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 3,
+    "fields": {
+        "code": "0300",
+        "name": "3ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 4,
+    "fields": {
+        "code": "0400",
+        "name": "4ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 5,
+    "fields": {
+        "code": "0500",
+        "name": "5ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 6,
+    "fields": {
+        "code": "0600",
+        "name": "6ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 7,
+    "fields": {
+        "code": "0700",
+        "name": "7ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 8,
+    "fields": {
+        "code": "0800",
+        "name": "8ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 9,
+    "fields": {
+        "code": "0900",
+        "name": "9ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 10,
+    "fields": {
+        "code": "1000",
+        "name": "10ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 11,
+    "fields": {
+        "code": "1100",
+        "name": "11ID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 12,
+    "fields": {
+        "code": "2100",
+        "name": "TRADOC"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 13,
+    "fields": {
+        "code": "2200",
+        "name": "ASCOM"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 14,
+    "fields": {
+        "code": "2300",
+        "name": "MID"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 15,
+    "fields": {
+        "code": "2400",
+        "name": "AGH"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 16,
+    "fields": {
+        "code": "2500",
+        "name": "HHSG"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 17,
+    "fields": {
+        "code": "2600",
+        "name": "ASR"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 18,
+    "fields": {
+        "code": "2700",
+        "name": "FCPA"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 19,
+    "fields": {
+        "code": "2800",
+        "name": "AIR"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 20,
+    "fields": {
+        "code": "2900",
+        "name": "CMOR(P)"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 21,
+    "fields": {
+        "code": "3100",
+        "name": "SFRA"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 22,
+    "fields": {
+        "code": "3200",
+        "name": "FSRR"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 23,
+    "fields": {
+        "code": "3300",
+        "name": "LRR"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 24,
+    "fields": {
+        "code": "4200",
+        "name": "ARESCOM"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 25,
+    "fields": {
+        "code": "4600",
+        "name": "APMC"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 26,
+    "fields": {
+        "code": "4700",
+        "name": "ASPA"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 27,
+    "fields": {
+        "code": "4800",
+        "name": "AAR"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 28,
+    "fields": {
+        "code": "4900",
+        "name": "APAO"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 29,
+    "fields": {
+        "code": "5100",
+        "name": "51EBde"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 30,
+    "fields": {
+        "code": "5200",
+        "name": "52EBde"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 31,
+    "fields": {
+        "code": "5300",
+        "name": "53EBde"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 32,
+    "fields": {
+        "code": "5400",
+        "name": "54EBde"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 33,
+    "fields": {
+        "code": "5500",
+        "name": "55EBde"
+    }
+},
+{
+    "model": "commons.pamu",
+    "pk": 34,
+    "fields": {
+        "code": "4300",
+        "name": "SOCOM"
+    }
+}
+]

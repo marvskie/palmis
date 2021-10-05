@@ -1,0 +1,1732 @@
+[
+{
+    "model": "ppb.objectcode",
+    "pk": 1,
+    "fields": {
+        "code": "5-02-03-110-01",
+        "description": "5-02-03-110-01 (Textbooks and Instructional Materials Expenses)",
+        "name": "Textbooks and Instructional Materials Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 2,
+    "fields": {
+        "code": "5-02-04-000-00",
+        "description": "5-02-04-000-00 (Utility Expenses)",
+        "name": "Utility Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 3,
+    "fields": {
+        "code": "5-02-13-030-00",
+        "description": "5-02-13-030-00 (Repairs and Maintenance - Infrastructure Assets)",
+        "name": "Repairs and Maintenance - Infrastructure Assets",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 4,
+    "fields": {
+        "code": "5-02-03-210-11",
+        "description": "5-02-03-210-11 (Semi-Expendable Printing Equipment)",
+        "name": "Semi-Expendable Printing Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 5,
+    "fields": {
+        "code": "5-02-04-030-00",
+        "description": "5-02-04-030-00 (Gas/Heating Expenses)",
+        "name": "Gas/Heating Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 6,
+    "fields": {
+        "code": "5-02",
+        "description": "5-02",
+        "name": "Maintenance & Other Operating Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 7,
+    "fields": {
+        "code": "5-02-03-220-02",
+        "description": "5-02-03-220-02 (Semi-Expendable Books)",
+        "name": "Semi-Expendable Books",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 82,
+    "fields": {
+        "code": "5-02-12-030-00",
+        "description": "5-02-12-030-00 (Security Services)",
+        "name": "Security Services",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 89,
+    "fields": {
+        "code": "5-02-01-010-00",
+        "description": "5-02-01-010-00 (Traveling Expenses - Local)",
+        "name": "Traveling Expenses - Local",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 90,
+    "fields": {
+        "code": "5-02-01-020-00",
+        "description": "5-02-01-020-00 (Traveling Expenses - Foreign)",
+        "name": "Traveling Expenses - Foreign",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 91,
+    "fields": {
+        "code": "5-02-02-010-00",
+        "description": "5-02-02-010-00 (Training Expenses)",
+        "name": "Training Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 92,
+    "fields": {
+        "code": "5-02-02-020-00",
+        "description": "5-02-02-020-00 (Scholarship Expenses)",
+        "name": "Scholarship Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 93,
+    "fields": {
+        "code": "5-02-03-020-00",
+        "description": "5-02-03-020-00 (Accountable Forms Expenses)",
+        "name": "Accountable Forms Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 94,
+    "fields": {
+        "code": "5-02-03-030-00",
+        "description": "5-02-03-030-00 (Non-Accountable Forms Expenses)",
+        "name": "Non-Accountable Forms Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 95,
+    "fields": {
+        "code": "5-02-03-040-00",
+        "description": "5-02-03-040-00 (Animal/Zoological Supplies Expenses)",
+        "name": "Animal/Zoological Supplies Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 96,
+    "fields": {
+        "code": "5-02-03-050-00",
+        "description": "5-02-03-050-00 (Food Supplies Expenses)",
+        "name": "Food Supplies Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 97,
+    "fields": {
+        "code": "5-02-03-060-00",
+        "description": "5-02-03-060-00 (Welfare Goods Expenses)",
+        "name": "Welfare Goods Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 98,
+    "fields": {
+        "code": "5-02-03-070-00",
+        "description": "5-02-03-070-00 (Drugs and Medicines Expenses)",
+        "name": "Drugs and Medicines Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 99,
+    "fields": {
+        "code": "5-02-03-080-00",
+        "description": "5-02-03-080-00 (Medical, Dental and Laboratory Supplies Expenses)",
+        "name": "Medical, Dental and Laboratory Supplies Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 100,
+    "fields": {
+        "code": "5-02-03-100-00",
+        "description": "5-02-03-100-00 (Agricultural and Marine Supplies Expenses)",
+        "name": "Agricultural and Marine Supplies Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 101,
+    "fields": {
+        "code": "5-02-03-120-00",
+        "description": "5-02-03-120-00 (Miliatary, Police and Traffic Supplies Expenses)",
+        "name": "Miliatary, Police and Traffic Supplies Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 102,
+    "fields": {
+        "code": "5-02-03-130-00",
+        "description": "5-02-03-130-00 (Chemical and Filtering Supplies Expenses)",
+        "name": "Chemical and Filtering Supplies Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 103,
+    "fields": {
+        "code": "5-02-03-210-00",
+        "description": "5-02-03-210-00 (Semi-Expandable Machinery and Equipment Expenses)",
+        "name": "Semi-Expandable Machinery and Equipment Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 104,
+    "fields": {
+        "code": "5-02-03-210-07",
+        "description": "5-02-03-210-07 (Semi-Expendable C4S Equipment)",
+        "name": "Semi-Expendable C4S Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 105,
+    "fields": {
+        "code": "5-02-03-990-00",
+        "description": "5-02-03-990-00 (Other Supplies and Materials Expenses including cooking gas)",
+        "name": "Other Supplies and Materials Expenses including cooking gas",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 106,
+    "fields": {
+        "code": "5-02-04-010-00",
+        "description": "5-02-04-010-00 (Water Expenses)",
+        "name": "Water Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 107,
+    "fields": {
+        "code": "5-02-04-020-00",
+        "description": "5-02-04-020-00 (Electricity Expenses)",
+        "name": "Electricity Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 108,
+    "fields": {
+        "code": "5-02-05-010-00",
+        "description": "5-02-05-010-00 (Postage and Courier Services)",
+        "name": "Postage and Courier Services",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 109,
+    "fields": {
+        "code": "5-02-05-020-00",
+        "description": "5-02-05-020-00 (Telephone Expenses)",
+        "name": "Telephone Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 110,
+    "fields": {
+        "code": "5-02-05-020-01",
+        "description": "5-02-05-020-01 (Mobile)",
+        "name": "Mobile",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 111,
+    "fields": {
+        "code": "5-02-05-020-02",
+        "description": "5-02-05-020-02 (Landline)",
+        "name": "Landline",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 112,
+    "fields": {
+        "code": "5-02-05-030-00",
+        "description": "5-02-05-030-00 (Internet Subscription Expenses)",
+        "name": "Internet Subscription Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 113,
+    "fields": {
+        "code": "5-02-06-010-00",
+        "description": "5-02-06-010-00 (Awards/Rewards Expenses)",
+        "name": "Awards/Rewards Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 114,
+    "fields": {
+        "code": "5-02-06-020-00",
+        "description": "5-02-06-020-00 (Prizes)",
+        "name": "Prizes",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 115,
+    "fields": {
+        "code": "5-02-07-010-00",
+        "description": "5-02-07-010-00 (Survey Expenses)",
+        "name": "Survey Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 116,
+    "fields": {
+        "code": "5-02-07-020-00",
+        "description": "5-02-07-020-00 (Research, Exploration and Development Expenses)",
+        "name": "Research, Exploration and Development Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 117,
+    "fields": {
+        "code": "5-02-08-010-00",
+        "description": "5-02-08-010-00 (Demolition and Relocation Expenses)",
+        "name": "Demolition and Relocation Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 118,
+    "fields": {
+        "code": "5-02-08-020-00",
+        "description": "5-02-08-020-00 (Desilting and Dredging Expenses)",
+        "name": "Desilting and Dredging Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 119,
+    "fields": {
+        "code": "5-02-10-010-00",
+        "description": "5-02-10-010-00 (Confidential Expenses)",
+        "name": "Confidential Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 120,
+    "fields": {
+        "code": "5-02-10-020-00",
+        "description": "5-02-10-020-00 (Intelligence Expenses)",
+        "name": "Intelligence Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 121,
+    "fields": {
+        "code": "5-02-10-030-00",
+        "description": "5-02-10-030-00 ( Extraordinary and Miscelleneous Expenses)",
+        "name": "Extraordinary and Miscelleneous Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 122,
+    "fields": {
+        "code": "5-02-11-010-00",
+        "description": "5-02-11-010-00 (Legal Services)",
+        "name": "Legal Services",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 123,
+    "fields": {
+        "code": "5-02-11-020-00",
+        "description": "5-02-11-020-00 (Auditing Services)",
+        "name": "Auditing Services",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 124,
+    "fields": {
+        "code": "5-02-11-030-00",
+        "description": "5-02-11-030-00 (Consultancy services)",
+        "name": "Consultancy services",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 125,
+    "fields": {
+        "code": "5-02-11-990-00",
+        "description": "5-02-11-990-00 (Other Professional Services)",
+        "name": "Other Professional Services",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 126,
+    "fields": {
+        "code": "5-02-12-010-00",
+        "description": "5-02-12-010-00 (Environment/Sanitary Services)",
+        "name": "Environment/Sanitary Services",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 127,
+    "fields": {
+        "code": "5-02-12-020-00",
+        "description": "5-02-12-020-00 (Janitorial Services)",
+        "name": "Janitorial Services",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 128,
+    "fields": {
+        "code": "5-02-12-990-00",
+        "description": "5-02-12-990-00 (Other General Services)",
+        "name": "Other General Services",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 129,
+    "fields": {
+        "code": "5-02-13-020-00",
+        "description": "5-02-13-020-00 (Repairs and Maintenance - Land Improvements)",
+        "name": "Repairs and Maintenance - Land Improvements",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 130,
+    "fields": {
+        "code": "5-02-13-020-01",
+        "description": "5-02-13-020-01 (Aquaculture Structures)",
+        "name": "Aquaculture Structures",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 131,
+    "fields": {
+        "code": "5-02-13-020-02",
+        "description": "5-02-13-020-02 (Reforestation Projects)",
+        "name": "Reforestation Projects",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 132,
+    "fields": {
+        "code": "5-02-13-020-99",
+        "description": "5-02-13-020-99 (Other Land Improvements)",
+        "name": "Other Land Improvements",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 133,
+    "fields": {
+        "code": "5-02-13-030-01",
+        "description": "5-02-13-030-01 (Road Networks)",
+        "name": "Road Networks",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 134,
+    "fields": {
+        "code": "5-02-13-030-03",
+        "description": "5-02-13-030-03 ( Sewer Systems)",
+        "name": "Sewer Systems",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 135,
+    "fields": {
+        "code": "5-02-13-030-04",
+        "description": "5-02-13-030-04 (Water Supply Systems)",
+        "name": "Water Supply Systems",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 136,
+    "fields": {
+        "code": "5-02-13-030-05",
+        "description": "5-02-13-030-05 (Power Supply Systems)",
+        "name": "Power Supply Systems",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 137,
+    "fields": {
+        "code": "5-02-13-030-06",
+        "description": "5-02-13-030-06 (Communication Networks)",
+        "name": "Communication Networks",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 138,
+    "fields": {
+        "code": "5-02-13-030-08",
+        "description": "5-02-13-030-08 (Airport Systems)",
+        "name": "Airport Systems",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 139,
+    "fields": {
+        "code": "5-02-13-030-09",
+        "description": "5-02-13-030-09 (Parks, Plazas, Monuments)",
+        "name": "Parks, Plazas, Monuments",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 140,
+    "fields": {
+        "code": "5-02-13-030-99",
+        "description": "5-02-13-030-99 (Other Infrastructure Assets)",
+        "name": "Other Infrastructure Assets",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 141,
+    "fields": {
+        "code": "5-02-13-040-01",
+        "description": "5-02-13-040-01 (Buildings)",
+        "name": "Buildings",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 142,
+    "fields": {
+        "code": "5-02-13-040-03",
+        "description": "5-02-13-040-03 (Hospital and Health Centers)",
+        "name": "Hospital and Health Centers",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 143,
+    "fields": {
+        "code": "5-02-13-040-06",
+        "description": "5-02-13-040-06 (Hostels and Dormitories)",
+        "name": "Hostels and Dormitories",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 144,
+    "fields": {
+        "code": "5-02-13-040-99",
+        "description": "5-02-13-040-99 (Other Structures)",
+        "name": "Other Structures",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 145,
+    "fields": {
+        "code": "5-02-13-050-00",
+        "description": "5-02-13-050-00 (Repairs and Maintenance - Machinery & Equipment)",
+        "name": "Repairs and Maintenance - Machinery & Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 146,
+    "fields": {
+        "code": "5-02-13-050-01",
+        "description": "5-02-13-050-01 (Machinery)",
+        "name": "Machinery",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 147,
+    "fields": {
+        "code": "5-02-13-050-02",
+        "description": "5-02-13-050-02 (Office Equipment)",
+        "name": "Office Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 148,
+    "fields": {
+        "code": "5-02-13-050-03",
+        "description": "5-02-13-050-03 (ICT Equipment)",
+        "name": "ICT Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 149,
+    "fields": {
+        "code": "5-02-13-050-04",
+        "description": "5-02-13-050-04 (Agricultural and Forestry Equipment)",
+        "name": "Agricultural and Forestry Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 150,
+    "fields": {
+        "code": "5-02-13-050-06",
+        "description": "5-02-13-050-06 ( Airport Equipment)",
+        "name": "Airport Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 151,
+    "fields": {
+        "code": "5-02-13-050-07",
+        "description": "5-02-13-050-07 (Communication Equipment)",
+        "name": "Communication Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 152,
+    "fields": {
+        "code": "5-02-13-050-08",
+        "description": "5-02-13-050-08 (Construction and Heavy Equipment)",
+        "name": "Construction and Heavy Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 153,
+    "fields": {
+        "code": "5-02-13-050-09",
+        "description": "5-02-13-050-09 (Disaster Response and Rescue Equipment)",
+        "name": "Disaster Response and Rescue Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 154,
+    "fields": {
+        "code": "5-02-13-050-10",
+        "description": "5-02-13-050-10 (Military , Police and Security Equipment)",
+        "name": "Military , Police and Security Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 155,
+    "fields": {
+        "code": "5-02-13-050-11",
+        "description": "5-02-13-050-11 (Medical Equipment)",
+        "name": "Medical Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 156,
+    "fields": {
+        "code": "5-02-13-050-12",
+        "description": "5-02-13-050-12 (Printing Equipment)",
+        "name": "Printing Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 157,
+    "fields": {
+        "code": "5-06-04-040-00",
+        "description": "5-06-04-040-00 (Repair and Maintenance)",
+        "name": "Repair and Maintenance",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 158,
+    "fields": {
+        "code": "5-02-03-210-03",
+        "description": "5-02-03-210-03 (Semi Expendable- ICT Equipment)",
+        "name": "Semi Expendable- ICT Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 159,
+    "fields": {
+        "code": "5-02-13-050-13",
+        "description": "5-02-13-050-13 (Sports Equipment)",
+        "name": "Sports Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 160,
+    "fields": {
+        "code": "5-02-13-050-14",
+        "description": "5-02-13-050-14 (Technical and Scientific Equipment)",
+        "name": "Technical and Scientific Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 161,
+    "fields": {
+        "code": "5-02-13-050-99",
+        "description": "5-02-13-050-99 (Other Machinery and Equipment)",
+        "name": "Other Machinery and Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 162,
+    "fields": {
+        "code": "5-02-13-060-00",
+        "description": "5-02-13-060-00 (Repairs and Maintenance - Transportation Equipment)",
+        "name": "Repairs and Maintenance - Transportation Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 163,
+    "fields": {
+        "code": "5-02-13-060-01",
+        "description": "5-02-13-060-01 (Motor Vehicles)",
+        "name": "Motor Vehicles",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 164,
+    "fields": {
+        "code": "5-02-13-060-03",
+        "description": "5-02-13-060-03 (Aircrafts and Aircrafts Ground Equipment)",
+        "name": "Aircrafts and Aircrafts Ground Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 165,
+    "fields": {
+        "code": "5-02-13-060-04",
+        "description": "5-02-13-060-04 (Watercrafts)",
+        "name": "Watercrafts",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 166,
+    "fields": {
+        "code": "5-02-13-060-99",
+        "description": "5-02-13-060-99 (Other Transportation Equipment)",
+        "name": "Other Transportation Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 167,
+    "fields": {
+        "code": "5-02-13-070-00",
+        "description": "5-02-13-070-00 (Repair and Maintenance - Furnitures & Fixtures)",
+        "name": "Repair and Maintenance - Furnitures & Fixtures",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 168,
+    "fields": {
+        "code": "5-02-13-080-01",
+        "description": "5-02-13-080-01 (Building and Other Structures - Leased Assets)",
+        "name": "Building and Other Structures - Leased Assets",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 169,
+    "fields": {
+        "code": "5-02-13-080-02",
+        "description": "5-02-13-080-02 (Machinery & Equipment) Leased Assets",
+        "name": "Machinery & Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 170,
+    "fields": {
+        "code": "5-02-13-080-03",
+        "description": "5-02-13-080-03 (Transportation Equipment - Leased Assets)",
+        "name": "Transportation Equipment - Leased Assets",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 171,
+    "fields": {
+        "code": "5-02-13-080-99",
+        "description": "5-02-13-080-99 (Other Leased Assets)",
+        "name": "Other Leased Assets",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 172,
+    "fields": {
+        "code": "5-02-13-090-00",
+        "description": "5-02-13-090-00 (Repair and Maintenance - Leased assets Improvements)",
+        "name": "Repair and Maintenance - Leased assets Improvements",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 173,
+    "fields": {
+        "code": "5-02-13-090-01",
+        "description": "5-02-13-090-01 (Land - Leased Assets)",
+        "name": "Land - Leased Assets",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 174,
+    "fields": {
+        "code": "5-02-13-090-02",
+        "description": "5-02-13-090-02 (Buildings - Leased Assets)",
+        "name": "Buildings - Leased Assets",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 175,
+    "fields": {
+        "code": "5-02-13-090-99",
+        "description": "5-02-13-090-99 (Other Leased Assets Improvements)",
+        "name": "Other Leased Assets Improvements",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 176,
+    "fields": {
+        "code": "5-02-13-100-01",
+        "description": "5-02-13-100-01 ( Historical Buildings)",
+        "name": "Historical Buildings",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 177,
+    "fields": {
+        "code": "5-02-13-100-02",
+        "description": "5-02-13-100-02 (Works of Arts and Archeological Specimen)",
+        "name": "Works of Arts and Archeological Specimen",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 178,
+    "fields": {
+        "code": "5-02-13-100-99",
+        "description": "5-02-13-100-99 (Other Heritage Assets)",
+        "name": "Other Heritage Assets",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 179,
+    "fields": {
+        "code": "5-02-13-210-00",
+        "description": "5-02-13-210-00 (Repair and Maintenance-Semi Expendable Machinery and Equipment)",
+        "name": "Repair and Maintenance-Semi Expendable Machinery and Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 180,
+    "fields": {
+        "code": "5-02-13-210-01",
+        "description": "5-02-13-210-01 (Repairs and Maintenance-Semi-Expendable Machinery)",
+        "name": "Repairs and Maintenance-Semi-Expendable Machinery",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 181,
+    "fields": {
+        "code": "5-02-13-990-00",
+        "description": "5-02-13-990-00 (Repair and Maintenance - Other Property, Plant and Equipment)",
+        "name": "Repair and Maintenance - Other Property, Plant and Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 182,
+    "fields": {
+        "code": "5-02-13-990-01",
+        "description": "5-02-13-990-01 (Work/Zoo Animals)",
+        "name": "Work/Zoo Animals",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 183,
+    "fields": {
+        "code": "5-02-13-990-99",
+        "description": "5-02-13-990-99 (Other Property Plant & Equipment)",
+        "name": "Other Property Plant & Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 184,
+    "fields": {
+        "code": "5-02-15-010-00",
+        "description": "5-02-15-010-00 (Taxes, Duties and Licenses)",
+        "name": "Taxes, Duties and Licenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 185,
+    "fields": {
+        "code": "5-02-15-020-00",
+        "description": "5-02-15-020-00 (Fidelity Bond Premium)",
+        "name": "Fidelity Bond Premium",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 186,
+    "fields": {
+        "code": "5-02-15-030-00",
+        "description": "5-02-15-030-00 (Insurance Expenses)",
+        "name": "Insurance Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 187,
+    "fields": {
+        "code": "5-02-16-010-00",
+        "description": "5-02-16-010-00 (Labor and Wages)",
+        "name": "Labor and Wages",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 189,
+    "fields": {
+        "code": "5-02-99-010-00",
+        "description": "5-02-99-010-00 (Advertising Expenses)",
+        "name": "Advertising Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 190,
+    "fields": {
+        "code": "5-02-99-020-00",
+        "description": "5-02-99-020-00 (Printing and Publication Expenses)",
+        "name": "Printing and Publication Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 191,
+    "fields": {
+        "code": "5-02-99-030-00",
+        "description": "5-02-99-030-00 (Representation Expenses)",
+        "name": "Representation Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 192,
+    "fields": {
+        "code": "5-02-99-040-00",
+        "description": "5-02-99-040-00 (Transportation and Delivery Expenses)",
+        "name": "Transportation and Delivery Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 193,
+    "fields": {
+        "code": "5-02-99-050-00",
+        "description": "5-02-99-050-00 (Rent/Lease Expenses)",
+        "name": "Rent/Lease Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 194,
+    "fields": {
+        "code": "5-02-99-050-01",
+        "description": "5-02-99-050-01 (Rents - Building and Structures)",
+        "name": "Rents - Building and Structures",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 195,
+    "fields": {
+        "code": "5-02-99-050-02",
+        "description": "5-02-99-050-02 (Rents - Land)",
+        "name": "Rents - Land",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 196,
+    "fields": {
+        "code": "5-02-99-050-03",
+        "description": "5-02-99-050-03 (Rents - Motor Vehicles)",
+        "name": "Rents - Motor Vehicles",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 197,
+    "fields": {
+        "code": "5-02-99-050-04",
+        "description": "5-02-99-050-04 (Rents - Equipment)",
+        "name": "Rents - Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 198,
+    "fields": {
+        "code": "5-02-99-050-05",
+        "description": "5-02-99-050-05 (Rents - Living Quarters)",
+        "name": "Rents - Living Quarters",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 199,
+    "fields": {
+        "code": "5-02-99-060-00",
+        "description": "5-02-99-060-00 (Membership Dues and Contributions to Organizations)",
+        "name": "Membership Dues and Contributions to Organizations",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 200,
+    "fields": {
+        "code": "5-02-99-070-00",
+        "description": "5-02-99-070-00 (Subscription Expenses)",
+        "name": "Subscription Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 201,
+    "fields": {
+        "code": "5-02-99-080-00",
+        "description": "5-02-99-080-00 (Donations)",
+        "name": "Donations",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 202,
+    "fields": {
+        "code": "5-02-99-090-00",
+        "description": "5-02-99-090-00 (Litigation/Acquired Assets Expenses)",
+        "name": "Litigation/Acquired Assets Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 203,
+    "fields": {
+        "code": "5-02-99-990-00",
+        "description": "5-02-99-990-00 (Other Maintenance & Operating Expenses)",
+        "name": "Other Maintenance & Operating Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 206,
+    "fields": {
+        "code": "5-06-01-010-99",
+        "description": "5-06-01-010-99 (Other Infrastructure Assets)",
+        "name": "Other Infrastructure Assets",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 207,
+    "fields": {
+        "code": "5-06-04-010-01",
+        "description": "5-06-04-010-01 (Land)",
+        "name": "Land",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 208,
+    "fields": {
+        "code": "5-06-04-020-99",
+        "description": "5-06-04-020-99 (Other Land Improvement)",
+        "name": "Other Land Improvement",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 209,
+    "fields": {
+        "code": "5-06-04-030-01",
+        "description": "5-06-04-030-01 (Road networks)",
+        "name": "Road networks",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 210,
+    "fields": {
+        "code": "5-06-04-030-03",
+        "description": "5-06-04-030-03 (Sewer Systems)",
+        "name": "Sewer Systems",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 211,
+    "fields": {
+        "code": "5-06-04-030-04",
+        "description": "5-06-04-030-04 (Water Supply System)",
+        "name": "Water Supply System",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 212,
+    "fields": {
+        "code": "5-06-04-030-05",
+        "description": "5-06-04-030-05 (Power Supply System)",
+        "name": "Power Supply System",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 213,
+    "fields": {
+        "code": "5-06-04-030-06",
+        "description": "5-06-04-030-06 (Communication Networks)",
+        "name": "Communication Networks",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 214,
+    "fields": {
+        "code": "5-06-04-040-01",
+        "description": "5-06-04-040-01 (Buildings, Investment Property Bldgs)",
+        "name": "Buildings, Investment Property Bldgs",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 215,
+    "fields": {
+        "code": "5-06-04-040-03",
+        "description": "5-06-04-040-03 (Hospitals and Health Centers)",
+        "name": "Hospitals and Health Centers",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 216,
+    "fields": {
+        "code": "5-06-04-040-07",
+        "description": "5-06-04-040-07 (Other Structures)",
+        "name": "Other Structures",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 217,
+    "fields": {
+        "code": "5-06-04-040-99",
+        "description": "5-06-04-040-99 (Other Structures)",
+        "name": "Other Structures",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 218,
+    "fields": {
+        "code": "5-06-04-050-01",
+        "description": "5-06-04-050-01 (Machinery)",
+        "name": "Machinery",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 219,
+    "fields": {
+        "code": "5-06-04-050-02",
+        "description": "5-06-04-050-02 (Office Equipment)",
+        "name": "Office Equipment",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 220,
+    "fields": {
+        "code": "5-06-04-050-03",
+        "description": "5-06-04-050-03 (ICT Equipment)",
+        "name": "ICT Equipment",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 221,
+    "fields": {
+        "code": "5-06-04-050-07",
+        "description": "5-06-04-050-07 (Communication Equipment)",
+        "name": "Communication Equipment",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 222,
+    "fields": {
+        "code": "5-06-04-050-08",
+        "description": "5-06-04-050-08 (Const'n & Heavy Equipment)",
+        "name": "Const'n & Heavy Equipment",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 223,
+    "fields": {
+        "code": "5-06-04-050-09",
+        "description": "5-06-04-050-09 (Disaster Response and Rescue Equipment)",
+        "name": "Disaster Response and Rescue Equipment",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 224,
+    "fields": {
+        "code": "5-06-04-050-10",
+        "description": "5-06-04-050-10 (Military, Police and Security Equipment)",
+        "name": "Military, Police and Security Equipment",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 225,
+    "fields": {
+        "code": "5-06-04-050-11",
+        "description": "5-06-04-050-11 (Medical Equipment)",
+        "name": "Medical Equipment",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 226,
+    "fields": {
+        "code": "5-06-04-050-99",
+        "description": "5-06-04-050-99 (Other Machinery and Equipment)",
+        "name": "Other Machinery and Equipment",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 227,
+    "fields": {
+        "code": "5-06-04-060-01",
+        "description": "5-06-04-060-01 (Motor Vehicles)",
+        "name": "Motor Vehicles",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 228,
+    "fields": {
+        "code": "5-06-04-060-04",
+        "description": "5-06-04-060-04 (Watercraft)",
+        "name": "Watercraft",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 229,
+    "fields": {
+        "code": "5-06-04-070-01",
+        "description": "5-06-04-070-01 (Furniture and Fixtures)",
+        "name": "Furniture and Fixtures",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 230,
+    "fields": {
+        "code": "5-06-06-020-00",
+        "description": "5-06-06-020-00 (Computer Software)",
+        "name": "Computer Software",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 231,
+    "fields": {
+        "code": "5-06",
+        "description": "5-06 (Capital Outlay)",
+        "name": "Capital Outlay",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 241,
+    "fields": {
+        "code": "5-02-03-010-00",
+        "description": "5-02-03-010-00 (Office Supplies Expenses)",
+        "name": "Office Supplies Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 242,
+    "fields": {
+        "code": "5-02-03-090-00",
+        "description": "5-02-03-090-00 (Fuel, Oil and Lubricants Expenses)",
+        "name": "Fuel, Oil and Lubricants Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 243,
+    "fields": {
+        "code": "5-02-03-210-01",
+        "description": "5-02-03-210-01 (Semi-Expendable - Machinery)",
+        "name": "Semi-Expendable - Machinery",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 244,
+    "fields": {
+        "code": "5-02-03-210-02",
+        "description": "5-02-03-210-02 (Semi-Expendable Office Equipment)",
+        "name": "Semi-Expendable Office Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 245,
+    "fields": {
+        "code": "5-02-03-210-08",
+        "description": "5-02-03-210-08 (Semi-Expandable Disaster Response and Rescue Equipment)",
+        "name": "Semi-Expandable Disaster Response and Rescue Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 247,
+    "fields": {
+        "code": "5-02-03-210-09",
+        "description": "5-02-03-210-09 (Semi-Expandable Military Police and Security Equipment)",
+        "name": "Semi-Expandable Military Police and Security Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 248,
+    "fields": {
+        "code": "5-02-03-210-10",
+        "description": "5-02-03-210-10 (Semi-Expandable Medical Equipment)",
+        "name": "Semi-Expandable Medical Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 249,
+    "fields": {
+        "code": "5-02-03-210-12",
+        "description": "5-02-03-210-12 (Semi-Expendable - Sports Equipment)",
+        "name": "Semi-Expendable - Sports Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 250,
+    "fields": {
+        "code": "5-02-03-210-99",
+        "description": "5-02-03-210-99 (Semi-Expendable - Other Machinery and Equipment)",
+        "name": "Semi-Expendable - Other Machinery and Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 251,
+    "fields": {
+        "code": "5-02-03-220-01",
+        "description": "5-02-03-220-01 (Semi-Expendable - Furniture and Fixtures",
+        "name": "Semi-Expendable - Furniture and Fixture",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 252,
+    "fields": {
+        "code": "5-02-05-040-00",
+        "description": "5-02-05-040-00 (Cable, Satellite, Telegraph and Radio Expenses)",
+        "name": "Cable, Satellite, Telegraph and Radio Expenses",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 253,
+    "fields": {
+        "code": "5-02-13-100-00",
+        "description": "5-02-13-100-00 (Restoration and Maintenance - Heritage Assets)",
+        "name": "Restoration and Maintenance - Heritage Assets",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 254,
+    "fields": {
+        "code": "5-02-13-210-02",
+        "description": "5-02-13-210-02 (R&M Semi-Expandable Office Equipment)",
+        "name": "R&M Semi-Expandable Office Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 255,
+    "fields": {
+        "code": "5-02-13-210-03",
+        "description": "5-02-13-210-03 (R&M-Semi-Expendable ICT Equipment)",
+        "name": "R&M-Semi-Expendable ICT Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 256,
+    "fields": {
+        "code": "5-02-13-210-07",
+        "description": "5-02-13-210-07  (Repairs and Maintenance Semi-Expendable - Communication Equipment)",
+        "name": "Repairs and Maintenance Semi-Expendable - Communication Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 257,
+    "fields": {
+        "code": "5-02-13-210-08",
+        "description": "5-02-13-210-08 (R&M Semi-Expandable Disaster Response and Rescue Equipment",
+        "name": "R&M Semi-Expandable Disaster Response and Rescue Equipmen",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 258,
+    "fields": {
+        "code": "5-02-13-210-09",
+        "description": "5-02-13-210-09 (R&M Semi-Expandable Military Police and Security Equipment)",
+        "name": "R&M Semi-Expandable Military Police and Security Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 259,
+    "fields": {
+        "code": "5-02-13-210-10",
+        "description": "5-02-13-210-10 (Semi-Expendable - Medical Equipment)",
+        "name": "Semi-Expendable - Medical Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 260,
+    "fields": {
+        "code": "5-02-13-210-12",
+        "description": "5-02-13-210-12 (R&M Semi-Expandable Sports Equipment)",
+        "name": "R&M Semi-Expandable Sports Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 261,
+    "fields": {
+        "code": "5-02-13-210-13",
+        "description": "5-02-13-210-13 (Semi-Expendable - Technical and Scientific Equipment)",
+        "name": "Semi-Expendable - Technical and Scientific Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 262,
+    "fields": {
+        "code": "5-02-13-210-99",
+        "description": "5-02-13-210-99 (Repair and Maintenance - Semi-Expandable Other Machinery and Equipment)",
+        "name": "Repair and Maintenance - Semi-Expandable Other Machinery and Equipment",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 263,
+    "fields": {
+        "code": "5-02-13-220-01",
+        "description": "5-02-13-220-01 (Rpr & Maint Semi-Expendable Furniture ans Fixtures)",
+        "name": "Rpr & Maint Semi-Expendable Furniture ans Fixtures",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 264,
+    "fields": {
+        "code": "5-02-14-990-00",
+        "description": "5-02-14-990-00 (Other Subsidies)",
+        "name": "Other Subsidies",
+        "expense_class": 2
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 265,
+    "fields": {
+        "code": "5-06-04-030-03",
+        "description": "5-06-04-030-03 (Sewer System)",
+        "name": "Sewer System",
+        "expense_class": 3
+    }
+},
+{
+    "model": "ppb.objectcode",
+    "pk": 267,
+    "fields": {
+        "code": "5-02-13-040-00",
+        "description": "5-02-13-040-00 ( Repair and Maintenance - Building & Other Structures)",
+        "name": "Repair and Maintenance - Building & Other Structures",
+        "expense_class": 2
+    }
+}
+]

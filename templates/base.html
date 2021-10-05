@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{% block title %}Welcome{% endblock %} | G4 Messaging</title>
+
+    <script src="{% static 'core_chat/js/jquery.min.js' %}"></script>
+
+    
+    <script src="{% static 'core_chat/js/upload/vendor/jquery.ui.widget.js' %}"></script>
+    <script src="{% static 'core_chat/js/upload/jquery.iframe-transport.js' %}"></script>
+    <script src="{% static 'core_chat/js/upload/jquery.fileupload.js' %}"></script>
+    <script src="{% static 'core_chat/js/upload/jquery.fileupload-process.js' %}"></script>
+    <script src="{% static 'core_chat/js/upload/jquery.fileupload-image.js' %}"></script>
+    <script src="{% static 'core_chat/js/upload/jquery.fileupload-audio.js' %}"></script>
+    <script src="{% static 'core_chat/js/upload/jquery.fileupload-video.js' %}"></script>
+    <script src="{% static 'core_chat/js/upload/jquery.fileupload-validate.js' %}"></script>
+
+    <link rel="stylesheet" href="{% static 'core_chat/css/style.css' %}"/>
+    <link rel="stylesheet" href="{% static 'core_chat/css/font-awesome.min.css' %}"/>
+
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+
+{% block main %}
+{% endblock %}
+
+</body>
+</html>

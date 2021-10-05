@@ -1,0 +1,23 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+<form action="" method="POST">
+    {% csrf_token %}
+    {% if add_facility %}
+
+    <div style="height: 400px;overflow-x: hidden;">
+        {{ add_facility.as_table }}
+        <input type="submit" class="btn btn-success" value="Add" style="width: 50%;float: right;margin-top: 1%;">
+    </div>
+    <div>
+        <table>
+            {% if data %}
+            {% for st in data %}
+                <td>{{st.pamu}}</td>
+                <td>{{st.sub_unit}}</td>
+                <td>{{st.location}}</td>
+                <td>{{st.name_of_facility}}</td>
+                {% endfor %}
+            {% endif %}
+        </table>
+    </div>
+{% endblock %}

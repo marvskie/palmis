@@ -1,0 +1,80 @@
+Need to install
+
+
+certifi==2019.6.16
+chardet==3.0.4
+Django==2.2.3
+django-cors-headers==3.0.2
+django-filter==2.2.0
+django-oauth-toolkit==1.2.0
+django-otp==0.8.1
+djangorestframework==3.10.1
+httplib2==0.13.0
+idna==2.7
+lxml==4.4.2
+oauth2==1.9.0.post1
+oauthlib==3.0.2
+psycopg2-binary==2.8.3
+python-docx==0.8.10
+pytz==2019.1
+requests==2.20.0
+rest-condition==1.0.3
+rest-sms-gateway==0.5.0
+sqlparse==0.3.0
+urllib3==1.24.3
+xlwt==1.3.0
+jsonschema
+rfc3987
+strict-rfc3339
+swagger-parser
+click
+nose
+parameterized
+swagger-spec-validator==2.7.3
+apitools
+rstr
+django-modeladmin-reorder
+django-jazzmin
+whitenoise
+django-import-export
+reportlab
+admin-totals
+channels==2.4.0
+channels-redis==2.4.2
+
+
+
+python -m pip install djangorestframework
+
+pip install django-oauth-toolkit==1.0.0
+pip install --upgrade pip setuptools
+
+
+pip install django-cors-headers
+pip install django-cors-headers==3.0.2
+pip install django-filter==2.2.0
+pip install django-oauth-toolkit==1.2.0
+pip install django-otp==0.8.1
+
+pip install django-modeladmin-reorder
+pip3 install psycopg2
+pip install python-docx
+
+pip install psycopg2-binary==2.8.6
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
+    )
+}
+
+For postgres data base
+
+https://www.enterprisedb.com/postgresql-tutorial-resources-training?cid=437
+
+
+pip3 install google_apitools
+
+
+

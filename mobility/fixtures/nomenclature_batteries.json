@@ -1,0 +1,65 @@
+[
+{
+    "model": "mobility.nomenclaturebattery",
+    "pk": 1,
+    "fields": {
+        "name": "2SMF"
+    }
+},
+{
+    "model": "mobility.nomenclaturebattery",
+    "pk": 2,
+    "fields": {
+        "name": "2SMF (MOTOLITE)"
+    }
+},
+{
+    "model": "mobility.nomenclaturebattery",
+    "pk": 3,
+    "fields": {
+        "name": "3SMF"
+    }
+},
+{
+    "model": "mobility.nomenclaturebattery",
+    "pk": 4,
+    "fields": {
+        "name": "3SMF (MOTOLITE)"
+    }
+},
+{
+    "model": "mobility.nomenclaturebattery",
+    "pk": 5,
+    "fields": {
+        "name": "6TN"
+    }
+},
+{
+    "model": "mobility.nomenclaturebattery",
+    "pk": 6,
+    "fields": {
+        "name": "6TN (MOTOLITE)"
+    }
+},
+{
+    "model": "mobility.nomenclaturebattery",
+    "pk": 7,
+    "fields": {
+        "name": "6TN (TNT)"
+    }
+},
+{
+    "model": "mobility.nomenclaturebattery",
+    "pk": 8,
+    "fields": {
+        "name": "6SMF"
+    }
+},
+{
+    "model": "mobility.nomenclaturebattery",
+    "pk": 9,
+    "fields": {
+        "name": "6SMF (TNT)"
+    }
+}
+]

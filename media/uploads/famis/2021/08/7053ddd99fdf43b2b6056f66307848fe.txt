@@ -1,0 +1,277 @@
+Need to install
+
+python manage.py runserver
+
+Django==2.2.3
+python -m pip install --upgrade pip
+
+pip install -r requirements.txt
+
+pip install Pillow
+pip install --upgrade pip
+
+certifi==2019.6.16
+chardet==3.0.4
+
+django-cors-headers==3.0.2
+django-filter==2.2.0
+django-oauth-toolkit==1.2.0
+django-otp==0.8.1
+djangorestframework==3.10.1
+httplib2==0.13.0
+idna==2.7
+lxml==4.4.2
+oauth2==1.9.0.post1
+oauthlib==3.0.2
+psycopg2-binary==2.8.3
+python-docx==0.8.10
+pytz==2019.1
+requests==2.20.0
+rest-condition==1.0.3
+rest-sms-gateway==0.5.0
+sqlparse==0.3.0
+urllib3==1.24.3
+xlwt==1.3.0
+jsonschema
+rfc3987
+strict-rfc3339
+swagger-parser
+click
+nose
+parameterized
+swagger-spec-validator==2.7.3
+apitools
+rstr
+django-modeladmin-reorder
+django-jazzmin
+whitenoise
+django-import-export
+reportlab
+admin-totals
+channels==2.4.0
+channels-redis==2.4.2
+
+
+pip install wheel
+
+
+django-oauth-toolkit==1.0.0
+--upgrade pip setuptools
+
+
+django-cors-headers
+django-cors-headers==3.0.2
+django-filter==2.2.0
+django-oauth-toolkit==1.2.0
+django-otp==0.8.1
+
+django-modeladmin-reorder
+psycopg2
+python-docx
+
+psycopg2-binary==2.8.6
+
+
+
+pip3 install google_apitools
+python -m pip install djangorestframework
+
+
+python manage.py migrate
+pyton manage.py createsuperuser
+
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'oauth2_provider.contrib.rest_framework.OAuth2Authentication',
+    )
+}
+
+
+
+
+pip3 install google_apitools
+
+
+
+
+
+
+
+requirements.txt
+
+
+
+certifi==2019.6.16
+chardet==3.0.4
+Django==2.2.3
+django-cors-headers==3.0.2
+django-filter==2.2.0
+django-oauth-toolkit==1.2.0
+django-otp==0.8.1
+djangorestframework==3.10.1
+httplib2==0.13.0
+idna==2.7
+lxml==4.4.2
+oauth2==1.9.0.post1
+oauthlib==3.0.2
+psycopg2-binary==2.8.3
+python-docx==0.8.10
+pytz==2019.1
+requests==2.20.0
+rest-condition==1.0.3
+rest-sms-gateway==0.5.0
+sqlparse==0.3.0
+urllib3==1.24.3
+xlwt==1.3.0
+jsonschema
+# The following requirements are required by jsonschema
+# in order to do proper validation of certain formats.
+rfc3987
+strict-rfc3339
+swagger-parser
+click
+nose
+parameterized
+swagger-spec-validator==2.7.3
+apitools
+rstr
+django-modeladmin-reorder
+django-jazzmin
+whitenoise
+django-import-export
+reportlab
+admin-totals
+
+# chat
+channels==2.4.0
+channels-redis==2.4.2
+
+pip install -U 'Twisted[tls,http2]'
+
+
+1. Download and install postgres database:
+
+Download here: https://www.enterprisedb.com/postgresql-tutorial-resources-training?cid=437
+
+Use this as your Password: Pa$$word99
+
+
+Uncheck: Stack Builder
+
+
+2. Setup Server:
+
+Got windows search pgadmin
+run pgadmin
+
+
+A. Create server name "palmis_prod"
+
+*For General Panel
+
+Name: palmis_prod
+
+*For Connection Panel
+
+Host Name: localhost
+port: 5432
+password: Pa$$word99
+
+then save
+
+
+B.) Create Database
+Database name: palmis_prod
+
+then save
+
+3.) Run powershell command
+type:
+*Identify the python installed:
+python -v
+*Locate the palmis folder inside C:\Users\058\palmis
+cd palmis
+*Create New virtual Environment name "narra"
+python -m venv narra
+*Activate "narra" scripts
+narra\Scripts\activate
+*Apply Migrations
+python manage.py migrate
+python manage.py makemigrations engineering, samb, adminbranch
+*Run the Server
+python manage.py runserver
+
+4.) Type Google Url: http://127.0.0.1:8000/
+
+
+Username = Villaver
+Password = palmis1234
+
+
+
+Channels 2.2.0
+asgiref 2.2.0
+redis 2.10.6
+asgi-redis 1.4.3
+
+
+
+https://www.codementor.io/@aswinmurugesh/deploying-a-django-application-in-windows-with-apache-and-mod_wsgi-uhl2xq09e
+
+https://appuals.com/could-not-find-a-version-that-satisfies-the-requirement-for-tensorflow/
+
+
+
+
+
+
+
+
+<li class="nav-header" style="cursor: pointer;padding-top: unset;padding-top: 2%;font-size: 18px;" data-toggle="collapse" data-target="#demo{{ app.name|slugify }}">{{ app.name }}</li>
+                                    {% for model in app.models %}
+                                        <li id="demo{{ app.name|slugify }}" class="nav-item collapse">
+                                            {% if model.url %}
+                                            <a href="{{ model.url }}" class="nav-link">
+                                                <i class="nav-icon {{ model.icon }}"></i><p>{{ model.name }}</p>
+                                            </a>
+                                        {% else %}
+                                            <span class="nav-link disabled" class="nav-item">
+                                                <i class="nav-icon {{ model.icon }}"></i> <p>{{ model.name }}</p>
+                                            </span>
+                                        {% endif %}
+                                    </li>
+
+
+
+
+
+Steps
+
+https://docs.bitnami.com/installer/infrastructure/django/get-started/start-django-project/
+
+https://realpython.com/django-setup/
+
+https://docs.djangoproject.com/en/1.8/intro/tutorial01/
+
+https://www.geeksforgeeks.org/django-orm-inserting-updating-deleting-data/
+
+
+
+
+
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/skeleton_website
+
+
+
+
+
+
+
+
+https://realpython.com/get-started-with-django-1/
+
+https://realpython.com/get-started-with-django-1/
+

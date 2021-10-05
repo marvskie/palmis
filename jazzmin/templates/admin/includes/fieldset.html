@@ -1,0 +1,52 @@
+{% load i18n admin_urls static admin_list jazzmin %}
+{% if card %}
+<div class="card {{ fieldset.classes|cut:"collapse" }}">
+    <div class="p-5{% if fieldset.name %} card-body{% endif %}">
+{% endif %}
+    {% for line in fieldset %}
+    <div>{{ cl.opts.verbose_name_plural }}</div>
+    <div class="form-group{% if line.fields|length_is:'1' and line.errors %} errors{% endif %}{% if not line.has_visible_field %} hidden{% endif %}{% for field in line %}{% if field.field.name %} field-{{ field.field.name }}{% endif %}{% endfor %}" style="white-space: nowrap;">
+        <div class="row" style="text-align: left;">
+            <table style="width: 100%;" >
+                <tr style="border-bottom: 0.5px solid darkgreen;">
+                    {% for field in line %}
+                        <td style="width: 50%;">
+                            <label class="{% if not line.fields|length_is:'1' and forloop.counter != 1 %}col-auto {% else %}col-sm-2 {% endif %}text-left">
+                                {{ field.field.label|capfirst }}
+                                {% if field.field.field.required %}
+                                    <span class="text-red">* </span>
+                                {% endif %}:
+                            </label>
+                        </td>
+                        <td style="width: 50%;text-align: left;">
+                            <div class="{% if not line.fields|length_is:'1' %} col-auto  fieldBox {% else %} col-sm-10 {% endif %}
+                                        {% if field.field.name %} field-{{ field.field.name }}{% endif %}
+                                        {% if not field.is_readonly and field.errors %} errors{% endif %}
+                                        {% if field.field.is_hidden %} hidden {% endif %}
+                                        {% if field.is_checkcard %} checkcard-row{% endif %}" style="width: 100%;padding-top: unset;margin-top: unset;">
+                                {% if field.is_readonly %}
+                                    <div class="readonly">{{ field.contents }}</div>
+                                {% else %}
+                                    {{ field.field }}
+                                {% endif %}
+                                <div class="help-block red">
+                                    {% if not line.fields|length_is:'1' and not field.is_readonly %}{{ field.errors }}{% endif %}
+                                </div>
+                                {% if field.field.help_text %}
+                                    <div class="help-block">{{ field.field.help_text|safe }}</div>
+                                {% endif %}
+                                <div class="help-block text-red">
+                                    {% if line.fields|length_is:'1' %}{{ line.errors }}{% endif %}
+                                </div>
+                            </div>
+                        </td>
+                    {% endfor %}
+                </tr>
+            </table>
+        </div>
+    </div>
+    {% endfor %}
+{% if card %}
+    </div>
+</div>
+{% endif %}

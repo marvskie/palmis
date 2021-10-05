@@ -1,0 +1,38 @@
+[
+{
+    "model": "engineering.costatus",
+    "pk": 1,
+    "fields": {
+        "code": "IMP",
+        "name": "For Implementation",
+        "order": 100
+    }
+},
+{
+    "model": "engineering.costatus",
+    "pk": 2,
+    "fields": {
+        "code": "OGN",
+        "name": "Ongoing",
+        "order": 200
+    }
+},
+{
+    "model": "engineering.costatus",
+    "pk": 3,
+    "fields": {
+        "code": "COM",
+        "name": "Completed",
+        "order": 300
+    }
+},
+{
+    "model": "engineering.costatus",
+    "pk": 4,
+    "fields": {
+        "code": "CAN",
+        "name": "Cancelled",
+        "order": 400
+    }
+}
+]

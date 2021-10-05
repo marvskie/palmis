@@ -1,0 +1,2496 @@
+{% load i18n static jazzmin admin_urls %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_current_language_bidi as LANGUAGE_BIDI %}
+{% get_jazzmin_settings as jazzmin_settings %}
+{% get_jazzmin_ui_tweaks as jazzmin_ui %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}" {% if LANGUAGE_BIDI %}dir="rtl"{% endif %}>
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ jazzmin_settings.site_title }}</title>
+
+  <!-- Font Awesome Icons -->
+
+  <link rel="stylesheet" href="{% static "vendor/fontawesome-free/css/all.min.css" %}">
+
+  <!-- Bootstrap and adminLTE -->
+  <link rel="stylesheet" href="{% static "vendor/adminlte/css/adminlte.min.css" %}" id="adminlte-css">
+
+  <!-- Bootswatch theme -->
+  {% if jazzmin_ui.theme.name != 'default' %}
+  <link rel="stylesheet" href="{{ jazzmin_ui.theme.src }}" id="jazzmin-theme" />
+  {% endif %}
+
+  <!-- {% if jazzmin_ui.dark_mode_theme.name %}
+  <link rel="stylesheet" href="{{ jazzmin_ui.dark_mode_theme.src }}" id="jazzmin-dark-mode-theme" media="(prefers-color-scheme: dark)"/>
+  {% endif %} -->
+
+  <!-- Custom fixes for django -->
+  <link rel="stylesheet" href="{% static "jazzmin/css/main.css" %}">
+
+  {% if jazzmin_settings.custom_css %}
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{% static jazzmin_settings.custom_css %}">
+  {% endif %}
+
+  <!-- favicons -->
+  <link rel="shortcut icon" href="{% static jazzmin_settings.site_logo %}" type="image/png">
+  <link rel="icon" href="{% static jazzmin_settings.site_logo %}" sizes="32x32" type="image/png">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+  <!-- For data Tables -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
+  <style>
+    .cod1{padding-top: unset;padding-left: unset;background-color: lightskyblue;border-radius: 7px;padding: 0px 2px 2px 2px;}
+    .cod2{padding-top: unset;border-radius:7px;padding: 2px 2px 2px 2px;}
+    .cod3{padding-left:unset;font-size: 14px;font-weight: bolder;}
+    .cod4{border-bottom:unset;margin-top: unset;}
+    .cod5{padding: 2px 2px;height: 34px;position: inherit;border: unset;color: darkblue;background-color: skyblue;margin-top: 2px;}
+    .cod6{margin-bottom:1px;}
+    .cod7{border:1px solid darkgreen;border-radius: 5px;}
+    .cod8{background-color: #f2f4f6;}
+    .cod9{padding-left: unset;border-radius:0px 7px 7px 7px;background-color: white;}
+    .cod10{overflow-x:unset;margin-left: 0.5%;}
+    .cod11{width: 40%;}
+    .cod12{border: unset;margin-bottom: 3px;}
+    .cod13{border-radius:7px;padding: 2px;}
+    .cod14{width:100%;height: 20px;font-size: 12px;font-family: arial;margin-left: 5px;}
+    .cod15{font-size: 12px;font-family: arial;width:100%;}
+    .cod16{margin-left: 2px;}
+    .cod17{font-size:12px;font-family: arial;}
+    .cod18{cursor:pointer;border-radius: 7px;}
+    .cod19{font-size:12px;font-family: arial;}
+    .cod20{font-family: arial;margin-left: auto;width: 50%;margin-right: 7%;}
+    .cod21{font-size:12px;font-family: arial;border-radius: 5px;padding: 1px;}
+    .cod22{font-size:12px;font-family: arial;border-radius: 20px;padding: 1px;background-color: #ADD8E6;height: 18px;width: 18px;color: white;text-align: center;}
+    .cod23{font-size:12px;font-family: arial;border-radius: 20px;padding: 1px;background-color: #A9A9A9;height: 18px;width: 18px;color: white;text-align: center;}
+    .cod24{width:100%;margin-left: unset;}
+    .cod25{border-radius: 5px;border: 1px solid green;width: 60%;height: 423px;}
+    .cod26{border-radius:7px;}
+    .cod27{border-bottom: 0.5px solid darkgreen;}
+    .cod28{width: 39%;margin-top: 5%;height: 10%;z-index: 0;}
+    .cod29{border-radius: 5px;border: 1px solid green;width: 100%;height: 374px;margin-left: 5px;padding-top:5px;}
+    .cod30{width:100%; max-width:500px; height:360px;}
+    .cod31{width:60%;}
+    .cod32{font-size:12px;margin-left: 2.2%;margin-top: 1%; font-family: arial;}
+    .cod33{padding: 4px 6px 4px 6px;}
+    .cod34{font-size:14px;font-family: arial;width: auto;}
+    #cod35{padding: 4px 7px 4px 7px;}
+    .cod36{margin-left:5%;margin-top: 0.5%;}
+    .cod37{font-size:12px;font-family: arial;}
+    .cod38{cursor:pointer;border-radius: 7px;width: 60px;}
+    .cod39{font-size: 12px;font-family: arial;border-radius: 7px;}
+    .cod40{padding: 10px;padding-left: 2px;}
+    .cod41{border-radius:5px;background-color: darkgreen;padding: 7px;margin: 2px;text-decoration: none;color: white;}
+    .cod42{height:500px;overflow-x: hidden;width: 700px;border-radius: 5px;border: 1px solid green;}
+    .cod43{white-space: nowrap;}
+    .cod44{font-size: 12px;font-family: arial;border-radius: 7px;}
+    .cod45{width:80%;margin-left: 60px;}
+    .cod46{margin-left:50px;}
+    #cod47{padding-top: 4px;padding-right: 7px;padding-left: 4px;padding-bottom: 7px;}
+    .cod48{border-radius: 5px;border: 1px solid green;float: right;width: 20%;height: 100px;margin-left: 5px;background-image: url('{% static "51st-engineer-brigade7.jpg" %}');background-repeat: no-repeat;background-size: 100% 100%;float:right;}
+    .cod49{width:78%;position:absolute;margin-top: unset;}
+
+    .result_list{
+      font-size: 12px;
+      white-space: nowrap;
+      height: 377px;
+      overflow: hidden;
+      width: auto;
+      border: 1px solid darkgreen;
+      border-radius: 7px;
+      margin-top:4px;
+    }
+
+    .result_list .table td, .result_list .table th{
+      padding: 2px;
+      margin: 2px;
+    }
+
+    .card-body{
+      padding: 5px;
+    }
+
+    .card-header{
+      white-space: nowrap;
+      padding: 5px;
+      font-size: 12px;
+    }
+
+    .select2-results{
+      font-size: 12px;
+      white-space: nowrap;
+      padding: 2px;
+      margin-top: 2px;
+      border: 1px solid #aaa;
+      border-radius: 1px 7px 7px 7px;
+      background-color: white;
+      margin-bottom: unset;
+      margin-left: unset;
+    }
+
+    .dataTables_info{
+      font-size: 12px;
+    }
+
+    button.btn.btn-primary{
+      font-size: 12px;
+      margin-right: unset;
+      margin-left: unset;
+      padding: 2px 6px 2px 6px;
+    }
+
+    select.form-control{
+      font-size: 12px;
+      margin: unset;
+      height: auto;
+      width: 120px;
+    }
+
+    .form-control{
+      padding: 2px 2px 2px 2px;
+      margin: 2px 2px 2px 2px;
+      font-size: 12px;
+    }
+
+    .btn-group.float-right a{
+      font-size: 12px;
+      padding: 2px 2px 2px 2px;
+    }
+
+    .action-counter{
+      font-size: 12px;
+    }
+
+    #changelist-search .form-group{
+      margin-right: 2px;
+    }
+    .mt-2, .my-2{
+      margin-top: unset;
+    }
+    .select2-selection .select2-selection--single{
+      padding: 2px;
+      min-height: 2px;
+    }
+
+    #searchbar{
+      padding: 2px 6px 2px 6px;
+      height: auto;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow{
+      height: 17px;
+    }
+
+    .select2-container .select2-selection--single{
+        height: 23px;
+    }
+
+  </style>
+  <style>
+    .tabcontent {
+      display: none;
+    }
+    .tablink{
+      border-radius: 7px 7px 0px 0px;
+    }
+
+    .sidenav {
+      overflow-x: hidden;
+    }
+
+    /* Style the sidenav links and the dropdown button */
+    .sidenav a, .dropdown-btn {
+      text-decoration: none;
+      font-size: 14px;
+      color: #d0d4db;
+      display: block;
+      border: none;
+      background: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      border-style: unset;
+    }
+
+    /* On mouse-over */
+    .sidenav a:hover, .dropdown-btn:hover {
+      color: #f1f1f1;
+      background-color: skyblue;
+      border-style: unset;
+    }
+
+    /* Add an active class to the active dropdown button */
+    .btnactive {
+      color: white;
+      background-color: #007bff;
+      border-style: none;
+      border: none;
+      border-style: unset;
+      border-radius: 5px 5px 0px 0px;
+    }
+
+    /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+    .dropdown-container {
+      display: none;
+      padding-left: 10px;
+      padding-top: 3%;
+      border-radius: 0px 0px 5px 5px;
+      padding-bottom: 3%;
+      margin-bottom: 5%;
+      padding-bottom: 3%;
+    }
+
+    .dropdown-container a{
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+    /* Optional: Style the caret left icon */
+    .fa-caret-left {
+      float: right;
+      padding-right: 4px;
+      padding-top: 4px;
+    }
+
+    .fa-caret-down {
+      float: right;
+      padding-right: 4px;
+      padding-top: 4px;
+    }
+
+    /* Some media queries for responsiveness */
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+  </style>
+
+  <style>
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 4px 11px 4px 11px;
+    text-decoration: none;
+    transition: background-color .10s;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+</style>
+<style type="text/css">
+  .theader1{
+    background-color: #ADD8E6;
+    color: darkblue;
+    font-weight: 700;
+    font-family: arial;
+  }
+  .theader2{
+    background-color: #A9A9A9;
+    font-weight: 700;
+    font-family: arial;
+  }
+</style>
+
+<style type="text/css">
+  .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+  .nav > li {
+    position: relative;
+    display: block;
+  }
+  .nav > li > a {
+    position: relative;
+    display: block;
+  }
+  .nav > li > a:focus,
+  .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #eee;
+  }
+  .nav > li.disabled > a {
+    color: #777;
+  }
+  .nav > li.disabled > a:focus,
+  .nav > li.disabled > a:hover {
+    color: #777;
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+  }
+  .nav .open > a,
+  .nav .open > a:focus,
+  .nav .open > a:hover {
+    background-color: #eee;
+    border-color: #337ab7;
+  }
+  .nav .nav-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+  }
+  .nav > li > a > img {
+    max-width: none;
+  }
+  .nav-tabs {
+    border-bottom: 1px solid #ddd;
+  }
+  .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+  }
+  .nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+  }
+  .nav-tabs > li > a:hover {
+    border-color: #eee #eee #ddd;
+  }
+  .nav-tabs > li.active > a,
+  .nav-tabs > li.active > a:focus,
+  .nav-tabs > li.active > a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+  }
+  .nav-tabs.nav-justified {
+    width: 100%;
+    border-bottom: 0;
+  }
+  .nav-tabs.nav-justified > li {
+    float: none;
+  }
+  .nav-tabs.nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+  }
+  @media (min-width: 768px) {
+    .nav-tabs.nav-justified > li {
+      display: table-cell;
+      width: 1%;
+    }
+    .nav-tabs.nav-justified > li > a {
+      margin-bottom: 0;
+    }
+  }
+  .nav-tabs.nav-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px;
+  }
+  .nav-tabs.nav-justified > .active > a,
+  .nav-tabs.nav-justified > .active > a:focus,
+  .nav-tabs.nav-justified > .active > a:hover {
+    border: 1px solid #ddd;
+  }
+  @media (min-width: 768px) {
+    .nav-tabs.nav-justified > li > a {
+      border-bottom: 1px solid #ddd;
+      border-radius: 4px 4px 0 0;
+    }
+    .nav-tabs.nav-justified > .active > a,
+    .nav-tabs.nav-justified > .active > a:focus,
+    .nav-tabs.nav-justified > .active > a:hover {
+      border-bottom-color: #fff;
+    }
+  }
+  .nav-pills > li {
+    float: left;
+  }
+  .nav-pills > li > a {
+    border-radius: 4px;
+  }
+  .nav-pills > li + li {
+    margin-left: 2px;
+  }
+  .nav-pills > li.active > a,
+  .nav-pills > li.active > a:focus,
+  .nav-pills > li.active > a:hover {
+    color: #fff;
+    background-color: #337ab7;
+  }
+  .nav-stacked > li {
+    float: none;
+  }
+  .nav-stacked > li + li {
+    margin-top: 2px;
+    margin-left: 0;
+  }
+  .nav-justified {
+    width: 100%;
+  }
+  .nav-justified > li {
+    float: none;
+  }
+  .nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+  }
+  @media (min-width: 768px) {
+    .nav-justified > li {
+      display: table-cell;
+      width: 1%;
+    }
+    .nav-justified > li > a {
+      margin-bottom: 0;
+    }
+  }
+  .nav-tabs-justified {
+    border-bottom: 0;
+  }
+  .nav-tabs-justified > li > a {
+    margin-right: 0;
+    border-radius: 4px;
+  }
+  .nav-tabs-justified > .active > a,
+  .nav-tabs-justified > .active > a:focus,
+  .nav-tabs-justified > .active > a:hover {
+    border: 1px solid #ddd;
+  }
+  @media (min-width: 768px) {
+    .nav-tabs-justified > li > a {
+      border-bottom: 1px solid #ddd;
+      border-radius: 4px 4px 0 0;
+    }
+    .nav-tabs-justified > .active > a,
+    .nav-tabs-justified > .active > a:focus,
+    .nav-tabs-justified > .active > a:hover {
+      border-bottom-color: #fff;
+    }
+  }
+  .tab-content > .tab-pane {
+    display: none;
+  }
+  .tab-content > .active {
+    display: block;
+  }
+</style>
+
+<style type="text/css">
+  .table-drop td, .table-drop th {
+    padding: 0px;
+    vertical-align: top;
+    border-top: 1px solid #32a54c;
+  }
+
+  .table-drop form{
+    padding: 1px;
+  }
+</style>
+
+<style type="text/css">
+
+  #unit_form_id
+  {
+    width: 60px;
+    font-size: 12px;
+    font-weight: bolder;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  #pamu_form_id
+  {
+    width: 60px;
+    font-size: 12px;
+    font-weight: bolder;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+
+  #type_of_facility_form_id
+  {
+    width: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  #mode_of_acquisition_form_id
+  {
+    width: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  #edit_field_form_id
+  {
+    width: 70px;
+    font-size: 12px;
+    font-weight: bolder;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .checkbox_select_anchor
+  {
+    display: block;
+    cursor: pointer;
+    padding: 2px 2px 2px 2px;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: white;
+  }
+
+  .checkbox_select_anchor:after
+  {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid darkgreen;
+    content: "";
+    position: absolute;
+    right: 2px;
+    top: 4px;
+  }
+
+  .expanded .checkbox_select_anchor:after
+  {
+    border-top: 0;
+    border-bottom: 5px solid darkgreen;
+  }
+
+
+  .checkbox_select_anchor:hover
+  {
+    background: skyblue !important;
+  }
+
+  .expanded .checkbox_select_anchor
+  {
+    background: skyblue;
+  }
+
+  div.checkbox_select .select_input
+  {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .checkbox_select_dropdown
+  {
+    display: none;
+    background: whitesmoke;
+  }
+
+  .checkbox_select_dropdown.show
+  {
+    padding-top: 0.5%;
+    display: block;
+    position: absolute;
+    width: 250px;
+    white-space: unset;
+    border: 1px solid darkgreen;
+    z-index: 1;
+  }
+
+  .checkbox_select_dropdown ul
+  {
+    max-height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #999;
+    border-top: 0;
+    border-bottom: 0;
+    font-size: 12px;
+    white-space: unset;
+  }
+  .checkbox_select_dropdown ul li
+  {
+    list-style: none;
+    position: relative;
+    color: darkblue;
+  }
+  .checkbox_select_dropdown ul li label
+  {
+    position: relative;
+    padding: 0.2px 2px 0px 18px;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 2px;
+
+  }
+  .checkbox_select_dropdown ul li label:hover
+  {
+    background: #cbcbcb;
+    color: white;
+  }
+  .checkbox_select_dropdown ul li input:checked + label
+  {
+    background: #bbb;
+    color: white;
+    text-shadow: 0px 1px 1px rgba(150, 150, 150, 1);
+  }
+  .checkbox_select_dropdown ul li input
+  {
+    position: absolute;
+    left:1px;
+    z-index:1;
+    display: inline-block;
+    height: 100%;
+    width: 12px;
+  }
+
+  input.checkbox_select_search{
+    margin-left: 23px;
+  }
+
+  .checkbox_select_search
+  {
+    width: 200px;
+    padding: 3px 3px 3px 8px;
+    border: 1px solid #999;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bolder;
+    color: darkgreen;
+  }
+
+  .checkbox_select_submit
+  {
+    background: #00A600;
+    color: white;
+    padding: 3px 3px 3px;
+    border: 0;
+    width: 100%;
+    font-size: 12px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .hide
+  {
+    display: none;
+  }
+</style>
+
+<style type="text/css">
+  .table100{
+    width: 100%;
+    height:420px;
+    white-space:nowrap;
+    font-size: 12px;
+    font-family: calibri;
+  }
+  .table100 td{
+    padding-left: 5px;
+    border: unset;
+    font-weight: 500;
+    font-family: arial;
+  }
+
+  .column100{
+    border: 1px solid skyblue;
+  }
+  .row100.head{
+    background-color: skyblue;
+    color: white;
+  }
+
+  .row100.head th{
+    border: unset;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: arial;
+  }
+
+  .row100.column1 th{
+    border-left: 1px solid skyblue;
+  }
+
+  .row100.column2 th{
+    border-right: 1px solid skyblue ;
+  }
+  .main-sidebar.elevation-4.sidebar-dark-primary{
+    height: unset;
+    min-height: 105%;
+  }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  .select2-container--classic .select2-selection--single .select2-selection__arrow{
+    height: 21px;
+    width: 15px;
+  }
+
+  .nav-link{
+    padding: 4px;
+    font-size: 14px;
+  }
+
+  html{
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+
+  div.fa.fa-times.float-right{
+    padding-right: .9em;
+    color: red;
+    cursor: pointer;
+  }
+  i.fa.fa-sort-alpha-down{
+    color: green;
+  }
+  
+</style>
+
+<style>
+  .famis-tab-menu{
+    height: 22px;
+  }
+
+  .famis-tab-menu a{
+    padding: 0px 4px 8px 4px;
+    border: 1px solid darkgrey;
+    border-radius: 5px 5px 0px 0px;
+    margin: unset;
+  }
+
+  .tb-facility-name td{
+    color: #212529;
+    text-align: left;
+    white-space: nowrap;
+    width: 20em;
+  }
+
+  .tb-facility-name th{
+    color: #212529;
+    text-align: left;
+    white-space: nowrap;
+    width: 20em;
+  }
+
+  table.tb-facility-name{
+    width:100%;
+  }
+
+  table.tb-facility-name label{
+    border-style: none;
+    margin-top: 4px;
+    color: #007bff;
+  }
+
+  table.tb-facility-name.h-line{
+    margin-top: -20px;
+    border-style: hidden;
+  }
+
+  table.tb-facility-name.h-line label{
+    border-style: none;
+    color: #212529;
+  }
+
+  .tb-facility-name label{
+    border: 1px solid green;
+    text-align: left;
+    white-space: nowrap;
+    width: 22em;
+  }
+
+  /* table.h-line{
+    margin-top: -20px;
+  } */
+
+  td.field-facility_info{
+    color: transparent;
+  }
+
+  td.field-real_state{
+    color: transparent;
+  }
+
+  .card-body.p-0 .table tbody>tr>td:first-of-type, .card-body.p-0 .table tbody>tr>th:first-of-type, .card-body.p-0 .table thead>tr>td:first-of-type, .card-body.p-0 .table thead>tr>th:first-of-type{
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
+
+  .table.table-striped th{
+    vertical-align: middle;
+  }
+
+  .table.table-striped td{
+    vertical-align: middle;
+  }
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+{% block extrastyle %} {% endblock %}
+{% block extrahead %} {% endblock %}
+</head>
+<body class="hold-transition{% if not jazzmin_settings.show_sidebar %} no-sidebar{% else %} sidebar-mini{% endif %} {% sidebar_status request %} {% if is_popup %}popup {% endif %}{% block bodyclass %}{% endblock %} {{ jazzmin_ui.body_classes }}" data-admin-utc-offset="{% now "Z" %}">
+  <div class="wrapper">
+    {% if not is_popup %}
+    <nav class="main-header navbar navbar-expand {{ jazzmin_ui.navbar_classes }}" id="jazzy-navbar" style="padding: unset;">
+      <ul class="navbar-nav" style="margin:unset;">
+
+        {% if jazzmin_settings.show_sidebar %}
+        <li class="nav-item">
+          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a href="{% url 'admin:index' %}" class="brand-link">
+            <img src="{% static jazzmin_settings.site_logo %}" alt="{{ jazzmin_settings.site_header }} Logo" class="brand-image img-circle elevation-3" style="opacity: .8; margin: 0 0 0 5px;">
+          </a>
+        </li>
+        {% endif %}
+
+        {% get_top_menu user request.current_app|default:"admin" as top_menu %}
+        {% for link in top_menu %}
+        <li class="nav-item d-none d-sm-inline-block{% if link.children %} dropdown{% endif %}">
+          {% if link.children %}
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ link.name }}
+          </a>
+          <div class="dropdown-menu">
+            {% for child in link.children %}
+            <a class="dropdown-item" href="{{ child.url }}" {% if link.new_window %}target="_blank"{% endif %}>{{ child.name }}</a>
+            {% endfor %}
+          </div>
+          {% else %}
+          <a href="{{ link.url }}" class="nav-link" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+
+      {% if jazzmin_settings.search_model %}
+      <form action="{{ jazzmin_settings.search_url }}" method="GET" class="form-inline ml-3">
+        <div class="input-group input-group-sm">
+          <input class="form-control form-control-navbar" name="q" type="search" placeholder="{% trans 'Search' %} {{ jazzmin_settings.search_name }}..." aria-label="{% trans 'Search' %} {{ jazzmin_settings.search_name }}...">
+          <div class="input-group-append">
+            <button class="btn btn-navbar" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+      {% endif %}
+
+      <ul class="navbar-nav ml-auto">
+
+        {% if jazzmin_settings.show_ui_builder %}
+        <li class="nav-item">
+          <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+            <i class="fas fa-th-large"></i>
+          </a>
+        </li>
+        {% endif %}
+        {% if 'django.contrib.admindocs'|app_is_installed %}
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'django-admindocs-docroot' %}" role="button">
+            <i class="fas fa-book"></i>
+          </a>
+        </li>
+        {% endif %}
+
+        {% if jazzmin_settings.language_chooser %}
+        {% get_available_languages as LANGUAGES %}
+        {% get_language_info_list for LANGUAGES as languages %}
+
+        <li class="nav-item dropdown">
+                        <!-- <a class="nav-link btn" data-toggle="dropdown" href="#" title="Choose language">
+                            <i class="fas fa-globe pr-2" aria-hidden="true"></i>
+                          </a> -->
+                          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left" id="jazzy-languagemenu">
+                            {% for language in languages %}
+                            <a href="{{ request|change_lang:language.code }}" class="dropdown-item{% if language.code == LANGUAGE_CODE %} active{% endif %}" lang="{{ language.code }}">
+                              {{ language.name_local|title }}
+                            </a>
+                            {% endfor %}
+                          </div>
+                        </li>
+                        {% endif %}
+
+                        <li class="nav-item">
+                          <a class="nav-link btn" href="#">
+                            <i class="fas fa-cog"></i>
+                          </a>
+                        </li>
+                        <li class="nav-item dropdown">
+
+                          <a class="nav-link btn" data-toggle="dropdown" href="#" title="{{ request.user }}">
+                            <i class="far fa-user pr-2" aria-hidden="true"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left" id="jazzy-usermenu">
+                            <span class="dropdown-header">{% trans 'Account' %}</span>
+                            <div class="dropdown-divider"></div>
+                            <a href="{% url 'admin:password_change' %}" class="dropdown-item">
+                              <i class="fas fa-key mr-2"></i> {% trans 'Change password' %}
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a href="{% url 'admin:logout' %}" class="dropdown-item">
+                              <i class="fas fa-users mr-2"></i> {% trans 'Log out' %}
+                            </a>
+                            {% get_user_menu user request.current_app|default:"admin" as user_menu %}
+                            {% for link in user_menu %}
+                            <div class="dropdown-divider"></div>
+                            <a href="{{ link.url }}" class="dropdown-item" {% if link.new_window %}target="_blank"{% endif %}>
+                              <i class="{{ link.icon }} mr-2"></i> {% trans link.name %}
+                            </a>
+                            {% endfor %}    
+                            <div class="dropdown-divider"></div>
+                            {% if perms|can_view_self %}
+                             <a href="{% jazzy_admin_url request.user request.current_app|default:"admin" %}" class="dropdown-item dropdown-footer">{% trans 'See Profile' %}</a>
+                            {% endif %}
+                          </div>
+                        </li>
+                      </ul>
+                    </nav>
+                    {% block sidebar %}
+                    {% if jazzmin_settings.show_sidebar %}
+                    {% get_side_menu as side_menu_list %}
+
+                    <aside class="main-sidebar elevation-4 {{ jazzmin_ui.sidebar_classes }}" id="jazzy-sidebar">
+                      <a href="{% url 'admin:index' %}" class="brand-link {{ jazzmin_ui.brand_classes }}" id="jazzy-logo">
+                        <img src="{% static jazzmin_settings.site_logo %}" alt="{{ jazzmin_settings.site_header }} Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                        <span class="brand-text font-weight-light">{{ jazzmin_settings.site_header }}</span>
+                      </a>
+
+                      <div class="sidebar">
+                        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                          <div class="image">
+                            {% if jazzmin_settings.user_avatar %}
+                            <img src="{% get_user_avatar request.user %}" width="160px" class="img-circle elevation-2" alt="User Image">
+                            {% else %}
+                            <i class="fas fa-inverse user-profile fa-user-circle"></i>
+                            {% endif %}
+                          </div>
+                          <div class="info">
+                            {% if perms|can_view_self %}
+                            <a href="{% jazzy_admin_url request.user request.current_app|default:"admin" %}" class="d-block">{{ request.user }}</a>
+                            {% else %}
+                            <span class="d-block" style="color: white;">{{ request.user }}</span>
+                            {% endif %}
+                          </div>
+                        </div>
+
+                        <nav class="mt-2 sidenav" style="height:400px;overflow-x: hidden;">
+                          <ul class="nav nav-pills nav-sidebar flex-column {{ jazzmin_ui.sidebar_list_classes }}" data-widget="treeview" role="menu" data-collapsible="true">
+
+                            <li class="nav-item">
+                              <a href="{% url 'admin:index' %}" class="nav-link">
+                                <i class="nav-icon fas fa-tachometer-alt">&nbsp;{% trans 'Dashboard' %}</i>
+                              </a>
+                            </li>
+
+                            <li class="nav-item" style="padding:unset;padding-left: 6%;" data-toggle="collapse" data-target="#demo{{ app.name|slugify }}">
+                              <button class="dropdown-btn">{% trans 'SUMIS' %}<i class="fa fa-caret-left"></i></button>
+                              <div class="dropdown-container">
+                                <a><input type="checkbox" name="select_all" id="select_all" placeholder="{% trans 'Select All' %}">&nbsp;&nbsp;<label style="cursor:pointer;" for="select_all" onclick="SUMIS_SELECTALL()">Select all</label></a>
+                                <a><input type="checkbox" name="CMI_Stock" id="CMI_Stock" placeholder="{% trans 'CMI Stock' %}">&nbsp;&nbsp;<label style="cursor:pointer;" for="CMI_Stock">CMI Stock</label></a>
+                                <a><input type="checkbox" name="PA_Stock" id="PA_Stock" placeholder="{% trans 'PA Stock' %}">&nbsp;&nbsp;<label style="cursor:pointer;" for="PA_Stock">PA Stock</label></a>
+                                <a><input type="checkbox" name="CCSR" id="CCSR" placeholder="{% trans 'CCSR' %}">&nbsp;&nbsp;<label style="cursor:pointer;" for="CCSR">CCSR</label></a>
+                                <a><input type="checkbox" name="Issued" id="Issued" placeholder="{% trans 'Issued' %}">&nbsp;&nbsp;<label style="cursor:pointer;" for="Issued">Issued</label></a>
+                              </div>
+                            </li>
+
+                            <li class="nav-item" style="padding:unset;padding-left: 6%;" data-toggle="collapse" data-target="#demo{{ app.name|slugify }}">
+                              <button class="dropdown-btn">{% trans 'Famis' %}<i class="fa fa-caret-left"></i></button>
+                              <!-- '''''''''''''''''''''''''''''''' -->
+                              <div id="famis_container" class="dropdown-container">
+                                <a href="/famis/inventory/"><input type="checkbox" name="select" id="select_all_famis_id" placeholder="{% trans 'Select All' %}">&nbsp;&nbsp;<label style="cursor:pointer;" for="select" onclick="FAMIS_SELECTALL()">Select all</label></a>
+                                <a><input type="checkbox" name="Real_Estate" id="Select_Real_Estate_id" placeholder="{% trans 'Real Estate' %}">&nbsp;&nbsp;<label style="cursor:pointer;" onclick="click_realstate()" for="Select_Real_Estate_id">Real Estate</label></a>
+                                <a href="/famis/facilityinfo/"><input type="checkbox" name="Facilities" id="Select_Facilities_id" placeholder="{% trans 'Facilities' %}">&nbsp;&nbsp;<label style="cursor:pointer;" onclick="click_facilities()" for="Select_Facilities_id">Facilities</label></a>
+                              </div>
+                            </li>
+                              {% if jazzmin_settings.navigation_expanded %}
+                              {% for app in side_menu_list %}
+                                <li class="nav-item" style="padding:unset;padding-left: 6%;" data-toggle="collapse" data-target="#demo{{ app.name|slugify }}">
+                                  <button class="dropdown-btn">{{ app.name }}<i class="fa fa-caret-left"></i></button>
+                                  <div class="dropdown-container">
+                                     {% for model in app.models %}
+                                        {% if model.url %}
+                                          <a href="{{ model.url }}">
+                                            <i class="{{ model.icon }}"></i>&nbsp;&nbsp;{{ model.name }}
+                                          </a>
+                                        {% else %}
+                                          <span class="nav-link disabled">
+                                            <i class="{{ model.icon }}"></i>&nbsp;&nbsp;{{ model.name }}
+                                          </span>
+                                        {% endif %}
+                                     {% endfor %}
+                                  </div>
+                                </li>
+                              {% endfor %}
+
+                              <!-- {% for app in side_menu_list %}
+                              <li class="nav-header" style="cursor: pointer;padding-top: unset;padding-top: 2%;font-size: 18px;" data-toggle="collapse" data-target="#demo{{ app.name|slugify }}">{{ app.name }}</li>
+                                {% for model in app.models %}
+                                <li id="demo{{ app.name|slugify }}" class="nav-item collapse">
+                                  {% if model.url %}
+                                  <a href="{{ model.url }}" class="nav">
+                                    <i class="nav-icon {{ model.icon }}"></i><p>{{ model.name }}</p>
+                                  </a>
+                                  {% else %}
+                                  <span class="nav-link disabled">
+                                    <i class="nav-icon {{ model.icon }}"></i> <p>{{ model.name }}</p>
+                                  </span>
+                                  {% endif %}
+                                </li>
+                                {% endfor %}
+                              {% endfor %} -->
+
+                              {% else %}
+                              {% for app in side_menu_list %}
+                              <li class="nav-item has-treeview">
+                                <a href="#" class="nav-link">
+                                  <i class="nav-icon {{ app.icon }}"></i>
+                                  <p>{{ app.name|truncatechars:21 }} <i class="fas fa-angle-left right"></i></p>
+                                </a>
+                                <ul class="nav nav-treeview" style="display: none;">
+                                  {% for model in app.models %}
+                                  <li class="nav-item">
+                                    <a href="{% if model.url %}{{ model.url }}{% else %}javascript:void(0){% endif %}" class="nav-link">
+                                      <i class="nav-icon {{ model.icon }}"></i>
+                                      <p>{{ model.name }}</p>
+                                    </a>
+                                  </li>
+                                  {% endfor %}
+                                </ul>
+                              </li>
+                              {% endfor %}
+                              {% endif %}
+                            </ul>
+                          </nav>
+                        </div>
+                      </aside>
+                      {% endif %}
+                      {% endblock %}
+                      {% endif %}
+
+                      <div class="content-wrapper" {% if is_popup %}style="margin-left:0px; padding-top: 20px;min-height:unset;height:auto;"{% else %}style="min-height:unset;height:auto;"{% endif %}>
+                        {% block page_content %}
+                        {% if not is_popup %}
+                        <div class="content-header" style="padding:unset;">
+                          <div class="container-fluid">
+                            {% if cl.opts.verbose_name_plural == "Inventory" or cl.opts.verbose_name_plural == "Facility" or cl.opts.verbose_name_plural == "Reports" %}
+                              <div class="row mb-2" style="margin-bottom: unset;">
+                            {% else %}
+                              <div class="row mb-2">
+                            {% endif %}
+                                    <div class="col-auto col-sm-3">
+                                      {% if cl.opts.verbose_name_plural == "Inventory" or cl.opts.verbose_name_plural == "Facility" or cl.opts.verbose_name_plural == "Reports" %}
+                                        <h1 class="m-0" style="color:darkgreen;font-family: castellar;font-size: 16px;font-weight: 900;width: 900px;">
+                                      {% else %}
+                                        <h1 class="m-0" style="color:darkgreen;font-size: 16px;font-weight: 400;padding-top: 8px;padding-left: 3px;">
+                                      {% endif %}
+                                          {% block content_title %}{% endblock %}
+                                        </h1>
+                                    </div>
+                                    <div class="col-auto col-sm-9" style="height: 5px">
+                                      {% block breadcrumbs %}{% endblock %}	
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              {% endif %}
+                              <div class="content" style="height:auto;overflow-x: hidden;">
+                                <div class="container-fluid">
+                                  <section id="content" class="content">
+                                    {% block messages %}
+                                    {% for message in messages %}
+                                    {% if message.tags == 'success' %}
+                                    <div class="alert alert-success alert-dismissible">
+                                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×
+                                      </button>
+                                      <i class="icon fa fa-check"></i>{{ message|capfirst }}
+                                    </div>
+                                    {% elif message.tags == 'error' %}
+                                    <div class="alert alert-danger alert-dismissible">
+                                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×
+                                      </button>
+                                      <i class="icon fa fa-ban"></i>{{ message|capfirst }}
+                                    </div>
+                                    {% elif message.tags == 'warning' %}
+                                    <div class="alert alert-warning alert-dismissible">
+                                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×
+                                      </button>
+                                      <i class="icon fa fa-exclamation-triangle"></i>{{ message|capfirst }}
+                                    </div>
+                                    {% elif message.tags == 'info' %}
+                                    <div class="alert alert-info alert-dismissible">
+                                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×
+                                      </button>
+                                      <i class="icon fa fa-info"></i>{{ message|capfirst }}
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                    {% endblock messages %}
+                                    <div class="row">
+                                      {% block content %} {% endblock %}
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                              {% endblock %}
+                            </div>
+
+                            {% block footer %}
+                            {% if not is_popup %}
+                            <footer class="main-footer {{ jazzmin_ui.footer_classes }}" style="padding: 2px;">
+                              <div class="float-right d-none d-sm-inline">
+                                <b>{% now "DATE_FORMAT" %}</b> 
+                                <!-- {% get_jazzmin_version %} -->
+                              </div>
+
+                              <strong>{% trans 'Copyright' %} &copy; {% now 'Y' %} {{ jazzmin_settings.copyright }}.</strong> {% trans 'All rights reserved.' %}
+                            </footer>
+                            {% if jazzmin_settings.show_ui_builder %}
+                            {% include 'jazzmin/includes/ui_builder_panel.html' %}
+                            {% endif %}
+                            {% endif %}
+                            {% endblock %}
+
+                          </div>
+
+                          {% if jazzmin_settings.show_ui_builder %}
+                          <div id="codeBox" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h4 class="modal-title">{% trans 'UI Configuration' %}</h4>
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                  <p>{% trans 'Copy this info your settings file to persist these UI changes' %}</p>
+                                  <pre><code></code></pre>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-default" data-dismiss="modal">{% trans 'Close' %}</button>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                          {% endif %}
+
+                          <!-- jQuery -->
+                          <script src="{% static "vendor/jquery/jquery-3.5.1.slim.min.js" %}"></script>
+                          <!-- Bootstrap 4 -->
+                          <script src="{% static "vendor/bootstrap/js/bootstrap.min.js" %}"></script>
+                          <!-- AdminLTE App -->
+                          <script src="{% static "vendor/adminlte/js/adminlte.min.js" %}"></script>
+                          <!-- Django customisations -->
+                          <script src="{% static "jazzmin/js/main.js" %}"></script>
+
+    <script type="text/javascript">
+      function SUMIS_SELECTALL() {
+        var sumis_select = document.getElementById('select_all');
+        if(sumis_select.checked){
+          document.getElementById('CMI_Stock').checked = false;
+          document.getElementById('PA_Stock').checked = false;
+          document.getElementById('CCSR').checked = false;
+          document.getElementById('Issued').checked = false;
+          sumis_select.checked = true;
+        }else{
+          document.getElementById('CMI_Stock').checked = true;
+          document.getElementById('PA_Stock').checked = true;
+          document.getElementById('CCSR').checked = true;
+          document.getElementById('Issued').checked = true;
+          sumis_select.checked = false;
+        }
+      }
+
+      function FAMIS_SELECTALL() {
+        var famis_select = document.getElementById('select_all_famis_id');
+        if(famis_select.checked == true){
+          document.getElementById('Select_Real_Estate_id').checked = false;
+          document.getElementById('Select_Facilities_id').checked = false;
+          famis_select.checked = false;
+        }else if(famis_select.checked == false){
+          document.getElementById('Select_Real_Estate_id').checked = true;
+          document.getElementById('Select_Facilities_id').checked = true;
+          famis_select.checked = true;
+        }
+      }
+
+      /*''''''''''''''''''''''''''''''''*/
+
+      function click_realstate(){
+        var select_all = document.getElementById('select_all_famis_id');
+        var facilitis = document.getElementById('Select_Facilities_id');
+        var realstate = document.getElementById('Select_Real_Estate_id');
+
+
+        if (facilitis.checked == true && realstate.checked == true) {
+          select_all.checked = true;
+        }else{
+          select_all.checked = false;
+        }
+      }
+
+      function click_facilities(){
+
+        location.href = "/famis/facilityinfo/";
+        var select_all = document.getElementById('select_all_famis_id');
+        var facilitis = document.getElementById('Select_Facilities_id');
+        var realstate = document.getElementById('Select_Real_Estate_id');
+
+        if (facilitis.checked == true && realstate.checked == true) {
+          select_all.checked = true;
+        }else{
+          select_all.checked = false;
+        }
+      }
+
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript">
+                            if(typeof String.prototype.trim !== 'function') {
+                              String.prototype.trim = function()
+                              {
+                                return this.replace(/^\s+|\s+$/g, '');
+                              }
+                            }
+
+                            var checkbox_select = function(params)
+                            {
+        // Error handling first
+        // ----------------------------------------------------------------------------------------------------
+        
+        var error = false;
+
+        // If the selector is not given
+        if(!params.selector) {                                              console.error("selector needs to be defined"); error = true; }
+
+        // If the selector is not a string
+        if(typeof params.selector != "string") {                            console.error("selector needs to be a string"); error = true; }
+
+        // If the element is not a form
+        if(!$(params.selector).is("form")) {                                console.error("Element needs to be a form"); error = true; }
+
+        // If the element doesn't contain a select
+        if($(params.selector).find("select").length < 1) {                  console.error("Element needs to have a select in it"); error = true; }
+
+        // If the element doesn't contain option elements
+        if($(params.selector).find("option").length < 1) {                  console.error("Select element needs to have an option in it"); error = true; }
+
+        // If the select element doesn't have a name attribute
+        if($(params.selector).find('select').attr('name') == undefined) {   console.error("Select element needs to have a name attribute"); error = true; }
+
+        // If there was an error at all, dont continue in the code.
+        if(error)
+          return false;
+
+        // ----------------------------------------------------------------------------------------------------
+
+        var that            = this,
+        $_native_form   = $(params.selector),
+        $_native_select = $_native_form.find('select'),
+
+            // Variables
+            selector                = params.selector,
+            select_name             = $_native_select.attr('name').charAt(0).toUpperCase() + $_native_select.attr('name').substr(1),
+            selected_translation    = params.selected_translation   ? params.selected_translation   : "selected",
+            all_translation         = params.all_translation        ? params.all_translation        : "All " + select_name + "s",
+            not_found_text          = params.not_found              ? params.not_found              : "No " + select_name + "s found.",
+            currently_selected      = [],
+            
+            // Create the elements needed for the checkbox select
+            $_parent_div    = $("<div />")      .addClass("checkbox_select"),
+            $_select_anchor = $("<a />")        .addClass("checkbox_select_anchor")     .text( select_name ),
+            $_search        = $("<input />")    .addClass("checkbox_select_search"),
+            $_submit        = $("<input />")    .addClass("checkbox_select_submit")     .val("Apply") .attr('type','submit') .data("selected", ""),
+            $_dropdown_div  = $("<div />")      .addClass("checkbox_select_dropdown"),
+            $_not_found     = $("<span />")     .addClass("not_found hide")             .text(not_found_text),
+            $_ul            = $("<ul />"),
+
+            updateCurrentlySelected = function()
+            {
+              var selected = [];
+              
+              $_ul.find("input:checked").each(
+                function()
+                {
+                  selected.push($(this).val());
+                }
+                );
+
+              currently_selected = selected;
+
+              if(selected.length == 0)
+              {
+                $_select_anchor.text( select_name );
+              }
+              else if(selected.length == 1)
+              {
+                $_select_anchor.text( selected[0] + " " );
+              }
+              else if(selected.length ==  $_ul.find("input[type=checkbox]").length)
+              {
+                $_select_anchor.text( all_translation );
+              }
+              else
+              {
+                $_select_anchor.text( selected.length + " " + selected_translation );
+              }
+            },
+
+            // Template for the li, will be used in a loop.
+            createItem  = function(name, value, count)
+            {
+              var uID             = 'checkbox_select_' + select_name + "_" + name.replace(" ", "_"),
+              $_li            = $("<li />"),
+              $_checkbox      = $("<input />").attr(
+              {
+                'name'  : name,
+                'id'    : uID,
+                'type'  : "checkbox",
+                'value' : value
+              }
+              )
+              .click(
+                function()
+                { 
+
+                  if (uID != "checkbox_select_PAMU_Select_All") {
+                    if (select_name == "PAMU") {
+                      document.getElementById("checkbox_select_PAMU_Select_All").checked = false;
+                    }
+                  }
+
+                  if (uID != "checkbox_select_UNIT_Select_All") {
+                    if (select_name == "UNIT") {
+                      document.getElementById("checkbox_select_UNIT_Select_All").checked = false;
+                    }
+                  }
+
+                  if (uID != "checkbox_select_Mode of Acquisition_Select_All") {
+                    if (select_name == "Mode of Acquisition") {
+                      document.getElementById("checkbox_select_Mode of Acquisition_Select_All").checked = false;
+                    }
+                  }
+
+                  if (uID != "checkbox_select_Type of Facility_Select_All") {
+                    if (select_name == "Type of Facility") {
+                      document.getElementById("checkbox_select_Type of Facility_Select_All").checked = false;
+                    }
+                  }
+
+                  if (uID != "checkbox_select_Edit Field_Select_All") {
+                    if (select_name == "Edit Field") {
+                      document.getElementById("checkbox_select_Edit Field_Select_All").checked = false;
+                    }
+                  }
+
+                  if (uID == "checkbox_select_PAMU_Select_All" || uID == "checkbox_select_Mode of Acquisition_Select_All" || uID == "checkbox_select_Type of Facility_Select_All") {
+                    if (document.getElementById(uID).checked == true) {
+                      checkAll(uID, true);
+                    }else if(document.getElementById(uID).checked == false){
+                      checkAll(uID, false);
+                    }
+                  }
+
+                  if (uID == "checkbox_select_UNIT_Select_All") {
+                      pamunits("checkbox_select_UNIT_Select_All", true);
+                  }else{
+                    if (select_name == "PAMU") {
+                      document.getElementById("checkbox_select_UNIT_Select_All").checked = false;
+                      pamunits("checkbox_select_UNIT_Select_All", false);
+                    }
+                  }
+
+                  if (uID == "checkbox_select_Edit Field_Select_All") {
+                    if (document.getElementById(uID).checked == true) {
+                      checkAll(uID, true);
+                      showtbl("Edit Field",false);
+                    }else if(document.getElementById(uID).checked == false){
+                      checkAll(uID, false);
+                      showtbl("Edit Field",true);
+                    }
+                  }
+
+                  /*updateCurrentlySelected();*/
+
+                  let i = 1;
+                  do {
+                    if (document.getElementById(name+i).hidden == true) {
+                      document.getElementById(name+i).hidden = false;
+                      document.getElementById(name).hidden = false;
+                      document.getElementById('nr').hidden = false;
+                      document.getElementById('nr'+i).hidden = false;
+                    }else if(document.getElementById(name+i).hidden == false){
+                      document.getElementById(name+i).hidden = true;
+                      document.getElementById(name).hidden = true;
+                    }else{
+                      document.getElementById('nr').hidden = true;
+                      document.getElementById('nr'+i).hidden = true;
+                    }
+                    i++;
+                  }while (i <= maxvalue);
+                }
+                ),
+
+              $_label         = $("<label />").attr('for', uID),
+              $_name_span     = $("<span />").text(name).prependTo($_label),
+              $_count_span    = $("<span />").text(count).appendTo($_label);
+
+              return $_li.append( $_checkbox.after( $_label ) );
+            },
+
+            apply = function()
+            {
+              $_dropdown_div.toggleClass("show");
+              $_parent_div.toggleClass("expanded");
+
+              if(!$_parent_div.hasClass("expanded"))
+              {  
+            // Only do the Apply event if its different
+            if(currently_selected != $_submit.data("selected"))
+            {
+              $_submit.data("selected" , currently_selected);
+
+              that.onApply(
+              { 
+                selected : $_submit.data("selected")
+              }
+              );
+            }   
+          }         
+        };
+        
+        // Event of this instance
+        that.onApply = typeof params.onApply == "function" ? 
+
+        params.onApply :
+
+        function(e) 
+        {
+                            //e.selected is accessible
+                          };
+
+                          that.update = function() 
+                          {
+                            $_ul.empty();
+                            $_native_select.find("option").each(
+
+                              function(i)
+                              {
+                                $_ul.append( createItem( $(this).text(), $(this).val(), $(this).data("count") ) );
+                              }
+                              );
+
+                            updateCurrentlySelected();
+                          }
+
+                          that.check = function(checkbox_name, checked) 
+                          {
+            //$_ul.find("input[type=checkbox][name=" + trim(checkbox_name) + "]").attr('checked', checked ? checked : false);
+
+            $_ul.find("input[type=checkbox]").each(function()
+            {
+          // If this elements name is equal to the one sent in the function
+          if($(this).attr('name') == checkbox_name)
+          {
+            // Apply the checked state to this checkbox
+            $(this).attr('checked', checked ? checked : false);
+            
+            // Break out of each loop
+            return false;
+          }
+        });
+
+            updateCurrentlySelected();
+
+          }
+
+        // Build mark up before pushing into page
+        $_dropdown_div  .prepend($_search);
+        $_dropdown_div  .append($_ul);
+        $_dropdown_div  .append($_not_found);
+        $_dropdown_div  .append($_submit);
+        $_dropdown_div  .appendTo($_parent_div);
+        $_select_anchor .prependTo($_parent_div);
+
+        // Iterate through option elements
+        that.update();
+
+        // Events 
+
+        // Actual dropdown action
+        $_dropdown_div.mouseleave(
+          function()
+          {
+            apply();
+          }
+        );
+
+        $_select_anchor.click( 
+
+          function()
+          {
+            apply();
+          }
+        );
+
+        // Filters the checkboxes by search on keyup
+        $_search.keyup(
+
+          function()
+          {
+            var search = $(this).val().toLowerCase().trim();
+
+            if( search.length == 1 )
+            {
+              $_ul.find("label").each(
+
+                function()
+                {
+                  if($(this).text().toLowerCase().charAt(0) == search.charAt(0))
+                  {
+                    if($(this).parent().hasClass("hide"))
+                      $(this).parent().removeClass("hide");
+
+                    if(!$_not_found.hasClass("hide"))
+                                    $_not_found.addClass("hide");//checkbox_select_submit
+
+                                }
+                                else
+                                {
+                                  if(!$(this).parent().hasClass("hide"))
+                                    $(this).parent().addClass("hide");
+                                  if($_not_found.hasClass("hide"))
+                                    $_not_found.removeClass("hide");
+                                }
+                              }
+                              );
+            }
+            else
+            {
+                    // If it doesn't contain 
+                    if($_ul.text().toLowerCase().indexOf(search) == -1)
+                    {
+                      if($_not_found.hasClass("hide"))
+                        $_not_found.removeClass("hide");
+                    }
+                    else
+                    {
+                      if(!$_not_found.hasClass("hide"))
+                        $_not_found.addClass("hide");
+                    }
+
+                    $_ul.find("label").each(
+
+                      function()
+                      {
+                        if($(this).text().toLowerCase().indexOf(search) > -1)
+                        {
+                          if($(this).parent().hasClass("hide"))
+                            $(this).parent().removeClass("hide");
+                        }
+                        else
+                        {
+                          if(!$(this).parent().hasClass("hide"))
+                            $(this).parent().addClass("hide");
+                        }
+                      }
+                      );
+                  }
+                }
+                );
+
+        $_submit.click(
+
+          function(e)
+          {
+            e.preventDefault();
+
+            apply();
+          }
+          );
+
+        // Delete the original form submit
+        $(params.selector).find('input[type=submit]').remove();
+
+        // Put finalized markup into page.
+        $_native_select.after($_parent_div);
+
+        // Hide the original element
+        $_native_select.hide();
+      };
+
+      $(function()
+      {
+        var mySelectCheckbox = new checkbox_select(
+        {
+          selector : "#pamu_form_id",
+          selected_translation : "Selected",
+          all_translation : "Selected all",
+          not_found : "Not Found",
+        });
+      });
+
+
+      $(function()
+      {
+        var mySelectCheckbox = new checkbox_select(
+        {
+          selector : "#unit_form_id",
+          selected_translation : "Selected",
+          all_translation : "Selected all",
+          not_found : "Not Found",
+        });
+      });
+
+
+      $(function()
+      {
+        var mySelectCheckbox = new checkbox_select(
+        {
+          selector : "#type_of_facility_form_id",
+          selected_translation : "Selected",
+          all_translation : "Selected all",
+          not_found : "Not Found",
+        });
+      });
+
+
+      $(function()
+      {
+        var mySelectCheckbox = new checkbox_select(
+        {
+          selector : "#edit_field_form_id",
+          selected_translation : "",
+          all_translation : "Selected all",
+          not_found : "Not Found",
+        });
+      });
+
+      $(function()
+      {
+        var mySelectCheckbox = new checkbox_select(
+        {
+          selector : "#mode_of_acquisition_form_id",
+          selected_translation : "",
+          all_translation : "Selected all",
+          not_found : "Not Found",
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+      var maxvalue = parseInt(document.getElementById('max_value_id').innerHTML);/*dsfsfsdfsdfd*/
+
+      onselectrange();     
+
+      next1(1,10,1);
+
+      function onselectrange(){
+        var selected_value = document.getElementById('select_range').value;
+        var rang_div = parseInt(maxvalue) / parseInt(selected_value);
+        var mystr = "";
+        var x = 1;
+        var creat_id = "";
+        var var_1 = 0;
+        var var_2 = 0;
+        var var_3 = 0;
+
+        do{
+          if (var_1 <= 0) {
+            var_1 = parseInt(1);
+          }else{
+            var_1 = parseInt(var_1) + parseInt(selected_value);
+          }
+           
+           var_2 = parseInt(var_2) + parseInt(selected_value);
+
+           var_3 = var_1+","+var_2+","+x;
+
+           creat_id = "nrs-"+x;
+
+           if (x <= 5) {
+             mystr = mystr+'<a id="'+creat_id+'" onclick="next1('+var_3+')">'+x+'</a>';
+           }else{
+             mystr = mystr+'<a id="'+creat_id+'" onclick="next1('+var_3+')" hidden>'+x+'</a>';
+           }
+           x++;
+        }while (x <= rang_div);
+
+
+        if (parseInt(maxvalue) % parseInt(selected_value) != 0) {
+           var n_y = parseInt(parseInt(selected_value) * parseInt(rang_div)) + 1;
+           var n_id = parseInt(rang_div) + 1;
+
+           var g_res = n_y+","+maxvalue+","+n_id;
+           mystr = mystr+'<a id="nrs-'+n_id+'" onclick="next1('+g_res+')" hidden>'+n_id+'</a>';
+        }
+
+        document.getElementById('displaynrdiv').innerHTML = mystr;
+
+        var z = 1;
+        var mystr2 = "";
+        var get_div = parseInt(rang_div) / 5;
+        var f_val = 0;
+        var S_val = 5;
+        var R_val = "";
+
+        do{
+          if (f_val >= 1) {
+            f_val+=5;
+            S_val+=5;
+          }else{
+            f_val = 1;
+          }
+
+          R_val = f_val+"-"+S_val;
+
+          mystr2 = mystr2+'<option value="'+f_val+'">'+R_val+'</option>';
+          z++;
+        }while(z <= get_div);
+
+        if (rang_div % 5 != 0) {
+          var n_d = parseInt(parseInt(get_div) * 5) + 1;
+          var n_c = parseInt(rang_div % 5);
+          var r_s = parseInt(n_d) + parseInt(n_c);
+
+          document.getElementById('select_betrange').innerHTML = mystr2+'<option value="'+n_d+'">'+n_d+"-"+r_s+'</option>';
+        }else{
+          document.getElementById('select_betrange').innerHTML = mystr2;
+        }
+
+        next1(1,parseInt(selected_value),1);
+
+      }
+
+      function next1(val1,val2,id) {
+        var x = 1;
+        var selected_value = document.getElementById('select_range').value;
+        var rang_div = parseInt(maxvalue) / parseInt(selected_value);
+
+        /*let ar_val = [];
+        let s = 1;
+        do{
+          let str = document.getElementById('PAMU'+x).innerHTML;
+          if (str.toLowerCase().includes("3id", 0)) {
+            ar_val[s] = x;
+            document.getElementById('tablerow'+x).hidden = false;
+            document.getElementById('nr'+x).innerHTML = s;
+            s++;
+          }else{
+            document.getElementById('tablerow'+x).hidden = true;
+          }
+          x++;
+        }while(x <= maxvalue)*/
+
+        do{
+
+          var n_id = 0;
+          if (x >= val1 && x <= val2) {
+            document.getElementById('tablerow'+x).hidden = false;
+            var n_id = 0;
+            if (parseInt(maxvalue) % parseInt(selected_value) != 0) {
+              n_id = parseInt(rang_div) + 1;
+            }else{
+              n_id = parseInt(rang_div);
+            }
+
+            for (var i = 1; i <= parseInt(n_id); i++) {
+              document.getElementById('nrs-'+i).style.backgroundColor = "white";
+            }
+            document.getElementById('nrs-'+id).style.backgroundColor = "#00FF00";
+
+          }else{
+            document.getElementById('tablerow'+x).hidden = true;
+          }
+
+          var rangeval = 0;
+          if (id <= n_id) {
+            rangeval = parseInt(maxvalue);
+          }else{
+            rangeval = parseInt(val1) + parseInt(document.getElementById('select_range').value) - parseInt(1);
+          }
+          document.getElementById('showvaluesof').innerHTML = "Showing "+'<a id="startvalues">'+val1+'</a>'+" to "+'<a id="getrangeval">'+rangeval+'</a>'+" of "+maxvalue+" entries"+'<a id="current_id" hidden>'+id+'</a>';
+          x++;
+        }while(x <= maxvalue)
+      }
+
+      function nextshow() {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const p = urlParams.get('p');
+        /*alert(p);*/
+
+
+        var selected_value = document.getElementById('select_range').value;
+        var rang_div = parseInt(maxvalue) / parseInt(selected_value);
+        var val1 = document.getElementById('startvalues').innerHTML;
+        var id = document.getElementById('current_id').innerHTML;
+        var val2 = parseInt(val1) + parseInt(selected_value);
+        var val3 = val2 + parseInt(selected_value) - parseInt(1);
+        var getelId = parseInt(id) + parseInt(1);
+
+        var n_id = 0;
+        if (parseInt(maxvalue) % parseInt(selected_value) != 0) {
+          n_id = parseInt(rang_div) + 1;
+        }else{
+          n_id = parseInt(rang_div);
+        }
+
+        if (getelId <= n_id) {
+          next1(val2,val3,getelId);
+        }
+        if (getelId >= 6 && getelId <= n_id) {
+          var x = parseInt(getelId) - parseInt(5);
+          document.getElementById("nrs-"+x).hidden = true;
+          document.getElementById("nrs-"+getelId).hidden = false;
+
+          if (getelId >= 10 && getelId <= 99) {
+            document.getElementById("nrs-"+getelId).style.padding = "4px 7px 4px 7px";
+          }else if(getelId >= 100){
+            document.getElementById("nrs-"+getelId).style.padding = "3px 1px 3px 1px";
+            document.getElementById("nrs-"+getelId).style.border.radius = "100px";
+            document.getElementById("nrs-"+getelId).style.margin.top = "10px";
+          }
+        }
+      }
+
+      function prev_show() {
+        var selected_value = document.getElementById('select_range').value;
+        var id = parseInt(document.getElementById('current_id').innerHTML) - 1;
+        var x = parseInt(id) * parseInt(selected_value);
+        var y = parseInt(parseInt(x) - parseInt(selected_value)) + parseInt(1);
+        if (id >= 1) {
+          next1(y,x,id);
+          var x = id + parseInt(5);
+          document.getElementById("nrs-"+x).hidden = true;
+          document.getElementById("nrs-"+id).hidden = false;
+
+          if (id >= 10 && id <= 99) {
+            document.getElementById("nrs-"+id).style.padding = "4px 7px 4px 7px";
+          }else if(id >= 100){
+            document.getElementById("nrs-"+id).style.padding = "3px 1px 3px 1px";
+            document.getElementById("nrs-"+id).style.border.radius = "100px";
+            document.getElementById("nrs-"+id).style.margin.top = "10px";
+          }
+        }
+      }
+
+      function goto_page() {
+        var get_range_id = document.getElementById('select_betrange').value;
+        var get_range_value = document.getElementById('select_range').value;
+        var val_1 = parseInt(get_range_id) * parseInt(get_range_value);
+        var start_val = parseInt(val_1) - parseInt(get_range_value) + 1;
+        var get_max_id = parseInt(maxvalue) / parseInt(get_range_value);
+        if (parseInt(maxvalue) % parseInt(get_range_value) != 0) {
+            get_max_id+=1;
+        }
+        next1(start_val,val_1,get_range_id);
+        var x = 1;
+        do{
+            document.getElementById("nrs-"+x).hidden = true;
+          x++
+        }while(x <= get_max_id);
+        var x = 1;
+        do{
+            var y = parseInt(get_range_id) + parseInt(x) - 1;
+            document.getElementById("nrs-"+y).hidden = false;
+            if (y >= 10 && y <= 99) {
+              document.getElementById("nrs-"+y).style.padding = "4px 7px 4px 7px";
+            }else if(y >= 100){
+              document.getElementById("nrs-"+y).style.padding = "3px 1px 3px 1px";
+              document.getElementById("nrs-"+y).style.border.radius = "100px";
+              document.getElementById("nrs-"+y).style.margin.top = "10px";
+            }
+          x++;
+        }while(x <= 5);
+      }
+
+      function checkAll(formname, checktoggle)
+      {
+        var checkboxes = new Array(); 
+        checkboxes = document[formname].getElementsByTagName('input');
+
+        for (var i=0; i<checkboxes.length; i++)  {
+          if (checkboxes[i].type == 'checkbox')   {
+            checkboxes[i].checked = checktoggle;
+          }
+        }
+      }
+
+      function pamunits(formname, checktoggle) {
+        var label = new Array();
+        label = document[formname].getElementsByTagName('label');
+        var checkboxes = new Array(); 
+        checkboxes = document[formname].getElementsByTagName('input');
+        var pamu_name = "";
+
+        var selected_pamu = document['checkbox_select_PAMU_Select_All'].getElementsByTagName('input');
+
+        var x = 1;
+        var i = 1;
+        do{ 
+            label[i].style.display = "none";
+            '{% for list in jazzmin_settings.p_1ID %}'
+                  x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                  if (checkboxes[i].id == x) {
+                    if (document.getElementById("checkbox_select_PAMU_1ID").checked == true) {
+                      label[i-1].style.display = "block";
+                      checkboxes[i].checked = checktoggle;
+                    }
+                  }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_2ID %}'
+                  x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                  if (checkboxes[i].id == x) {
+                    if (document.getElementById("checkbox_select_PAMU_2ID").checked == true) {
+                      label[i-1].style.display = "block";
+                      checkboxes[i].checked = checktoggle;
+                    }
+                  }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_3ID %}'
+                  x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                  if (checkboxes[i].id == x) {
+                     if (document.getElementById("checkbox_select_PAMU_3ID").checked == true) {
+                      label[i-1].style.display = "block";
+                      checkboxes[i].checked = checktoggle;
+                     }
+                  }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_4ID %}'
+                  x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                  if (checkboxes[i].id == x) {
+                     if (document.getElementById("checkbox_select_PAMU_4ID").checked == true) {
+                      label[i-1].style.display = "block";
+                      checkboxes[i].checked = checktoggle;
+                     }
+                  }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_5ID %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_5ID").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_6ID %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_6ID").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_7ID %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_7ID").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_8ID %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_8ID").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_9ID %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_9ID").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_10ID %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_10ID").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_11ID %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_11ID").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_1BCT %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_1BCT").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_51EBde %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_51EBde").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_52EBde %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_52EBde").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_53EBde %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_53EBde").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_54EBde %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_54EBde").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_55EBde %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_55EBde").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_AAR %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_AAR").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_AFPPS %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_AFPPS").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_AIR %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_AIR").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_APAO %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_APAO").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_APMC %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_APMC").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_ARESCOM %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_ARESCOM").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_ARMOR %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_ARMOR").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_ASCOM %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_ASCOM").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_ASPA %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_ASPA").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_ASR %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_ASR").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_AVnR %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_AVnR").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_CMOR %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_CMOR").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_FCPA %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_FCPA").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_FSRR %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_FSRR").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_HHSG %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_HHSG").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_IMCOM %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_IMCOM").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_LRR %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_LRR").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_SFR %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_SFR(A)").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_SOCOM %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_SOCOM").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+            '{% for list in jazzmin_settings.p_TRADOC %}'
+                x = '{{ "checkbox_select_UNIT_" }}{{ list }}';
+                if (checkboxes[i].id == x) {
+                  if (document.getElementById("checkbox_select_PAMU_TRADOC").checked == true) {
+                    label[i-1].style.display = "block";
+                    checkboxes[i].checked = checktoggle;
+                  }
+                }
+            '{% endfor %}'
+          i++;
+        }while(i <= checkboxes.length);
+      }
+
+      function showtbl(val1, val2) {
+        let k = 1;
+        var e = document.getElementById(val1);
+
+        do{
+          var result = e.options[k].text;
+          document.getElementById(result).hidden = val2;
+          document.getElementById('nr').hidden = val2;
+          let m = 1;
+          do{
+            document.getElementById(result+m).hidden = val2;
+            document.getElementById('nr'+m).hidden = val2;
+            m++;
+          }while (m <= maxvalue);
+          k++;
+        }while (k <= maxvalue);
+      }
+    </script>
+
+    <script>
+      /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+      var dropdown = document.getElementsByClassName("dropdown-btn");
+      var i;
+
+      '{% if cl.opts.verbose_name_plural == "Inventory" %}'
+          document.getElementById("famis_container").style.display = "block";
+          document.getElementById("select_all_famis_id").checked = true;
+          document.getElementById("Select_Real_Estate_id").checked = true;
+          document.getElementById("Select_Facilities_id").checked = true;
+      '{% elif cl.opts.verbose_name_plural == "Facility" %}'
+          document.getElementById("famis_container").style.display = "block";
+          document.getElementById("select_all_famis_id").checked = false;
+          document.getElementById("Select_Real_Estate_id").checked = false;
+          document.getElementById("Select_Facilities_id").checked = true;
+      '{% endif %}'
+
+      for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function() {
+          this.classList.toggle("btnactive");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+    <script>
+
+
+
+    function openPage(pageName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "skyblue";
+      }
+      document.getElementById(pageName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript"  src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript"  src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $('#myTable').DataTable( {
+          initComplete: function () {
+            this.api().columns().every( function () {
+              var column = this;
+              var select = $('<select><option value=""></option></select>')
+              .appendTo( $(column.footer()).empty() )
+              .on( 'change', function () {
+                var val = $.fn.dataTable.util.escapeRegex(
+                  $(this).val()
+                  );
+                  //to select and search from grid
+                  column
+                  .search( val ? '^'+val+'$' : '', true, false )
+                  .draw();
+                } );
+
+              column.data().unique().sort().each( function ( d, j ) {
+                select.append( '<option value="'+d+'"'+d+'</option>' )
+              } );
+            } );
+          }
+        } );
+      } );
+    </script> -->
+
+    <script type="text/javascript">
+      /* Code By Webdevtrick ( https://webdevtrick.com ) */
+      (function(document) {
+        'use strict';
+
+        var TableFilter = (function(Arr) {
+
+          var _input;
+
+          function _onInputEvent(e) {
+            _input = e.target;
+            var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+            Arr.forEach.call(tables, function(table) {
+              Arr.forEach.call(table.tBodies, function(tbody) {
+                Arr.forEach.call(tbody.rows, _filter);
+              });
+            });
+          }
+
+          function _filter(row) {
+            var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
+            row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+          }
+
+          return {
+            init: function() {
+              var inputs = document.getElementsByClassName('light-table-filter');
+              Arr.forEach.call(inputs, function(input) {
+                input.oninput = _onInputEvent;
+              });
+            }
+          };
+        })(Array.prototype);
+
+        document.addEventListener('readystatechange', function() {
+          if (document.readyState === 'complete') {
+            TableFilter.init();
+          }
+        });
+
+      })(document);
+    </script>
+
+    <!-- Scripts For Chart -->
+    <!-- <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script> -->
+    <!-- <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.11.0/css/jquery.dataTables.min.css">
+    <script type="text/javascript" src="http://cdn.datatables.net/1.11.0/js/jquery.dataTables.min.js"></script> -->
+
+
+    <!-- <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script> -->
+
+
+    {% if jazzmin_settings.custom_js %}
+    <script src="{% static jazzmin_settings.custom_js %}"></script>
+    {% endif %}
+
+    {% if jazzmin_settings.show_ui_builder %}
+    <script>window.ui_changes = '{{ jazzmin_ui.raw|as_json|safe }}';</script>
+    <script src="{% static "jazzmin/js/ui-builder.js" %}"></script>
+
+    {% endif %}
+
+    {% block extrajs %}{% endblock %}
+  </body>
+  </html>

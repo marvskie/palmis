@@ -1,0 +1,114 @@
+[
+{
+    "model": "commons.organization",
+    "pk": 1,
+    "fields": {
+        "name": "PPB, OG4",
+        "code": "ppb"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 2,
+    "fields": {
+        "name": "MB, OG4",
+        "code": "mb"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 3,
+    "fields": {
+        "name": "EB, OG4",
+        "code": "eb"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 4,
+    "fields": {
+        "name": "FPB, OG4",
+        "code": "fpb"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 5,
+    "fields": {
+        "name": "TOSB, OG4",
+        "code": "tosb"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 6,
+    "fields": {
+        "name": "LSDB, OG4",
+        "code": "lsdb"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 7,
+    "fields": {
+        "name": "SAMB, OG4",
+        "code": "samb"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 8,
+    "fields": {
+        "name": "CAMB, OG4",
+        "code": "camb"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 9,
+    "fields": {
+        "name": "LOB, OG4",
+        "code": "lob"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 10,
+    "fields": {
+        "name": "ADMIN, OG4",
+        "code": "admin"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 11,
+    "fields": {
+        "name": "OG4",
+        "code": "exe"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 12,
+    "fields": {
+        "name": "PAMU",
+        "code": "pamu"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 13,
+    "fields": {
+        "name": "FSSU",
+        "code": "fssu"
+    }
+},
+{
+    "model": "commons.organization",
+    "pk": 14,
+    "fields": {
+        "name": "ASCOM",
+        "code": "ascom"
+    }
+}
+]

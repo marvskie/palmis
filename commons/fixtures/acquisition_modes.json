@@ -1,0 +1,466 @@
+[
+{
+    "model": "commons.acquisitionmode",
+    "pk": 1,
+    "fields": {
+        "name": "FMS",
+        "code": "FMS"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 2,
+    "fields": {
+        "name": "Donation",
+        "code": "Donation"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 4,
+    "fields": {
+        "name": "MAP",
+        "code": "MAP"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 5,
+    "fields": {
+        "name": "HPA",
+        "code": "HPA"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 6,
+    "fields": {
+        "name": "LP",
+        "code": "LP"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 7,
+    "fields": {
+        "name": "GHQ",
+        "code": "GHQ"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 8,
+    "fields": {
+        "name": "EDA",
+        "code": "EDA"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 9,
+    "fields": {
+        "name": "L/P",
+        "code": "L/P"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 10,
+    "fields": {
+        "name": "ID",
+        "code": "ID"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 11,
+    "fields": {
+        "name": "1994",
+        "code": "1994"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 12,
+    "fields": {
+        "name": "2004",
+        "code": "2004"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 13,
+    "fields": {
+        "name": "AFPLC",
+        "code": "AFPLC"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 14,
+    "fields": {
+        "name": "MPC",
+        "code": "MPC"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 15,
+    "fields": {
+        "name": "Reclaim",
+        "code": "Reclaim"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 16,
+    "fields": {
+        "name": "CUP",
+        "code": "CUP"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 17,
+    "fields": {
+        "name": "ASCOM,PA",
+        "code": "ASCOM,PA"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 18,
+    "fields": {
+        "name": "10FSSU",
+        "code": "10FSSU"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 19,
+    "fields": {
+        "name": "Donated",
+        "code": "Donated"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 20,
+    "fields": {
+        "name": "FIS",
+        "code": "FIS"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 21,
+    "fields": {
+        "name": "ARE",
+        "code": "ARE"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 22,
+    "fields": {
+        "name": "SAO, 2ID",
+        "code": "SAO, 2ID"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 23,
+    "fields": {
+        "name": "PFIS",
+        "code": "PFIS"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 24,
+    "fields": {
+        "name": "GS",
+        "code": "GS"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 25,
+    "fields": {
+        "name": "2ID, PA",
+        "code": "2ID, PA"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 26,
+    "fields": {
+        "name": "MAP/FMS",
+        "code": "MAP/FMS"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 27,
+    "fields": {
+        "name": "4FSSU",
+        "code": "4FSSU"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 28,
+    "fields": {
+        "name": "12FSSU",
+        "code": "12FSSU"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 29,
+    "fields": {
+        "name": "ESF",
+        "code": "ESF"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 30,
+    "fields": {
+        "name": "G2, PA",
+        "code": "G2, PA"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 31,
+    "fields": {
+        "name": "Rebuild",
+        "code": "Rebuild"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 32,
+    "fields": {
+        "name": "BCDA",
+        "code": "BCDA"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 33,
+    "fields": {
+        "name": "DND",
+        "code": "DND"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 34,
+    "fields": {
+        "name": "1",
+        "code": "1"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 35,
+    "fields": {
+        "name": "3",
+        "code": "3"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 36,
+    "fields": {
+        "name": "5",
+        "code": "5"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 37,
+    "fields": {
+        "name": "2012",
+        "code": "2012"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 38,
+    "fields": {
+        "name": "cash",
+        "code": "cash"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 39,
+    "fields": {
+        "name": "D",
+        "code": "D"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 40,
+    "fields": {
+        "name": "2000",
+        "code": "2000"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 41,
+    "fields": {
+        "name": "2006",
+        "code": "2006"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 42,
+    "fields": {
+        "name": "2010",
+        "code": "2010"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 43,
+    "fields": {
+        "name": "2011",
+        "code": "2011"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 44,
+    "fields": {
+        "name": "2013",
+        "code": "2013"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 45,
+    "fields": {
+        "name": "2009",
+        "code": "2009"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 46,
+    "fields": {
+        "name": "2007",
+        "code": "2007"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 47,
+    "fields": {
+        "name": "1995",
+        "code": "1995"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 48,
+    "fields": {
+        "name": "2003",
+        "code": "2003"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 49,
+    "fields": {
+        "name": "1993",
+        "code": "1993"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 50,
+    "fields": {
+        "name": "1996",
+        "code": "1996"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 51,
+    "fields": {
+        "name": "2008",
+        "code": "2008"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 52,
+    "fields": {
+        "name": "5-Jul-05",
+        "code": "5-Jul-05"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 53,
+    "fields": {
+        "name": "Issued",
+        "code": "Issued"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 54,
+    "fields": {
+        "name": "Purchased",
+        "code": "Purchased"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 55,
+    "fields": {
+        "name": "Local Purchased",
+        "code": "Local Purchased"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 56,
+    "fields": {
+        "name": "G4, PA",
+        "code": "G4, PA"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 57,
+    "fields": {
+        "name": "MOOE",
+        "code": "MOOE"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 58,
+    "fields": {
+        "name": "M/B",
+        "code": "M/B"
+    }
+},
+{
+    "model": "commons.acquisitionmode",
+    "pk": 59,
+    "fields": {
+        "name": "SRDP",
+        "code": "SRDP"
+    }
+}
+]

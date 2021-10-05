@@ -1,0 +1,56 @@
+[
+{
+    "model": "ppb.missionarea",
+    "pk": 1,
+    "fields": {
+        "mission_area_group": "EDM",
+        "name": "Maritime and Air Defense",
+        "code": "MAD"
+    }
+},
+{
+    "model": "ppb.missionarea",
+    "pk": 2,
+    "fields": {
+        "mission_area_group": "EDM",
+        "name": "Cyber Security",
+        "code": "CYS"
+    }
+},
+{
+    "model": "ppb.missionarea",
+    "pk": 3,
+    "fields": {
+        "mission_area_group": "EDM",
+        "name": "Security Cooperation and Engagement",
+        "code": "SCE"
+    }
+},
+{
+    "model": "ppb.missionarea",
+    "pk": 4,
+    "fields": {
+        "mission_area_group": "IDM",
+        "name": "Territorial Defense",
+        "code": "TED"
+    }
+},
+{
+    "model": "ppb.missionarea",
+    "pk": 5,
+    "fields": {
+        "mission_area_group": "IDM",
+        "name": "Security and Stability",
+        "code": "SAS"
+    }
+},
+{
+    "model": "ppb.missionarea",
+    "pk": 6,
+    "fields": {
+        "mission_area_group": "IDM",
+        "name": "Humanitarian Assistance and Disaster Response",
+        "code": "HADR"
+    }
+}
+]

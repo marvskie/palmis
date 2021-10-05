@@ -1,0 +1,3912 @@
+[
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 1,
+    "fields": {
+        "name": "APC, LAV-150 ST Commando",
+        "vehicle_type": 26,
+        "tonnage": 9,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 7 Ton APC, LAV-150 ST Commando"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 2,
+    "fields": {
+        "name": "Rec Veh, Armored V-150S RV",
+        "vehicle_type": 29,
+        "tonnage": 9,
+        "nomenclature": "Combat Vehicle, Recovery Vehicle, 7 Ton Rec Veh, Armored V-150S RV"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 3,
+    "fields": {
+        "name": "Mini-Armor Veh",
+        "vehicle_type": 28,
+        "tonnage": 9,
+        "nomenclature": "Combat Vehicle, Command Reconnaissance Vehicle, 7 Ton Mini-Armor Veh"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 4,
+    "fields": {
+        "name": "APC, Simba Fighting Vehicle",
+        "vehicle_type": 26,
+        "tonnage": 8,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 6 -10 Ton APC, Simba Fighting Vehicle"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 5,
+    "fields": {
+        "name": "Rec Veh, Armored M113 RV",
+        "vehicle_type": 29,
+        "tonnage": 8,
+        "nomenclature": "Combat Vehicle, Recovery Vehicle, 6 -10 Ton Rec Veh, Armored M113 RV"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 6,
+    "fields": {
+        "name": "RV, Armored, CVR (T) Samson",
+        "vehicle_type": 26,
+        "tonnage": 9,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 7 Ton RV, Armored, CVR (T) Samson"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 7,
+    "fields": {
+        "name": "CVR(Tracked) Scorpion",
+        "vehicle_type": 26,
+        "tonnage": 9,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 7 Ton CVR(Tracked) Scorpion"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 8,
+    "fields": {
+        "name": "APC, M113 SANKEY",
+        "vehicle_type": 26,
+        "tonnage": 8,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 6 -10 Ton APC, M113 SANKEY"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 9,
+    "fields": {
+        "name": "Cmnd Veh, Armored, Simba FV",
+        "vehicle_type": 27,
+        "tonnage": 8,
+        "nomenclature": "Combat Vehicle, Command Vehicle, 6 -10 Ton Cmnd Veh, Armored, Simba FV"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 10,
+    "fields": {
+        "name": "APC, LAV-150 ST Cmmndo",
+        "vehicle_type": 26,
+        "tonnage": 9,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 7 Ton APC, LAV-150 ST Cmmndo"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 11,
+    "fields": {
+        "name": "APC, Simba Fighting Veh, BM",
+        "vehicle_type": 58,
+        "tonnage": 8,
+        "nomenclature": "Combat Vehicle, Support Vehicle, 6 -10 Ton APC, Simba Fighting Veh, BM"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 12,
+    "fields": {
+        "name": "APC, V-150S Commando",
+        "vehicle_type": 26,
+        "tonnage": 9,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 7 Ton APC, V-150S Commando"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 13,
+    "fields": {
+        "name": "APC, M113",
+        "vehicle_type": 26,
+        "tonnage": 8,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 6 -10 Ton APC, M113"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 14,
+    "fields": {
+        "name": "APC, AIFV",
+        "vehicle_type": 26,
+        "tonnage": 8,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 6 -10 Ton APC, AIFV"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 15,
+    "fields": {
+        "name": "Rec Vehicle, Armored ARV",
+        "vehicle_type": 29,
+        "tonnage": 8,
+        "nomenclature": "Combat Vehicle, Recovery Vehicle, 6 -10 Ton Rec Vehicle, Armored ARV"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 16,
+    "fields": {
+        "name": "APC, M113 FSV",
+        "vehicle_type": 26,
+        "tonnage": 8,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 6 -10 Ton APC, M113 FSV"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 17,
+    "fields": {
+        "name": "APC, V-150 Commando",
+        "vehicle_type": 26,
+        "tonnage": 9,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 7 Ton APC, V-150 Commando"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 18,
+    "fields": {
+        "name": "COMBAT VEHICLE",
+        "vehicle_type": 26,
+        "tonnage": 9,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 7 Ton COMBAT VEHICLE"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 19,
+    "fields": {
+        "name": "CVR (Tracked) Scorpion",
+        "vehicle_type": 26,
+        "tonnage": 9,
+        "nomenclature": "Combat Vehicle, Fighting Vehicle, 7 Ton CVR (Tracked) Scorpion"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 20,
+    "fields": {
+        "name": "Truck, Utility,1/4 Ton M151 Kennedy",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Utility,1/4 Ton M151 Kennedy"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 21,
+    "fields": {
+        "name": "Truck, Utility,1/4 Ton Willy's",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Utility,1/4 Ton Willy's"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 22,
+    "fields": {
+        "name": "Truck, Utility Toyota Lite ace",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Utility Toyota Lite ace"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 23,
+    "fields": {
+        "name": "Truck, Utility, 4x4 Military Jeep",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Utility, 4x4 Military Jeep"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 24,
+    "fields": {
+        "name": "Jeep, 1/4 Ton, Utility KJ",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Jeep, 1/4 Ton, Utility KJ"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 25,
+    "fields": {
+        "name": "Truck, Troop Carrier, 1/4 Ton Hyundai",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Troop Carrier, 1/4 Ton Hyundai"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 26,
+    "fields": {
+        "name": "Truck, Utility, 1/4 Ton M777 DMC Mini-Cruiser",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Utility, 1/4 Ton M777 DMC Mini-Cruiser"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 27,
+    "fields": {
+        "name": "Truck, Troop Carrier, 1/4 Ton FMC - Mahindra",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Troop Carrier, 1/4 Ton FMC - Mahindra"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 28,
+    "fields": {
+        "name": "Truck, Utility, 1/4 Ton Ford Ranger",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Utility, 1/4 Ton Ford Ranger"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 29,
+    "fields": {
+        "name": "Land Rover",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Land Rover"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 30,
+    "fields": {
+        "name": "Pick-up, Dodge",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Pick-up, Dodge"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 31,
+    "fields": {
+        "name": "Truck, Utility, 4x4 Military Jeep (Combatant)",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Utility, 4x4 Military Jeep (Combatant)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 32,
+    "fields": {
+        "name": "Truck, Utility,1/4 Ton Beijing",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Utility,1/4 Ton Beijing"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 33,
+    "fields": {
+        "name": "Truck, Utility, 1/4 Ton Laredo",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Utility, 1/4 Ton Laredo"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 34,
+    "fields": {
+        "name": "Truck, Utility, 1/4 Ton CMC Cruiser",
+        "vehicle_type": 1,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Utility, 1/4 Ton Truck, Utility, 1/4 Ton CMC Cruiser"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 35,
+    "fields": {
+        "name": "Truck, Troop Carrier, 1 1/4 Ton KM450",
+        "vehicle_type": 49,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Truck, Troop Carrier, 1 1/4 Ton KM450, 1 1/4 Ton Truck, Troop Carrier, 1 1/4 Ton KM450"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 36,
+    "fields": {
+        "name": "Truck, Armaments, 1 1/4T HMMWV, M1025",
+        "vehicle_type": 3,
+        "tonnage": 1,
+        "nomenclature": "Truck, Light, Armaments Carrier, 1/4 Ton Truck, Armaments, 1 1/4T HMMWV, M1025"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 37,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 2 1/2 Ton KM250",
+        "vehicle_type": 52,
+        "tonnage": 6,
+        "nomenclature": "Truck, Medium, Truck, Troop Carrier/Cargo 2 1/2 Ton KM250, 2 1/2 Ton Truck, Troop Carrier/Cargo 2 1/2 Ton KM250"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 38,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo  2 1/2 Ton FAW (China)",
+        "vehicle_type": 51,
+        "tonnage": 6,
+        "nomenclature": "Truck, Medium, Troop Carrier/Cargo 2 1/2 Ton M35, 2 1/2 Ton Truck, Troop Carrier/Cargo  2 1/2 Ton FAW (China)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 39,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 2 1/2 Ton M813A1",
+        "vehicle_type": 53,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Troop Cargo 5 Ton, 5 Ton Truck, Troop Carrier/Cargo 2 1/2 Ton M813A1"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 40,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 2 1/2 Ton M35A2C",
+        "vehicle_type": 51,
+        "tonnage": 6,
+        "nomenclature": "Truck, Medium, Troop Carrier/Cargo 2 1/2 Ton M35, 2 1/2 Ton Truck, Troop Carrier/Cargo 2 1/2 Ton M35A2C"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 41,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 2 1/2 Ton M814A1",
+        "vehicle_type": 53,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Troop Cargo 5 Ton, 5 Ton Truck, Troop Carrier/Cargo 2 1/2 Ton M814A1"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 42,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 5 Ton M29",
+        "vehicle_type": 53,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Troop Cargo 5 Ton, 5 Ton Truck, Troop Carrier/Cargo 5 Ton M29"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 43,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 2 1/2 Ton Saddam",
+        "vehicle_type": 51,
+        "tonnage": 6,
+        "nomenclature": "Truck, Medium, Troop Carrier/Cargo 2 1/2 Ton M35, 2 1/2 Ton Truck, Troop Carrier/Cargo 2 1/2 Ton Saddam"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 44,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 2 1/2 Ton Isuzu",
+        "vehicle_type": 54,
+        "tonnage": 6,
+        "nomenclature": "Truck, Medium, Non-Standard Troop Carrier, 2 1/2 Ton Truck, Troop Carrier/Cargo 2 1/2 Ton Isuzu"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 45,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 2 1/2 Ton M36",
+        "vehicle_type": 51,
+        "tonnage": 6,
+        "nomenclature": "Truck, Medium, Troop Carrier/Cargo 2 1/2 Ton M35, 2 1/2 Ton Truck, Troop Carrier/Cargo 2 1/2 Ton M36"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 46,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 2 1/2 Ton M35A2C (Korea)",
+        "vehicle_type": 51,
+        "tonnage": 6,
+        "nomenclature": "Truck, Medium, Troop Carrier/Cargo 2 1/2 Ton M35, 2 1/2 Ton Truck, Troop Carrier/Cargo 2 1/2 Ton M35A2C (Korea)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 47,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 5 Ton KM500",
+        "vehicle_type": 53,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Troop Cargo 5 Ton, 5 Ton Truck, Troop Carrier/Cargo 5 Ton KM500"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 48,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 2 1/2 Ton Mitsubishi",
+        "vehicle_type": 54,
+        "tonnage": 6,
+        "nomenclature": "Truck, Medium, Non-Standard Troop Carrier, 2 1/2 Ton Truck, Troop Carrier/Cargo 2 1/2 Ton Mitsubishi"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 49,
+    "fields": {
+        "name": "Truck, Tractor",
+        "vehicle_type": 7,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Tractor Head, 5 Ton Truck, Tractor"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 50,
+    "fields": {
+        "name": "Truck, Tractor w/ flatbed",
+        "vehicle_type": 5,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Prime Mover, 5 Ton Truck, Tractor w/ flatbed"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 51,
+    "fields": {
+        "name": "Truck, Tractor 5T KM503 w/ Flat Bed",
+        "vehicle_type": 5,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Prime Mover, 5 Ton Truck, Tractor 5T KM503 w/ Flat Bed"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 52,
+    "fields": {
+        "name": "Van, Mitsubishi Space Gear",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Mitsubishi Space Gear"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 53,
+    "fields": {
+        "name": "SUV, Toyota Pajero",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Toyota Pajero"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 54,
+    "fields": {
+        "name": "Pick-up, Suzuki",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Suzuki"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 55,
+    "fields": {
+        "name": "Van, Nissan",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Nissan"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 56,
+    "fields": {
+        "name": "Van, Toyota NOAH",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Toyota NOAH"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 57,
+    "fields": {
+        "name": "Pick-Up",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-Up"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 58,
+    "fields": {
+        "name": "SUV, Toyota 4Runner",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Toyota 4Runner"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 59,
+    "fields": {
+        "name": "Van, Nissan Urvan",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Nissan Urvan"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 60,
+    "fields": {
+        "name": "Van L-300 3/4 TON/Pregio/besta/lite ace",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van L-300 3/4 TON/Pregio/besta/lite ace"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 61,
+    "fields": {
+        "name": "Car, Honda City",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Honda City"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 62,
+    "fields": {
+        "name": "SUV, Ford Everest",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Ford Everest"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 63,
+    "fields": {
+        "name": "SUV, Isuzu Wizard",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Isuzu Wizard"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 64,
+    "fields": {
+        "name": "Van, Mitsubishi Delica",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Mitsubishi Delica"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 65,
+    "fields": {
+        "name": "SUV, Nissan Patrol",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Nissan Patrol"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 66,
+    "fields": {
+        "name": "SUV, KIA Sportage",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, KIA Sportage"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 67,
+    "fields": {
+        "name": "Van, Mitsubishi Space Wagon",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Mitsubishi Space Wagon"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 68,
+    "fields": {
+        "name": "SUV, Isuzu Crosswind",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Isuzu Crosswind"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 69,
+    "fields": {
+        "name": "Pick-up 4x2",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up 4x2"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 70,
+    "fields": {
+        "name": "SUV, Toyota Prado",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Toyota Prado"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 71,
+    "fields": {
+        "name": "Van, Mitsubishi",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Mitsubishi"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 72,
+    "fields": {
+        "name": "Van, Toyota Reguis",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Toyota Reguis"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 73,
+    "fields": {
+        "name": "Car, Mitsubishi Exceed",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Mitsubishi Exceed"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 74,
+    "fields": {
+        "name": "Car, KIA Pride",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, KIA Pride"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 75,
+    "fields": {
+        "name": "Van, Maxima Nissan",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Maxima Nissan"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 76,
+    "fields": {
+        "name": "Pick-up, Hyundai",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Hyundai"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 77,
+    "fields": {
+        "name": "Van, Hyundai",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Hyundai"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 78,
+    "fields": {
+        "name": "Nissan/ Wagon",
+        "vehicle_type": 47,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Others, 3/4 Ton Nissan/ Wagon"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 79,
+    "fields": {
+        "name": "Car, Toyota Corolla",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Toyota Corolla"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 80,
+    "fields": {
+        "name": "Pick-up, Foton",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Foton"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 81,
+    "fields": {
+        "name": "AUV, Toyota Avanza",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV, Toyota Avanza"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 82,
+    "fields": {
+        "name": "Van, KIA Besta",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, KIA Besta"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 83,
+    "fields": {
+        "name": "SUV, Hyundai Galloper",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Hyundai Galloper"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 84,
+    "fields": {
+        "name": "Car",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 85,
+    "fields": {
+        "name": "Pick-up, Nissan Frontier",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Nissan Frontier"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 86,
+    "fields": {
+        "name": "SUV, KIA  Sorento",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, KIA  Sorento"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 87,
+    "fields": {
+        "name": "SUV, Nissan Terrano",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Nissan Terrano"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 88,
+    "fields": {
+        "name": "SUV, Nissan",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Nissan"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 89,
+    "fields": {
+        "name": "SUV, Isuzu Hi-Lander",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Isuzu Hi-Lander"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 90,
+    "fields": {
+        "name": "Car, Mazda",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Mazda"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 91,
+    "fields": {
+        "name": "Car, Toyota Altis",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Toyota Altis"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 92,
+    "fields": {
+        "name": "AUV, Mitsubishi XLT",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV, Mitsubishi XLT"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 93,
+    "fields": {
+        "name": "Car, Honda",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Honda"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 94,
+    "fields": {
+        "name": "Mitsubishi",
+        "vehicle_type": 47,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Others, 3/4 Ton Mitsubishi"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 95,
+    "fields": {
+        "name": "SUV, Hyundai Terracan",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Hyundai Terracan"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 96,
+    "fields": {
+        "name": "VAN Isuzu Trk NHR",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton VAN Isuzu Trk NHR"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 97,
+    "fields": {
+        "name": "Van",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 98,
+    "fields": {
+        "name": "SUV, Isuzu Trooper",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Isuzu Trooper"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 99,
+    "fields": {
+        "name": "Van, Mitsubishi L300",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Mitsubishi L300"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 100,
+    "fields": {
+        "name": "AUV, Isuzu",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV, Isuzu"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 101,
+    "fields": {
+        "name": "SUV, Toyota Land Cruiser",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Toyota Land Cruiser"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 102,
+    "fields": {
+        "name": "AUV, Isuzu Bighorn",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV, Isuzu Bighorn"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 103,
+    "fields": {
+        "name": "Van, Toyota Lite Ace",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Toyota Lite Ace"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 104,
+    "fields": {
+        "name": "Car, Mitsubishi Lancer",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Mitsubishi Lancer"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 105,
+    "fields": {
+        "name": "Pick-up, Nissan Pathfinder",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Nissan Pathfinder"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 106,
+    "fields": {
+        "name": "Pick-up, Isuzu Fuego",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Isuzu Fuego"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 107,
+    "fields": {
+        "name": "SUV, Nissan Sentra",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Nissan Sentra"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 108,
+    "fields": {
+        "name": "AUV, Mazda ANFRA",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV, Mazda ANFRA"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 109,
+    "fields": {
+        "name": "Jeep",
+        "vehicle_type": 45,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Jeep, 3/4 Ton Jeep"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 110,
+    "fields": {
+        "name": "Pick-up, Mitsubishi Strada",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Mitsubishi Strada"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 111,
+    "fields": {
+        "name": "AUV, Toyota Tamaraw FX",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV, Toyota Tamaraw FX"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 112,
+    "fields": {
+        "name": "Van, Mazda",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Mazda"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 113,
+    "fields": {
+        "name": "Pick-up, Mazda",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Mazda"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 114,
+    "fields": {
+        "name": "Van, KIA  Carnival",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, KIA  Carnival"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 115,
+    "fields": {
+        "name": "PICK-UP/Surf",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton PICK-UP/Surf"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 116,
+    "fields": {
+        "name": "SUV, Nissan Safari",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Nissan Safari"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 117,
+    "fields": {
+        "name": "Van Super Gradia",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van Super Gradia"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 118,
+    "fields": {
+        "name": "Multi-Cab",
+        "vehicle_type": 44,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Multicab, 3/4 Ton Multi-Cab"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 119,
+    "fields": {
+        "name": "Pick-up, Nissan Eagle",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Nissan Eagle"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 120,
+    "fields": {
+        "name": "SUV, Toyota Surf",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Toyota Surf"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 121,
+    "fields": {
+        "name": "Pick-up, Toyota",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Toyota"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 122,
+    "fields": {
+        "name": "Pick-up, Mitsubishi/toyota/NISSAN",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Mitsubishi/toyota/NISSAN"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 123,
+    "fields": {
+        "name": "Van, Toyota Grandia/Hi-Ace",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Toyota Grandia/Hi-Ace"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 124,
+    "fields": {
+        "name": "Pick-up, Mitsubishi L200",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Mitsubishi L200"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 125,
+    "fields": {
+        "name": "Pick-up, Nissan",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Nissan"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 126,
+    "fields": {
+        "name": "Van, Nissan Caravan",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Nissan Caravan"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 127,
+    "fields": {
+        "name": "TRK COASTER (HQ-516)",
+        "vehicle_type": 47,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Others, 3/4 Ton TRK COASTER (HQ-516)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 128,
+    "fields": {
+        "name": "Van, Hyundai Starex",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Hyundai Starex"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 129,
+    "fields": {
+        "name": "AUV, Toyota Innova",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV, Toyota Innova"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 130,
+    "fields": {
+        "name": "Van, Diahatsu",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Diahatsu"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 131,
+    "fields": {
+        "name": "Car, Honda Civic",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Honda Civic"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 132,
+    "fields": {
+        "name": "Pick-up, Mitsubishi",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Mitsubishi"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 133,
+    "fields": {
+        "name": "Pick-up, Isuzu",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Isuzu"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 134,
+    "fields": {
+        "name": "AUV, Isuzu Highlander",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV, Isuzu Highlander"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 135,
+    "fields": {
+        "name": "Pick-up, Toyota Hilux",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Toyota Hilux"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 136,
+    "fields": {
+        "name": "Car, Toyota",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Toyota"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 137,
+    "fields": {
+        "name": "Car, Ford Lynx",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Ford Lynx"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 138,
+    "fields": {
+        "name": "AUV, Mitsubishi Adventure",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV, Mitsubishi Adventure"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 139,
+    "fields": {
+        "name": "Van, Ford E150",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Ford E150"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 140,
+    "fields": {
+        "name": "AUV. Honda CRV Wagon",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV. Honda CRV Wagon"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 141,
+    "fields": {
+        "name": "Pick-up, Frontier",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Frontier"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 142,
+    "fields": {
+        "name": "Car, Nissan Sentra",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Nissan Sentra"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 143,
+    "fields": {
+        "name": "Car, Nissan Maxima",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Nissan Maxima"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 144,
+    "fields": {
+        "name": "Car, Nissan (Exalta)",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Nissan (Exalta)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 145,
+    "fields": {
+        "name": "Pick-up, Ford Ranger",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Ford Ranger"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 146,
+    "fields": {
+        "name": "SUV, Land Rover",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Land Rover"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 147,
+    "fields": {
+        "name": "Van, Isuzu",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Isuzu"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 148,
+    "fields": {
+        "name": "Toyota Double Cab",
+        "vehicle_type": 47,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Others, 3/4 Ton Toyota Double Cab"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 149,
+    "fields": {
+        "name": "Suzuki Passenger Type",
+        "vehicle_type": 47,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Others, 3/4 Ton Suzuki Passenger Type"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 152,
+    "fields": {
+        "name": "SUV, Mitsubishi Montero Sport",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Mitsubishi Montero Sport"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 153,
+    "fields": {
+        "name": "Pick-up, Nissan Navarra",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, Nissan Navarra"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 154,
+    "fields": {
+        "name": "Pick-up, KIA K2700",
+        "vehicle_type": 43,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Pick-up, 3/4 Ton Pick-up, KIA K2700"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 155,
+    "fields": {
+        "name": "Suzuki 12 Valve (White)",
+        "vehicle_type": 47,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Others, 3/4 Ton Suzuki 12 Valve (White)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 156,
+    "fields": {
+        "name": "Van, Toyota Hi-Ace/Commuter",
+        "vehicle_type": 40,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, VAN, 3/4 Ton Van, Toyota Hi-Ace/Commuter"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 157,
+    "fields": {
+        "name": "SUV, Mitsubishi Pajero",
+        "vehicle_type": 41,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, SUV, 3/4 Ton SUV, Mitsubishi Pajero"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 158,
+    "fields": {
+        "name": "Car, Toyota G1S",
+        "vehicle_type": 42,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Sedan, 3/4 Ton Car, Toyota G1S"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 159,
+    "fields": {
+        "name": "AUV, Toyota Revo",
+        "vehicle_type": 46,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, AUV, 3/4 Ton AUV, Toyota Revo"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 160,
+    "fields": {
+        "name": "Nissan",
+        "vehicle_type": 47,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Others, 3/4 Ton Nissan"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 161,
+    "fields": {
+        "name": "Bus, 50 Seater (Isuzu LT)",
+        "vehicle_type": 19,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Bus, 2 1/2 Ton Bus, 50 Seater (Isuzu LT)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 162,
+    "fields": {
+        "name": "Bus Rosa, Mini 20 Seater (W)",
+        "vehicle_type": 19,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Bus, 2 1/2 Ton Bus Rosa, Mini 20 Seater (W)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 163,
+    "fields": {
+        "name": "Bus, 50 Seater",
+        "vehicle_type": 19,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Bus, 2 1/2 Ton Bus, 50 Seater"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 164,
+    "fields": {
+        "name": "BUS",
+        "vehicle_type": 19,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Bus, 2 1/2 Ton BUS"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 165,
+    "fields": {
+        "name": "Truck, Ambulance, 1 1/4 Ton KM451",
+        "vehicle_type": 56,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Field Ambulance KM451, 1 1/4 Ton Truck, Ambulance, 1 1/4 Ton KM451"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 166,
+    "fields": {
+        "name": "Truck, Ambulance, 1 1/4 Ton M1152 HMMWV Ambulance",
+        "vehicle_type": 57,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Field Ambulance HMMWV M1152, 1 1/4 Ton Truck, Ambulance, 1 1/4 Ton M1152 HMMWV Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 167,
+    "fields": {
+        "name": "LMMPWV (Prototype)",
+        "vehicle_type": 50,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Non-Standard Troop Carrier, 1 1/4 Ton LMMPWV (Prototype)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 168,
+    "fields": {
+        "name": "Truck, Troop Carrier, 1 1/4 Ton Isuzu Elf",
+        "vehicle_type": 50,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Non-Standard Troop Carrier, 1 1/4 Ton Truck, Troop Carrier, 1 1/4 Ton Isuzu Elf"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 169,
+    "fields": {
+        "name": "Truck, Troop Carrier, 1 1/4 Ton HMMWV M998",
+        "vehicle_type": 48,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Truck, Troop Carrier, 1 1/4 Ton HMMWV, 1 1/4 Ton Truck, Troop Carrier, 1 1/4 Ton HMMWV M998"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 170,
+    "fields": {
+        "name": "Truck, Troop Carrier, 3/4 Ton FMC - Mahindra",
+        "vehicle_type": 50,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Non-Standard Troop Carrier, 1 1/4 Ton Truck, Troop Carrier, 3/4 Ton FMC - Mahindra"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 171,
+    "fields": {
+        "name": "Truck, Troop Carrier, 1 1/4 Ton M715 CMS",
+        "vehicle_type": 50,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Non-Standard Troop Carrier, 1 1/4 Ton Truck, Troop Carrier, 1 1/4 Ton M715 CMS"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 172,
+    "fields": {
+        "name": "Truck, Troop Carrier, 3/4 Ton M880 Dodge",
+        "vehicle_type": 50,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Non-Standard Troop Carrier, 1 1/4 Ton Truck, Troop Carrier, 3/4 Ton M880 Dodge"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 173,
+    "fields": {
+        "name": "Scout Car",
+        "vehicle_type": 50,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Non-Standard Troop Carrier, 1 1/4 Ton Scout Car"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 174,
+    "fields": {
+        "name": "Truck, Troop Carrier, 1 1/4 Ton Mitsubishi",
+        "vehicle_type": 50,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Non-Standard Troop Carrier, 1 1/4 Ton Truck, Troop Carrier, 1 1/4 Ton Mitsubishi"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 175,
+    "fields": {
+        "name": "Truck, Troop Carrier, 1 1/4 Ton Land Rover",
+        "vehicle_type": 50,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Non-Standard Troop Carrier, 1 1/4 Ton Truck, Troop Carrier, 1 1/4 Ton Land Rover"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 176,
+    "fields": {
+        "name": "Truck, Troop Carrier, Town/Lite Ace",
+        "vehicle_type": 50,
+        "tonnage": 4,
+        "nomenclature": "Truck, Light, Non-Standard Troop Carrier, 1 1/4 Ton Truck, Troop Carrier, Town/Lite Ace"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 177,
+    "fields": {
+        "name": "Truck, Wrecker Trk (Frieght)",
+        "vehicle_type": 6,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Wrecker, 5 Ton Truck, Wrecker Trk (Frieght)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 178,
+    "fields": {
+        "name": "Truck, Cargo 25 Tons Wrecker",
+        "vehicle_type": 9,
+        "tonnage": 10,
+        "nomenclature": "Truck, Heavy, Wrecker, 25 Ton Truck, Cargo 25 Tons Wrecker"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 179,
+    "fields": {
+        "name": "25 Tons Detroit Wrecker",
+        "vehicle_type": 9,
+        "tonnage": 10,
+        "nomenclature": "Truck, Heavy, Wrecker, 25 Ton 25 Tons Detroit Wrecker"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 180,
+    "fields": {
+        "name": "Trk, Military Wrecker",
+        "vehicle_type": 6,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Wrecker, 5 Ton Trk, Military Wrecker"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 181,
+    "fields": {
+        "name": "Truck, Wrecker, Heavy",
+        "vehicle_type": 9,
+        "tonnage": 10,
+        "nomenclature": "Truck, Heavy, Wrecker, 25 Ton Truck, Wrecker, Heavy"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 182,
+    "fields": {
+        "name": "Wrecker Truck",
+        "vehicle_type": 6,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Wrecker, 5 Ton Wrecker Truck"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 183,
+    "fields": {
+        "name": "Trk, Cgo 5Ton Wrecker",
+        "vehicle_type": 6,
+        "tonnage": 7,
+        "nomenclature": "Truck, Medium, Wrecker, 5 Ton Trk, Cgo 5Ton Wrecker"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 184,
+    "fields": {
+        "name": "Fire Truck",
+        "vehicle_type": 21,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Fire Truck, 2 1/2 Ton Fire Truck"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 185,
+    "fields": {
+        "name": "Fuso Canter Fire Trk",
+        "vehicle_type": 21,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Fire Truck, 2 1/2 Ton Fuso Canter Fire Trk"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 186,
+    "fields": {
+        "name": "Isuzu Fire Truck",
+        "vehicle_type": 21,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Fire Truck, 2 1/2 Ton Isuzu Fire Truck"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 187,
+    "fields": {
+        "name": "Fire Truck Hino",
+        "vehicle_type": 21,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Fire Truck, 1 1/4 Ton Fire Truck Hino"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 188,
+    "fields": {
+        "name": "Nissan, Fire Truck",
+        "vehicle_type": 21,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Fire Truck, 1 1/4 Ton Nissan, Fire Truck"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 189,
+    "fields": {
+        "name": "Truck, 1 1/2Ton Isuzu Fire Truck (LHD)",
+        "vehicle_type": 21,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Fire Truck, 1 1/4 Ton Truck, 1 1/2Ton Isuzu Fire Truck (LHD)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 190,
+    "fields": {
+        "name": "Garbage Truck",
+        "vehicle_type": 22,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Garbage Truck, 2 1/2 Ton Garbage Truck"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 191,
+    "fields": {
+        "name": "Dump Trk FAW",
+        "vehicle_type": 22,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Garbage Truck, 2 1/2 Ton Dump Trk FAW"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 192,
+    "fields": {
+        "name": "Garbage Truck Mini-Dump Truck",
+        "vehicle_type": 22,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Garbage Truck, 1 1/4 Ton Garbage Truck Mini-Dump Truck"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 193,
+    "fields": {
+        "name": "Mitsubishi  Garbage Truck (Camouflage)",
+        "vehicle_type": 22,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Garbage Truck, 1 1/4 Ton Mitsubishi  Garbage Truck (Camouflage)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 194,
+    "fields": {
+        "name": "Forklift",
+        "vehicle_type": 18,
+        "tonnage": 1,
+        "nomenclature": "Special Purpose Vehicle, Material Handling Equipment, 1/4 Ton Forklift"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 195,
+    "fields": {
+        "name": "Manlift Truck",
+        "vehicle_type": 18,
+        "tonnage": 1,
+        "nomenclature": "Special Purpose Vehicle, Material Handling Equipment, 1/4 Ton Manlift Truck"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 196,
+    "fields": {
+        "name": "Boom Trk Isuzu",
+        "vehicle_type": 18,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Material Handling Equipment, 2 1/2 Ton Boom Trk Isuzu"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 197,
+    "fields": {
+        "name": "Mower Tractor kobuta",
+        "vehicle_type": 24,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment,  Mower Tractor kobuta"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 198,
+    "fields": {
+        "name": "Tractor, Kubota L-200",
+        "vehicle_type": 24,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment,  Tractor, Kubota L-200"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 199,
+    "fields": {
+        "name": "Fuso Mini Dump Truck",
+        "vehicle_type": 24,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 1 1/4 Ton Fuso Mini Dump Truck"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 200,
+    "fields": {
+        "name": "Tractor, Kubota Mower",
+        "vehicle_type": 24,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment,  Tractor, Kubota Mower"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 201,
+    "fields": {
+        "name": "Isuzu Mini-Dump Trk",
+        "vehicle_type": 24,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment,  Isuzu Mini-Dump Trk"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 202,
+    "fields": {
+        "name": "Transit Mixer Isuzu",
+        "vehicle_type": 24,
+        "tonnage": 7,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 5 Ton Transit Mixer Isuzu"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 203,
+    "fields": {
+        "name": "Truck, FAW Dump (China)",
+        "vehicle_type": 24,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 2 1/2 Ton Truck, FAW Dump (China)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 204,
+    "fields": {
+        "name": "Truck, Tractor Kubota",
+        "vehicle_type": 24,
+        "tonnage": 7,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 5 Ton Truck, Tractor Kubota"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 205,
+    "fields": {
+        "name": "Truck, Boom (W/crane)",
+        "vehicle_type": 24,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 1 1/4 Ton Truck, Boom (W/crane)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 206,
+    "fields": {
+        "name": "Truck, Mini Dump",
+        "vehicle_type": 24,
+        "tonnage": 7,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 5 Ton Truck, Mini Dump"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 207,
+    "fields": {
+        "name": "Tractor, Kubota Riding Tiller",
+        "vehicle_type": 24,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment,  Tractor, Kubota Riding Tiller"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 208,
+    "fields": {
+        "name": "Mini Dump Trk Isuzu",
+        "vehicle_type": 24,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 1 1/4 Ton Mini Dump Trk Isuzu"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 209,
+    "fields": {
+        "name": "Backhoe Loader 780D Case",
+        "vehicle_type": 24,
+        "tonnage": 7,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 5 Ton Backhoe Loader 780D Case"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 210,
+    "fields": {
+        "name": "Mini Dump Truck",
+        "vehicle_type": 24,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 1 1/4 Ton Mini Dump Truck"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 211,
+    "fields": {
+        "name": "Truck, Fork Lift",
+        "vehicle_type": 24,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 1 1/4 Ton Truck, Fork Lift"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 212,
+    "fields": {
+        "name": "Mini loader (Furukawa)",
+        "vehicle_type": 24,
+        "tonnage": 7,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 5 Ton Mini loader (Furukawa)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 213,
+    "fields": {
+        "name": "Mini Backhoe (Kumatshu)",
+        "vehicle_type": 24,
+        "tonnage": 7,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 5 Ton Mini Backhoe (Kumatshu)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 214,
+    "fields": {
+        "name": "Isuzu DUMP Trk",
+        "vehicle_type": 24,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 3/4 Ton Isuzu DUMP Trk"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 215,
+    "fields": {
+        "name": "Furukawa Excavator",
+        "vehicle_type": 24,
+        "tonnage": 7,
+        "nomenclature": "Special Purpose Vehicle, Mission Essential Equipment, 5 Ton Furukawa Excavator"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 216,
+    "fields": {
+        "name": "1 Ton Back to Back/Towing Vehicle",
+        "vehicle_type": 23,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Truck Tow, 1 1/4 Ton 1 Ton Back to Back/Towing Vehicle"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 217,
+    "fields": {
+        "name": "Truck, Tow",
+        "vehicle_type": 23,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Truck Tow, 2 1/2 Ton Truck, Tow"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 218,
+    "fields": {
+        "name": "Truck, Lorry Fuel Meduim",
+        "vehicle_type": 16,
+        "tonnage": 5,
+        "nomenclature": "Special Purpose Vehicle, Truck, Lorry Fuel Medium, 1 1/2 Ton Truck, Lorry Fuel Meduim"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 219,
+    "fields": {
+        "name": "Fuel Tanker, Isuzu",
+        "vehicle_type": 16,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Truck, Lorry Fuel Medium, 2 1/2 Ton Fuel Tanker, Isuzu"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 220,
+    "fields": {
+        "name": "Truck, Van Shop",
+        "vehicle_type": 15,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Truck, Repair Shop, 1 1/4 Ton Truck, Van Shop"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 221,
+    "fields": {
+        "name": "Van, Dental",
+        "vehicle_type": 13,
+        "tonnage": 1,
+        "nomenclature": "Special Purpose Vehicle, Van Dental, 1/4 Ton Van, Dental"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 222,
+    "fields": {
+        "name": "Isuzu Water Lory",
+        "vehicle_type": 17,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Truck, Lorry Water Medium, 2 1/2 Ton Isuzu Water Lory"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 223,
+    "fields": {
+        "name": "Truck, Lorry Water (Mitsubishi)",
+        "vehicle_type": 17,
+        "tonnage": 6,
+        "nomenclature": "Special Purpose Vehicle, Truck, Lorry Water Medium, 2 1/2 Ton Truck, Lorry Water (Mitsubishi)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 224,
+    "fields": {
+        "name": "Truck, Water",
+        "vehicle_type": 17,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Truck, Lorry Water Medium, 1 1/4 Ton Truck, Water"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 225,
+    "fields": {
+        "name": "4X2 Ambulance Van",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton 4X2 Ambulance Van"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 226,
+    "fields": {
+        "name": "5T Mobile Surgical Van",
+        "vehicle_type": 55,
+        "tonnage": 7,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 5 Ton 5T Mobile Surgical Van"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 232,
+    "fields": {
+        "name": "CON CAV 911 Van",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton CON CAV 911 Van"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 233,
+    "fields": {
+        "name": "Ford 911 Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Ford 911 Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 234,
+    "fields": {
+        "name": "Foton Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Foton Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 235,
+    "fields": {
+        "name": "Hyundai H100 Ambulance",
+        "vehicle_type": 55,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance,  Hyundai H100 Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 236,
+    "fields": {
+        "name": "Isuzu Crosswind",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Isuzu Crosswind"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 237,
+    "fields": {
+        "name": "KIA Besta Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton KIA Besta Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 238,
+    "fields": {
+        "name": "King Long Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton King Long Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 239,
+    "fields": {
+        "name": "L300 FB Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton L300 FB Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 240,
+    "fields": {
+        "name": "L300 Van (CPSH)",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton L300 Van (CPSH)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 241,
+    "fields": {
+        "name": "Mitsubishi L-300",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Mitsubishi L-300"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 242,
+    "fields": {
+        "name": "Nissan Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Nissan Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 243,
+    "fields": {
+        "name": "Nissan Urban Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Nissan Urban Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 244,
+    "fields": {
+        "name": "Toyota Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Toyota Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 245,
+    "fields": {
+        "name": "Toyota D4D Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Toyota D4D Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 246,
+    "fields": {
+        "name": "Toyota Hi-Ace (Grandia Model KDH202L-REMDY 2010)",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Toyota Hi-Ace (Grandia Model KDH202L-REMDY 2010)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 247,
+    "fields": {
+        "name": "Truck, Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Truck, Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 248,
+    "fields": {
+        "name": "VAN Ambulance",
+        "vehicle_type": 55,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 1 1/4 Ton VAN Ambulance"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 249,
+    "fields": {
+        "name": "Van Mobile Surgical",
+        "vehicle_type": 55,
+        "tonnage": 4,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 1 1/4 Ton Van Mobile Surgical"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 250,
+    "fields": {
+        "name": "Van, Ambulance , Foton",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Van, Ambulance , Foton"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 251,
+    "fields": {
+        "name": "Van, Ambulance Hi-Ace",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Van, Ambulance Hi-Ace"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 252,
+    "fields": {
+        "name": "Van, Ambulance Hyundai",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Van, Ambulance Hyundai"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 253,
+    "fields": {
+        "name": "Van, Ambulance Mitsubishi",
+        "vehicle_type": 55,
+        "tonnage": 3,
+        "nomenclature": "Special Purpose Vehicle, Van Ambulance, 3/4 Ton Van, Ambulance Mitsubishi"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 254,
+    "fields": {
+        "name": "Motorcycle, Honda XRM110",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda XRM110"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 255,
+    "fields": {
+        "name": "Motorcycle, Honda XLR",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda XLR"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 256,
+    "fields": {
+        "name": "Motorcycle, Demak Matrix",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Demak Matrix"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 257,
+    "fields": {
+        "name": "Motorcycle, Honda XLR2500",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda XLR2500"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 258,
+    "fields": {
+        "name": "Motorcycle, Honda Wave",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda Wave"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 259,
+    "fields": {
+        "name": "Motorcycle, JIANSHE Monark 150A",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, JIANSHE Monark 150A"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 260,
+    "fields": {
+        "name": "Motorcycle, Kawasaki HD3",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki HD3"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 261,
+    "fields": {
+        "name": "Motorcycle, Yamaha Crypton",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha Crypton"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 262,
+    "fields": {
+        "name": "Motorcycle, Suzuki TS125U",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki TS125U"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 263,
+    "fields": {
+        "name": "Motorcycle, Sunriser SR",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Sunriser SR"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 264,
+    "fields": {
+        "name": "Motorcycle, Honda XRM125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda XRM125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 265,
+    "fields": {
+        "name": "Motorcycle, Honda, ANF-100",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda, ANF-100"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 266,
+    "fields": {
+        "name": "Motorcycle, Suszuki (Shotgun Pro125)",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suszuki (Shotgun Pro125)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 267,
+    "fields": {
+        "name": "Motorcycle, Suzuki ts125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki ts125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 268,
+    "fields": {
+        "name": "Motorcycle, Kawasaki KMX125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki KMX125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 269,
+    "fields": {
+        "name": "Motorcycle, Honda",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 270,
+    "fields": {
+        "name": "Motorcycle, Kawasaki Wind 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki Wind 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 271,
+    "fields": {
+        "name": "Motorcycle, Honda TMX125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda TMX125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 272,
+    "fields": {
+        "name": "Motorcycle, Suzuki X4",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki X4"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 273,
+    "fields": {
+        "name": "Motorcycle, YamahaSTX 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, YamahaSTX 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 274,
+    "fields": {
+        "name": "Motorcycle, Y-STX 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Y-STX 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 275,
+    "fields": {
+        "name": "Motorcycle, Yamaha (STX)",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha (STX)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 276,
+    "fields": {
+        "name": "Motorcycle, Yamaha 125  STX",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha 125  STX"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 277,
+    "fields": {
+        "name": "Motorcycle, TMX",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, TMX"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 278,
+    "fields": {
+        "name": "Motorcycle, Honda Wave 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda Wave 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 279,
+    "fields": {
+        "name": "Motorcycle, Suzuki SMASH 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki SMASH 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 280,
+    "fields": {
+        "name": "Motorcycle, Suzuki",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 281,
+    "fields": {
+        "name": "Motorcycle, Yamaha STX 125CC",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha STX 125CC"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 282,
+    "fields": {
+        "name": "Motorcycle, Yamaha STX",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha STX"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 283,
+    "fields": {
+        "name": "Motorcycle, Suzuki, TS 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki, TS 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 284,
+    "fields": {
+        "name": "Motorcycle, Yamaha 750 cc",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha 750 cc"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 285,
+    "fields": {
+        "name": "Motorcycle, Kawasaki Bajaj Rouser 135",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki Bajaj Rouser 135"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 286,
+    "fields": {
+        "name": "Motorcycle, Suzuki X4 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki X4 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 287,
+    "fields": {
+        "name": "Motorcycle, Kawasaki HD-101",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki HD-101"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 288,
+    "fields": {
+        "name": "Motorcycle, Suzuki Raider",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki Raider"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 289,
+    "fields": {
+        "name": "Motorcycle, Kawasaki ZX 130",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki ZX 130"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 290,
+    "fields": {
+        "name": "Motorcycle, Yamaha  STX",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha  STX"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 291,
+    "fields": {
+        "name": "Motorcycle, Yamaha, DT-125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha, DT-125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 292,
+    "fields": {
+        "name": "Motorcycle, Honda RS125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda RS125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 293,
+    "fields": {
+        "name": "Motorcycle, Yamaha  STX  125CC",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha  STX  125CC"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 294,
+    "fields": {
+        "name": "Motorcycle, Skygo (SG150-A Wizard) Red",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Skygo (SG150-A Wizard) Red"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 295,
+    "fields": {
+        "name": "Motorcycle, Kawasaki",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 296,
+    "fields": {
+        "name": "Motorcycle, Skygo (SG150-A Wizard) Blk",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Skygo (SG150-A Wizard) Blk"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 297,
+    "fields": {
+        "name": "Motorcycle, Suzuki GP 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki GP 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 298,
+    "fields": {
+        "name": "Motorcycle, Motorstar",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Motorstar"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 299,
+    "fields": {
+        "name": "Motorcycle, TVS 100",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, TVS 100"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 300,
+    "fields": {
+        "name": "Motorcycle, Kawasaki 130",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki 130"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 301,
+    "fields": {
+        "name": "Yamaha STX 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Yamaha STX 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 302,
+    "fields": {
+        "name": "Motorcycle, Yamaha, STX 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha, STX 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 303,
+    "fields": {
+        "name": "Motorcycle, Kawasaki Green",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki Green"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 304,
+    "fields": {
+        "name": "Motorcycle, Rush 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Rush 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 305,
+    "fields": {
+        "name": "Motorcycle, Honda ANF 100CC",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda ANF 100CC"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 306,
+    "fields": {
+        "name": "Motorcycle, Suzuki GP125UK4",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki GP125UK4"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 307,
+    "fields": {
+        "name": "Motorcycle, Suzuki TS125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki TS125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 308,
+    "fields": {
+        "name": "Motorcycle, Kawasaki Bajaj CT100",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki Bajaj CT100"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 309,
+    "fields": {
+        "name": "Motorcycle, Yamaha DT",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha DT"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 310,
+    "fields": {
+        "name": "Motorcycle, Susuki 125cc Shogun",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Susuki 125cc Shogun"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 311,
+    "fields": {
+        "name": "Motorcycle, XR200",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, XR200"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 312,
+    "fields": {
+        "name": "Motorcycle,  Kawasaki KMX 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle,  Kawasaki KMX 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 313,
+    "fields": {
+        "name": "Motorcycle, Honda XR200",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda XR200"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 314,
+    "fields": {
+        "name": "Motorcycle, Suzuki X4 GP 125 UK3",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki X4 GP 125 UK3"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 315,
+    "fields": {
+        "name": "Motorcycle, Kawasaki Bravo",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki Bravo"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 316,
+    "fields": {
+        "name": "Motorcycle, Racal",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Racal"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 317,
+    "fields": {
+        "name": "Motorcycle, Suzuki GP-125 X4",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki GP-125 X4"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 318,
+    "fields": {
+        "name": "Motorcycle, Suzuki TS X4",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki TS X4"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 319,
+    "fields": {
+        "name": "Motorcycle, Kawasaki 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 320,
+    "fields": {
+        "name": "Motorcycle, Yammaha DTS 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yammaha DTS 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 321,
+    "fields": {
+        "name": "Motorcycle, Yamaha",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 322,
+    "fields": {
+        "name": "Motorcycle, Honda TMX155",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda TMX155"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 323,
+    "fields": {
+        "name": "Motorcycle, Honda TMX 150",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda TMX 150"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 324,
+    "fields": {
+        "name": "Motorcycle, Yamaha, STX 125cc",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha, STX 125cc"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 325,
+    "fields": {
+        "name": "Motorcycle, Honda wave 100",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda wave 100"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 326,
+    "fields": {
+        "name": "Motorcycle, Honda XRM",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda XRM"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 327,
+    "fields": {
+        "name": "Motorcycle, Yamaha STX (Red)",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha STX (Red)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 328,
+    "fields": {
+        "name": "Motorcycle, Yamaha Cryton",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha Cryton"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 329,
+    "fields": {
+        "name": "Motorcycle, Hensim 150",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Hensim 150"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 330,
+    "fields": {
+        "name": "Motorcycle, Kawasaki AN130B",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki AN130B"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 331,
+    "fields": {
+        "name": "Motorcycle, Yamaha  Crypton",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha  Crypton"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 332,
+    "fields": {
+        "name": "Motorcycle, Honda XLR 200R",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda XLR 200R"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 333,
+    "fields": {
+        "name": "Motorcycle, RUSI",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, RUSI"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 334,
+    "fields": {
+        "name": "Motorcycle, Yamaha YDR125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha YDR125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 335,
+    "fields": {
+        "name": "Yamaha 750 cc",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Yamaha 750 cc"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 336,
+    "fields": {
+        "name": "Motorcycle, Suzuki, X4-125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki, X4-125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 337,
+    "fields": {
+        "name": "Motorcycle, Yamaha DT-125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha DT-125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 338,
+    "fields": {
+        "name": "Motorcycle, Suzuki TS 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki TS 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 339,
+    "fields": {
+        "name": "Motorcycle, Honda CFT125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda CFT125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 340,
+    "fields": {
+        "name": "Motorcycle, Honda Bravo",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda Bravo"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 341,
+    "fields": {
+        "name": "Yamaha STX",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Yamaha STX"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 342,
+    "fields": {
+        "name": "Motorcycle, Yamaha Motorcycle,",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha Motorcycle,"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 343,
+    "fields": {
+        "name": "Motocycle,  Suzuki 125 Shogun",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motocycle,  Suzuki 125 Shogun"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 344,
+    "fields": {
+        "name": "Motorcycle, Honda  Wave100",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda  Wave100"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 345,
+    "fields": {
+        "name": "Motorcycle, Yamaha CRYPTON 110",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha CRYPTON 110"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 346,
+    "fields": {
+        "name": "Motorcycle, Yamaha CRYP \u2013S",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha CRYP \u2013S"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 347,
+    "fields": {
+        "name": "Motorcycle, Yamaha Wonder Bike",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha Wonder Bike"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 348,
+    "fields": {
+        "name": "Motorcycle, Wave 100",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Wave 100"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 349,
+    "fields": {
+        "name": "Motorcycle, Kawasaki, KE-100",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki, KE-100"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 350,
+    "fields": {
+        "name": "Motorcycle, Yamaha  STX 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha  STX 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 351,
+    "fields": {
+        "name": "Motorcycle, Suzuki, TS-125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki, TS-125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 352,
+    "fields": {
+        "name": "Motorcycle, Yamaha STX 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha STX 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 353,
+    "fields": {
+        "name": "Motorcycle, Suzuki GP125UK3",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki GP125UK3"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 354,
+    "fields": {
+        "name": "Motorcycle, Honda TMX",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda TMX"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 355,
+    "fields": {
+        "name": "Motorcycle, Kawasaki AN130",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki AN130"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 356,
+    "fields": {
+        "name": "Motorcycle, Kawasaki CT150",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki CT150"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 357,
+    "fields": {
+        "name": "Motorcycle, Honda XR 200",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda XR 200"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 358,
+    "fields": {
+        "name": "Motorcycle, Yamaha DT 125cc",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha DT 125cc"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 359,
+    "fields": {
+        "name": "Motorcycle, Kawasaki Bajaj CT 100",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki Bajaj CT 100"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 360,
+    "fields": {
+        "name": "Motorcycle",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 361,
+    "fields": {
+        "name": "Motorcycle, Yamaha 125 STX",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha 125 STX"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 362,
+    "fields": {
+        "name": "Motorcycle, Yamaha Crypton 110",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha Crypton 110"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 363,
+    "fields": {
+        "name": "Motorcycle, Yamaha CRYPTON  S",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha CRYPTON  S"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 364,
+    "fields": {
+        "name": "Motorcycle, Suzuki 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 365,
+    "fields": {
+        "name": "Motorcycle, Yamaha DT 125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha DT 125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 366,
+    "fields": {
+        "name": "Motorcycle, Demak Evo",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Demak Evo"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 367,
+    "fields": {
+        "name": "Motorcycle, Kawasaki Bajaj 100",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki Bajaj 100"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 368,
+    "fields": {
+        "name": "Motorcycle, Suzuki 125 X4",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Suzuki 125 X4"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 369,
+    "fields": {
+        "name": "Motorcycle, Honda Wave 100",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Honda Wave 100"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 370,
+    "fields": {
+        "name": "Motorcycle, Kawasaki Bajaj",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kawasaki Bajaj"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 371,
+    "fields": {
+        "name": "Motorcycle, Kasawaki, AN130",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Kasawaki, AN130"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 372,
+    "fields": {
+        "name": "Motorcycle, Yamaha STX125",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  Motorcycle, Yamaha STX125"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 373,
+    "fields": {
+        "name": "YAMAHA STX",
+        "vehicle_type": 25,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Motorcycle,  YAMAHA STX"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 374,
+    "fields": {
+        "name": "Airboat-A w/Trailer",
+        "vehicle_type": 30,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Motor Boat,  Airboat-A w/Trailer"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 375,
+    "fields": {
+        "name": "Assault Watercraft(250 HP)",
+        "vehicle_type": 31,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Light Support Watercraft,  Assault Watercraft(250 HP)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 376,
+    "fields": {
+        "name": "Honda, (16HP)",
+        "vehicle_type": 33,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Motorized Bancas/Pump Boat/Local,  Honda, (16HP)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 377,
+    "fields": {
+        "name": "Light Support Watercraft",
+        "vehicle_type": 31,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Light Support Watercraft,  Light Support Watercraft"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 378,
+    "fields": {
+        "name": "Ligth Support Watercraft  Cummins double eng. 250HP",
+        "vehicle_type": 31,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Light Support Watercraft,  Ligth Support Watercraft  Cummins double eng. 250HP"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 379,
+    "fields": {
+        "name": "Mother Boat Isuzu 6DI",
+        "vehicle_type": 30,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Motor Boat,  Mother Boat Isuzu 6DI"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 380,
+    "fields": {
+        "name": "Motorized Banca/Pump Boat/Local",
+        "vehicle_type": 33,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Motorized Bancas/Pump Boat/Local,  Motorized Banca/Pump Boat/Local"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 381,
+    "fields": {
+        "name": "Outboard Mator Engine,40HP",
+        "vehicle_type": 33,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Motorized Bancas/Pump Boat/Local,  Outboard Mator Engine,40HP"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 382,
+    "fields": {
+        "name": "Patrol Boat",
+        "vehicle_type": 32,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Patrol Boat,  Patrol Boat"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 383,
+    "fields": {
+        "name": "Rigid Haul Inflatable  Boat (RHIB)",
+        "vehicle_type": 33,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Motorized Bancas/Pump Boat/Local,  Rigid Haul Inflatable  Boat (RHIB)"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 384,
+    "fields": {
+        "name": "Rubber Boat",
+        "vehicle_type": 36,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Rubber Boat,  Rubber Boat"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 385,
+    "fields": {
+        "name": "Scout Boat",
+        "vehicle_type": 32,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Patrol Boat,  Scout Boat"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 386,
+    "fields": {
+        "name": "Sea Craft 16HP",
+        "vehicle_type": 35,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Sea Craft,  Sea Craft 16HP"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 387,
+    "fields": {
+        "name": "Seacraft",
+        "vehicle_type": 35,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Sea Craft,  Seacraft"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 388,
+    "fields": {
+        "name": "Speedboat",
+        "vehicle_type": 34,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Speed Boat,  Speedboat"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 389,
+    "fields": {
+        "name": "Trident Watercraft",
+        "vehicle_type": 31,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Light Support Watercraft,  Trident Watercraft"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 390,
+    "fields": {
+        "name": "Victrix Motor Boat",
+        "vehicle_type": 33,
+        "tonnage": null,
+        "nomenclature": "Watecraft, Motorized Bancas/Pump Boat/Local,  Victrix Motor Boat"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 391,
+    "fields": {
+        "name": "PA 102 Cessna 172M",
+        "vehicle_type": 37,
+        "tonnage": null,
+        "nomenclature": "Aircraft, Aircraft,  PA 102 Cessna 172M"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 392,
+    "fields": {
+        "name": "PA 103 Cessna 172L",
+        "vehicle_type": 37,
+        "tonnage": null,
+        "nomenclature": "Aircraft, Aircraft,  PA 103 Cessna 172L"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 393,
+    "fields": {
+        "name": "PA 501, Cessna 150L",
+        "vehicle_type": 37,
+        "tonnage": null,
+        "nomenclature": "Aircraft, Aircraft,  PA 501, Cessna 150L"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 394,
+    "fields": {
+        "name": "PA 201 Cessna P206A",
+        "vehicle_type": 37,
+        "tonnage": null,
+        "nomenclature": "Aircraft, Aircraft,  PA 201 Cessna P206A"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 395,
+    "fields": {
+        "name": "PA 401 Cessna 421B",
+        "vehicle_type": 37,
+        "tonnage": null,
+        "nomenclature": "Aircraft, Aircraft,  PA 401 Cessna 421B"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 396,
+    "fields": {
+        "name": "PA 101 Cessna 172N",
+        "vehicle_type": 37,
+        "tonnage": null,
+        "nomenclature": "Aircraft, Aircraft,  PA 101 Cessna 172N"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 397,
+    "fields": {
+        "name": "Truck, Trailer",
+        "vehicle_type": 38,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Cargo,  Truck, Trailer"
+    }
+},
+{
+    "model": "mobility.nomenclaturevehicle",
+    "pk": 398,
+    "fields": {
+        "name": "Truck, Trailer",
+        "vehicle_type": 39,
+        "tonnage": null,
+        "nomenclature": "Special Purpose Vehicle, Water Dolly,  Truck, Trailer"
+    }
+}
+]

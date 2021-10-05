@@ -1,0 +1,794 @@
+[
+{
+    "model": "ppb.subpap",
+    "pk": 1,
+    "fields": {
+        "major_pap": 1,
+        "name": "SP1. Doctrine Development"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 2,
+    "fields": {
+        "major_pap": 1,
+        "name": "SP2. Organizational Research and Development"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 3,
+    "fields": {
+        "major_pap": 1,
+        "name": "SP3. Education & Training Research & Development"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 4,
+    "fields": {
+        "major_pap": 1,
+        "name": "SP4. Materiel Research & Development"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 5,
+    "fields": {
+        "major_pap": 1,
+        "name": "SP5. Leadership Research & Development"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 6,
+    "fields": {
+        "major_pap": 1,
+        "name": "SP6. Personnel Research & Development"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 7,
+    "fields": {
+        "major_pap": 1,
+        "name": "SP7. Facilities Research & Development"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 8,
+    "fields": {
+        "major_pap": 2,
+        "name": "SP8. Personnel Management"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 9,
+    "fields": {
+        "major_pap": 3,
+        "name": "SP9. Support to PA Force Structure Implementation"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 10,
+    "fields": {
+        "major_pap": 4,
+        "name": "SP10. Individual Training Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 11,
+    "fields": {
+        "major_pap": 4,
+        "name": "SP11. Unit Training Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 12,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP12. Mobility Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 13,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP13. Firepower Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 14,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP14. C4S- Communication Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 15,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP15. C4S- Electronic Equipment Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 16,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP16. C4S- Information Equipment Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 17,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP17. C4S- Cyber Equipment Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 18,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP18. Engineering Equipment Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 19,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP19. Quartermaster Equipment Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 20,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP20. Intel Equipment Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 21,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP21. HADR Equipment Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 22,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP22. CMO Equipment Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 23,
+    "fields": {
+        "major_pap": 5,
+        "name": "SP23. Health Care Equipment Readiness Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 24,
+    "fields": {
+        "major_pap": 6,
+        "name": "SP24. Operational Facilities Construction"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 25,
+    "fields": {
+        "major_pap": 6,
+        "name": "SP25. Base Utilities & Facilities Construction"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 26,
+    "fields": {
+        "major_pap": 6,
+        "name": "SP26. Community Facilities Construction"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 27,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP27. Mobility Equipment Maintenance  Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 28,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP28. Firepower Equipment Maintenance Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 29,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP29. Quartermaster Equipment  Maintenance Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 30,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP30. Engineering Equipment Maintenance Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 31,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP31. C4S- Communication Equipment Maintenance Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 32,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP32. C4S- Electronic Equipment Maintenance Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 33,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP33. C4S- Information System Equipment Maintenance Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 34,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP34. C4S- Cyber Equipment Maintenance Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 35,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP35. HADR Equipment Maintenance Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 36,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP36. Intel Equipment Maintenance Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 37,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP37. CMO Equipment Maintenance Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 38,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP38. Fire Support Equipment Maintenance Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 39,
+    "fields": {
+        "major_pap": 7,
+        "name": "SP39. Health Care Equipment  Maintenance Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 40,
+    "fields": {
+        "major_pap": 8,
+        "name": "SP40. Maintenance of Operational Facilities"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 41,
+    "fields": {
+        "major_pap": 8,
+        "name": "SP41. Maintenance of Operational Support Facilities"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 42,
+    "fields": {
+        "major_pap": 8,
+        "name": "SP42. Maintenance of Community Facilities"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 43,
+    "fields": {
+        "major_pap": 8,
+        "name": "SP43. Maintenance of Base Utilities"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 44,
+    "fields": {
+        "major_pap": 8,
+        "name": "SP44. Real Estate Management Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 45,
+    "fields": {
+        "major_pap": 9,
+        "name": "SP45. Morale and Welfare Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 46,
+    "fields": {
+        "major_pap": 9,
+        "name": "SP46. Discipline, Law & Order Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 47,
+    "fields": {
+        "major_pap": 9,
+        "name": "SP47. Career Management Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 48,
+    "fields": {
+        "major_pap": 9,
+        "name": "SP48. Gender Mainstreaming Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 49,
+    "fields": {
+        "major_pap": 10,
+        "name": "SP49. Combat Casualty Treatment Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 50,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP50. Support to Combat Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 51,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP51. Support to Intelligence Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 52,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP52. Support to CMO Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 53,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP53. Support to Information Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 54,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP54. Support to Signal Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 55,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP55. Support to CAA Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 56,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP56. Support to Engineer Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 57,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP57. Support to Artillery Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 58,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP58. Support to Special Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 59,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP59. Support to Mechanized Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 60,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP60. Support to EOD Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 61,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP61. Support to CBRN Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 62,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP62. Support to Peace & Development Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 63,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP63. Support to Combating Terrorism Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 64,
+    "fields": {
+        "major_pap": 11,
+        "name": "SP64. Support to Opeational Enhancement of Units"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 65,
+    "fields": {
+        "major_pap": 12,
+        "name": "SP65. Support to ROTC Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 66,
+    "fields": {
+        "major_pap": 12,
+        "name": "SP66. Support to Retiree Affairs"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 67,
+    "fields": {
+        "major_pap": 12,
+        "name": "SP67. Support to Reservist Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 68,
+    "fields": {
+        "major_pap": 13,
+        "name": "SP68. Disaster Prevention and Mitigation"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 69,
+    "fields": {
+        "major_pap": 13,
+        "name": "SP69. Disaster Preparedness and Readiness"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 70,
+    "fields": {
+        "major_pap": 13,
+        "name": "SP70. Search, Rescue and Retrieval Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 71,
+    "fields": {
+        "major_pap": 13,
+        "name": "SP71. Disaster Rehabilitation and Recovery"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 72,
+    "fields": {
+        "major_pap": 14,
+        "name": "SP72. Support to Law Enforcement Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 73,
+    "fields": {
+        "major_pap": 14,
+        "name": "SP73. Support to National Development"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 74,
+    "fields": {
+        "major_pap": 14,
+        "name": "SP74. Support to Environmental Protection"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 75,
+    "fields": {
+        "major_pap": 14,
+        "name": "SP75. Stakeholders Engagement"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 76,
+    "fields": {
+        "major_pap": 15,
+        "name": "SP76. Joint Training Exercises & Subject Matter Expert Exchanges"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 77,
+    "fields": {
+        "major_pap": 15,
+        "name": "SP77. High Level Exchange Visits"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 78,
+    "fields": {
+        "major_pap": 15,
+        "name": "SP78. Army To Army Working Group Activities"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 79,
+    "fields": {
+        "major_pap": 15,
+        "name": "SP79. Peace Support Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 80,
+    "fields": {
+        "major_pap": 15,
+        "name": "SP80. Foreign Military Courses Training"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 81,
+    "fields": {
+        "major_pap": 15,
+        "name": "SP81. Other IDSE"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 82,
+    "fields": {
+        "major_pap": 16,
+        "name": "SP82. Strategic Planning"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 83,
+    "fields": {
+        "major_pap": 16,
+        "name": "SP83. Organizational Development Planning"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 84,
+    "fields": {
+        "major_pap": 16,
+        "name": "SP84. Strategic Program Execution & Monitoring"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 85,
+    "fields": {
+        "major_pap": 16,
+        "name": "SP85. Performance Review & Assessment"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 86,
+    "fields": {
+        "major_pap": 16,
+        "name": "SP86. Strategic Communication"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 87,
+    "fields": {
+        "major_pap": 17,
+        "name": "SP87. Logistics Support Operations"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 88,
+    "fields": {
+        "major_pap": 18,
+        "name": "SP88. Health Enhancement Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 89,
+    "fields": {
+        "major_pap": 18,
+        "name": "SP89. Medical & Dental Health Programs"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 90,
+    "fields": {
+        "major_pap": 19,
+        "name": "SP90. Support to Information Systems Management"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 91,
+    "fields": {
+        "major_pap": 20,
+        "name": "SP91. Unit/Office Administration"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 92,
+    "fields": {
+        "major_pap": 20,
+        "name": "SP92. Commemoration Activities"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 93,
+    "fields": {
+        "major_pap": 20,
+        "name": "SP93. Troop/Unit Visitation"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 94,
+    "fields": {
+        "major_pap": 20,
+        "name": "SP94. Ceremonies"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 95,
+    "fields": {
+        "major_pap": 21,
+        "name": "SP95. Budget Development Program"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 96,
+    "fields": {
+        "major_pap": 21,
+        "name": "SP96. Fiscal Management"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 97,
+    "fields": {
+        "major_pap": 21,
+        "name": "SP97. Financial Records Management"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 98,
+    "fields": {
+        "major_pap": 21,
+        "name": "SP98. Budget Execution Review"
+    }
+},
+{
+    "model": "ppb.subpap",
+    "pk": 99,
+    "fields": {
+        "major_pap": 22,
+        "name": "SP99. Support to Audit & Inspection"
+    }
+}
+]

@@ -1,0 +1,29 @@
+[
+{
+    "model": "ppb.expenseclass",
+    "pk": 1,
+    "fields": {
+        "code": "01",
+        "name": "PS",
+        "order": 1
+    }
+},
+{
+    "model": "ppb.expenseclass",
+    "pk": 2,
+    "fields": {
+        "code": "02",
+        "name": "MOOE",
+        "order": 2
+    }
+},
+{
+    "model": "ppb.expenseclass",
+    "pk": 3,
+    "fields": {
+        "code": "06",
+        "name": "CO",
+        "order": 3
+    }
+}
+]

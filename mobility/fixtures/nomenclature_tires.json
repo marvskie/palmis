@@ -1,0 +1,142 @@
+[
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 1,
+    "fields": {
+        "name": "Tire, 36x12.5x16.5 (KM450)"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 2,
+    "fields": {
+        "name": "Tire, 36x12.5x16.5"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 3,
+    "fields": {
+        "name": "Tire, 185x14"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 4,
+    "fields": {
+        "name": "Tire, 195Rx14"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 5,
+    "fields": {
+        "name": "Tire, 195Rx15"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 6,
+    "fields": {
+        "name": "Tire, 205x65R15"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 7,
+    "fields": {
+        "name": "Tire, 205x65R17"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 8,
+    "fields": {
+        "name": "Tire, 205x70R15C"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 9,
+    "fields": {
+        "name": "Tire, 235xR17.5 Prime Mover"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 10,
+    "fields": {
+        "name": "Tire, 265x65R17"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 11,
+    "fields": {
+        "name": "Tire, 600x16"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 12,
+    "fields": {
+        "name": "Tire, 700x15LT"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 13,
+    "fields": {
+        "name": "Tire, 700x16"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 14,
+    "fields": {
+        "name": "Tire, 900x20 LT (M35/KM250)"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 15,
+    "fields": {
+        "name": "Tire, 900x20 HAWK (M35/KM250)"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 16,
+    "fields": {
+        "name": "Tire, 11.00R20"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 17,
+    "fields": {
+        "name": "Tire, 11.00R20LT"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 18,
+    "fields": {
+        "name": "Tire, 11.00R20DIR"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 19,
+    "fields": {
+        "name": "Tire, 14.00x20"
+    }
+},
+{
+    "model": "mobility.nomenclaturetire",
+    "pk": 20,
+    "fields": {
+        "name": "Tire, 14.5x20"
+    }
+}
+]

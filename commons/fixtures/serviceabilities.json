@@ -1,0 +1,34 @@
+[
+{
+    "model": "commons.serviceability",
+    "pk": 1,
+    "fields": {
+        "name": "Serviceable",
+        "code": "G"
+    }
+},
+{
+    "model": "commons.serviceability",
+    "pk": 2,
+    "fields": {
+        "name": "For Repair",
+        "code": "Y"
+    }
+},
+{
+    "model": "commons.serviceability",
+    "pk": 3,
+    "fields": {
+        "name": "Beyond Economical Repair",
+        "code": "R"
+    }
+},
+{
+    "model": "commons.serviceability",
+    "pk": 4,
+    "fields": {
+        "name": "Unknown",
+        "code": "U"
+    }
+}
+]

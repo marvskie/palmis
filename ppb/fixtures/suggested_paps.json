@@ -1,0 +1,3250 @@
+[
+{
+    "model": "ppb.suggestedpap",
+    "pk": 1,
+    "fields": {
+        "sub_pap": 1,
+        "name": "SP1.1 Doctrine Planning and Research"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 2,
+    "fields": {
+        "sub_pap": 1,
+        "name": "SP1.2 Doctrine Writing and Publication"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 3,
+    "fields": {
+        "sub_pap": 1,
+        "name": "SP1.3 Doctrine Validation and Revision"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 4,
+    "fields": {
+        "sub_pap": 1,
+        "name": "SP1.4 Doctrine Development Writer\u2019s and Proponent Workshop"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 5,
+    "fields": {
+        "sub_pap": 1,
+        "name": "SP1.5 Doctrine Summit"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 6,
+    "fields": {
+        "sub_pap": 1,
+        "name": "SP1.6 Development of Proponents Advice"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 7,
+    "fields": {
+        "sub_pap": 1,
+        "name": "SP1.7 Promulgation of Manuals"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 8,
+    "fields": {
+        "sub_pap": 1,
+        "name": "SP1.8 Productions of Manuals & Handbooks"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 9,
+    "fields": {
+        "sub_pap": 1,
+        "name": "SP1.9 Other doctrine Development Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 10,
+    "fields": {
+        "sub_pap": 1,
+        "name": "SP1.10 Research and Studies on Lesson Learned and TTP"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 11,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.1 TOE Development Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 12,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.2 Strategic Assessment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 13,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.3 Threat Assessment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 14,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.4 Organization Assessment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 15,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.5 Capability Assessment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 16,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.6 Organizational Development Plan Formulation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 17,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.7 POM Development"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 18,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.8 PA Support Plan Development"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 19,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.9 PA Reservist Mobilization Plan"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 20,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.10 ISO Assessment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 21,
+    "fields": {
+        "sub_pap": 2,
+        "name": "SP2.11 Strategy and Special Studies/Policy"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 22,
+    "fields": {
+        "sub_pap": 3,
+        "name": "SP3.1 Curriculum Development"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 23,
+    "fields": {
+        "sub_pap": 3,
+        "name": "SP3.2 ACSCET Evaluation and Validation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 24,
+    "fields": {
+        "sub_pap": 3,
+        "name": "SP3.3 Training Personnel Development Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 25,
+    "fields": {
+        "sub_pap": 3,
+        "name": "SP3.4 Training Evaluation and Research"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 26,
+    "fields": {
+        "sub_pap": 3,
+        "name": "SP3.5 Training Development Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 27,
+    "fields": {
+        "sub_pap": 3,
+        "name": "SP3.6 Combat Fitness and Wellness Development Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 28,
+    "fields": {
+        "sub_pap": 3,
+        "name": "SP3.7 Training Evaluation, Review and Assessment program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 29,
+    "fields": {
+        "sub_pap": 4,
+        "name": "SP4.1 Materiel Research & Development Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 30,
+    "fields": {
+        "sub_pap": 5,
+        "name": "SP5.1 Officers Development Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 31,
+    "fields": {
+        "sub_pap": 5,
+        "name": "SP5.2 Enlisted Personnel Development Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 32,
+    "fields": {
+        "sub_pap": 5,
+        "name": "SP5.3 Civilian Employee Development Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 33,
+    "fields": {
+        "sub_pap": 5,
+        "name": "SP5.4 Reservist Development Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 34,
+    "fields": {
+        "sub_pap": 6,
+        "name": "SP6.1 Personnel Research & Development Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 35,
+    "fields": {
+        "sub_pap": 7,
+        "name": "SP7.1 CMDP Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 36,
+    "fields": {
+        "sub_pap": 7,
+        "name": "SP7.2 DAED Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 37,
+    "fields": {
+        "sub_pap": 8,
+        "name": "SP8.1 Recruitment Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 38,
+    "fields": {
+        "sub_pap": 8,
+        "name": "SP8.2 Pre-Entry Training"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 39,
+    "fields": {
+        "sub_pap": 8,
+        "name": "SP8.3 Career Courses Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 40,
+    "fields": {
+        "sub_pap": 8,
+        "name": "SP8.4 Professional Education"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 41,
+    "fields": {
+        "sub_pap": 9,
+        "name": "SP9.1 Activation & Deactivation of Unit/Office"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 42,
+    "fields": {
+        "sub_pap": 9,
+        "name": "SP9.2 Support to Deployment and Redeployment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 43,
+    "fields": {
+        "sub_pap": 9,
+        "name": "SP9.3 Monitoring of Operational Readiness Condition"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 44,
+    "fields": {
+        "sub_pap": 10,
+        "name": "SP10.1 In-service Training"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 45,
+    "fields": {
+        "sub_pap": 10,
+        "name": "SP10.2 In-house Training"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 46,
+    "fields": {
+        "sub_pap": 10,
+        "name": "SP10.3 Specialization Courses"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 47,
+    "fields": {
+        "sub_pap": 11,
+        "name": "SP11.1 BOE"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 48,
+    "fields": {
+        "sub_pap": 11,
+        "name": "SP11.2 BRP"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 49,
+    "fields": {
+        "sub_pap": 11,
+        "name": "SP11.3 Sustainment Training (Regular)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 50,
+    "fields": {
+        "sub_pap": 11,
+        "name": "SP11.4 Sustainment Training (Reservist)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 51,
+    "fields": {
+        "sub_pap": 11,
+        "name": "SP11.5 Unit Training Development (Regular)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 52,
+    "fields": {
+        "sub_pap": 11,
+        "name": "SP11.6 Unit Training Development (CAA)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 53,
+    "fields": {
+        "sub_pap": 11,
+        "name": "SP11.7 Unit Training Development (Reservist)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 54,
+    "fields": {
+        "sub_pap": 12,
+        "name": "SP12.1 Procurement of Mobility Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 55,
+    "fields": {
+        "sub_pap": 13,
+        "name": "SP13.1 Procurement of Firepower Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 56,
+    "fields": {
+        "sub_pap": 14,
+        "name": "SP14.1 Procurement of Communication Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 57,
+    "fields": {
+        "sub_pap": 15,
+        "name": "SP15.1 Procurement of Electronic Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 58,
+    "fields": {
+        "sub_pap": 16,
+        "name": "SP16.1 Procurement of Information System Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 59,
+    "fields": {
+        "sub_pap": 17,
+        "name": "SP17.1 Procurement of Cyber Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 60,
+    "fields": {
+        "sub_pap": 18,
+        "name": "SP18.1 Procurement of Engineering Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 61,
+    "fields": {
+        "sub_pap": 19,
+        "name": "SP19.1 Procurement of Quartermaster Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 62,
+    "fields": {
+        "sub_pap": 20,
+        "name": "SP20.1 Procurement of Intel Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 63,
+    "fields": {
+        "sub_pap": 21,
+        "name": "SP21.1 Procurement of HADR Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 64,
+    "fields": {
+        "sub_pap": 22,
+        "name": "SP22.1 Procurement of CMO Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 65,
+    "fields": {
+        "sub_pap": 23,
+        "name": "SP23.1 Procurement of Health Care Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 66,
+    "fields": {
+        "sub_pap": 24,
+        "name": "SP24.1 Construction of Operational Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 67,
+    "fields": {
+        "sub_pap": 25,
+        "name": "SP25.1 Construction of Base Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 68,
+    "fields": {
+        "sub_pap": 26,
+        "name": "SP26.1 Construction of Community Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 69,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.1 R&M of Mil Veh - Armor Vehicles"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 70,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.2 R&M of Mil Veh - 10 Ton Truck and above"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 71,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.3 R&M of Mil Veh - 8 Ton Truck"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 72,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.4 R&M of Mil Veh - 5 Ton Truck"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 73,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.5 R&M of Mil Veh - 2 1/2 Ton Truck"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 74,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.6 R&M of Mil Veh - 1 1/4 Ton Truck"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 75,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.7 R&M of Mil Veh - 1/4 Ton Truck"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 76,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.8 R&M of SPV - Van"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 77,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.9 R&M of SPV - SUV"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 78,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.10 R&M of SPV - AUV/Other Admin Veh"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 79,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.11 R&M of SPV - Pick Up"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 80,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.12 R&M of SPV - Motorcycles"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 81,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.13 R&M of Watercraft - Assault Watercraft"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 82,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.14 R&M of Watercraft - Air Assault Boat"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 83,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.15 R&M of Watercraft - Pumpboat"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 84,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.16 R&M of Watercraft - Rubberboat"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 85,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.17 R&M of Watercraft - other water assets"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 86,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.18 R&M of Air Assets - Cessna Plane"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 87,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.19 R&M of Air Assets - Other Aircraft"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 88,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.20 Procurement of POL"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 89,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.21 Procurement of Tires"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 90,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.22 Procurement of Batteries"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 91,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.23 Procurement of Spares"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 92,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.24 Payment of Vehicle Registration & Insurance"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 93,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.25 Payment of Watercraft Registration & Insurance"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 94,
+    "fields": {
+        "sub_pap": 27,
+        "name": "SP27.26 Payment of Aircraft Registration & Insurance"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 95,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.1 R&M of Armaments - Individual weapons"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 96,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.2 R&M of Armaments - Grenade Launchers/AGL"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 97,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.3 R&M of Armaments - Crew-served weapons"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 98,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.4 R&M of Armaments - Recoilles Rifle/Anti-tank Weapon"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 99,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.5 R&M of Armaments - Mortars"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 100,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.6 R&M of Armaments - Vehicle-mounted weapons"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 101,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.7 R&M of Armaments - Howitzers"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 102,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.8 R&M of Armaments/Retrofitting (M16 Barrel)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 103,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.9 Procurement of Ammunition"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 104,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.10 Procurement of Magazine Assemblies"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 105,
+    "fields": {
+        "sub_pap": 28,
+        "name": "SP28.11 Procurement of Armament Spares"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 106,
+    "fields": {
+        "sub_pap": 29,
+        "name": "SP29.1 R&M of Quartermaster Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 107,
+    "fields": {
+        "sub_pap": 30,
+        "name": "SP30.1 R&M of Engineering Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 108,
+    "fields": {
+        "sub_pap": 31,
+        "name": "SP31.1 R&M of Tactical Communications Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 109,
+    "fields": {
+        "sub_pap": 31,
+        "name": "SP31.2 R&M of Commercial Radio (Non-Military Specs) Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 110,
+    "fields": {
+        "sub_pap": 31,
+        "name": "SP31.3 R&M of Fixed Communications Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 111,
+    "fields": {
+        "sub_pap": 31,
+        "name": "SP31.4 R&M of Radio Broadcasting System (RBS)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 112,
+    "fields": {
+        "sub_pap": 32,
+        "name": "SP32.1 R&M of Global Positioning System (GPS)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 113,
+    "fields": {
+        "sub_pap": 32,
+        "name": "SP32.2 R&M of CCTV"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 114,
+    "fields": {
+        "sub_pap": 32,
+        "name": "SP32.3 R&M of Night Fighting System"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 115,
+    "fields": {
+        "sub_pap": 32,
+        "name": "SP32.4 R&M of Audio/Video System"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 116,
+    "fields": {
+        "sub_pap": 32,
+        "name": "SP32.5 R&M of Solar Power System"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 117,
+    "fields": {
+        "sub_pap": 32,
+        "name": "SP32.6 Payment of GPS Tracker Subscription and Services"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 118,
+    "fields": {
+        "sub_pap": 33,
+        "name": "SP33.1 R&M of Computer Hardware System"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 119,
+    "fields": {
+        "sub_pap": 33,
+        "name": "SP33.2 R&M of Computer Software System"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 120,
+    "fields": {
+        "sub_pap": 33,
+        "name": "SP33.3 R&M of Servers (WAN/LAN)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 121,
+    "fields": {
+        "sub_pap": 33,
+        "name": "SP33.4 R&M of Database"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 122,
+    "fields": {
+        "sub_pap": 33,
+        "name": "SP33.5 R&M of IP Radio"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 123,
+    "fields": {
+        "sub_pap": 33,
+        "name": "SP33.6 R&M of IT Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 124,
+    "fields": {
+        "sub_pap": 34,
+        "name": "SP34.1 R&M of Cyber Mission Essential Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 125,
+    "fields": {
+        "sub_pap": 34,
+        "name": "SP34.2 R&M of Internet Services - Gateway Security & Antivirus"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 126,
+    "fields": {
+        "sub_pap": 34,
+        "name": "SP34.3 R&M of Cyber Laboratory"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 127,
+    "fields": {
+        "sub_pap": 34,
+        "name": "SP34.4 R&M of PANET Security Monitoring Appliances (SIEM)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 128,
+    "fields": {
+        "sub_pap": 34,
+        "name": "SP34.5 R&M of Enterprise Endpoint Security"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 129,
+    "fields": {
+        "sub_pap": 34,
+        "name": "SP34.6 R&M of Intrusion Detection Systems"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 130,
+    "fields": {
+        "sub_pap": 34,
+        "name": "SP34.7 R&M of Log Storage for Security"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 131,
+    "fields": {
+        "sub_pap": 34,
+        "name": "SP34.8 R&M of Network Security"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 132,
+    "fields": {
+        "sub_pap": 34,
+        "name": "SP34.9 Support to Anti-Virus Subscription"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 133,
+    "fields": {
+        "sub_pap": 35,
+        "name": "SP35.1 R&M of HADR Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 134,
+    "fields": {
+        "sub_pap": 36,
+        "name": "SP36.1 R&M of Intel Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 135,
+    "fields": {
+        "sub_pap": 37,
+        "name": "SP37.1 R&M of CMO Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 136,
+    "fields": {
+        "sub_pap": 38,
+        "name": "SP38.1 R&M of Fire Control Instruments"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 137,
+    "fields": {
+        "sub_pap": 38,
+        "name": "SP38.2 R&M of Fire Direction Computer System"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 138,
+    "fields": {
+        "sub_pap": 39,
+        "name": "SP39.1 R&M of Health Care Equipment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 139,
+    "fields": {
+        "sub_pap": 40,
+        "name": "SP40.1 R&M of Administrative Building"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 140,
+    "fields": {
+        "sub_pap": 40,
+        "name": "SP40.2 R&M of Communication Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 141,
+    "fields": {
+        "sub_pap": 40,
+        "name": "SP40.3 R&M of Base/Camp Security Facilities/Defenses"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 142,
+    "fields": {
+        "sub_pap": 40,
+        "name": "SP40.4 R&M of Other Operational Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 143,
+    "fields": {
+        "sub_pap": 40,
+        "name": "SP40.5 R&M of TOCs"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 144,
+    "fields": {
+        "sub_pap": 41,
+        "name": "SP41.1 R&M of Training Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 145,
+    "fields": {
+        "sub_pap": 41,
+        "name": "SP41.2 R&M of Health Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 146,
+    "fields": {
+        "sub_pap": 41,
+        "name": "SP41.3 R&M of Drug Testing Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 147,
+    "fields": {
+        "sub_pap": 41,
+        "name": "SP41.4 R&M of Grandstand & Ceremonial Areas"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 148,
+    "fields": {
+        "sub_pap": 41,
+        "name": "SP41.5 R&M of Billeting Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 149,
+    "fields": {
+        "sub_pap": 41,
+        "name": "SP41.6 R&M of Mess Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 150,
+    "fields": {
+        "sub_pap": 41,
+        "name": "SP41.7 R&M of Storage Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 151,
+    "fields": {
+        "sub_pap": 41,
+        "name": "SP41.8 R&M of Water System"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 152,
+    "fields": {
+        "sub_pap": 41,
+        "name": "SP41.9 R&M of Electrical Line System"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 153,
+    "fields": {
+        "sub_pap": 41,
+        "name": "SP41.10 R&M of Road, Surfaced"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 154,
+    "fields": {
+        "sub_pap": 42,
+        "name": "SP42.1 R&M of Chapel Facility"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 155,
+    "fields": {
+        "sub_pap": 42,
+        "name": "SP42.2 R&M of Transient Facility"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 156,
+    "fields": {
+        "sub_pap": 43,
+        "name": "SP43.1 Payment for Light Expenses"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 157,
+    "fields": {
+        "sub_pap": 43,
+        "name": "SP43.2 Payment for Water Expenses"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 158,
+    "fields": {
+        "sub_pap": 43,
+        "name": "SP43.3 Payment for the Insurance of Buildings"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 159,
+    "fields": {
+        "sub_pap": 43,
+        "name": "SP43.4 Subscription of Communications Services (Landline)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 160,
+    "fields": {
+        "sub_pap": 43,
+        "name": "SP43.5 Subscription of Communications Services (Mobile)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 161,
+    "fields": {
+        "sub_pap": 43,
+        "name": "SP43.6 Subscription of VSAT Services"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 162,
+    "fields": {
+        "sub_pap": 43,
+        "name": "SP43.7 Subscription of Internet Services"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 163,
+    "fields": {
+        "sub_pap": 43,
+        "name": "SP43.8 Subscription of Cable Expenses"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 164,
+    "fields": {
+        "sub_pap": 43,
+        "name": "SP43.9 Other Subscription Expenses (Newspapers, Magazines, etc)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 165,
+    "fields": {
+        "sub_pap": 43,
+        "name": "SP43.10 Lot Rental"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 166,
+    "fields": {
+        "sub_pap": 44,
+        "name": "SP44.1 Survey of Military Reservation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 167,
+    "fields": {
+        "sub_pap": 45,
+        "name": "SP45.1 Military Livelihood Education (MILE)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 168,
+    "fields": {
+        "sub_pap": 45,
+        "name": "SP45.2 Military Values Education (MILVED)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 169,
+    "fields": {
+        "sub_pap": 45,
+        "name": "SP45.3 Team Building Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 170,
+    "fields": {
+        "sub_pap": 45,
+        "name": "SP45.4 Sport Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 171,
+    "fields": {
+        "sub_pap": 45,
+        "name": "SP45.5 Awarding Ceremonies"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 172,
+    "fields": {
+        "sub_pap": 45,
+        "name": "SP45.6 Socials"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 173,
+    "fields": {
+        "sub_pap": 45,
+        "name": "SP45.7 Rest and Recreation (R&R)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 174,
+    "fields": {
+        "sub_pap": 45,
+        "name": "SP45.8 Donning of Ranks"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 175,
+    "fields": {
+        "sub_pap": 45,
+        "name": "SP45.9 Retirement Ceremonies"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 176,
+    "fields": {
+        "sub_pap": 45,
+        "name": "SP45.10 Other Allowances"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 177,
+    "fields": {
+        "sub_pap": 46,
+        "name": "SP46.1 DLO Advocacy Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 178,
+    "fields": {
+        "sub_pap": 46,
+        "name": "SP46.2 Legal Services"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 179,
+    "fields": {
+        "sub_pap": 46,
+        "name": "SP46.3 Management of Holding Center"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 180,
+    "fields": {
+        "sub_pap": 46,
+        "name": "SP46.4 Support to Legal Retainers"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 181,
+    "fields": {
+        "sub_pap": 47,
+        "name": "SP47.1 Attrition Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 182,
+    "fields": {
+        "sub_pap": 47,
+        "name": "SP47.2 Promotion Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 183,
+    "fields": {
+        "sub_pap": 47,
+        "name": "SP47.3 Placement Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 184,
+    "fields": {
+        "sub_pap": 48,
+        "name": "SP48.1 Gender Education Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 185,
+    "fields": {
+        "sub_pap": 48,
+        "name": "SP48.2 Strengthening GFPS"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 186,
+    "fields": {
+        "sub_pap": 48,
+        "name": "SP48.3 Gender Mainstreaming Review & Evaluation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 187,
+    "fields": {
+        "sub_pap": 48,
+        "name": "SP48.4 GAD Advocacy Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 188,
+    "fields": {
+        "sub_pap": 49,
+        "name": "SP49.1 Sustainment of Individual First Aid Kit (IFAK)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 189,
+    "fields": {
+        "sub_pap": 49,
+        "name": "SP49.2 Sustainment of CLS Kits"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 190,
+    "fields": {
+        "sub_pap": 49,
+        "name": "SP49.3 Evacuation Management of Patients"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 191,
+    "fields": {
+        "sub_pap": 49,
+        "name": "SP49.4 Treatment & Trauma Management"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 192,
+    "fields": {
+        "sub_pap": 50,
+        "name": "SP50.1 Division Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 193,
+    "fields": {
+        "sub_pap": 50,
+        "name": "SP50.2 Brigade Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 194,
+    "fields": {
+        "sub_pap": 50,
+        "name": "SP50.3 Battalion Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 195,
+    "fields": {
+        "sub_pap": 50,
+        "name": "SP50.4 Company Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 196,
+    "fields": {
+        "sub_pap": 50,
+        "name": "SP50.5 Small Unit Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 197,
+    "fields": {
+        "sub_pap": 51,
+        "name": "SP51.1 Intelligence Planning"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 198,
+    "fields": {
+        "sub_pap": 51,
+        "name": "SP51.2 Intelligence Collection"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 199,
+    "fields": {
+        "sub_pap": 51,
+        "name": "SP51.3 Intelligence Processing and Dissemination"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 200,
+    "fields": {
+        "sub_pap": 51,
+        "name": "SP51.4 Force Protection"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 201,
+    "fields": {
+        "sub_pap": 51,
+        "name": "SP51.5 Legal Offensive"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 202,
+    "fields": {
+        "sub_pap": 52,
+        "name": "SP52.1 Support to Civil Affairs"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 203,
+    "fields": {
+        "sub_pap": 52,
+        "name": "SP52.2 Support to Public Affairs"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 204,
+    "fields": {
+        "sub_pap": 52,
+        "name": "SP52.3 Support to Information Support Affairs"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 205,
+    "fields": {
+        "sub_pap": 53,
+        "name": "SP53.1 Information Operations Coordinating Cell (IOCC) Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 206,
+    "fields": {
+        "sub_pap": 54,
+        "name": "SP54.1 Support to Communications System Support Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 207,
+    "fields": {
+        "sub_pap": 54,
+        "name": "SP54.2 Support to Electronic Support Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 208,
+    "fields": {
+        "sub_pap": 54,
+        "name": "SP54.3 Support to Information System Support Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 209,
+    "fields": {
+        "sub_pap": 54,
+        "name": "SP54.4 Support to Cyber Support Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 210,
+    "fields": {
+        "sub_pap": 55,
+        "name": "SP55.1 Support to CAA Admin Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 211,
+    "fields": {
+        "sub_pap": 55,
+        "name": "SP55.2 CAA Pre-Entry Processing"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 212,
+    "fields": {
+        "sub_pap": 55,
+        "name": "SP55.3 Enhancement of CAA Unit Command and Control"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 213,
+    "fields": {
+        "sub_pap": 55,
+        "name": "SP55.4 Enhancement of CAA Unit Communication"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 214,
+    "fields": {
+        "sub_pap": 55,
+        "name": "SP55.5 Strengthening of CAA Patrol Bases Defenses"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 215,
+    "fields": {
+        "sub_pap": 55,
+        "name": "SP55.6 Troop Hutment Support for CAA Detachment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 216,
+    "fields": {
+        "sub_pap": 55,
+        "name": "SP55.7 CAA Readiness"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 217,
+    "fields": {
+        "sub_pap": 56,
+        "name": "SP56.1 Support to Mobility Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 218,
+    "fields": {
+        "sub_pap": 56,
+        "name": "SP56.2 Support Counter-Mobility Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 219,
+    "fields": {
+        "sub_pap": 56,
+        "name": "SP56.3 Support to Survivability Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 220,
+    "fields": {
+        "sub_pap": 56,
+        "name": "SP56.4 Support to General Engineering Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 221,
+    "fields": {
+        "sub_pap": 57,
+        "name": "SP57.1 RSOP"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 222,
+    "fields": {
+        "sub_pap": 57,
+        "name": "SP57.2 Munition Handling and Management"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 223,
+    "fields": {
+        "sub_pap": 57,
+        "name": "SP57.3 Fire Direction Center Operation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 224,
+    "fields": {
+        "sub_pap": 57,
+        "name": "SP57.4 Firing Battery Operation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 225,
+    "fields": {
+        "sub_pap": 57,
+        "name": "SP57.5 Support to Deep Fires"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 226,
+    "fields": {
+        "sub_pap": 57,
+        "name": "SP57.6 Support to Close Fires"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 227,
+    "fields": {
+        "sub_pap": 57,
+        "name": "SP57.7 Support to Counter Battery Fires"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 228,
+    "fields": {
+        "sub_pap": 57,
+        "name": "SP57.8 Support to Combined and Joint Fires"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 229,
+    "fields": {
+        "sub_pap": 57,
+        "name": "SP57.9 Support to Targeting"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 230,
+    "fields": {
+        "sub_pap": 58,
+        "name": "SP58.1 Support to Riverine Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 231,
+    "fields": {
+        "sub_pap": 58,
+        "name": "SP58.2 Support to Target Interdiction"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 232,
+    "fields": {
+        "sub_pap": 58,
+        "name": "SP58.3 Special Reconnaissance"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 233,
+    "fields": {
+        "sub_pap": 58,
+        "name": "SP58.4 Support to Mass Base Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 234,
+    "fields": {
+        "sub_pap": 58,
+        "name": "SP58.5 Support to MOUT Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 235,
+    "fields": {
+        "sub_pap": 58,
+        "name": "SP58.6 Support to Airborne Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 236,
+    "fields": {
+        "sub_pap": 58,
+        "name": "SP58.7 Support to Direct Action/Strike Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 237,
+    "fields": {
+        "sub_pap": 59,
+        "name": "SP59.1 Support to Mechanized Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 238,
+    "fields": {
+        "sub_pap": 60,
+        "name": "SP60.1 Support to EOD Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 239,
+    "fields": {
+        "sub_pap": 60,
+        "name": "SP60.2 Support to Unexploded Ordnance Disposal"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 240,
+    "fields": {
+        "sub_pap": 60,
+        "name": "SP60.3 Support to Counter Improvised Explosive Device Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 241,
+    "fields": {
+        "sub_pap": 60,
+        "name": "SP60.4 Support to ammunition surveillance and inspection"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 242,
+    "fields": {
+        "sub_pap": 60,
+        "name": "SP60.5 Support to explosive demolition operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 243,
+    "fields": {
+        "sub_pap": 60,
+        "name": "SP60.6 Support to Explosive Device and Unexploded Explosive Ordnance Protection Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 244,
+    "fields": {
+        "sub_pap": 60,
+        "name": "SP60.7 EOD Sustainment Support"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 245,
+    "fields": {
+        "sub_pap": 61,
+        "name": "SP61.1 Support to CBRN Reconnaissance Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 246,
+    "fields": {
+        "sub_pap": 61,
+        "name": "SP61.2 Support to Detection, Identification and Containment of CBRN"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 247,
+    "fields": {
+        "sub_pap": 61,
+        "name": "SP61.3 Support to CBRN Defense"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 248,
+    "fields": {
+        "sub_pap": 61,
+        "name": "SP61.4 Support to CBRN Consequence Management"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 249,
+    "fields": {
+        "sub_pap": 61,
+        "name": "SP61.5 Support to CBRN Technical Expertise"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 250,
+    "fields": {
+        "sub_pap": 62,
+        "name": "SP62.1 Community Support Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 251,
+    "fields": {
+        "sub_pap": 63,
+        "name": "SP63.1 Preventing and Countering Violent Extremism (PCVE)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 252,
+    "fields": {
+        "sub_pap": 64,
+        "name": "SP64.1 Troop Deployment Support"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 253,
+    "fields": {
+        "sub_pap": 64,
+        "name": "SP64.2 Troop Hutment Support"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 254,
+    "fields": {
+        "sub_pap": 64,
+        "name": "SP64.3 Operational Testing of Units/Test Mission"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 255,
+    "fields": {
+        "sub_pap": 64,
+        "name": "SP64.4 Operational Enhancement Support"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 256,
+    "fields": {
+        "sub_pap": 64,
+        "name": "SP64.5 Unit Operational Capability Requirements"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 257,
+    "fields": {
+        "sub_pap": 64,
+        "name": "SP64.6 Spt to Administrative & Operational Activities of Subordinate Units (APF)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 258,
+    "fields": {
+        "sub_pap": 64,
+        "name": "SP64.7 Spt to Administrative & Operational Activities of OPCON Non-Organic Units (APF)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 259,
+    "fields": {
+        "sub_pap": 65,
+        "name": "SP65.1 ROTC Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 260,
+    "fields": {
+        "sub_pap": 66,
+        "name": "SP66.1 Retiree Affairs"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 261,
+    "fields": {
+        "sub_pap": 67,
+        "name": "SP67.1 Reservist Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 262,
+    "fields": {
+        "sub_pap": 68,
+        "name": "SP68.1 Disaster Mitigation Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 263,
+    "fields": {
+        "sub_pap": 68,
+        "name": "SP68.2 Coordination with the Office of Civil Defense"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 264,
+    "fields": {
+        "sub_pap": 68,
+        "name": "SP68.3 Coordination/Meetings with Disaster Risk Reduction Management Council (DRRMC)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 265,
+    "fields": {
+        "sub_pap": 69,
+        "name": "SP69.1 Disaster Drill/Rehearsal"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 266,
+    "fields": {
+        "sub_pap": 69,
+        "name": "SP69.2 HADR Planning, Supervision and Control"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 267,
+    "fields": {
+        "sub_pap": 70,
+        "name": "SP70.1 Deployment of DRUs"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 268,
+    "fields": {
+        "sub_pap": 70,
+        "name": "SP70.2 Search and Rescue Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 269,
+    "fields": {
+        "sub_pap": 70,
+        "name": "SP70.3 Retrieval Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 270,
+    "fields": {
+        "sub_pap": 71,
+        "name": "SP71.1 Relief Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 271,
+    "fields": {
+        "sub_pap": 71,
+        "name": "SP71.2 Support to Disaster Recovery and Rehabilitation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 272,
+    "fields": {
+        "sub_pap": 72,
+        "name": "SP72.1 Support to Anti-Illegal Drug Campaign"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 273,
+    "fields": {
+        "sub_pap": 72,
+        "name": "SP72.2 Support to PNP Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 274,
+    "fields": {
+        "sub_pap": 72,
+        "name": "SP72.3 Support to other Law Enforcement Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 275,
+    "fields": {
+        "sub_pap": 72,
+        "name": "SP72.4 Inter-Agency Security Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 276,
+    "fields": {
+        "sub_pap": 72,
+        "name": "SP72.5 Support to Legal Cooperation (SLEO)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 277,
+    "fields": {
+        "sub_pap": 73,
+        "name": "SP73.1 Community Development Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 278,
+    "fields": {
+        "sub_pap": 73,
+        "name": "SP73.2 Socio-Economic Assistance"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 279,
+    "fields": {
+        "sub_pap": 73,
+        "name": "SP73.3 Community Livelihood Programs"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 280,
+    "fields": {
+        "sub_pap": 73,
+        "name": "SP73.4 Support to PAMANA Projects"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 281,
+    "fields": {
+        "sub_pap": 73,
+        "name": "SP73.5 Security to Infrastructures and other Developmental Projects"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 282,
+    "fields": {
+        "sub_pap": 74,
+        "name": "SP74.1 Anti-Illegal Logging Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 283,
+    "fields": {
+        "sub_pap": 74,
+        "name": "SP74.2 Clean and Green Programs"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 284,
+    "fields": {
+        "sub_pap": 74,
+        "name": "SP74.3 Support to Agro-Forest Programs"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 285,
+    "fields": {
+        "sub_pap": 74,
+        "name": "SP74.4 Tree Planting Activity"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 286,
+    "fields": {
+        "sub_pap": 74,
+        "name": "SP74.5 Waste Disposal and Management"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 287,
+    "fields": {
+        "sub_pap": 75,
+        "name": "SP75.1 Engagements of Consultants"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 288,
+    "fields": {
+        "sub_pap": 75,
+        "name": "SP75.2 Participation in Public Governance Fora"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 289,
+    "fields": {
+        "sub_pap": 75,
+        "name": "SP75.3 Attendance to Peace & Order Meetings"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 290,
+    "fields": {
+        "sub_pap": 75,
+        "name": "SP75.4 Attendance to Development Council Meetings"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 291,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.1 Subject Matter Expert Exchange"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 292,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.2 ADMM EWG on HADR"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 293,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.3 ADMM EWG Planning Conference on PKO"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 294,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.4 ADMM Maritime Security and Counter-Terrorism Exercise"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 295,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.5 Support to CIED/EOD SMEE"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 296,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.6 CBRN Training"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 297,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.7 HADR SMEE"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 298,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.8 Combat Engineer SMEE"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 299,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.9 HADR Exercise/Training"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 300,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.10 Support to INSARAG Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 301,
+    "fields": {
+        "sub_pap": 76,
+        "name": "SP76.11 Army Competition"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 302,
+    "fields": {
+        "sub_pap": 77,
+        "name": "SP77.1 Hosting of Foreign Army Dignitaries"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 303,
+    "fields": {
+        "sub_pap": 77,
+        "name": "SP77.2 Visits of Foreign Armies (Outbound)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 304,
+    "fields": {
+        "sub_pap": 77,
+        "name": "SP77.3 Defense Exhibits and Conference"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 305,
+    "fields": {
+        "sub_pap": 77,
+        "name": "SP77.4 Visit to Foreign Defense Industries/Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 306,
+    "fields": {
+        "sub_pap": 78,
+        "name": "SP78.1 Hosting of/Attendance to Army to Army Working Group Engagement"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 307,
+    "fields": {
+        "sub_pap": 79,
+        "name": "SP79.1 Pre-Deployment Support"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 308,
+    "fields": {
+        "sub_pap": 79,
+        "name": "SP79.2 PSO Planning and Policy making"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 309,
+    "fields": {
+        "sub_pap": 80,
+        "name": "SP80.1 Foreign Military Schooling"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 310,
+    "fields": {
+        "sub_pap": 81,
+        "name": "SP81.1 Other IDSE"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 311,
+    "fields": {
+        "sub_pap": 82,
+        "name": "SP82.1 Strategy Development"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 312,
+    "fields": {
+        "sub_pap": 82,
+        "name": "SP82.2 Strategy Refresh"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 313,
+    "fields": {
+        "sub_pap": 83,
+        "name": "SP83.1 Strategy Management Training"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 314,
+    "fields": {
+        "sub_pap": 83,
+        "name": "SP83.2 ISO Certification"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 315,
+    "fields": {
+        "sub_pap": 83,
+        "name": "SP83.3 Army Governance Pathway Implementation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 316,
+    "fields": {
+        "sub_pap": 83,
+        "name": "SP83.4 Project Management Training"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 317,
+    "fields": {
+        "sub_pap": 83,
+        "name": "SP83.5 Systems Improvement"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 318,
+    "fields": {
+        "sub_pap": 83,
+        "name": "SP83.6 2L-Capacity Enhancement"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 319,
+    "fields": {
+        "sub_pap": 84,
+        "name": "SP84.1 Performance Management"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 320,
+    "fields": {
+        "sub_pap": 84,
+        "name": "SP84.2 GSMO Audit"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 321,
+    "fields": {
+        "sub_pap": 84,
+        "name": "SP84.3 ISO Surveillance Audit"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 322,
+    "fields": {
+        "sub_pap": 84,
+        "name": "SP84.4 Management of Office Initiative"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 323,
+    "fields": {
+        "sub_pap": 84,
+        "name": "SP84.5 Management of Unit Initiative"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 324,
+    "fields": {
+        "sub_pap": 84,
+        "name": "SP84.6 Performance Scorecard Management Information System (i-Perform)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 325,
+    "fields": {
+        "sub_pap": 84,
+        "name": "SP84.7 Programs Review"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 326,
+    "fields": {
+        "sub_pap": 84,
+        "name": "SP84.8 On-Site Document Pre-Audit"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 327,
+    "fields": {
+        "sub_pap": 85,
+        "name": "SP85.1 Compliance Audits/Maturity Model"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 328,
+    "fields": {
+        "sub_pap": 85,
+        "name": "SP85.2 ATR Strategy Evaluation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 329,
+    "fields": {
+        "sub_pap": 85,
+        "name": "SP85.3 Scorecard Management"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 330,
+    "fields": {
+        "sub_pap": 85,
+        "name": "SP85.4 ATR Program Assessment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 331,
+    "fields": {
+        "sub_pap": 85,
+        "name": "SP85.5 ATR Strategy Review"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 332,
+    "fields": {
+        "sub_pap": 85,
+        "name": "SP85.6 PA SMS Review/Validation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 333,
+    "fields": {
+        "sub_pap": 86,
+        "name": "SP86.1 Communicating the ATR"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 334,
+    "fields": {
+        "sub_pap": 86,
+        "name": "SP86.2 Multi-Sector Advisory Board (MSAB) Activity"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 335,
+    "fields": {
+        "sub_pap": 86,
+        "name": "SP86.3 Governance Forum"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 336,
+    "fields": {
+        "sub_pap": 86,
+        "name": "SP86.4 Governance Lecture Series"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 337,
+    "fields": {
+        "sub_pap": 86,
+        "name": "SP86.5 ATR Training/Cascading"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 338,
+    "fields": {
+        "sub_pap": 86,
+        "name": "SP86.6 ATR Publication"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 339,
+    "fields": {
+        "sub_pap": 87,
+        "name": "SP87.1 Support to Bidding & Procurement Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 340,
+    "fields": {
+        "sub_pap": 87,
+        "name": "SP87.2 Warehouse/Storage Management"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 341,
+    "fields": {
+        "sub_pap": 87,
+        "name": "SP87.3 Inventory Management Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 342,
+    "fields": {
+        "sub_pap": 87,
+        "name": "SP87.4 Distribution/Transportation Management Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 343,
+    "fields": {
+        "sub_pap": 87,
+        "name": "SP87.5 Disposal Management Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 344,
+    "fields": {
+        "sub_pap": 87,
+        "name": "SP87.6 Support to Commodity Managers"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 345,
+    "fields": {
+        "sub_pap": 87,
+        "name": "SP87.7 Support to PCHT"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 346,
+    "fields": {
+        "sub_pap": 87,
+        "name": "SP87.8 Support to Mortuary Services"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 347,
+    "fields": {
+        "sub_pap": 87,
+        "name": "SP87.9 Support for Laundry Services"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 348,
+    "fields": {
+        "sub_pap": 88,
+        "name": "SP88.1 Wellness Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 349,
+    "fields": {
+        "sub_pap": 88,
+        "name": "SP88.2 Physical Fitness Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 350,
+    "fields": {
+        "sub_pap": 89,
+        "name": "SP89.1 Procurement of Drugs & Medicine"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 351,
+    "fields": {
+        "sub_pap": 89,
+        "name": "SP89.2 Procurement of Medical Supplies"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 352,
+    "fields": {
+        "sub_pap": 89,
+        "name": "SP89.3 Procurement of Dental Supplies"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 353,
+    "fields": {
+        "sub_pap": 89,
+        "name": "SP89.4 Support to Physical & Medical Examinations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 354,
+    "fields": {
+        "sub_pap": 89,
+        "name": "SP89.5 Conduct of Medical & Dental Check-up"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 355,
+    "fields": {
+        "sub_pap": 89,
+        "name": "SP89.6 Medical Referral & Treatment"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 356,
+    "fields": {
+        "sub_pap": 89,
+        "name": "SP89.7 Support to RHE Program"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 357,
+    "fields": {
+        "sub_pap": 89,
+        "name": "SP89.8 Support to Medical/Dental Retainers"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 358,
+    "fields": {
+        "sub_pap": 90,
+        "name": "SP90.1 Support to PA Software as a Service (SaaS)/ Platform as a Service (PaaS)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 359,
+    "fields": {
+        "sub_pap": 90,
+        "name": "SP90.2 Support to PA Internet Bills"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 360,
+    "fields": {
+        "sub_pap": 90,
+        "name": "SP90.3 Support to PA Internet Web Hosting"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 361,
+    "fields": {
+        "sub_pap": 90,
+        "name": "SP90.4 Support to PA DNS Registration"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 362,
+    "fields": {
+        "sub_pap": 90,
+        "name": "SP90.5 Support to PA Email Support Services Subscription"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 363,
+    "fields": {
+        "sub_pap": 91,
+        "name": "SP91.1 Command Conference"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 364,
+    "fields": {
+        "sub_pap": 91,
+        "name": "SP91.2 Functional Staff Conference"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 365,
+    "fields": {
+        "sub_pap": 91,
+        "name": "SP91.3 Inter Office Conferences"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 366,
+    "fields": {
+        "sub_pap": 91,
+        "name": "SP91.4 Support to Unit/Office Administration"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 367,
+    "fields": {
+        "sub_pap": 92,
+        "name": "SP92.1 Participation to AFP Wide Activities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 368,
+    "fields": {
+        "sub_pap": 92,
+        "name": "SP92.2 Participation to National Events"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 369,
+    "fields": {
+        "sub_pap": 92,
+        "name": "SP92.3 Participation to PA Wide Celebration"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 370,
+    "fields": {
+        "sub_pap": 92,
+        "name": "SP92.4 Anniversary Celebration"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 371,
+    "fields": {
+        "sub_pap": 93,
+        "name": "SP93.1 Commander's Visit"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 372,
+    "fields": {
+        "sub_pap": 93,
+        "name": "SP93.2 Staff Visit"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 373,
+    "fields": {
+        "sub_pap": 93,
+        "name": "SP93.3 Unit Preparation (Receiving Visitors)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 374,
+    "fields": {
+        "sub_pap": 94,
+        "name": "SP94.1 Change of Command/Chief of Office"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 375,
+    "fields": {
+        "sub_pap": 94,
+        "name": "SP94.2 Testimonial Parade/Honor"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 376,
+    "fields": {
+        "sub_pap": 94,
+        "name": "SP94.3 Send-off Ceremony"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 377,
+    "fields": {
+        "sub_pap": 94,
+        "name": "SP94.4 Wreathlaying Ceremony"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 378,
+    "fields": {
+        "sub_pap": 94,
+        "name": "SP94.5 Funeral Honor and Services"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 379,
+    "fields": {
+        "sub_pap": 94,
+        "name": "SP94.6 Other Military Ceremonies"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 380,
+    "fields": {
+        "sub_pap": 95,
+        "name": "SP95.1 Programs and Budget Development Guidance Formulation"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 381,
+    "fields": {
+        "sub_pap": 95,
+        "name": "SP95.2 Resource Management Forum (RMF)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 382,
+    "fields": {
+        "sub_pap": 95,
+        "name": "SP95.3 PA Budget Development"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 383,
+    "fields": {
+        "sub_pap": 95,
+        "name": "SP95.4 Annual Plan & Budget (APB) Development"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 384,
+    "fields": {
+        "sub_pap": 95,
+        "name": "SP95.5 Annual Procurement Plan (APP) Development"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 385,
+    "fields": {
+        "sub_pap": 95,
+        "name": "SP95.6 GAD Plan & Budget (GPB) Development"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 386,
+    "fields": {
+        "sub_pap": 96,
+        "name": "SP96.1 Fiscal Operations"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 387,
+    "fields": {
+        "sub_pap": 96,
+        "name": "SP96.2 Fiscal Control of Financial Transactions"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 388,
+    "fields": {
+        "sub_pap": 96,
+        "name": "SP96.3 Fiscal Policy Development"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 389,
+    "fields": {
+        "sub_pap": 97,
+        "name": "SP97.1 Recording and Reporting of Financial Transactions"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 390,
+    "fields": {
+        "sub_pap": 97,
+        "name": "SP97.2 Payment of Bond Premium"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 391,
+    "fields": {
+        "sub_pap": 98,
+        "name": "SP98.1 Monitoring and Evaluation of Funds"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 392,
+    "fields": {
+        "sub_pap": 98,
+        "name": "SP98.2 Program Performance and Budget Execution Review (PPBER)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 393,
+    "fields": {
+        "sub_pap": 98,
+        "name": "SP98.3 Budget Execution Process Review (BEPR)"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 394,
+    "fields": {
+        "sub_pap": 99,
+        "name": "SP99.1 Annual General Inspection"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 395,
+    "fields": {
+        "sub_pap": 99,
+        "name": "SP99.2 Pre Annual General Inspection"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 396,
+    "fields": {
+        "sub_pap": 99,
+        "name": "SP99.3 Terminal Audit"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 397,
+    "fields": {
+        "sub_pap": 99,
+        "name": "SP99.4 Special Audit"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 398,
+    "fields": {
+        "sub_pap": 99,
+        "name": "SP99.5 Management Audit"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 399,
+    "fields": {
+        "sub_pap": 27,
+        "name": "R&M of Mil Vech - Truck"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 400,
+    "fields": {
+        "sub_pap": 27,
+        "name": "R&M of SPV"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 401,
+    "fields": {
+        "sub_pap": 27,
+        "name": "R&M of Watercraft"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 402,
+    "fields": {
+        "sub_pap": 27,
+        "name": "R&M of Air Assets"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 403,
+    "fields": {
+        "sub_pap": 27,
+        "name": "R&M of Armaments"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 404,
+    "fields": {
+        "sub_pap": 43,
+        "name": "Payment for light and water"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 405,
+    "fields": {
+        "sub_pap": 40,
+        "name": "R&M Maintenance of Operational Facilities"
+    }
+},
+{
+    "model": "ppb.suggestedpap",
+    "pk": 406,
+    "fields": {
+        "sub_pap": 41,
+        "name": "R&M Maintenance of Operational Support Facilities"
+    }
+}
+]

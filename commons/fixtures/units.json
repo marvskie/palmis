@@ -1,0 +1,6932 @@
+[
+{
+    "model": "commons.unit",
+    "pk": 1,
+    "fields": {
+        "name": "H1ID",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 2,
+    "fields": {
+        "name": "HHSBn 1ID",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 3,
+    "fields": {
+        "name": "SSBn 1ID",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 4,
+    "fields": {
+        "name": "Hospital 1ID",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 5,
+    "fields": {
+        "name": "102Bde",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 6,
+    "fields": {
+        "name": "103BDe",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 7,
+    "fields": {
+        "name": "104Bde",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 8,
+    "fields": {
+        "name": "10IB",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 9,
+    "fields": {
+        "name": "18IB",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 10,
+    "fields": {
+        "name": "44IB",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 11,
+    "fields": {
+        "name": "51IB",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 12,
+    "fields": {
+        "name": "53IB",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 13,
+    "fields": {
+        "name": "55IB",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 14,
+    "fields": {
+        "name": "64IB",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 15,
+    "fields": {
+        "name": "TFZ",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 16,
+    "fields": {
+        "name": "1MIB",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 17,
+    "fields": {
+        "name": "11DRC",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 18,
+    "fields": {
+        "name": "12DRC",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 19,
+    "fields": {
+        "name": "14DRC",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 20,
+    "fields": {
+        "name": "15DRC",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 21,
+    "fields": {
+        "name": "1CMOBn",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 22,
+    "fields": {
+        "name": "PED 1ID",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 23,
+    "fields": {
+        "name": "H2ID",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 24,
+    "fields": {
+        "name": "HHSBn 2ID",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 25,
+    "fields": {
+        "name": "SSBn 2ID",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 26,
+    "fields": {
+        "name": "Hospital 2ID",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 27,
+    "fields": {
+        "name": "201Bde",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 28,
+    "fields": {
+        "name": "202Bde",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 29,
+    "fields": {
+        "name": "203Bde",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 30,
+    "fields": {
+        "name": "1IB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 31,
+    "fields": {
+        "name": "4IB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 32,
+    "fields": {
+        "name": "59IB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 33,
+    "fields": {
+        "name": "76IB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 34,
+    "fields": {
+        "name": "80IB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 35,
+    "fields": {
+        "name": "85IB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 36,
+    "fields": {
+        "name": "21DRC",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 37,
+    "fields": {
+        "name": "22DRC",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 38,
+    "fields": {
+        "name": "23DRC",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 39,
+    "fields": {
+        "name": "2MIB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 40,
+    "fields": {
+        "name": "2CMOBn",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 41,
+    "fields": {
+        "name": "59CBn",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 42,
+    "fields": {
+        "name": "PED 2ID",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 43,
+    "fields": {
+        "name": "HHSBn 3ID",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 44,
+    "fields": {
+        "name": "SSBn 3ID",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 45,
+    "fields": {
+        "name": "Hospital 3ID",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 46,
+    "fields": {
+        "name": "301Bde",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 47,
+    "fields": {
+        "name": "302Bde",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 48,
+    "fields": {
+        "name": "303Bde",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 49,
+    "fields": {
+        "name": "61IB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 50,
+    "fields": {
+        "name": "79IB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 51,
+    "fields": {
+        "name": "62IB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 52,
+    "fields": {
+        "name": "67IB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 53,
+    "fields": {
+        "name": "47IB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 54,
+    "fields": {
+        "name": "82IB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 55,
+    "fields": {
+        "name": "31DRC",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 56,
+    "fields": {
+        "name": "32DRC",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 57,
+    "fields": {
+        "name": "33DRC",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 58,
+    "fields": {
+        "name": "3CMOBn",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 59,
+    "fields": {
+        "name": "3MIB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 60,
+    "fields": {
+        "name": "HHSBn 4ID",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 61,
+    "fields": {
+        "name": "SSBn 4ID",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 62,
+    "fields": {
+        "name": "Hospital 4ID",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 63,
+    "fields": {
+        "name": "401Bde",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 64,
+    "fields": {
+        "name": "402Bde",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 65,
+    "fields": {
+        "name": "403Bde",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 66,
+    "fields": {
+        "name": "26IB",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 67,
+    "fields": {
+        "name": "29IB",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 68,
+    "fields": {
+        "name": "30IB",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 69,
+    "fields": {
+        "name": "36IB",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 70,
+    "fields": {
+        "name": "58IB",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 71,
+    "fields": {
+        "name": "41DRC",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 72,
+    "fields": {
+        "name": "42DRC",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 73,
+    "fields": {
+        "name": "43DRC",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 74,
+    "fields": {
+        "name": "4MIB",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 75,
+    "fields": {
+        "name": "4CMOBn",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 76,
+    "fields": {
+        "name": "PED 4ID",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 77,
+    "fields": {
+        "name": "H5ID",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 78,
+    "fields": {
+        "name": "HHSBn 5ID",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 79,
+    "fields": {
+        "name": "SSBn 5ID",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 80,
+    "fields": {
+        "name": "Hospital 5ID",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 81,
+    "fields": {
+        "name": "502Bde",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 82,
+    "fields": {
+        "name": "503Bde",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 83,
+    "fields": {
+        "name": "17IB",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 84,
+    "fields": {
+        "name": "50IB",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 85,
+    "fields": {
+        "name": "54IB",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 86,
+    "fields": {
+        "name": "86IB",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 87,
+    "fields": {
+        "name": "51DRC",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 88,
+    "fields": {
+        "name": "52DRC",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 89,
+    "fields": {
+        "name": "53DRC",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 90,
+    "fields": {
+        "name": "5MIB",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 91,
+    "fields": {
+        "name": "5CMOBn",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 92,
+    "fields": {
+        "name": "PED 5ID",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 93,
+    "fields": {
+        "name": "H6ID",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 94,
+    "fields": {
+        "name": "HHSBn 6ID",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 95,
+    "fields": {
+        "name": "SSBn 6ID",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 96,
+    "fields": {
+        "name": "Hospital 6ID",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 97,
+    "fields": {
+        "name": "601Bde",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 98,
+    "fields": {
+        "name": "602Bde",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 99,
+    "fields": {
+        "name": "603Bde",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 100,
+    "fields": {
+        "name": "6IB",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 101,
+    "fields": {
+        "name": "7IB",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 102,
+    "fields": {
+        "name": "33IB",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 103,
+    "fields": {
+        "name": "37IB",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 104,
+    "fields": {
+        "name": "40IB",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 105,
+    "fields": {
+        "name": "61DRC",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 106,
+    "fields": {
+        "name": "62DRC",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 107,
+    "fields": {
+        "name": "63DRC",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 108,
+    "fields": {
+        "name": "TG BL",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 109,
+    "fields": {
+        "name": "TF NCOT",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 110,
+    "fields": {
+        "name": "TG PALIPARAN",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 111,
+    "fields": {
+        "name": "6MIB",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 112,
+    "fields": {
+        "name": "6CMOBn",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 113,
+    "fields": {
+        "name": "PED 6ID",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 114,
+    "fields": {
+        "name": "H7ID",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 115,
+    "fields": {
+        "name": "HHSBn 7ID",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 116,
+    "fields": {
+        "name": "SSBn 7ID",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 117,
+    "fields": {
+        "name": "Hospital 7ID",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 118,
+    "fields": {
+        "name": "701Bde",
+        "mother_unit": 7,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 119,
+    "fields": {
+        "name": "702Bde",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 120,
+    "fields": {
+        "name": "703Bde",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 121,
+    "fields": {
+        "name": "71IB",
+        "mother_unit": 7,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 122,
+    "fields": {
+        "name": "24IB",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 123,
+    "fields": {
+        "name": "81IB",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 124,
+    "fields": {
+        "name": "48IB",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 125,
+    "fields": {
+        "name": "70IB",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 126,
+    "fields": {
+        "name": "71DRC",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 127,
+    "fields": {
+        "name": "72DRC",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 128,
+    "fields": {
+        "name": "73DRC",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 129,
+    "fields": {
+        "name": "70CBn",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 130,
+    "fields": {
+        "name": "7MIB",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 131,
+    "fields": {
+        "name": "7CMOBn",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 132,
+    "fields": {
+        "name": "PED 7ID",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 133,
+    "fields": {
+        "name": "14IB",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 134,
+    "fields": {
+        "name": "HHSBn 8ID",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 135,
+    "fields": {
+        "name": "H3ID",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 136,
+    "fields": {
+        "name": "H8ID",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 137,
+    "fields": {
+        "name": "7DTS",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 138,
+    "fields": {
+        "name": "6DTS",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 139,
+    "fields": {
+        "name": "5DTS",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 140,
+    "fields": {
+        "name": "3DTS",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 141,
+    "fields": {
+        "name": "2DTS",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 142,
+    "fields": {
+        "name": "1DTS",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 143,
+    "fields": {
+        "name": "84IB",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 144,
+    "fields": {
+        "name": "3IB",
+        "mother_unit": 7,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 145,
+    "fields": {
+        "name": "16IB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 146,
+    "fields": {
+        "name": "21IB",
+        "mother_unit": 5,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 147,
+    "fields": {
+        "name": "41IB",
+        "mother_unit": 5,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 148,
+    "fields": {
+        "name": "23IB",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 149,
+    "fields": {
+        "name": "5IB",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 150,
+    "fields": {
+        "name": "12IB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 151,
+    "fields": {
+        "name": "38IB",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 152,
+    "fields": {
+        "name": "32IB",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 153,
+    "fields": {
+        "name": "35IB",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 154,
+    "fields": {
+        "name": "101Bde",
+        "mother_unit": 1,
+        "pamu": null,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 155,
+    "fields": {
+        "name": "SSBn 8ID",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 156,
+    "fields": {
+        "name": "Hospital 8ID",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 157,
+    "fields": {
+        "name": "801Bde",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 158,
+    "fields": {
+        "name": "802Bde",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 159,
+    "fields": {
+        "name": "78IB",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 160,
+    "fields": {
+        "name": "803Bde",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 161,
+    "fields": {
+        "name": "43IB",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 162,
+    "fields": {
+        "name": "20IB",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 163,
+    "fields": {
+        "name": "87IB",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 164,
+    "fields": {
+        "name": "81DRC",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 165,
+    "fields": {
+        "name": "82DRC",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 166,
+    "fields": {
+        "name": "83DRC",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 167,
+    "fields": {
+        "name": "8MIB",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 168,
+    "fields": {
+        "name": "8CMOBn",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 169,
+    "fields": {
+        "name": "PED 8ID",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 170,
+    "fields": {
+        "name": "65IB",
+        "mother_unit": 9,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 171,
+    "fields": {
+        "name": "2IB",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 172,
+    "fields": {
+        "name": "83IB",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 173,
+    "fields": {
+        "name": "902Bde",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 174,
+    "fields": {
+        "name": "903Bde",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 175,
+    "fields": {
+        "name": "31IB",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 176,
+    "fields": {
+        "name": "H9ID",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 177,
+    "fields": {
+        "name": "9IB",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 178,
+    "fields": {
+        "name": "91DRC",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 179,
+    "fields": {
+        "name": "92DRC",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 180,
+    "fields": {
+        "name": "93DRC",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 181,
+    "fields": {
+        "name": "9MIB",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 182,
+    "fields": {
+        "name": "9CMOBn",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 183,
+    "fields": {
+        "name": "HHSBn 9ID",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 184,
+    "fields": {
+        "name": "SSBn 9ID",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 185,
+    "fields": {
+        "name": "Hospital 9ID",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 186,
+    "fields": {
+        "name": "PED 9ID",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 187,
+    "fields": {
+        "name": "60IB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 188,
+    "fields": {
+        "name": "28IB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 189,
+    "fields": {
+        "name": "H10ID",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 190,
+    "fields": {
+        "name": "1003Bde",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 191,
+    "fields": {
+        "name": "73IB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 192,
+    "fields": {
+        "name": "39IB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 193,
+    "fields": {
+        "name": "27IB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 194,
+    "fields": {
+        "name": "1002Bde",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 195,
+    "fields": {
+        "name": "66IB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 196,
+    "fields": {
+        "name": "25IB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 197,
+    "fields": {
+        "name": "1001Bde",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 198,
+    "fields": {
+        "name": "101DRC",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 199,
+    "fields": {
+        "name": "102DRC",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 200,
+    "fields": {
+        "name": "103DRC",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 201,
+    "fields": {
+        "name": "104DRC",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 202,
+    "fields": {
+        "name": "TF DAVAO",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 203,
+    "fields": {
+        "name": "TF GENSAN",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 204,
+    "fields": {
+        "name": "10MIB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 205,
+    "fields": {
+        "name": "CMOBn",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 206,
+    "fields": {
+        "name": "HHSBn 10ID",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 207,
+    "fields": {
+        "name": "SSBn 10ID",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 208,
+    "fields": {
+        "name": "Hospital 10ID",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 209,
+    "fields": {
+        "name": "PED 10ID",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 210,
+    "fields": {
+        "name": "105SB",
+        "mother_unit": 27,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 211,
+    "fields": {
+        "name": "12FAB",
+        "mother_unit": 27,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 212,
+    "fields": {
+        "name": "105UPGB",
+        "mother_unit": 27,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 213,
+    "fields": {
+        "name": "8RCDG",
+        "mother_unit": 24,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 214,
+    "fields": {
+        "name": "2RCDG",
+        "mother_unit": 24,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 215,
+    "fields": {
+        "name": "5RCDG",
+        "mother_unit": 24,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 216,
+    "fields": {
+        "name": "7RCDG",
+        "mother_unit": 24,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 217,
+    "fields": {
+        "name": "9RCDG",
+        "mother_unit": 24,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 218,
+    "fields": {
+        "name": "10RCDG",
+        "mother_unit": 24,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 219,
+    "fields": {
+        "name": "11RCDG",
+        "mother_unit": 24,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 220,
+    "fields": {
+        "name": "12RCDG",
+        "mother_unit": 24,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 221,
+    "fields": {
+        "name": "6RCDG",
+        "mother_unit": 24,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 222,
+    "fields": {
+        "name": "HSOCOM",
+        "mother_unit": 34,
+        "pamu": 34,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 223,
+    "fields": {
+        "name": "SOTF BASILAN",
+        "mother_unit": 34,
+        "pamu": 34,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 224,
+    "fields": {
+        "name": "SOTG ALEGAN",
+        "mother_unit": 34,
+        "pamu": 34,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 225,
+    "fields": {
+        "name": "HHSBn SOCOM",
+        "mother_unit": 34,
+        "pamu": 34,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 226,
+    "fields": {
+        "name": "SSBn SOCOM",
+        "mother_unit": 34,
+        "pamu": 34,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 227,
+    "fields": {
+        "name": "PAPT",
+        "mother_unit": 34,
+        "pamu": 34,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 228,
+    "fields": {
+        "name": "TGP",
+        "mother_unit": 34,
+        "pamu": 34,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 229,
+    "fields": {
+        "name": "AMBn",
+        "mother_unit": 14,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 230,
+    "fields": {
+        "name": "TAS",
+        "mother_unit": 14,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 231,
+    "fields": {
+        "name": "2Mech Inf Bde",
+        "mother_unit": 14,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 232,
+    "fields": {
+        "name": "1Mech InF Bn",
+        "mother_unit": 14,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 233,
+    "fields": {
+        "name": "2Mech Inf Bn",
+        "mother_unit": 14,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 234,
+    "fields": {
+        "name": "HAAR",
+        "mother_unit": 27,
+        "pamu": 27,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 235,
+    "fields": {
+        "name": "SALBAT",
+        "mother_unit": 27,
+        "pamu": 27,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 236,
+    "fields": {
+        "name": "155HB",
+        "mother_unit": 27,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 237,
+    "fields": {
+        "name": "2Cav Sqdn ",
+        "mother_unit": 14,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 238,
+    "fields": {
+        "name": "1Cav Sqdn",
+        "mother_unit": 14,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 239,
+    "fields": {
+        "name": "HMID",
+        "mother_unit": 14,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 240,
+    "fields": {
+        "name": "1RCDG",
+        "mother_unit": 24,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 241,
+    "fields": {
+        "name": "3FAB",
+        "mother_unit": 27,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 242,
+    "fields": {
+        "name": "6FAB",
+        "mother_unit": 27,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 243,
+    "fields": {
+        "name": "4FAB",
+        "mother_unit": 27,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 244,
+    "fields": {
+        "name": "10DTS",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 245,
+    "fields": {
+        "name": "8DTS",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 246,
+    "fields": {
+        "name": "ATS",
+        "mother_unit": 27,
+        "pamu": 27,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 247,
+    "fields": {
+        "name": "4SRBn",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 248,
+    "fields": {
+        "name": "SRTS",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 249,
+    "fields": {
+        "name": "3LRC",
+        "mother_unit": 23,
+        "pamu": 23,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 250,
+    "fields": {
+        "name": "1LRC",
+        "mother_unit": 23,
+        "pamu": 23,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 251,
+    "fields": {
+        "name": "15SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 252,
+    "fields": {
+        "name": "1SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 253,
+    "fields": {
+        "name": "1SRBn",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 254,
+    "fields": {
+        "name": "3SRBn",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 255,
+    "fields": {
+        "name": "2SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 256,
+    "fields": {
+        "name": "3SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 257,
+    "fields": {
+        "name": "4SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 258,
+    "fields": {
+        "name": "5SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 259,
+    "fields": {
+        "name": "6SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 260,
+    "fields": {
+        "name": "7SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 261,
+    "fields": {
+        "name": "9SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 262,
+    "fields": {
+        "name": "10SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 263,
+    "fields": {
+        "name": "11SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 264,
+    "fields": {
+        "name": "12SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 265,
+    "fields": {
+        "name": "13SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 266,
+    "fields": {
+        "name": "14SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 267,
+    "fields": {
+        "name": "SRBn",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 268,
+    "fields": {
+        "name": "18SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 269,
+    "fields": {
+        "name": "12SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 270,
+    "fields": {
+        "name": "11SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 271,
+    "fields": {
+        "name": "5SFBn",
+        "mother_unit": 21,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 272,
+    "fields": {
+        "name": "20SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 273,
+    "fields": {
+        "name": "19SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 274,
+    "fields": {
+        "name": "17SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 275,
+    "fields": {
+        "name": "16SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 276,
+    "fields": {
+        "name": "15SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 277,
+    "fields": {
+        "name": "14SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 278,
+    "fields": {
+        "name": "9SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 279,
+    "fields": {
+        "name": "13SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 280,
+    "fields": {
+        "name": "8SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 281,
+    "fields": {
+        "name": "SFS",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 282,
+    "fields": {
+        "name": "6SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 283,
+    "fields": {
+        "name": "3SFBn",
+        "mother_unit": 21,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 284,
+    "fields": {
+        "name": "5SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 285,
+    "fields": {
+        "name": "4SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 286,
+    "fields": {
+        "name": "3SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 287,
+    "fields": {
+        "name": "2SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 288,
+    "fields": {
+        "name": "1SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 289,
+    "fields": {
+        "name": "HSFR(A)",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 290,
+    "fields": {
+        "name": "HFSRR",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 291,
+    "fields": {
+        "name": "HLRR",
+        "mother_unit": 23,
+        "pamu": 23,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 292,
+    "fields": {
+        "name": "1Mech Inf Bde",
+        "mother_unit": 14,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 293,
+    "fields": {
+        "name": "15RCDG",
+        "mother_unit": 24,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 294,
+    "fields": {
+        "name": "5Mech Inf Bn",
+        "mother_unit": 14,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 295,
+    "fields": {
+        "name": "34IB",
+        "mother_unit": 8,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 296,
+    "fields": {
+        "name": "49IB",
+        "mother_unit": 9,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 297,
+    "fields": {
+        "name": "42IB",
+        "mother_unit": 9,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 298,
+    "fields": {
+        "name": "4Mech Inf Bn",
+        "mother_unit": 14,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 299,
+    "fields": {
+        "name": "NCRRCDG",
+        "mother_unit": 24,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 300,
+    "fields": {
+        "name": "HHSBn ARESCOM",
+        "mother_unit": 24,
+        "pamu": 24,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 301,
+    "fields": {
+        "name": "4RCDG",
+        "mother_unit": 24,
+        "pamu": 24,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 302,
+    "fields": {
+        "name": "RRAMC",
+        "mother_unit": 24,
+        "pamu": 24,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 303,
+    "fields": {
+        "name": "ATS",
+        "mother_unit": 24,
+        "pamu": 24,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 304,
+    "fields": {
+        "name": "72IB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 305,
+    "fields": {
+        "name": "22IB",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 306,
+    "fields": {
+        "name": "52IB",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 307,
+    "fields": {
+        "name": "501Bde",
+        "mother_unit": 5,
+        "pamu": null,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 308,
+    "fields": {
+        "name": "AABn",
+        "mother_unit": 14,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 309,
+    "fields": {
+        "name": "RDF",
+        "mother_unit": 14,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 310,
+    "fields": {
+        "name": "H51EBde",
+        "mother_unit": 29,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 311,
+    "fields": {
+        "name": "HHC51EBde",
+        "mother_unit": 29,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 312,
+    "fields": {
+        "name": "ESBn51EBde",
+        "mother_unit": 29,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 313,
+    "fields": {
+        "name": "514ECBn",
+        "mother_unit": 29,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 314,
+    "fields": {
+        "name": "564ECBn",
+        "mother_unit": 29,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 315,
+    "fields": {
+        "name": "525ECBn",
+        "mother_unit": 29,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 316,
+    "fields": {
+        "name": "H52EBde",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 317,
+    "fields": {
+        "name": "HHC52EBde",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 318,
+    "fields": {
+        "name": "ESBn52EBde",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 319,
+    "fields": {
+        "name": "512ECBn",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 320,
+    "fields": {
+        "name": "534ECBn",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 321,
+    "fields": {
+        "name": "544ECBn",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 322,
+    "fields": {
+        "name": "524ECBn",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 323,
+    "fields": {
+        "name": "H53EBde",
+        "mother_unit": 31,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 324,
+    "fields": {
+        "name": "HHC53EBde",
+        "mother_unit": 31,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 325,
+    "fields": {
+        "name": "ESBn53EBde",
+        "mother_unit": 31,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 326,
+    "fields": {
+        "name": "H54EBde",
+        "mother_unit": 32,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 327,
+    "fields": {
+        "name": "HHC54EBde",
+        "mother_unit": 32,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 328,
+    "fields": {
+        "name": "ESBn54EBde",
+        "mother_unit": 32,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 329,
+    "fields": {
+        "name": "HHC55EBde",
+        "mother_unit": 33,
+        "pamu": 33,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 330,
+    "fields": {
+        "name": "ESBn55EBde",
+        "mother_unit": 33,
+        "pamu": 33,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 331,
+    "fields": {
+        "name": "HASCOM",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 332,
+    "fields": {
+        "name": "1FSSU",
+        "mother_unit": 13,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 333,
+    "fields": {
+        "name": "4FSSU",
+        "mother_unit": 13,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 334,
+    "fields": {
+        "name": "5FSSU",
+        "mother_unit": 13,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 335,
+    "fields": {
+        "name": "6FSSU",
+        "mother_unit": 13,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 336,
+    "fields": {
+        "name": "7FSSU",
+        "mother_unit": 13,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 337,
+    "fields": {
+        "name": "8FSSU",
+        "mother_unit": 13,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 338,
+    "fields": {
+        "name": "10FSSU",
+        "mother_unit": 13,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 339,
+    "fields": {
+        "name": "11FSSU",
+        "mother_unit": 13,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 340,
+    "fields": {
+        "name": "12FSSU",
+        "mother_unit": 13,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 341,
+    "fields": {
+        "name": "2ISU",
+        "mother_unit": 19,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 342,
+    "fields": {
+        "name": "5ISU",
+        "mother_unit": 19,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 343,
+    "fields": {
+        "name": "7ISU",
+        "mother_unit": 19,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 344,
+    "fields": {
+        "name": "8ISU",
+        "mother_unit": 19,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 345,
+    "fields": {
+        "name": "10ISU",
+        "mother_unit": 19,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 346,
+    "fields": {
+        "name": "11ISU",
+        "mother_unit": 19,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 347,
+    "fields": {
+        "name": "12ISU",
+        "mother_unit": 19,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 348,
+    "fields": {
+        "name": "HTRADOC",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 349,
+    "fields": {
+        "name": "HHSBn TRADOC",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 350,
+    "fields": {
+        "name": "AC&SS",
+        "mother_unit": 12,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 351,
+    "fields": {
+        "name": "OCS",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 352,
+    "fields": {
+        "name": "SDC",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 353,
+    "fields": {
+        "name": "LWC",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 354,
+    "fields": {
+        "name": "TDC",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 355,
+    "fields": {
+        "name": "3ATG",
+        "mother_unit": 12,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 356,
+    "fields": {
+        "name": "4ATG",
+        "mother_unit": 12,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 357,
+    "fields": {
+        "name": "6ATG",
+        "mother_unit": 12,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 358,
+    "fields": {
+        "name": "HFCPA",
+        "mother_unit": 18,
+        "pamu": 18,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 373,
+    "fields": {
+        "name": "HASPA",
+        "mother_unit": 26,
+        "pamu": 26,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 388,
+    "fields": {
+        "name": "2FPAO",
+        "mother_unit": 28,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 389,
+    "fields": {
+        "name": "3FPAO",
+        "mother_unit": 28,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 390,
+    "fields": {
+        "name": "4FPAO",
+        "mother_unit": 28,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 391,
+    "fields": {
+        "name": "5FPAO",
+        "mother_unit": 28,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 392,
+    "fields": {
+        "name": "6FPAO",
+        "mother_unit": 28,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 393,
+    "fields": {
+        "name": "7FPAO",
+        "mother_unit": 28,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 394,
+    "fields": {
+        "name": "8FPAO",
+        "mother_unit": 28,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 395,
+    "fields": {
+        "name": "9FPAO",
+        "mother_unit": 28,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 396,
+    "fields": {
+        "name": "10FPAO",
+        "mother_unit": 28,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 397,
+    "fields": {
+        "name": "11FPAO",
+        "mother_unit": 28,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 398,
+    "fields": {
+        "name": "12FPAO",
+        "mother_unit": 28,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 399,
+    "fields": {
+        "name": "14FPAO",
+        "mother_unit": 28,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 400,
+    "fields": {
+        "name": "1SiGBn",
+        "mother_unit": 17,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 401,
+    "fields": {
+        "name": "2SiGBn",
+        "mother_unit": 17,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 402,
+    "fields": {
+        "name": "3SiGBn",
+        "mother_unit": 17,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 403,
+    "fields": {
+        "name": "4SiGBn",
+        "mother_unit": 17,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 404,
+    "fields": {
+        "name": "5SiGBn",
+        "mother_unit": 17,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 405,
+    "fields": {
+        "name": "6SiGBn",
+        "mother_unit": 17,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 406,
+    "fields": {
+        "name": "7SiGBn",
+        "mother_unit": 17,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 407,
+    "fields": {
+        "name": "8SiGBn",
+        "mother_unit": 17,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 408,
+    "fields": {
+        "name": "9SiGBn",
+        "mother_unit": 17,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 409,
+    "fields": {
+        "name": "10SigBn",
+        "mother_unit": 17,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 410,
+    "fields": {
+        "name": "CMOS",
+        "mother_unit": 20,
+        "pamu": 20,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 411,
+    "fields": {
+        "name": "PAU",
+        "mother_unit": 20,
+        "pamu": 20,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 412,
+    "fields": {
+        "name": "HHC CMOG",
+        "mother_unit": 20,
+        "pamu": 20,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 413,
+    "fields": {
+        "name": "TSS",
+        "mother_unit": 17,
+        "pamu": 17,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 414,
+    "fields": {
+        "name": "RSAG",
+        "mother_unit": 25,
+        "pamu": 25,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 415,
+    "fields": {
+        "name": "NETCENTER",
+        "mother_unit": 17,
+        "pamu": 17,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 416,
+    "fields": {
+        "name": "CMD SigBn",
+        "mother_unit": 17,
+        "pamu": 17,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 417,
+    "fields": {
+        "name": "HASR",
+        "mother_unit": 17,
+        "pamu": 17,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 418,
+    "fields": {
+        "name": "15FPAO",
+        "mother_unit": 28,
+        "pamu": 28,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 419,
+    "fields": {
+        "name": "HAPAO",
+        "mother_unit": 28,
+        "pamu": 28,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 420,
+    "fields": {
+        "name": "TIS",
+        "mother_unit": 19,
+        "pamu": 19,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 421,
+    "fields": {
+        "name": "HHSBn ASCOM",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 422,
+    "fields": {
+        "name": "LSG",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 423,
+    "fields": {
+        "name": "1SAU",
+        "mother_unit": 20,
+        "pamu": 20,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 424,
+    "fields": {
+        "name": "4LACT",
+        "mother_unit": 14,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 425,
+    "fields": {
+        "name": "3LACT",
+        "mother_unit": 14,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 426,
+    "fields": {
+        "name": "2LACT",
+        "mother_unit": 14,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 427,
+    "fields": {
+        "name": "1LACT",
+        "mother_unit": 14,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 428,
+    "fields": {
+        "name": "6LACT",
+        "mother_unit": 14,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 429,
+    "fields": {
+        "name": "7LACT",
+        "mother_unit": 14,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 430,
+    "fields": {
+        "name": "548ECBn",
+        "mother_unit": 29,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 431,
+    "fields": {
+        "name": "552ECBn",
+        "mother_unit": 31,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 432,
+    "fields": {
+        "name": "543ECBn",
+        "mother_unit": 31,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 433,
+    "fields": {
+        "name": "RPC",
+        "mother_unit": 20,
+        "pamu": 20,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 434,
+    "fields": {
+        "name": "1ATG",
+        "mother_unit": 12,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 435,
+    "fields": {
+        "name": "5ATG",
+        "mother_unit": 12,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 436,
+    "fields": {
+        "name": "14AIBn",
+        "mother_unit": 19,
+        "pamu": 19,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 437,
+    "fields": {
+        "name": "15AIBn",
+        "mother_unit": 19,
+        "pamu": 19,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 438,
+    "fields": {
+        "name": "17AIBn",
+        "mother_unit": 19,
+        "pamu": 19,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 439,
+    "fields": {
+        "name": "16ISU",
+        "mother_unit": 19,
+        "pamu": 19,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 440,
+    "fields": {
+        "name": "SIMBn",
+        "mother_unit": 17,
+        "pamu": 17,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 441,
+    "fields": {
+        "name": "63IB",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 442,
+    "fields": {
+        "name": "522ECBn",
+        "mother_unit": 29,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 443,
+    "fields": {
+        "name": "SSTS",
+        "mother_unit": 13,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 444,
+    "fields": {
+        "name": "546ECBn",
+        "mother_unit": 31,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 445,
+    "fields": {
+        "name": "K9",
+        "mother_unit": 13,
+        "pamu": 19,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 446,
+    "fields": {
+        "name": "542ECBn",
+        "mother_unit": 31,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 447,
+    "fields": {
+        "name": "565ECBn",
+        "mother_unit": 29,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 448,
+    "fields": {
+        "name": "9FSSU",
+        "mother_unit": 13,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 449,
+    "fields": {
+        "name": "HCMOR(P)",
+        "mother_unit": 20,
+        "pamu": 20,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 450,
+    "fields": {
+        "name": "HAIR",
+        "mother_unit": 19,
+        "pamu": 19,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 451,
+    "fields": {
+        "name": "SSC",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 452,
+    "fields": {
+        "name": "16FPAO",
+        "mother_unit": 28,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 453,
+    "fields": {
+        "name": "2FSSU",
+        "mother_unit": 13,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 454,
+    "fields": {
+        "name": "MANEUVER CENTER (P)",
+        "mother_unit": 12,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 455,
+    "fields": {
+        "name": "5LACT",
+        "mother_unit": 14,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 456,
+    "fields": {
+        "name": "DACIC",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 457,
+    "fields": {
+        "name": "MTS",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 458,
+    "fields": {
+        "name": "15FSFO",
+        "mother_unit": 18,
+        "pamu": 18,
+        "alt_pamu": 16
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 459,
+    "fields": {
+        "name": "2SFBn",
+        "mother_unit": 21,
+        "pamu": 11,
+        "alt_pamu": 1
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 460,
+    "fields": {
+        "name": "4SFBn",
+        "mother_unit": 21,
+        "pamu": 32,
+        "alt_pamu": 1
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 461,
+    "fields": {
+        "name": "H55EBde",
+        "mother_unit": 33,
+        "pamu": 33,
+        "alt_pamu": 1
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 462,
+    "fields": {
+        "name": "HHHSG",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 463,
+    "fields": {
+        "name": "HHSBn HHSG",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 464,
+    "fields": {
+        "name": "MPBn",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 465,
+    "fields": {
+        "name": "SEBn",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 466,
+    "fields": {
+        "name": "PEU",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 467,
+    "fields": {
+        "name": "1301 Dental Disp",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 468,
+    "fields": {
+        "name": "OCG",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 469,
+    "fields": {
+        "name": "OVC",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 470,
+    "fields": {
+        "name": "OCS PA",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 471,
+    "fields": {
+        "name": "OTIG",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 472,
+    "fields": {
+        "name": "OAIA",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 473,
+    "fields": {
+        "name": "OESPA",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 474,
+    "fields": {
+        "name": "OACPA",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 475,
+    "fields": {
+        "name": "AOC",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 476,
+    "fields": {
+        "name": "OSAGS",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 477,
+    "fields": {
+        "name": "OASM",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 478,
+    "fields": {
+        "name": "OG1",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 479,
+    "fields": {
+        "name": "OG2",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 480,
+    "fields": {
+        "name": "OG3",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 481,
+    "fields": {
+        "name": "OG4",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 482,
+    "fields": {
+        "name": "OG5",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 483,
+    "fields": {
+        "name": "OG6",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 484,
+    "fields": {
+        "name": "OG7",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 485,
+    "fields": {
+        "name": "OG8",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 486,
+    "fields": {
+        "name": "OG9",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 487,
+    "fields": {
+        "name": "OAAG",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 488,
+    "fields": {
+        "name": "OACE",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 489,
+    "fields": {
+        "name": "OACOCS",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 490,
+    "fields": {
+        "name": "AHO",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 491,
+    "fields": {
+        "name": "CPO",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 492,
+    "fields": {
+        "name": "OACCS",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 493,
+    "fields": {
+        "name": "OACH",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 494,
+    "fields": {
+        "name": "OACN",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 495,
+    "fields": {
+        "name": "OACS",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 496,
+    "fields": {
+        "name": "OAPM",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 497,
+    "fields": {
+        "name": "AREO",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 499,
+    "fields": {
+        "name": "PED 3ID",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 500,
+    "fields": {
+        "name": "8IB",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 501,
+    "fields": {
+        "name": "67IB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 502,
+    "fields": {
+        "name": "OAQM",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 503,
+    "fields": {
+        "name": "OADS",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 504,
+    "fields": {
+        "name": "PALTC",
+        "mother_unit": 25,
+        "pamu": 25,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 505,
+    "fields": {
+        "name": "CMG",
+        "mother_unit": 25,
+        "pamu": 25,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 506,
+    "fields": {
+        "name": "EPCAG",
+        "mother_unit": 25,
+        "pamu": 25,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 507,
+    "fields": {
+        "name": "CAG",
+        "mother_unit": 25,
+        "pamu": 25,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 508,
+    "fields": {
+        "name": "4ISU",
+        "mother_unit": 19,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 509,
+    "fields": {
+        "name": "GSU",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 510,
+    "fields": {
+        "name": "TOPA",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 511,
+    "fields": {
+        "name": "4 EODD",
+        "mother_unit": 13,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 512,
+    "fields": {
+        "name": "6 EODD",
+        "mother_unit": 13,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 513,
+    "fields": {
+        "name": "7 EODD",
+        "mother_unit": 13,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 514,
+    "fields": {
+        "name": "74 EOD Team",
+        "mother_unit": 13,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 515,
+    "fields": {
+        "name": "75 EOD Team",
+        "mother_unit": 13,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 516,
+    "fields": {
+        "name": "ATO",
+        "mother_unit": 25,
+        "pamu": 25,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 517,
+    "fields": {
+        "name": "ARO (Luz)",
+        "mother_unit": 25,
+        "pamu": 25,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 518,
+    "fields": {
+        "name": "ARO (Vis)",
+        "mother_unit": 31,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 519,
+    "fields": {
+        "name": "ARO (Min)",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 520,
+    "fields": {
+        "name": "AGSMO",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 521,
+    "fields": {
+        "name": "3ISU",
+        "mother_unit": 19,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 522,
+    "fields": {
+        "name": "ARMO",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 523,
+    "fields": {
+        "name": "101CO",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 524,
+    "fields": {
+        "name": "102CO",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 525,
+    "fields": {
+        "name": "103CO",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 526,
+    "fields": {
+        "name": "104CO",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 527,
+    "fields": {
+        "name": "105CO",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 528,
+    "fields": {
+        "name": "106CO",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 529,
+    "fields": {
+        "name": "108CO",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 530,
+    "fields": {
+        "name": "109CO",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 531,
+    "fields": {
+        "name": "112CO",
+        "mother_unit": 29,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 532,
+    "fields": {
+        "name": "114CO",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 533,
+    "fields": {
+        "name": "BTU",
+        "mother_unit": 29,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 534,
+    "fields": {
+        "name": "BTU",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 535,
+    "fields": {
+        "name": "BTU",
+        "mother_unit": 31,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 536,
+    "fields": {
+        "name": "BTU",
+        "mother_unit": 32,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 537,
+    "fields": {
+        "name": "BTU",
+        "mother_unit": 33,
+        "pamu": 33,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 538,
+    "fields": {
+        "name": "PAPC",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 539,
+    "fields": {
+        "name": "TWG",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 540,
+    "fields": {
+        "name": "TIAC",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 541,
+    "fields": {
+        "name": "1 EODD",
+        "mother_unit": 13,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 542,
+    "fields": {
+        "name": "2 EODD",
+        "mother_unit": 13,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 543,
+    "fields": {
+        "name": "HAPMC",
+        "mother_unit": 25,
+        "pamu": 25,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 544,
+    "fields": {
+        "name": "OAA",
+        "mother_unit": 25,
+        "pamu": 25,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 545,
+    "fields": {
+        "name": "HHSBn MID",
+        "mother_unit": 14,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 546,
+    "fields": {
+        "name": "MFO",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": 18
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 547,
+    "fields": {
+        "name": "3 EODD",
+        "mother_unit": 13,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 548,
+    "fields": {
+        "name": "1FAB",
+        "mother_unit": 27,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 549,
+    "fields": {
+        "name": "2FAB",
+        "mother_unit": 27,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 550,
+    "fields": {
+        "name": "TBn",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 551,
+    "fields": {
+        "name": "Maint Bn",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 552,
+    "fields": {
+        "name": "57IB",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 553,
+    "fields": {
+        "name": "NCOS",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 554,
+    "fields": {
+        "name": "SCS",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 555,
+    "fields": {
+        "name": "PAO, GS",
+        "mother_unit": 28,
+        "pamu": 28,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 556,
+    "fields": {
+        "name": "111CO",
+        "mother_unit": 30,
+        "pamu": 30,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 557,
+    "fields": {
+        "name": "9DTS",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 558,
+    "fields": {
+        "name": "4DTS",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 559,
+    "fields": {
+        "name": "RDC",
+        "mother_unit": 13,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 560,
+    "fields": {
+        "name": "2ND EOD COY",
+        "mother_unit": 13,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 561,
+    "fields": {
+        "name": "3RD EOD COY",
+        "mother_unit": 13,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 562,
+    "fields": {
+        "name": "1ST EOD COY",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 563,
+    "fields": {
+        "name": "Doctrine Center",
+        "mother_unit": 12,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 564,
+    "fields": {
+        "name": "3Mech Inf Bn",
+        "mother_unit": 14,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 565,
+    "fields": {
+        "name": "2FSFO",
+        "mother_unit": 18,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 566,
+    "fields": {
+        "name": "3FSFO",
+        "mother_unit": 18,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 567,
+    "fields": {
+        "name": "5FSFO",
+        "mother_unit": 18,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 568,
+    "fields": {
+        "name": "7FSFO",
+        "mother_unit": 18,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 569,
+    "fields": {
+        "name": "8FSFO",
+        "mother_unit": 18,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 570,
+    "fields": {
+        "name": "9FSFO",
+        "mother_unit": 18,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 571,
+    "fields": {
+        "name": "7FAB",
+        "mother_unit": 27,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 572,
+    "fields": {
+        "name": "1ADA BATTERY",
+        "mother_unit": 27,
+        "pamu": 27,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 573,
+    "fields": {
+        "name": "ASC",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 574,
+    "fields": {
+        "name": "SBn",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 575,
+    "fields": {
+        "name": "107CO",
+        "mother_unit": 7,
+        "pamu": 34,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 576,
+    "fields": {
+        "name": "64DRC",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 577,
+    "fields": {
+        "name": "PA BAC",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": 16
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 578,
+    "fields": {
+        "name": "3RCDG",
+        "mother_unit": 24,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 579,
+    "fields": {
+        "name": "AABn",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 580,
+    "fields": {
+        "name": "19IB",
+        "mother_unit": 8,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 581,
+    "fields": {
+        "name": "OAGAD",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 582,
+    "fields": {
+        "name": "549ECB",
+        "mother_unit": 32,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 583,
+    "fields": {
+        "name": "547ECBn",
+        "mother_unit": 32,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 584,
+    "fields": {
+        "name": "ESC",
+        "mother_unit": 32,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 585,
+    "fields": {
+        "name": "8FAB",
+        "mother_unit": 27,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 586,
+    "fields": {
+        "name": "9ISU",
+        "mother_unit": 19,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 587,
+    "fields": {
+        "name": "5FAB",
+        "mother_unit": 27,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 588,
+    "fields": {
+        "name": "PAPFO",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": 18
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 589,
+    "fields": {
+        "name": "AHRO",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 590,
+    "fields": {
+        "name": "OAJA",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 591,
+    "fields": {
+        "name": "TG Bantay",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 592,
+    "fields": {
+        "name": "24AIBn",
+        "mother_unit": 19,
+        "pamu": 19,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 593,
+    "fields": {
+        "name": "11CMOBn (Luzon)",
+        "mother_unit": 20,
+        "pamu": 20,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 594,
+    "fields": {
+        "name": "2SRBn",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 595,
+    "fields": {
+        "name": "5LRC",
+        "mother_unit": 23,
+        "pamu": 23,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 596,
+    "fields": {
+        "name": "4LRC",
+        "mother_unit": 23,
+        "pamu": 23,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 597,
+    "fields": {
+        "name": "1SFBn",
+        "mother_unit": 21,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 598,
+    "fields": {
+        "name": "75IB",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 599,
+    "fields": {
+        "name": "1IMB (NOLCOM)",
+        "mother_unit": 13,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 600,
+    "fields": {
+        "name": "EOD",
+        "mother_unit": 13,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 601,
+    "fields": {
+        "name": "6LRC",
+        "mother_unit": 23,
+        "pamu": 23,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 602,
+    "fields": {
+        "name": "500ECBn",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 603,
+    "fields": {
+        "name": "545ECBn",
+        "mother_unit": 30,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 604,
+    "fields": {
+        "name": "88IB",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 605,
+    "fields": {
+        "name": "89IB",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 606,
+    "fields": {
+        "name": "ORC (P)",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 607,
+    "fields": {
+        "name": "91IB",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 608,
+    "fields": {
+        "name": "90IB",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 609,
+    "fields": {
+        "name": "2IMB (SOLCOM)",
+        "mother_unit": 13,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 610,
+    "fields": {
+        "name": "513ECBn",
+        "mother_unit": 29,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 611,
+    "fields": {
+        "name": "JTF Sulu",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 612,
+    "fields": {
+        "name": "9PED",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 613,
+    "fields": {
+        "name": "PAICoE",
+        "mother_unit": 19,
+        "pamu": 19,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 614,
+    "fields": {
+        "name": "HLSG",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 615,
+    "fields": {
+        "name": "4FSFO",
+        "mother_unit": 18,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 616,
+    "fields": {
+        "name": "ALDEC",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 617,
+    "fields": {
+        "name": "1FPAO",
+        "mother_unit": 28,
+        "pamu": 14,
+        "alt_pamu": 12
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 618,
+    "fields": {
+        "name": "LSGM",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 619,
+    "fields": {
+        "name": "LSGS",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 620,
+    "fields": {
+        "name": "LSGTB",
+        "mother_unit": 13,
+        "pamu": 13,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 621,
+    "fields": {
+        "name": "14RCDG (CAR) (P), ARESCOM",
+        "mother_unit": 24,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 622,
+    "fields": {
+        "name": "92IB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 623,
+    "fields": {
+        "name": "93IB",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 624,
+    "fields": {
+        "name": "74IB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 625,
+    "fields": {
+        "name": "68IB",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 626,
+    "fields": {
+        "name": "1LSB",
+        "mother_unit": 13,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 627,
+    "fields": {
+        "name": "94IB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 628,
+    "fields": {
+        "name": "15IB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 629,
+    "fields": {
+        "name": "1st IP (SMART) Coy, 1001Bde",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 630,
+    "fields": {
+        "name": "2nd IP (SMART) Coy, 1002Bde",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 631,
+    "fields": {
+        "name": "3rd IP (SMART) Coy, 1003Bde",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 632,
+    "fields": {
+        "name": "4th IP (SMART) Coy, 701Bde",
+        "mother_unit": 7,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 633,
+    "fields": {
+        "name": "69IB",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 634,
+    "fields": {
+        "name": "95IB",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 635,
+    "fields": {
+        "name": "96IB",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 636,
+    "fields": {
+        "name": "97IB",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 637,
+    "fields": {
+        "name": "2LRC",
+        "mother_unit": 23,
+        "pamu": 23,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 638,
+    "fields": {
+        "name": "16SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 639,
+    "fields": {
+        "name": "8SRC",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 640,
+    "fields": {
+        "name": "10SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 641,
+    "fields": {
+        "name": "7SFC",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 642,
+    "fields": {
+        "name": "HHC SFR(A)",
+        "mother_unit": 21,
+        "pamu": 21,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 643,
+    "fields": {
+        "name": "8LACT(S) (P)",
+        "mother_unit": 14,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 644,
+    "fields": {
+        "name": "CTDTS",
+        "mother_unit": 23,
+        "pamu": 23,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 645,
+    "fields": {
+        "name": "CBRN Platoon",
+        "mother_unit": 13,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 646,
+    "fields": {
+        "name": "AGH",
+        "mother_unit": 15,
+        "pamu": 15,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 647,
+    "fields": {
+        "name": "56IB",
+        "mother_unit": 7,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 648,
+    "fields": {
+        "name": "OAFM",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": 18
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 649,
+    "fields": {
+        "name": "14CMOBn",
+        "mother_unit": 20,
+        "pamu": 20,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 650,
+    "fields": {
+        "name": "46IB",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 651,
+    "fields": {
+        "name": "11IB",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 652,
+    "fields": {
+        "name": "6Mech Bn",
+        "mother_unit": 14,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 653,
+    "fields": {
+        "name": "10FSFO",
+        "mother_unit": 18,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 654,
+    "fields": {
+        "name": "11FSFO",
+        "mother_unit": 18,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 655,
+    "fields": {
+        "name": "12FSFO",
+        "mother_unit": 18,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 656,
+    "fields": {
+        "name": "14FSFO",
+        "mother_unit": 18,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 657,
+    "fields": {
+        "name": "16FSFO",
+        "mother_unit": 18,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 658,
+    "fields": {
+        "name": "6FSFO",
+        "mother_unit": 18,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 659,
+    "fields": {
+        "name": "7FAU",
+        "mother_unit": 31,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 660,
+    "fields": {
+        "name": "9FAU",
+        "mother_unit": 1,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 661,
+    "fields": {
+        "name": "6FAU",
+        "mother_unit": 3,
+        "pamu": 3,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 662,
+    "fields": {
+        "name": "5FAU",
+        "mother_unit": 9,
+        "pamu": 9,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 663,
+    "fields": {
+        "name": "4FAU",
+        "mother_unit": 2,
+        "pamu": 2,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 664,
+    "fields": {
+        "name": "3FAU",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 665,
+    "fields": {
+        "name": "2FAU",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 666,
+    "fields": {
+        "name": "16FAU",
+        "mother_unit": 32,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 667,
+    "fields": {
+        "name": "15FAU",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 668,
+    "fields": {
+        "name": "14FAU",
+        "mother_unit": 29,
+        "pamu": 29,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 669,
+    "fields": {
+        "name": "12FAU",
+        "mother_unit": 6,
+        "pamu": 6,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 670,
+    "fields": {
+        "name": "11FAU",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 671,
+    "fields": {
+        "name": "10FAU",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 672,
+    "fields": {
+        "name": "1354DD",
+        "mother_unit": 13,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 673,
+    "fields": {
+        "name": "8FAU",
+        "mother_unit": 8,
+        "pamu": 8,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 674,
+    "fields": {
+        "name": "HARESCOM",
+        "mother_unit": 24,
+        "pamu": 24,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 675,
+    "fields": {
+        "name": "45IB",
+        "mother_unit": 5,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 676,
+    "fields": {
+        "name": "H1BCT (P)",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 677,
+    "fields": {
+        "name": "91BRC",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 678,
+    "fields": {
+        "name": "1BSC",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 679,
+    "fields": {
+        "name": "H4ID",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 680,
+    "fields": {
+        "name": "Command Control Center (P)",
+        "mother_unit": 12,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 681,
+    "fields": {
+        "name": "1ISU (P)",
+        "mother_unit": 19,
+        "pamu": 1,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 682,
+    "fields": {
+        "name": "TSSC",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 683,
+    "fields": {
+        "name": "LSGAABn",
+        "mother_unit": 13,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 684,
+    "fields": {
+        "name": "111DRC",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 685,
+    "fields": {
+        "name": "Training Analysis Center (TAC)",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 686,
+    "fields": {
+        "name": "Combined Arms Center (CAC)",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 687,
+    "fields": {
+        "name": "CFWDC",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 688,
+    "fields": {
+        "name": "Fires Center (FC)",
+        "mother_unit": 12,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 689,
+    "fields": {
+        "name": "Protection Center (PC)",
+        "mother_unit": 12,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 690,
+    "fields": {
+        "name": "Sustainment Center (SC)",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 691,
+    "fields": {
+        "name": "IMTC",
+        "mother_unit": 12,
+        "pamu": 12,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 692,
+    "fields": {
+        "name": "Mindanao ATG (MATG)",
+        "mother_unit": 12,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 693,
+    "fields": {
+        "name": "Visayas ATG (VATG)",
+        "mother_unit": 12,
+        "pamu": 31,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 694,
+    "fields": {
+        "name": "113 CO",
+        "mother_unit": 14,
+        "pamu": 14,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 695,
+    "fields": {
+        "name": "114 CO",
+        "mother_unit": 32,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 696,
+    "fields": {
+        "name": "10DCAU",
+        "mother_unit": 10,
+        "pamu": 10,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 697,
+    "fields": {
+        "name": "107 CO",
+        "mother_unit": 7,
+        "pamu": 7,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 698,
+    "fields": {
+        "name": "FBHMC",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 699,
+    "fields": {
+        "name": "551ECBn",
+        "mother_unit": 33,
+        "pamu": 33,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 700,
+    "fields": {
+        "name": "12CMOBn (P)",
+        "mother_unit": 20,
+        "pamu": 1,
+        "alt_pamu": 20
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 701,
+    "fields": {
+        "name": "H11ID",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": 32
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 702,
+    "fields": {
+        "name": "11Signal Bn",
+        "mother_unit": 17,
+        "pamu": 11,
+        "alt_pamu": 32
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 703,
+    "fields": {
+        "name": "11MIB",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": 32
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 704,
+    "fields": {
+        "name": "11SSB",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": 32
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 705,
+    "fields": {
+        "name": "11DTS",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": 32
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 706,
+    "fields": {
+        "name": "11SH",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": 32
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 707,
+    "fields": {
+        "name": "1102Bde",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": 32
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 708,
+    "fields": {
+        "name": "15CMOBn",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": 32
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 709,
+    "fields": {
+        "name": "5SRBn",
+        "mother_unit": 22,
+        "pamu": 22,
+        "alt_pamu": 32
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 710,
+    "fields": {
+        "name": "HHSB",
+        "mother_unit": 11,
+        "pamu": 32,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 711,
+    "fields": {
+        "name": "1FSFO",
+        "mother_unit": 18,
+        "pamu": 14,
+        "alt_pamu": 12
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 712,
+    "fields": {
+        "name": "1FAU",
+        "mother_unit": 26,
+        "pamu": 12,
+        "alt_pamu": 14
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 713,
+    "fields": {
+        "name": "77IB",
+        "mother_unit": 5,
+        "pamu": 5,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 714,
+    "fields": {
+        "name": "901Bde",
+        "mother_unit": 9,
+        "pamu": 10,
+        "alt_pamu": 9
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 715,
+    "fields": {
+        "name": "553ECBn",
+        "mother_unit": 33,
+        "pamu": 33,
+        "alt_pamu": 1
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 716,
+    "fields": {
+        "name": "1101st Bde",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": 11
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 717,
+    "fields": {
+        "name": "9FAB",
+        "mother_unit": 27,
+        "pamu": 27,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 718,
+    "fields": {
+        "name": "6SFBn",
+        "mother_unit": 21,
+        "pamu": 11,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 719,
+    "fields": {
+        "name": "4DCAU",
+        "mother_unit": 4,
+        "pamu": 4,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 720,
+    "fields": {
+        "name": "IMCOM",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 721,
+    "fields": {
+        "name": "OCIMA (P)",
+        "mother_unit": 16,
+        "pamu": 16,
+        "alt_pamu": null
+    }
+},
+{
+    "model": "commons.unit",
+    "pk": 722,
+    "fields": {
+        "name": "HHSBn 11ID",
+        "mother_unit": 11,
+        "pamu": 11,
+        "alt_pamu": null
+    }
+}
+]

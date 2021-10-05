@@ -1,0 +1,50 @@
+[
+{
+    "model": "ppb.kma",
+    "pk": 1,
+    "fields": {
+        "name": "Facilities Readiness",
+        "code": "FR"
+    }
+},
+{
+    "model": "ppb.kma",
+    "pk": 2,
+    "fields": {
+        "name": "Maintenance Readiness",
+        "code": "MR"
+    }
+},
+{
+    "model": "ppb.kma",
+    "pk": 3,
+    "fields": {
+        "name": "Equipment Readiness",
+        "code": "ER"
+    }
+},
+{
+    "model": "ppb.kma",
+    "pk": 4,
+    "fields": {
+        "name": "Training Readiness",
+        "code": "TR"
+    }
+},
+{
+    "model": "ppb.kma",
+    "pk": 5,
+    "fields": {
+        "name": "Personnel Readiness",
+        "code": "PR"
+    }
+},
+{
+    "model": "ppb.kma",
+    "pk": 6,
+    "fields": {
+        "name": "Others",
+        "code": "OT"
+    }
+}
+]

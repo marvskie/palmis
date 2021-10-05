@@ -1,0 +1,301 @@
+[
+{
+    "model": "ppb.majorpap",
+    "pk": 1,
+    "fields": {
+        "name": "MP1. Capability Development Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FD",
+        "pa_function": "DEV",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 2,
+    "fields": {
+        "name": "MP2. Human Resource Development Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FD",
+        "pa_function": "ORG",
+        "kma": 5,
+        "fixed_cost": true
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 3,
+    "fields": {
+        "name": "MP3. Unit Organizational Development Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FD",
+        "pa_function": "ORG",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 4,
+    "fields": {
+        "name": "MP4. Training Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FD",
+        "pa_function": "TRN",
+        "kma": 4,
+        "fixed_cost": true
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 5,
+    "fields": {
+        "name": "MP5. Equipment Readiness Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FD",
+        "pa_function": "EQP",
+        "kma": 3,
+        "fixed_cost": true
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 6,
+    "fields": {
+        "name": "MP6. Facilities Development Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FD",
+        "pa_function": "EQP",
+        "kma": 1,
+        "fixed_cost": true
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 7,
+    "fields": {
+        "name": "MP7. Equipment Maintenance Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FS",
+        "pa_function": "SUS",
+        "kma": 2,
+        "fixed_cost": true
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 8,
+    "fields": {
+        "name": "MP8. Facilities Maintenance Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FS",
+        "pa_function": "SUS",
+        "kma": 1,
+        "fixed_cost": true
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 9,
+    "fields": {
+        "name": "MP9. Human Resource Management Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FS",
+        "pa_function": "SUS",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 10,
+    "fields": {
+        "name": "MP10. Combat Casualty Treatment Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FS",
+        "pa_function": "SUS",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 11,
+    "fields": {
+        "name": "MP11. Support To Ground Operations",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FS",
+        "pa_function": "SUS",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 12,
+    "fields": {
+        "name": "MP12. Support to Reservist and Retiree Affairs (RRA) Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FS",
+        "pa_function": "SUS",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 13,
+    "fields": {
+        "name": "MP13. Support to HADR Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FS",
+        "pa_function": "SUS",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 14,
+    "fields": {
+        "name": "MP14. Support to National Development Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FS",
+        "pa_function": "SUS",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 15,
+    "fields": {
+        "name": "MP15. Army Diplomacy Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FLSS",
+        "pa_function": "SUP",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 16,
+    "fields": {
+        "name": "MP16. Army Strategy Management Activities",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FLSS",
+        "pa_function": "SUP",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 17,
+    "fields": {
+        "name": "MP17. Logistics Management Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FLSS",
+        "pa_function": "SUP",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 18,
+    "fields": {
+        "name": "MP18. Health Service Management Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FLSS",
+        "pa_function": "SUP",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 19,
+    "fields": {
+        "name": "MP19. C4S- Management Program",
+        "expenditure_program": "OPS",
+        "pa_program": "LFP",
+        "pa_sub_program": "FLSS",
+        "pa_function": "SUP",
+        "kma": 2,
+        "fixed_cost": true
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 20,
+    "fields": {
+        "name": "MP20. Command & Management",
+        "expenditure_program": "GAS",
+        "pa_program": "GAS",
+        "pa_sub_program": "GAS",
+        "pa_function": "GMS",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 21,
+    "fields": {
+        "name": "MP21. Financial Resource Management",
+        "expenditure_program": "GAS",
+        "pa_program": "GAS",
+        "pa_sub_program": "GAS",
+        "pa_function": "GMS",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 22,
+    "fields": {
+        "name": "MP22. Internal Audit & Inspection",
+        "expenditure_program": "GAS",
+        "pa_program": "GAS",
+        "pa_sub_program": "GAS",
+        "pa_function": "GMS",
+        "kma": 6,
+        "fixed_cost": false
+    }
+},
+{
+    "model": "ppb.majorpap",
+    "pk": 23,
+    "fields": {
+        "name": "MP23: Personnel Services",
+        "expenditure_program": "GAS",
+        "pa_program": "GAS",
+        "pa_sub_program": "GAS",
+        "pa_function": "GMS",
+        "kma": 5,
+        "fixed_cost": false
+    }
+}
+]

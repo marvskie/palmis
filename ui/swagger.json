@@ -1,0 +1,573 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "This is a simple API",
+    "version" : "1.0.0",
+    "title" : "Simple Inventory API",
+    "contact" : {
+      "email" : "you@your-company.com"
+    },
+    "license" : {
+      "name" : "Apache 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "host" : "virtserver.swaggerhub.com",
+  "basePath" : "/",
+  "tags" : [ {
+    "name" : "Misc",
+    "description" : "Other operations API"
+  }, {
+    "name" : "Branch",
+    "description" : "Branch details"
+  }, {
+    "name" : "Task",
+    "description" : "Task API"
+  } ],
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/upload" : {
+      "post" : {
+        "tags" : [ "Misc" ],
+        "summary" : "Uploads a file.",
+        "consumes" : [ "multipart/form-data" ],
+        "parameters" : [ {
+          "name" : "upfile",
+          "in" : "formData",
+          "description" : "The file to upload.",
+          "required" : false,
+          "type" : "file"
+        }, {
+          "name" : "categoryId",
+          "in" : "formData",
+          "description" : "category under which this file belongs.",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "file upload success"
+          },
+          "400" : {
+            "description" : "failed to upload file"
+          }
+        }
+      }
+    },
+    "/search" : {
+      "get" : {
+        "tags" : [ "Misc" ],
+        "summary" : "Searches Tasks, Messages and Files.",
+        "description" : "search for files, messages and tasks given parameter\n",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "q",
+          "in" : "query",
+          "description" : "search string parameter.",
+          "required" : false,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/SearchItem"
+              }
+            }
+          },
+          "400" : {
+            "description" : "failed to search"
+          }
+        }
+      }
+    },
+    "/branch" : {
+      "get" : {
+        "tags" : [ "Branch" ],
+        "summary" : "get branch details based on roles",
+        "description" : "get branch based on roles. defaults to getting all branches\n",
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "branch details and categories",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/BranchItem"
+              }
+            }
+          },
+          "400" : {
+            "description" : "bad input parameter"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "Branch" ],
+        "summary" : "add a new branch",
+        "description" : "Adds a new branch",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "name",
+          "description" : "Branch item to add",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/CreateBranchItem"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "item created"
+          },
+          "400" : {
+            "description" : "invalid input, object invalid"
+          },
+          "409" : {
+            "description" : "an existing item already exists"
+          }
+        }
+      }
+    },
+    "/branch/category/{branchId}" : {
+      "get" : {
+        "tags" : [ "Branch" ],
+        "summary" : "get categories from this branch",
+        "description" : "get categories from this branch\n",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "branchId",
+          "in" : "path",
+          "description" : "ID of the branch to get",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/CategoryItem"
+              }
+            }
+          },
+          "400" : {
+            "description" : "bad input parameter"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "Branch" ],
+        "summary" : "add a new branch category",
+        "description" : "Adds a category to the branch",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "branchId",
+          "in" : "path",
+          "description" : "ID of the branch to get",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "name",
+          "description" : "Category item to add",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/CreateCategoryItem"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "item created"
+          },
+          "400" : {
+            "description" : "invalid input, object invalid"
+          },
+          "409" : {
+            "description" : "an existing item already exists"
+          }
+        }
+      }
+    },
+    "/branch/category/files" : {
+      "get" : {
+        "tags" : [ "Branch" ],
+        "summary" : "get files under this category from this branch",
+        "description" : "get files from this category under a branch\n",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "branchId",
+          "in" : "query",
+          "description" : "ID of the branch",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "categoryId",
+          "in" : "query",
+          "description" : "ID of the category under this branch",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "fileId",
+          "in" : "query",
+          "description" : "ID of the file to get. if no fileId is given, will return all files",
+          "required" : false,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/FileItem"
+              }
+            }
+          },
+          "400" : {
+            "description" : "bad input parameter"
+          }
+        }
+      }
+    },
+    "/task" : {
+      "get" : {
+        "tags" : [ "Task" ],
+        "summary" : "get all tasks",
+        "description" : "get all tasks permitted by this user's role\n",
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "list of tasks",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/TaskItem"
+              }
+            }
+          },
+          "400" : {
+            "description" : "bad input parameter"
+          }
+        }
+      },
+      "post" : {
+        "tags" : [ "Task" ],
+        "summary" : "add a new task",
+        "description" : "Adds a new task",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "in" : "body",
+          "name" : "name",
+          "description" : "Task item to add",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/CreateTaskItem"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "item created"
+          },
+          "400" : {
+            "description" : "invalid input, object invalid"
+          },
+          "409" : {
+            "description" : "an existing item already exists"
+          }
+        }
+      },
+      "put" : {
+        "tags" : [ "Task" ],
+        "summary" : "update a task",
+        "description" : "update a task",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "taskId",
+          "in" : "query",
+          "description" : "ID of the task to update",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "updateTaskBody",
+          "description" : "task details to update",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/UpdateTaskItem"
+          }
+        } ],
+        "responses" : {
+          "201" : {
+            "description" : "item updated"
+          },
+          "400" : {
+            "description" : "invalid input, object invalid"
+          },
+          "409" : {
+            "description" : "an existing item already exists"
+          }
+        }
+      }
+    },
+    "/task/{branchId}" : {
+      "get" : {
+        "tags" : [ "Task" ],
+        "summary" : "get tasks from this branch",
+        "description" : "get tasks from this branch\n",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "branchId",
+          "in" : "path",
+          "description" : "ID of the branch to get",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "search results matching criteria",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/TaskItem"
+              }
+            }
+          },
+          "400" : {
+            "description" : "bad input parameter"
+          }
+        }
+      }
+    },
+    "/task/{branchId}/{dateString}" : {
+      "get" : {
+        "tags" : [ "Task" ],
+        "summary" : "get tasks from this branch",
+        "description" : "get tasks from this branch\n",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "branchId",
+          "in" : "path",
+          "description" : "ID of the branch to get",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "dateString",
+          "in" : "path",
+          "description" : "get all tasks from a branch on specific dates",
+          "required" : true,
+          "type" : "string",
+          "format" : "dd-mm-yyyy"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "list of tasks matching criteria",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/TaskItem"
+              }
+            }
+          },
+          "400" : {
+            "description" : "bad input parameter"
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "BranchItem" : {
+      "type" : "object",
+      "required" : [ "id", "name" ],
+      "properties" : {
+        "id" : {
+          "type" : "string",
+          "format" : "uuid",
+          "example" : "d290f1ee-6c54-4b01-90e6-d701748f0851"
+        },
+        "name" : {
+          "type" : "string",
+          "example" : "PPB"
+        },
+        "releaseDate" : {
+          "type" : "string",
+          "format" : "date-time",
+          "example" : "2016-08-29T09:12:33.001Z"
+        }
+      }
+    },
+    "CategoryItem" : {
+      "type" : "object",
+      "required" : [ "id", "name" ],
+      "properties" : {
+        "id" : {
+          "type" : "string",
+          "format" : "uuid",
+          "example" : "d290f1ee-6c54-4b01-90e6-d701748f0851"
+        },
+        "name" : {
+          "type" : "string",
+          "example" : "Category Name"
+        },
+        "createdDate" : {
+          "type" : "string",
+          "format" : "date-time",
+          "example" : "2016-08-29T09:12:33.001Z"
+        },
+        "branch" : {
+          "$ref" : "#/definitions/BranchItem"
+        }
+      }
+    },
+    "CreateCategoryItem" : {
+      "type" : "object",
+      "required" : [ "name" ],
+      "properties" : {
+        "name" : {
+          "type" : "string",
+          "example" : "Category Name"
+        }
+      }
+    },
+    "FileItem" : {
+      "type" : "object",
+      "required" : [ "id" ],
+      "properties" : {
+        "id" : {
+          "type" : "string",
+          "format" : "uuid",
+          "example" : "d290f1ee-6c54-4b01-90e6-d701748f0851"
+        },
+        "filename" : {
+          "type" : "string",
+          "example" : "File Name"
+        },
+        "title" : {
+          "type" : "string",
+          "example" : "Title"
+        },
+        "uploadedBy" : {
+          "type" : "string",
+          "example" : "Title/Position"
+        },
+        "createdDate" : {
+          "type" : "string",
+          "format" : "date-time",
+          "example" : "2016-08-29T09:12:33.001Z"
+        },
+        "category" : {
+          "$ref" : "#/definitions/BranchItem"
+        }
+      }
+    },
+    "TaskItem" : {
+      "type" : "object",
+      "properties" : {
+        "id" : {
+          "type" : "string",
+          "format" : "uuid",
+          "example" : "d290f1ee-6c54-4b01-90e6-d701748f0851"
+        },
+        "title" : {
+          "type" : "string",
+          "example" : "PPB"
+        },
+        "createdDate" : {
+          "type" : "string",
+          "format" : "date-time",
+          "example" : "2016-08-29T09:12:33.001Z"
+        },
+        "updatedDate" : {
+          "type" : "string",
+          "format" : "date-time",
+          "example" : "2016-08-29T09:12:33.001Z"
+        },
+        "dueDate" : {
+          "type" : "string",
+          "format" : "date-time",
+          "example" : "2016-08-29T09:12:33.001Z"
+        },
+        "createdBy" : {
+          "type" : "string",
+          "example" : "title/position"
+        },
+        "assignedTo" : {
+          "type" : "string",
+          "example" : "title/position"
+        },
+        "branch" : {
+          "$ref" : "#/definitions/BranchItem"
+        }
+      }
+    },
+    "CreateTaskItem" : {
+      "type" : "object",
+      "required" : [ "assignedTo", "dueDate", "title" ],
+      "properties" : {
+        "title" : {
+          "type" : "string",
+          "example" : "Deploy and test"
+        },
+        "dueDate" : {
+          "type" : "string",
+          "example" : "dd-mm-yyyy:hh-mm-ss"
+        },
+        "assignedTo" : {
+          "type" : "string",
+          "example" : "title/position"
+        }
+      }
+    },
+    "UpdateTaskItem" : {
+      "type" : "object",
+      "properties" : {
+        "title" : {
+          "type" : "string",
+          "example" : "Deploy and test"
+        },
+        "dueDate" : {
+          "type" : "string",
+          "example" : "dd-mm-yyyy:hh-mm-ss"
+        },
+        "assignedTo" : {
+          "type" : "string",
+          "example" : "title/position"
+        }
+      }
+    },
+    "SearchItem" : {
+      "type" : "object",
+      "properties" : {
+        "objectType" : {
+          "type" : "string",
+          "example" : "Task | Message | File"
+        },
+        "data" : {
+          "type" : "object",
+          "example" : { },
+          "properties" : { }
+        }
+      }
+    },
+    "CreateBranchItem" : {
+      "type" : "object",
+      "required" : [ "name" ],
+      "properties" : {
+        "name" : {
+          "type" : "string",
+          "example" : "PPB"
+        }
+      }
+    }
+  }
+}

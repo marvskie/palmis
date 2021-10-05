@@ -1,0 +1,62 @@
+[
+{
+  "model": "preferences.systempreference",
+  "pk": 1,
+  "fields": {
+    "name": "OTP Host",
+    "code": "otp_host",
+    "value": "http://192.168.254.105:8080",
+    "val_type": 1,
+    "description": "This option sets the texting service address used to send SMS message for OTP authentication.",
+    "remarks": ""
+  }
+},
+{
+  "model": "preferences.systempreference",
+  "pk": 2,
+  "fields": {
+    "name": "OTP Validity",
+    "code": "otp_validity",
+    "value": "300",
+    "val_type": 4,
+    "description": "This option sets the validity period, in seconds, of the OTP token.",
+    "remarks": ""
+  }
+},
+{
+  "model": "preferences.systempreference",
+  "pk": 3,
+  "fields": {
+    "name": "OTP SMS Message",
+    "code": "otp_sms_msg",
+    "value": "Please enter your One-Time-Password (OTP) {token} to {action}. This OTP is valid for 5 minutes.  Message sent on {time}. Reference Number: {ref_number}.",
+    "val_type": 1,
+    "description": "This option sets the SMS message for OTP authentication on log-in.",
+    "remarks": ""
+  }
+},
+{
+  "model": "preferences.systempreference",
+  "pk": 4,
+  "fields": {
+    "name": "Require OTP on Log-in",
+    "code": "require_otp",
+    "value": "1",
+    "val_type": 3,
+    "description": "This option enables or disables OTP authentication on log-in. Individual user accounts have the option to bypass the OTP authentication from the account model.",
+    "remarks": "1 - True: 0 - False"
+  }
+},
+{
+  "model": "preferences.systempreference",
+  "pk": 5,
+  "fields": {
+    "name": "Require OTP on Change Password",
+    "code": "otp_change_password",
+    "value": "1",
+    "val_type": 3,
+    "description": "This option enables or disables OTP authentication in changing password.",
+    "remarks": "1 - True: 0 - False"
+  }
+}
+]

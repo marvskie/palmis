@@ -1,0 +1,3817 @@
+[
+    {
+        "pamu": "1ID",
+        "unit": "102Bde",
+        "toe": 98,
+        "ats": 69,
+        "baseline": 5
+    },
+    {
+        "pamu": "1ID",
+        "unit": "103Bde",
+        "toe": 98,
+        "ats": 72,
+        "baseline": 5
+    },
+    {
+        "pamu": "1ID",
+        "unit": "104Bde",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 10
+    },
+    {
+        "pamu": "1ID",
+        "unit": "55IB",
+        "toe": 602,
+        "ats": 418,
+        "baseline": 18
+    },
+    {
+        "pamu": "1ID",
+        "unit": "10IB",
+        "toe": 602,
+        "ats": 417,
+        "baseline": 25
+    },
+    {
+        "pamu": "1ID",
+        "unit": "18IB",
+        "toe": 602,
+        "ats": 413,
+        "baseline": 250
+    },
+    {
+        "pamu": "1ID",
+        "unit": "44IB",
+        "toe": 602,
+        "ats": 414,
+        "baseline": 95
+    },
+    {
+        "pamu": "1ID",
+        "unit": "53IB",
+        "toe": 602,
+        "ats": 424,
+        "baseline": 53
+    },
+    {
+        "pamu": "1ID",
+        "unit": "51IB (CAFGU BN)",
+        "toe": 602,
+        "ats": 420,
+        "baseline": 61
+    },
+    {
+        "pamu": "1ID",
+        "unit": "64IB",
+        "toe": 602,
+        "ats": 419,
+        "baseline": 244
+    },
+    {
+        "pamu": "1ID",
+        "unit": "97IB",
+        "toe": 602,
+        "ats": 477,
+        "baseline": 0
+    },
+    {
+        "pamu": "1ID",
+        "unit": "11DRC",
+        "toe": 100,
+        "ats": 97,
+        "baseline": 74
+    },
+    {
+        "pamu": "1ID",
+        "unit": "12DRC",
+        "toe": 100,
+        "ats": 98,
+        "baseline": 75
+    },
+    {
+        "pamu": "1ID",
+        "unit": "14DRC",
+        "toe": 100,
+        "ats": 100,
+        "baseline": 38
+    },
+    {
+        "pamu": "1ID",
+        "unit": "1MIB",
+        "toe": 215,
+        "ats": 175,
+        "baseline": 20
+    },
+    {
+        "pamu": "1ID",
+        "unit": "1CMOB",
+        "toe": 198,
+        "ats": 98,
+        "baseline": 0
+    },
+    {
+        "pamu": "1ID",
+        "unit": "HHSBn",
+        "toe": 393,
+        "ats": 898,
+        "baseline": 20
+    },
+    {
+        "pamu": "1ID",
+        "unit": "SSB",
+        "toe": 165,
+        "ats": 112,
+        "baseline": 0
+    },
+    {
+        "pamu": "1ID",
+        "unit": "KCSSH",
+        "toe": 94,
+        "ats": 34,
+        "baseline": 0
+    },
+    {
+        "pamu": "1ID",
+        "unit": "1DTS",
+        "toe": 45,
+        "ats": 39,
+        "baseline": 0
+    },
+    {
+        "pamu": "1ID",
+        "unit": "101BDE",
+        "toe": 0,
+        "ats": 67,
+        "baseline": 10
+    },
+    {
+        "pamu": "1ID",
+        "unit": "15DRC (per DLT)",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 56
+    },
+    {
+        "pamu": "2ID",
+        "unit": "201Bde",
+        "toe": 98,
+        "ats": 75,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "202Bde",
+        "toe": 98,
+        "ats": 66,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "203Bde",
+        "toe": 98,
+        "ats": 76,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "74IB",
+        "toe": 602,
+        "ats": 437,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "85IB",
+        "toe": 602,
+        "ats": 459,
+        "baseline": 10
+    },
+    {
+        "pamu": "2ID",
+        "unit": "1IB",
+        "toe": 602,
+        "ats": 445,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "16IB",
+        "toe": 602,
+        "ats": 435,
+        "baseline": 20
+    },
+    {
+        "pamu": "2ID",
+        "unit": "4IB",
+        "toe": 602,
+        "ats": 438,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "80IB",
+        "toe": 602,
+        "ats": 432,
+        "baseline": 2
+    },
+    {
+        "pamu": "2ID",
+        "unit": "76IB",
+        "toe": 602,
+        "ats": 434,
+        "baseline": 10
+    },
+    {
+        "pamu": "2ID",
+        "unit": "68IB",
+        "toe": 602,
+        "ats": 433,
+        "baseline": 59
+    },
+    {
+        "pamu": "2ID",
+        "unit": "21DRC",
+        "toe": 100,
+        "ats": 85,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "22DRC",
+        "toe": 100,
+        "ats": 84,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "23DRC",
+        "toe": 100,
+        "ats": 84,
+        "baseline": 18
+    },
+    {
+        "pamu": "2ID",
+        "unit": "2MIB",
+        "toe": 215,
+        "ats": 169,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "2CMO Bn",
+        "toe": 198,
+        "ats": 144,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "HHSBn",
+        "toe": 393,
+        "ats": 786,
+        "baseline": 11
+    },
+    {
+        "pamu": "2ID",
+        "unit": "SSBn",
+        "toe": 165,
+        "ats": 110,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "ASH",
+        "toe": 94,
+        "ats": 36,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "2DTS",
+        "toe": 45,
+        "ats": 42,
+        "baseline": 0
+    },
+    {
+        "pamu": "2ID",
+        "unit": "59IB (CAFGU BN per DLT)",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "301Bde",
+        "toe": 98,
+        "ats": 84,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "302Bde",
+        "toe": 98,
+        "ats": 80,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "303Bde",
+        "toe": 98,
+        "ats": 73,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "82IB",
+        "toe": 602,
+        "ats": 423,
+        "baseline": 5
+    },
+    {
+        "pamu": "3ID",
+        "unit": "61IB",
+        "toe": 602,
+        "ats": 598,
+        "baseline": 9
+    },
+    {
+        "pamu": "3ID",
+        "unit": "79IB",
+        "toe": 602,
+        "ats": 434,
+        "baseline": 9
+    },
+    {
+        "pamu": "3ID",
+        "unit": "11IB",
+        "toe": 602,
+        "ats": 443,
+        "baseline": 9
+    },
+    {
+        "pamu": "3ID",
+        "unit": "62IB",
+        "toe": 602,
+        "ats": 447,
+        "baseline": 20
+    },
+    {
+        "pamu": "3ID",
+        "unit": "47IB",
+        "toe": 602,
+        "ats": 467,
+        "baseline": 11
+    },
+    {
+        "pamu": "3ID",
+        "unit": "15IB",
+        "toe": 602,
+        "ats": 454,
+        "baseline": 131
+    },
+    {
+        "pamu": "3ID",
+        "unit": "94IB",
+        "toe": 602,
+        "ats": 442,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "31DRC",
+        "toe": 100,
+        "ats": 85,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "32DRC",
+        "toe": 100,
+        "ats": 93,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "33DRC",
+        "toe": 100,
+        "ats": 90,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "3MIB",
+        "toe": 215,
+        "ats": 174,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "3CMO Bn",
+        "toe": 198,
+        "ats": 165,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "HHSBn",
+        "toe": 393,
+        "ats": 904,
+        "baseline": 2
+    },
+    {
+        "pamu": "3ID",
+        "unit": "SSBn",
+        "toe": 165,
+        "ats": 93,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "CPSH",
+        "toe": 94,
+        "ats": 41,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "3DTS",
+        "toe": 45,
+        "ats": 39,
+        "baseline": 0
+    },
+    {
+        "pamu": "3ID",
+        "unit": "12IB (per DLT)",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "401Bde",
+        "toe": 98,
+        "ats": 64,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "402Bde",
+        "toe": 98,
+        "ats": 75,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "403Bde",
+        "toe": 98,
+        "ats": 79,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "36IB",
+        "toe": 602,
+        "ats": 476,
+        "baseline": 34
+    },
+    {
+        "pamu": "4ID",
+        "unit": "29IB",
+        "toe": 602,
+        "ats": 485,
+        "baseline": 62
+    },
+    {
+        "pamu": "4ID",
+        "unit": "30IB",
+        "toe": 602,
+        "ats": 490,
+        "baseline": 62
+    },
+    {
+        "pamu": "4ID",
+        "unit": "26IB",
+        "toe": 602,
+        "ats": 496,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "58IB",
+        "toe": 602,
+        "ats": 527,
+        "baseline": 62
+    },
+    {
+        "pamu": "4ID",
+        "unit": "8IB",
+        "toe": 602,
+        "ats": 483,
+        "baseline": 62
+    },
+    {
+        "pamu": "4ID",
+        "unit": "23IB",
+        "toe": 602,
+        "ats": 477,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "75IB",
+        "toe": 602,
+        "ats": 493,
+        "baseline": 42
+    },
+    {
+        "pamu": "4ID",
+        "unit": "88IB",
+        "toe": 602,
+        "ats": 521,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "41DRC",
+        "toe": 100,
+        "ats": 80,
+        "baseline": 51
+    },
+    {
+        "pamu": "4ID",
+        "unit": "42DRC",
+        "toe": 100,
+        "ats": 85,
+        "baseline": 51
+    },
+    {
+        "pamu": "4ID",
+        "unit": "43DRC",
+        "toe": 100,
+        "ats": 83,
+        "baseline": 50
+    },
+    {
+        "pamu": "4ID",
+        "unit": "4MIB",
+        "toe": 215,
+        "ats": 164,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "4CMO Bn",
+        "toe": 198,
+        "ats": 156,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "HHSBn",
+        "toe": 393,
+        "ats": 484,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "SSBn",
+        "toe": 165,
+        "ats": 117,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "CESH",
+        "toe": 94,
+        "ats": 67,
+        "baseline": 0
+    },
+    {
+        "pamu": "4ID",
+        "unit": "4DTS",
+        "toe": 45,
+        "ats": 44,
+        "baseline": 0
+    },
+    {
+        "pamu": "5ID",
+        "unit": "502Bde",
+        "toe": 98,
+        "ats": 78,
+        "baseline": 2
+    },
+    {
+        "pamu": "5ID",
+        "unit": "503Bde",
+        "toe": 98,
+        "ats": 68,
+        "baseline": 2
+    },
+    {
+        "pamu": "5ID",
+        "unit": "54IB",
+        "toe": 602,
+        "ats": 468,
+        "baseline": 27
+    },
+    {
+        "pamu": "5ID",
+        "unit": "17IB",
+        "toe": 602,
+        "ats": 453,
+        "baseline": 3
+    },
+    {
+        "pamu": "5ID",
+        "unit": "86IB",
+        "toe": 602,
+        "ats": 448,
+        "baseline": 12
+    },
+    {
+        "pamu": "5ID",
+        "unit": "",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "5ID",
+        "unit": "",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "5ID",
+        "unit": "50IB",
+        "toe": 602,
+        "ats": 461,
+        "baseline": 143
+    },
+    {
+        "pamu": "5ID",
+        "unit": "95IB",
+        "toe": 602,
+        "ats": 469,
+        "baseline": 0
+    },
+    {
+        "pamu": "5ID",
+        "unit": "51DRC",
+        "toe": 100,
+        "ats": 82,
+        "baseline": 2
+    },
+    {
+        "pamu": "5ID",
+        "unit": "52DRC",
+        "toe": 100,
+        "ats": 79,
+        "baseline": 2
+    },
+    {
+        "pamu": "5ID",
+        "unit": "53DRC",
+        "toe": 100,
+        "ats": 85,
+        "baseline": 2
+    },
+    {
+        "pamu": "5ID",
+        "unit": "5MIB",
+        "toe": 215,
+        "ats": 149,
+        "baseline": 0
+    },
+    {
+        "pamu": "5ID",
+        "unit": "5CMO Bn",
+        "toe": 198,
+        "ats": 115,
+        "baseline": 0
+    },
+    {
+        "pamu": "5ID",
+        "unit": "HHSBn",
+        "toe": 393,
+        "ats": 865,
+        "baseline": 6
+    },
+    {
+        "pamu": "5ID",
+        "unit": "SSBn",
+        "toe": 165,
+        "ats": 131,
+        "baseline": 0
+    },
+    {
+        "pamu": "5ID",
+        "unit": "Stn Hosp",
+        "toe": 94,
+        "ats": 45,
+        "baseline": 0
+    },
+    {
+        "pamu": "5ID",
+        "unit": "5DTS",
+        "toe": 45,
+        "ats": 47,
+        "baseline": 0
+    },
+    {
+        "pamu": "5ID",
+        "unit": "501BDE",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 2
+    },
+    {
+        "pamu": "5ID",
+        "unit": "77IB  (per DLT)",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 3
+    },
+    {
+        "pamu": "6ID",
+        "unit": "601Bde",
+        "toe": 98,
+        "ats": 85,
+        "baseline": 6
+    },
+    {
+        "pamu": "6ID",
+        "unit": "602Bde",
+        "toe": 98,
+        "ats": 85,
+        "baseline": 3
+    },
+    {
+        "pamu": "6ID",
+        "unit": "603Bde",
+        "toe": 98,
+        "ats": 76,
+        "baseline": 2
+    },
+    {
+        "pamu": "6ID",
+        "unit": "33IB",
+        "toe": 602,
+        "ats": 445,
+        "baseline": 234
+    },
+    {
+        "pamu": "6ID",
+        "unit": "7IB",
+        "toe": 602,
+        "ats": 446,
+        "baseline": 44
+    },
+    {
+        "pamu": "6ID",
+        "unit": "40IB",
+        "toe": 602,
+        "ats": 489,
+        "baseline": 53
+    },
+    {
+        "pamu": "6ID",
+        "unit": "57IB",
+        "toe": 602,
+        "ats": 458,
+        "baseline": 27
+    },
+    {
+        "pamu": "6ID",
+        "unit": "6IB",
+        "toe": 602,
+        "ats": 472,
+        "baseline": 44
+    },
+    {
+        "pamu": "6ID",
+        "unit": "37IB",
+        "toe": 602,
+        "ats": 462,
+        "baseline": 44
+    },
+    {
+        "pamu": "6ID",
+        "unit": "90IB",
+        "toe": 602,
+        "ats": 467,
+        "baseline": 0
+    },
+    {
+        "pamu": "6ID",
+        "unit": "61DRC",
+        "toe": 100,
+        "ats": 93,
+        "baseline": 10
+    },
+    {
+        "pamu": "6ID",
+        "unit": "62DRC",
+        "toe": 100,
+        "ats": 95,
+        "baseline": 6
+    },
+    {
+        "pamu": "6ID",
+        "unit": "63DRC",
+        "toe": 100,
+        "ats": 97,
+        "baseline": 7
+    },
+    {
+        "pamu": "6ID",
+        "unit": "6MIB",
+        "toe": 215,
+        "ats": 159,
+        "baseline": 6
+    },
+    {
+        "pamu": "6ID",
+        "unit": "6CMO Bn",
+        "toe": 198,
+        "ats": 143,
+        "baseline": 0
+    },
+    {
+        "pamu": "6ID",
+        "unit": "HHSBn",
+        "toe": 393,
+        "ats": 1153,
+        "baseline": 20
+    },
+    {
+        "pamu": "6ID",
+        "unit": "SSBn",
+        "toe": 165,
+        "ats": 100,
+        "baseline": 0
+    },
+    {
+        "pamu": "6ID",
+        "unit": "CSSH",
+        "toe": 94,
+        "ats": 39,
+        "baseline": 0
+    },
+    {
+        "pamu": "6ID",
+        "unit": "6DTS",
+        "toe": 45,
+        "ats": 42,
+        "baseline": 0
+    },
+    {
+        "pamu": "6ID",
+        "unit": "64DRC",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "6ID",
+        "unit": "38IB (CAFGU BN per DLT)",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 3
+    },
+    {
+        "pamu": "7ID",
+        "unit": "701Bde",
+        "toe": 98,
+        "ats": 78,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "702Bde",
+        "toe": 98,
+        "ats": 70,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "703Bde",
+        "toe": 98,
+        "ats": 75,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "69IB",
+        "toe": 602,
+        "ats": 398,
+        "baseline": 19
+    },
+    {
+        "pamu": "7ID",
+        "unit": "71IB",
+        "toe": 602,
+        "ats": 422,
+        "baseline": 299
+    },
+    {
+        "pamu": "7ID",
+        "unit": "84IB",
+        "toe": 602,
+        "ats": 409,
+        "baseline": 11
+    },
+    {
+        "pamu": "7ID",
+        "unit": "3IB",
+        "toe": 602,
+        "ats": 433,
+        "baseline": 8
+    },
+    {
+        "pamu": "7ID",
+        "unit": "48IB",
+        "toe": 602,
+        "ats": 406,
+        "baseline": 7
+    },
+    {
+        "pamu": "7ID",
+        "unit": "56IB",
+        "toe": 602,
+        "ats": 406,
+        "baseline": 6
+    },
+    {
+        "pamu": "7ID",
+        "unit": "81IB",
+        "toe": 602,
+        "ats": 408,
+        "baseline": 7
+    },
+    {
+        "pamu": "7ID",
+        "unit": "24IB",
+        "toe": 602,
+        "ats": 414,
+        "baseline": 7
+    },
+    {
+        "pamu": "7ID",
+        "unit": "91IIB",
+        "toe": 602,
+        "ats": 410,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "72DRC",
+        "toe": 100,
+        "ats": 95,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "73DRC",
+        "toe": 100,
+        "ats": 95,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "7MIB",
+        "toe": 215,
+        "ats": 203,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "7CMO Bn",
+        "toe": 198,
+        "ats": 183,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "HHSBn",
+        "toe": 393,
+        "ats": 947,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "SSBn",
+        "toe": 165,
+        "ats": 116,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "FMASH",
+        "toe": 94,
+        "ats": 55,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "7DTS",
+        "toe": 45,
+        "ats": 45,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "70IB (per DLT)",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "7ID",
+        "unit": "71DRC",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "801BDE",
+        "toe": 98,
+        "ats": 73,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "802BDE",
+        "toe": 98,
+        "ats": 77,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "803BDE",
+        "toe": 98,
+        "ats": 75,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "14IB",
+        "toe": 602,
+        "ats": 412,
+        "baseline": 10
+    },
+    {
+        "pamu": "8ID",
+        "unit": "43IB",
+        "toe": 602,
+        "ats": 410,
+        "baseline": 15
+    },
+    {
+        "pamu": "8ID",
+        "unit": "87IB",
+        "toe": 602,
+        "ats": 414,
+        "baseline": 30
+    },
+    {
+        "pamu": "8ID",
+        "unit": "19IB",
+        "toe": 602,
+        "ats": 405,
+        "baseline": 19
+    },
+    {
+        "pamu": "8ID",
+        "unit": "78IB",
+        "toe": 602,
+        "ats": 411,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "46IB",
+        "toe": 602,
+        "ats": 441,
+        "baseline": 9
+    },
+    {
+        "pamu": "8ID",
+        "unit": "20IB",
+        "toe": 602,
+        "ats": 416,
+        "baseline": 20
+    },
+    {
+        "pamu": "8ID",
+        "unit": "34IB",
+        "toe": 602,
+        "ats": 403,
+        "baseline": 59
+    },
+    {
+        "pamu": "8ID",
+        "unit": "63IB",
+        "toe": 602,
+        "ats": 412,
+        "baseline": 24
+    },
+    {
+        "pamu": "8ID",
+        "unit": "93IB",
+        "toe": 602,
+        "ats": 412,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "81DRC",
+        "toe": 100,
+        "ats": 81,
+        "baseline": 3
+    },
+    {
+        "pamu": "8ID",
+        "unit": "82DRC",
+        "toe": 100,
+        "ats": 94,
+        "baseline": 3
+    },
+    {
+        "pamu": "8ID",
+        "unit": "83DRC",
+        "toe": 100,
+        "ats": 83,
+        "baseline": 3
+    },
+    {
+        "pamu": "8ID",
+        "unit": "8MIB",
+        "toe": 215,
+        "ats": 183,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "8CMO Bn",
+        "toe": 198,
+        "ats": 169,
+        "baseline": 2
+    },
+    {
+        "pamu": "8ID",
+        "unit": "HHSBN",
+        "toe": 393,
+        "ats": 797,
+        "baseline": 26
+    },
+    {
+        "pamu": "8ID",
+        "unit": "SSBN",
+        "toe": 165,
+        "ats": 111,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "CLSH",
+        "toe": 94,
+        "ats": 40,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "8DTS",
+        "toe": 45,
+        "ats": 38,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "52IB (per Dlt)",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "8ID",
+        "unit": "81 Sniper Coy",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "901IBde",
+        "toe": 98,
+        "ats": 76,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "902Bde",
+        "toe": 98,
+        "ats": 81,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "903Bde",
+        "toe": 98,
+        "ats": 84,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "83IB",
+        "toe": 602,
+        "ats": 494,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "42IB",
+        "toe": 602,
+        "ats": 430,
+        "baseline": 5
+    },
+    {
+        "pamu": "9ID",
+        "unit": "49IB",
+        "toe": 602,
+        "ats": 433,
+        "baseline": 17
+    },
+    {
+        "pamu": "9ID",
+        "unit": "9IB",
+        "toe": 602,
+        "ats": 482,
+        "baseline": 10
+    },
+    {
+        "pamu": "9ID",
+        "unit": "31IB",
+        "toe": 602,
+        "ats": 493,
+        "baseline": 23
+    },
+    {
+        "pamu": "9ID",
+        "unit": "2IB",
+        "toe": 602,
+        "ats": 487,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "65IB",
+        "toe": 602,
+        "ats": 428,
+        "baseline": 52
+    },
+    {
+        "pamu": "9ID",
+        "unit": "96IB",
+        "toe": 602,
+        "ats": 485,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "91DRC",
+        "toe": 100,
+        "ats": 97,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "92DRC",
+        "toe": 100,
+        "ats": 97,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "93DRC",
+        "toe": 100,
+        "ats": 97,
+        "baseline": 6
+    },
+    {
+        "pamu": "9ID",
+        "unit": "9MIB",
+        "toe": 215,
+        "ats": 182,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "9CMO Bn",
+        "toe": 198,
+        "ats": 189,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "HHSBn",
+        "toe": 393,
+        "ats": 787,
+        "baseline": 10
+    },
+    {
+        "pamu": "9ID",
+        "unit": "SSBn",
+        "toe": 165,
+        "ats": 183,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "Stn Hosp",
+        "toe": 94,
+        "ats": 44,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "9DTS",
+        "toe": 45,
+        "ats": 39,
+        "baseline": 0
+    },
+    {
+        "pamu": "9ID",
+        "unit": "22IB (per DLT)",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "10ID",
+        "unit": "1001BDE",
+        "toe": 98,
+        "ats": 63,
+        "baseline": 2
+    },
+    {
+        "pamu": "10ID",
+        "unit": "1002BDE",
+        "toe": 98,
+        "ats": 76,
+        "baseline": 10
+    },
+    {
+        "pamu": "10ID",
+        "unit": "1003BDE",
+        "toe": 98,
+        "ats": 72,
+        "baseline": 6
+    },
+    {
+        "pamu": "10ID",
+        "unit": "25IB",
+        "toe": 602,
+        "ats": 439,
+        "baseline": 72
+    },
+    {
+        "pamu": "10ID",
+        "unit": "28IB",
+        "toe": 602,
+        "ats": 425,
+        "baseline": 44
+    },
+    {
+        "pamu": "10ID",
+        "unit": "66IB",
+        "toe": 602,
+        "ats": 418,
+        "baseline": 30
+    },
+    {
+        "pamu": "10ID",
+        "unit": "67IB",
+        "toe": 602,
+        "ats": 412,
+        "baseline": 44
+    },
+    {
+        "pamu": "10ID",
+        "unit": "27IB",
+        "toe": 602,
+        "ats": 466,
+        "baseline": 24
+    },
+    {
+        "pamu": "10ID",
+        "unit": "39IB",
+        "toe": 602,
+        "ats": 468,
+        "baseline": 46
+    },
+    {
+        "pamu": "10ID",
+        "unit": "73IB",
+        "toe": 602,
+        "ats": 453,
+        "baseline": 34
+    },
+    {
+        "pamu": "10ID",
+        "unit": "60IB",
+        "toe": 602,
+        "ats": 454,
+        "baseline": 29
+    },
+    {
+        "pamu": "10ID",
+        "unit": "89IB",
+        "toe": 602,
+        "ats": 458,
+        "baseline": 0
+    },
+    {
+        "pamu": "10ID",
+        "unit": "72IB",
+        "toe": 602,
+        "ats": 370,
+        "baseline": 0
+    },
+    {
+        "pamu": "10ID",
+        "unit": "101DRC",
+        "toe": 100,
+        "ats": 86,
+        "baseline": 10
+    },
+    {
+        "pamu": "10ID",
+        "unit": "102DRC",
+        "toe": 100,
+        "ats": 85,
+        "baseline": 20
+    },
+    {
+        "pamu": "10ID",
+        "unit": "103DRC",
+        "toe": 100,
+        "ats": 84,
+        "baseline": 10
+    },
+    {
+        "pamu": "10ID",
+        "unit": "10MIB",
+        "toe": 215,
+        "ats": 207,
+        "baseline": 0
+    },
+    {
+        "pamu": "10ID",
+        "unit": "10CMO Bn",
+        "toe": 198,
+        "ats": 111,
+        "baseline": 0
+    },
+    {
+        "pamu": "10ID",
+        "unit": "HHSBn",
+        "toe": 393,
+        "ats": 1212,
+        "baseline": 10
+    },
+    {
+        "pamu": "10ID",
+        "unit": "SSBn",
+        "toe": 165,
+        "ats": 145,
+        "baseline": 0
+    },
+    {
+        "pamu": "10ID",
+        "unit": "10DTS",
+        "toe": 45,
+        "ats": 61,
+        "baseline": 0
+    },
+    {
+        "pamu": "11ID",
+        "unit": "11ID (P)",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "11ID",
+        "unit": "1101BDE (Former 501Bde)",
+        "toe": 98,
+        "ats": 58,
+        "baseline": 0
+    },
+    {
+        "pamu": "11ID",
+        "unit": "1102BDE",
+        "toe": 98,
+        "ats": 66,
+        "baseline": 0
+    },
+    {
+        "pamu": "11ID",
+        "unit": "32IB",
+        "toe": 602,
+        "ats": 378,
+        "baseline": 294
+    },
+    {
+        "pamu": "11ID",
+        "unit": "35IB",
+        "toe": 602,
+        "ats": 358,
+        "baseline": 130
+    },
+    {
+        "pamu": "11ID",
+        "unit": "11MIB (P)",
+        "toe": 215,
+        "ats": 41,
+        "baseline": 3
+    },
+    {
+        "pamu": "11ID",
+        "unit": "15CMOB (P)",
+        "toe": 198,
+        "ats": 58,
+        "baseline": 0
+    },
+    {
+        "pamu": "11ID",
+        "unit": "HHSBn (P)",
+        "toe": 393,
+        "ats": 116,
+        "baseline": 0
+    },
+    {
+        "pamu": "11ID",
+        "unit": "SSB (P)",
+        "toe": 165,
+        "ats": 32,
+        "baseline": 0
+    },
+    {
+        "pamu": "11ID",
+        "unit": "11DTS (P)",
+        "toe": 45,
+        "ats": 12,
+        "baseline": 0
+    },
+    {
+        "pamu": "11ID",
+        "unit": "21IB",
+        "toe": 602,
+        "ats": 394,
+        "baseline": 3
+    },
+    {
+        "pamu": "11ID",
+        "unit": "41IB",
+        "toe": 602,
+        "ats": 392,
+        "baseline": 3
+    },
+    {
+        "pamu": "MID",
+        "unit": "1MechBde",
+        "toe": 61,
+        "ats": 57,
+        "baseline": 21
+    },
+    {
+        "pamu": "MID",
+        "unit": "2MechBde",
+        "toe": 61,
+        "ats": 55,
+        "baseline": 5
+    },
+    {
+        "pamu": "MID",
+        "unit": "1MechBn",
+        "toe": 482,
+        "ats": 433,
+        "baseline": 9
+    },
+    {
+        "pamu": "MID",
+        "unit": "2MechBn",
+        "toe": 482,
+        "ats": 441,
+        "baseline": 35
+    },
+    {
+        "pamu": "MID",
+        "unit": "3MechBn",
+        "toe": 482,
+        "ats": 409,
+        "baseline": 14
+    },
+    {
+        "pamu": "MID",
+        "unit": "4MechBn",
+        "toe": 482,
+        "ats": 430,
+        "baseline": 16
+    },
+    {
+        "pamu": "MID",
+        "unit": "5MechBn",
+        "toe": 482,
+        "ats": 432,
+        "baseline": 1
+    },
+    {
+        "pamu": "MID",
+        "unit": "1CavSqdn",
+        "toe": 266,
+        "ats": 210,
+        "baseline": 117
+    },
+    {
+        "pamu": "MID",
+        "unit": "2CavSqdn",
+        "toe": 266,
+        "ats": 210,
+        "baseline": 0
+    },
+    {
+        "pamu": "MID",
+        "unit": "1LACT (S)",
+        "toe": 94,
+        "ats": 64,
+        "baseline": 13
+    },
+    {
+        "pamu": "MID",
+        "unit": "2LACT (S)",
+        "toe": 94,
+        "ats": 72,
+        "baseline": 7
+    },
+    {
+        "pamu": "MID",
+        "unit": "3LACT (S)",
+        "toe": 94,
+        "ats": 69,
+        "baseline": 0
+    },
+    {
+        "pamu": "MID",
+        "unit": "4LACT (S)",
+        "toe": 94,
+        "ats": 71,
+        "baseline": 10
+    },
+    {
+        "pamu": "MID",
+        "unit": "5LACT (S)",
+        "toe": 94,
+        "ats": 72,
+        "baseline": 0
+    },
+    {
+        "pamu": "MID",
+        "unit": "6LACT (S)",
+        "toe": 94,
+        "ats": 66,
+        "baseline": 0
+    },
+    {
+        "pamu": "MID",
+        "unit": "7LACT (S)",
+        "toe": 94,
+        "ats": 67,
+        "baseline": 0
+    },
+    {
+        "pamu": "MID",
+        "unit": "8LACT (S) (P)",
+        "toe": 94,
+        "ats": 63,
+        "baseline": 0
+    },
+    {
+        "pamu": "MID",
+        "unit": "AABn",
+        "toe": 159,
+        "ats": 92,
+        "baseline": 0
+    },
+    {
+        "pamu": "MID",
+        "unit": "HHSBn",
+        "toe": 406,
+        "ats": 359,
+        "baseline": 0
+    },
+    {
+        "pamu": "MID",
+        "unit": "AMBn",
+        "toe": 126,
+        "ats": 94,
+        "baseline": 0
+    },
+    {
+        "pamu": "MID",
+        "unit": "TAS",
+        "toe": 53,
+        "ats": 35,
+        "baseline": 0
+    },
+    {
+        "pamu": "MID",
+        "unit": "12LACT, 1CAV",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "HHC",
+        "toe": 237,
+        "ats": 431,
+        "baseline": 0
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "1SFBn",
+        "toe": 388,
+        "ats": 358,
+        "baseline": 7
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "2SFBn",
+        "toe": 388,
+        "ats": 364,
+        "baseline": 6
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "3SFBn",
+        "toe": 388,
+        "ats": 397,
+        "baseline": 10
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "4SFBn",
+        "toe": 388,
+        "ats": 400,
+        "baseline": 29
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "5SFBn",
+        "toe": 388,
+        "ats": 281,
+        "baseline": 124
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "6SFBn",
+        "toe": 388,
+        "ats": 394,
+        "baseline": 6
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "11SFC(R)(S)",
+        "toe": 119,
+        "ats": 113,
+        "baseline": 0
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "12SFC(R)(S)",
+        "toe": 119,
+        "ats": 112,
+        "baseline": 0
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "18SFC(R)(S)",
+        "toe": 119,
+        "ats": 105,
+        "baseline": 13
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "SFS",
+        "toe": 164,
+        "ats": 122,
+        "baseline": 41
+    },
+    {
+        "pamu": "SFRA",
+        "unit": "16SFC",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "FSRR",
+        "unit": "HHC",
+        "toe": 311,
+        "ats": 543,
+        "baseline": 0
+    },
+    {
+        "pamu": "FSRR",
+        "unit": "1SRBn",
+        "toe": 550,
+        "ats": 444,
+        "baseline": 54
+    },
+    {
+        "pamu": "FSRR",
+        "unit": "2SRBn",
+        "toe": 550,
+        "ats": 445,
+        "baseline": 25
+    },
+    {
+        "pamu": "FSRR",
+        "unit": "3SRBn",
+        "toe": 550,
+        "ats": 450,
+        "baseline": 26
+    },
+    {
+        "pamu": "FSRR",
+        "unit": "4SRBn",
+        "toe": 550,
+        "ats": 464,
+        "baseline": 39
+    },
+    {
+        "pamu": "FSRR",
+        "unit": "5SRBn",
+        "toe": 550,
+        "ats": 443,
+        "baseline": 39
+    },
+    {
+        "pamu": "FSRR",
+        "unit": "16SRC (S)",
+        "toe": 150,
+        "ats": 107,
+        "baseline": 0
+    },
+    {
+        "pamu": "FSRR",
+        "unit": "SRS",
+        "toe": 117,
+        "ats": 172,
+        "baseline": 0
+    },
+    {
+        "pamu": "FSRR",
+        "unit": "13SRC",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "LRR",
+        "unit": "HHC",
+        "toe": 208,
+        "ats": 345,
+        "baseline": 446
+    },
+    {
+        "pamu": "LRR",
+        "unit": "1LRC",
+        "toe": 110,
+        "ats": 90,
+        "baseline": 105
+    },
+    {
+        "pamu": "LRR",
+        "unit": "2LRC",
+        "toe": 110,
+        "ats": 94,
+        "baseline": 246
+    },
+    {
+        "pamu": "LRR",
+        "unit": "3LRC",
+        "toe": 110,
+        "ats": 97,
+        "baseline": 170
+    },
+    {
+        "pamu": "LRR",
+        "unit": "4LRC",
+        "toe": 110,
+        "ats": 104,
+        "baseline": 0
+    },
+    {
+        "pamu": "LRR",
+        "unit": "5LRC",
+        "toe": 110,
+        "ats": 92,
+        "baseline": 150
+    },
+    {
+        "pamu": "LRR",
+        "unit": "6LRC",
+        "toe": 110,
+        "ats": 95,
+        "baseline": 0
+    },
+    {
+        "pamu": "LRR",
+        "unit": "CTDTS",
+        "toe": 59,
+        "ats": 72,
+        "baseline": 0
+    },
+    {
+        "pamu": "LRR",
+        "unit": "7LRC",
+        "toe": 0,
+        "ats": 81,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "91BRC (P)",
+        "toe": 100,
+        "ats": 88,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "HHC (P), 1BCT",
+        "toe": 98,
+        "ats": 87,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "92IB, 2ID",
+        "toe": 602,
+        "ats": 427,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "45IB, 5ID",
+        "toe": 602,
+        "ats": 461,
+        "baseline": 3
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "6MechBn (P), MID",
+        "toe": 482,
+        "ats": 298,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "9FAB(P), AAR",
+        "toe": 216,
+        "ats": 144,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "BSB (2FSSU), ASCOM",
+        "toe": 96,
+        "ats": 122,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "BSC, 7SIGBN",
+        "toe": 53,
+        "ats": 32,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "MP PLTN, 7MP Bn",
+        "toe": 21,
+        "ats": 17,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "1CMOB PLTN",
+        "toe": 23,
+        "ats": 14,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "FM PLTN",
+        "toe": 12,
+        "ats": 6,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "72MICO",
+        "toe": 48,
+        "ats": 33,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "K9 PLTN",
+        "toe": 20,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "3ECC",
+        "toe": 84,
+        "ats": 39,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "EOD TM",
+        "toe": 30,
+        "ats": 11,
+        "baseline": 0
+    },
+    {
+        "pamu": "1BCT",
+        "unit": "CBRNE PLTN",
+        "toe": 10,
+        "ats": 14,
+        "baseline": 0
+    },
+    {
+        "pamu": "51EBDE",
+        "unit": "HHC",
+        "toe": 143,
+        "ats": 146,
+        "baseline": 130
+    },
+    {
+        "pamu": "51EBDE",
+        "unit": "ESC",
+        "toe": 64,
+        "ats": 75,
+        "baseline": 60
+    },
+    {
+        "pamu": "51EBDE",
+        "unit": "513ECBn",
+        "toe": 338,
+        "ats": 164,
+        "baseline": 150
+    },
+    {
+        "pamu": "51EBDE",
+        "unit": "514ECBn",
+        "toe": 338,
+        "ats": 154,
+        "baseline": 42
+    },
+    {
+        "pamu": "51EBDE",
+        "unit": "522ECBn",
+        "toe": 338,
+        "ats": 162,
+        "baseline": 0
+    },
+    {
+        "pamu": "51EBDE",
+        "unit": "548ECBn",
+        "toe": 338,
+        "ats": 155,
+        "baseline": 0
+    },
+    {
+        "pamu": "51EBDE",
+        "unit": "564ECBn",
+        "toe": 338,
+        "ats": 157,
+        "baseline": 0
+    },
+    {
+        "pamu": "51EBDE",
+        "unit": "565ECBn",
+        "toe": 338,
+        "ats": 163,
+        "baseline": 40
+    },
+    {
+        "pamu": "51EBDE",
+        "unit": "525ECbtBn",
+        "toe": 395,
+        "ats": 199,
+        "baseline": 0
+    },
+    {
+        "pamu": "51EBDE",
+        "unit": "BTS",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "52EBDE",
+        "unit": "HHC",
+        "toe": 143,
+        "ats": 180,
+        "baseline": 30
+    },
+    {
+        "pamu": "52EBDE",
+        "unit": "ESBn",
+        "toe": 64,
+        "ats": 87,
+        "baseline": 0
+    },
+    {
+        "pamu": "52EBDE",
+        "unit": "512ECB",
+        "toe": 338,
+        "ats": 143,
+        "baseline": 0
+    },
+    {
+        "pamu": "52EBDE",
+        "unit": "534ECB",
+        "toe": 338,
+        "ats": 145,
+        "baseline": 33
+    },
+    {
+        "pamu": "52EBDE",
+        "unit": "544ECB",
+        "toe": 338,
+        "ats": 144,
+        "baseline": 33
+    },
+    {
+        "pamu": "52EBDE",
+        "unit": "524ECB",
+        "toe": 0,
+        "ats": 81,
+        "baseline": 0
+    },
+    {
+        "pamu": "52EBDE",
+        "unit": "BTS",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "53EBDE",
+        "unit": "HHC",
+        "toe": 143,
+        "ats": 113,
+        "baseline": 0
+    },
+    {
+        "pamu": "53EBDE",
+        "unit": "ESC",
+        "toe": 64,
+        "ats": 101,
+        "baseline": 0
+    },
+    {
+        "pamu": "53EBDE",
+        "unit": "542ECB",
+        "toe": 338,
+        "ats": 156,
+        "baseline": 0
+    },
+    {
+        "pamu": "53EBDE",
+        "unit": "543ECB",
+        "toe": 338,
+        "ats": 168,
+        "baseline": 0
+    },
+    {
+        "pamu": "53EBDE",
+        "unit": "546ECB",
+        "toe": 338,
+        "ats": 161,
+        "baseline": 0
+    },
+    {
+        "pamu": "53EBDE",
+        "unit": "552ECB",
+        "toe": 338,
+        "ats": 164,
+        "baseline": 0
+    },
+    {
+        "pamu": "53EBDE",
+        "unit": "BTS",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "54EBDE",
+        "unit": "HHC",
+        "toe": 143,
+        "ats": 310,
+        "baseline": 0
+    },
+    {
+        "pamu": "54EBDE",
+        "unit": "ESC",
+        "toe": 64,
+        "ats": 162,
+        "baseline": 0
+    },
+    {
+        "pamu": "54EBDE",
+        "unit": "545ECB",
+        "toe": 338,
+        "ats": 356,
+        "baseline": 0
+    },
+    {
+        "pamu": "54EBDE",
+        "unit": "547ECB",
+        "toe": 338,
+        "ats": 322,
+        "baseline": 0
+    },
+    {
+        "pamu": "54EBDE",
+        "unit": "549ECB",
+        "toe": 338,
+        "ats": 300,
+        "baseline": 0
+    },
+    {
+        "pamu": "54EBDE",
+        "unit": "BTS",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "55EBDE",
+        "unit": "HHC",
+        "toe": 143,
+        "ats": 106,
+        "baseline": 0
+    },
+    {
+        "pamu": "55EBDE",
+        "unit": "ESC",
+        "toe": 64,
+        "ats": 11,
+        "baseline": 0
+    },
+    {
+        "pamu": "55EBDE",
+        "unit": "551ECB(P)",
+        "toe": 338,
+        "ats": 114,
+        "baseline": 0
+    },
+    {
+        "pamu": "55EBDE",
+        "unit": "553ECB(P)",
+        "toe": 338,
+        "ats": 108,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "HHSB",
+        "toe": 189,
+        "ats": 351,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "1FAB",
+        "toe": 216,
+        "ats": 164,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "2FAB",
+        "toe": 216,
+        "ats": 156,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "3FAB",
+        "toe": 216,
+        "ats": 158,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "4FAB",
+        "toe": 216,
+        "ats": 171,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "5FAB",
+        "toe": 216,
+        "ats": 168,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "6FAB",
+        "toe": 216,
+        "ats": 168,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "8FAB",
+        "toe": 216,
+        "ats": 171,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "7FAB(155)",
+        "toe": 234,
+        "ats": 190,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "SALBAT",
+        "toe": 50,
+        "ats": 42,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "AAR TS",
+        "toe": 24,
+        "ats": 24,
+        "baseline": 0
+    },
+    {
+        "pamu": "AAR",
+        "unit": "ADA Btry",
+        "toe": 102,
+        "ats": 67,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "HHC",
+        "toe": 127,
+        "ats": 145,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "CSBn",
+        "toe": 133,
+        "ats": 115,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "NETBn",
+        "toe": 140,
+        "ats": 111,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "1SBn",
+        "toe": 125,
+        "ats": 115,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "2SBn",
+        "toe": 125,
+        "ats": 119,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "3SBn",
+        "toe": 125,
+        "ats": 113,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "4SBn",
+        "toe": 125,
+        "ats": 110,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "5SBn",
+        "toe": 125,
+        "ats": 122,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "6SBn",
+        "toe": 125,
+        "ats": 113,
+        "baseline": 1
+    },
+    {
+        "pamu": "ASR",
+        "unit": "7SBn",
+        "toe": 125,
+        "ats": 141,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "8SBn",
+        "toe": 125,
+        "ats": 113,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "9SBn",
+        "toe": 125,
+        "ats": 113,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "10SBn",
+        "toe": 125,
+        "ats": 117,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "11SBn (P)",
+        "toe": 125,
+        "ats": 107,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "SIMBn",
+        "toe": 128,
+        "ats": 114,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASR",
+        "unit": "TSS",
+        "toe": 34,
+        "ats": 28,
+        "baseline": 0
+    },
+    {
+        "pamu": "AIR",
+        "unit": "HHC",
+        "toe": 221,
+        "ats": 182,
+        "baseline": 4
+    },
+    {
+        "pamu": "AIR",
+        "unit": "14AIB",
+        "toe": 149,
+        "ats": 85,
+        "baseline": 0
+    },
+    {
+        "pamu": "AIR",
+        "unit": "15AIB",
+        "toe": 122,
+        "ats": 116,
+        "baseline": 0
+    },
+    {
+        "pamu": "AIR",
+        "unit": "17AIB",
+        "toe": 121,
+        "ats": 83,
+        "baseline": 0
+    },
+    {
+        "pamu": "CMOR (P)",
+        "unit": "HHB",
+        "toe": 305,
+        "ats": 198,
+        "baseline": 0
+    },
+    {
+        "pamu": "CMOR",
+        "unit": "11CMOBn",
+        "toe": 205,
+        "ats": 107,
+        "baseline": 0
+    },
+    {
+        "pamu": "CMOR",
+        "unit": "12CMOBn",
+        "toe": 205,
+        "ats": 108,
+        "baseline": 0
+    },
+    {
+        "pamu": "CMOR",
+        "unit": "14CMOBn",
+        "toe": 205,
+        "ats": 110,
+        "baseline": 0
+    },
+    {
+        "pamu": "CMOR",
+        "unit": "CMOS",
+        "toe": 74,
+        "ats": 72,
+        "baseline": 0
+    },
+    {
+        "pamu": "500ECB",
+        "unit": "500ECbtBn",
+        "toe": 395,
+        "ats": 180,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "HHSBn",
+        "toe": 315,
+        "ats": 282,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "EODBn",
+        "toe": 371,
+        "ats": 216,
+        "baseline": 44
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "1FSSU",
+        "toe": 109,
+        "ats": 83,
+        "baseline": 10
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "4FSSU",
+        "toe": 109,
+        "ats": 73,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "5FSSU",
+        "toe": 109,
+        "ats": 88,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "6FSSU",
+        "toe": 109,
+        "ats": 83,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "7FSSU",
+        "toe": 109,
+        "ats": 82,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "8FSSU",
+        "toe": 109,
+        "ats": 79,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "9FSSU",
+        "toe": 109,
+        "ats": 129,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "10FSSU",
+        "toe": 109,
+        "ats": 91,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "11FSSU",
+        "toe": 109,
+        "ats": 88,
+        "baseline": 30
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "12FSSU",
+        "toe": 109,
+        "ats": 96,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "1LSG",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "HHC, 1LSG",
+        "toe": 37,
+        "ats": 29,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "MaintBn",
+        "toe": 86,
+        "ats": 55,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "SupBn",
+        "toe": 398,
+        "ats": 43,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "TransBn",
+        "toe": 86,
+        "ats": 54,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "AAB",
+        "toe": 93,
+        "ats": 95,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "ASC",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "2LSG",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "HHC, 2LSG",
+        "toe": 54,
+        "ats": 76,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "SSTS",
+        "toe": 50,
+        "ats": 35,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "1IMB",
+        "toe": 337,
+        "ats": 79,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "2IMB",
+        "toe": 337,
+        "ats": 80,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "GSU",
+        "toe": 121,
+        "ats": 37,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "PMO",
+        "toe": 40,
+        "ats": 14,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "RDC",
+        "toe": 103,
+        "ats": 33,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASCOM",
+        "unit": "1LSB",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "TSSI",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "HHSB",
+        "toe": 317,
+        "ats": 412,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "TSptG",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "TSvcG",
+        "toe": 116,
+        "ats": 123,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "TEI",
+        "toe": 524,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "OTEI",
+        "toe": 37,
+        "ats": 15,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "CAS",
+        "toe": 58,
+        "ats": 129,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "CSS",
+        "toe": 46,
+        "ats": 19,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "CSSS",
+        "toe": 60,
+        "ats": 33,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "5ATG",
+        "toe": 52,
+        "ats": 14,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "3ATG",
+        "toe": 52,
+        "ats": 12,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "4ATG",
+        "toe": 52,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "OCS",
+        "toe": 50,
+        "ats": 31,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "SCS",
+        "toe": 88,
+        "ats": 55,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "ALSOS",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "NCOS",
+        "toe": 29,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "RDDI",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "ORDDI",
+        "toe": 31,
+        "ats": 16,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "ARC",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "DC",
+        "toe": 45,
+        "ats": 29,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "TDC",
+        "toe": 41,
+        "ats": 22,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "MTC",
+        "toe": 85,
+        "ats": 98,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "LWC",
+        "toe": 40,
+        "ats": 26,
+        "baseline": 39
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "ALDEC",
+        "toe": 41,
+        "ats": 18,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "CFWDC",
+        "toe": 33,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "TRADOC",
+        "unit": "1ATG",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "HHSBn",
+        "toe": 287,
+        "ats": 221,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "RMISO",
+        "toe": 18,
+        "ats": 12,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "1RCDG",
+        "toe": 95,
+        "ats": 61,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "2RCDG",
+        "toe": 82,
+        "ats": 54,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "3RCDG",
+        "toe": 121,
+        "ats": 65,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "4RCDG",
+        "toe": 160,
+        "ats": 80,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "5RCDG",
+        "toe": 108,
+        "ats": 63,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "6RCDG",
+        "toe": 108,
+        "ats": 66,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "7RCDG",
+        "toe": 121,
+        "ats": 56,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "8RCDG",
+        "toe": 108,
+        "ats": 57,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "9RCDG",
+        "toe": 95,
+        "ats": 69,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "10RCDG",
+        "toe": 82,
+        "ats": 53,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "11RCDG",
+        "toe": 95,
+        "ats": 58,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "12RCDG",
+        "toe": 95,
+        "ats": 79,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "14RCDG",
+        "toe": 95,
+        "ats": 65,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "15RCDG",
+        "toe": 82,
+        "ats": 72,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "NCRDG",
+        "toe": 95,
+        "ats": 75,
+        "baseline": 0
+    },
+    {
+        "pamu": "ARESCOM",
+        "unit": "ATS",
+        "toe": 71,
+        "ats": 44,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "HPA",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OCGPA",
+        "toe": 45,
+        "ats": 61,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OVCPA",
+        "toe": 17,
+        "ats": 15,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OCSPA",
+        "toe": 13,
+        "ats": 10,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "AOC",
+        "toe": 16,
+        "ats": 8,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OSAGS",
+        "toe": 23,
+        "ats": 18,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "Personal Staff",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OTIG",
+        "toe": 46,
+        "ats": 27,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OAIA",
+        "toe": 52,
+        "ats": 23,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OESPA",
+        "toe": 28,
+        "ats": 14,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OAFM",
+        "toe": 88,
+        "ats": 30,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OACPA",
+        "toe": 28,
+        "ats": 22,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OASM",
+        "toe": 11,
+        "ats": 6,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "AGSMO",
+        "toe": 38,
+        "ats": 12,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "ORC(P)",
+        "toe": 33,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "Coordinating Staff",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OG1",
+        "toe": 110,
+        "ats": 63,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OG2",
+        "toe": 105,
+        "ats": 49,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OG3",
+        "toe": 83,
+        "ats": 35,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OG4",
+        "toe": 65,
+        "ats": 50,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OG5",
+        "toe": 56,
+        "ats": 28,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OG6",
+        "toe": 61,
+        "ats": 32,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OG7",
+        "toe": 57,
+        "ats": 29,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OG8",
+        "toe": 53,
+        "ats": 34,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OG9",
+        "toe": 52,
+        "ats": 24,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "Special Staff",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OAA",
+        "toe": 60,
+        "ats": 31,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OACS",
+        "toe": 29,
+        "ats": 21,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OAJA",
+        "toe": 34,
+        "ats": 22,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OACN",
+        "toe": 16,
+        "ats": 16,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OAPM",
+        "toe": 24,
+        "ats": 19,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OADS",
+        "toe": 19,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OACE",
+        "toe": 73,
+        "ats": 17,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "AHRO",
+        "toe": 22,
+        "ats": 12,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OACOCS",
+        "toe": 31,
+        "ats": 19,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OAGAD",
+        "toe": 17,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OACCS",
+        "toe": 14,
+        "ats": 15,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "AHO",
+        "toe": 88,
+        "ats": 55,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OAQM",
+        "toe": 34,
+        "ats": 15,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "AREO",
+        "toe": 44,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "OACH",
+        "toe": 16,
+        "ats": 5,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "HSG",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "HHSBn",
+        "toe": 494,
+        "ats": 416,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "MPBn",
+        "toe": 384,
+        "ats": 244,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "AGH",
+        "toe": 360,
+        "ats": 104,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "SEB",
+        "toe": 474,
+        "ats": 352,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "1354DC",
+        "toe": 47,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "1301DD",
+        "toe": 55,
+        "ats": 28,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "SSC",
+        "toe": 259,
+        "ats": 221,
+        "baseline": 0
+    },
+    {
+        "pamu": "HHSG",
+        "unit": "AHC",
+        "toe": 20,
+        "ats": 33,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "HQ",
+        "toe": 150,
+        "ats": 117,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "1FSFO",
+        "toe": 27,
+        "ats": 11,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "2FSFO",
+        "toe": 27,
+        "ats": 10,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "3FSFO",
+        "toe": 27,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "4FSFO",
+        "toe": 27,
+        "ats": 12,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "5FSFO",
+        "toe": 27,
+        "ats": 10,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "6FSFO",
+        "toe": 27,
+        "ats": 10,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "7FSFO",
+        "toe": 27,
+        "ats": 7,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "8FSFO",
+        "toe": 27,
+        "ats": 10,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "9FSFO",
+        "toe": 27,
+        "ats": 11,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "10FSFO",
+        "toe": 27,
+        "ats": 10,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "11FSFO",
+        "toe": 27,
+        "ats": 10,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "12FSFO",
+        "toe": 27,
+        "ats": 10,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "14FSFO",
+        "toe": 27,
+        "ats": 12,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "15FSFO",
+        "toe": 27,
+        "ats": 13,
+        "baseline": 0
+    },
+    {
+        "pamu": "FCPA",
+        "unit": "16FSFO",
+        "toe": 27,
+        "ats": 9,
+        "baseline": 0
+    },
+    {
+        "pamu": "APMC",
+        "unit": "APMC",
+        "toe": 237,
+        "ats": 150,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "Head Office",
+        "toe": 31,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "1FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "2FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "3FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "4FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "5FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "6FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "7FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "8FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "9FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "10FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "11FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "12FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "14FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "15FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "ASPA",
+        "unit": "16FAU",
+        "toe": 15,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "Head Office",
+        "toe": 17,
+        "ats": 15,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "1FPAO",
+        "toe": 9,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "2FPAO",
+        "toe": 9,
+        "ats": 4,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "3FPAO",
+        "toe": 9,
+        "ats": 3,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "4FPAO",
+        "toe": 9,
+        "ats": 2,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "5FPAO",
+        "toe": 9,
+        "ats": 3,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "6FPAO",
+        "toe": 9,
+        "ats": 4,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "7FPAO",
+        "toe": 9,
+        "ats": 3,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "8FPAO",
+        "toe": 9,
+        "ats": 3,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "9FPAO",
+        "toe": 9,
+        "ats": 2,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "10FPAO",
+        "toe": 9,
+        "ats": 6,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "11FPAO",
+        "toe": 9,
+        "ats": 2,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "12FPAO",
+        "toe": 9,
+        "ats": 6,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "14FPAO",
+        "toe": 9,
+        "ats": 2,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "15FPAO",
+        "toe": 9,
+        "ats": 2,
+        "baseline": 0
+    },
+    {
+        "pamu": "APAO",
+        "unit": "16FPAO",
+        "toe": 9,
+        "ats": 2,
+        "baseline": 0
+    },
+    {
+        "pamu": "Non-PA",
+        "unit": "G4ASCOM",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "Non-PA",
+        "unit": "SOTS SOCOM",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "Non-PA",
+        "unit": "K9 AFP",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "Non-PA",
+        "unit": "DC WMC",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "Non-PA",
+        "unit": "1MARINE BDE",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "Non-PA",
+        "unit": "OU3, WMC",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "Non-PA",
+        "unit": "SOJ4 (JSOG)",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    },
+    {
+        "pamu": "Non-PA",
+        "unit": "DISG, DND",
+        "toe": 0,
+        "ats": 0,
+        "baseline": 0
+    }
+]

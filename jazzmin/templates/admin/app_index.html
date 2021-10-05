@@ -1,0 +1,61 @@
+{% extends "admin/index.html" %}
+{% load i18n %}
+
+
+{% block content_title %}
+{% if app_label == 'exec' %}
+Executive
+{% else %}
+{{ app_label|capfirst }}
+{% endif %}
+
+{% endblock %}
+
+{% block bodyclass %}{{ block.super }} app-{{ app_label }}{% endblock %}
+
+{% if not is_popup %}
+{% block breadcrumbs %}
+<ol class="breadcrumb float-sm-right">
+    <li class="breadcrumb-item"><a href="{% url 'admin:index' %}"><i class="fa fa-tachometer-alt"></i>
+            {% trans 'Home' %}</a></li>
+    <li class="breadcrumb-item">{% for app in app_list %}{{ app.name }}{% endfor %}</li>
+</ol>
+{% endblock %}
+{% endif %}
+
+{% block content %}
+
+<div class="card card-primary card-outline">
+    <div class="card-header">
+        <h5 class="m-0">{{ app_label}} test</h5>
+    </div>
+    <div class="card-body">
+        <table class="table table-sm">
+            <tbody>
+                {% for model in app.models %}
+                    <tr>
+                        <td>
+                            {% if model.url %}<a href="{{ model.url }}">{{ model.name }}</a>{% else %}{{ model.name }}{% endif %}
+                        </td>
+                        <td>
+                            <div class="btn-group float-right">
+                                {% if model.add_url %}
+                                    <a href="{{ model.add_url }}" class="btn btn-sm btn-success btn-flat addlink">{% trans 'Add' %}</a>
+                                {% endif %}
+                                {% if model.url %}
+                                    {% if model.view_only %}
+                                        <a href="{{ model.url }}" class="btn btn-sm btn-outline-info btn-flat viewlink">{% trans 'View' %}</a>
+                                    {% else %}
+                                        <a href="{{ model.url }}" class="btn btn-sm btn-outline-info btn-flat changelink">{% if model.custom %}{% trans 'Go' %}{% else %}{% trans 'Change' %}{% endif %}</a>
+                                    {% endif %}
+                                {% endif %}
+                            </div>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}

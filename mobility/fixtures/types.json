@@ -1,0 +1,640 @@
+[
+{
+    "model": "mobility.type",
+    "pk": 1,
+    "fields": {
+        "name": "Utility",
+        "category": 1,
+        "prefix": "TUL",
+        "code": "TUL",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 2,
+    "fields": {
+        "name": "Troop Carrier",
+        "category": 1,
+        "prefix": "TTCL",
+        "code": "TTCL",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 3,
+    "fields": {
+        "name": "Armaments Carrier",
+        "category": 1,
+        "prefix": "TLA",
+        "code": "TLA",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 4,
+    "fields": {
+        "name": "Troop Carrier/Cargo",
+        "category": 2,
+        "prefix": "TTCM",
+        "code": "TTCM",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 5,
+    "fields": {
+        "name": "Prime Mover",
+        "category": 2,
+        "prefix": "PMB",
+        "code": "PMB",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 6,
+    "fields": {
+        "name": "Wrecker",
+        "category": 2,
+        "prefix": "WRM",
+        "code": "WRM",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 7,
+    "fields": {
+        "name": "Tractor Head",
+        "category": 2,
+        "prefix": "TTH",
+        "code": "TTH",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 8,
+    "fields": {
+        "name": "Prime Mover",
+        "category": 3,
+        "prefix": "PMH",
+        "code": "PMH",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 9,
+    "fields": {
+        "name": "Wrecker",
+        "category": 3,
+        "prefix": "WRH",
+        "code": "WRH",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 10,
+    "fields": {
+        "name": "Troop Cargo",
+        "category": 3,
+        "prefix": "TTCH",
+        "code": "TTCH",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 11,
+    "fields": {
+        "name": "General Purpose Vehicle",
+        "category": 4,
+        "prefix": "GPV",
+        "code": "GPV",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 12,
+    "fields": {
+        "name": "Ambulance",
+        "category": 4,
+        "prefix": "AMB",
+        "code": "AMB",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 13,
+    "fields": {
+        "name": "Van Dental",
+        "category": 4,
+        "prefix": "DEN",
+        "code": "DEN",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 14,
+    "fields": {
+        "name": "Truck, Communications",
+        "category": 4,
+        "prefix": "CTV",
+        "code": "CTV",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 15,
+    "fields": {
+        "name": "Truck, Repair Shop",
+        "category": 4,
+        "prefix": "RVV",
+        "code": "RVV",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 16,
+    "fields": {
+        "name": "Truck, Lorry Fuel Medium",
+        "category": 4,
+        "prefix": "FOL",
+        "code": "FOL",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 17,
+    "fields": {
+        "name": "Truck, Lorry Water Medium",
+        "category": 4,
+        "prefix": "H2O",
+        "code": "H2O",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 18,
+    "fields": {
+        "name": "Material Handling Equipment",
+        "category": 4,
+        "prefix": "MHE",
+        "code": "MHE",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 19,
+    "fields": {
+        "name": "Bus",
+        "category": 4,
+        "prefix": "BUS",
+        "code": "BUS",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 20,
+    "fields": {
+        "name": "Trailer",
+        "category": 4,
+        "prefix": "TTR",
+        "code": "TTR",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 21,
+    "fields": {
+        "name": "Fire Truck",
+        "category": 4,
+        "prefix": "FTV",
+        "code": "FTV",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 22,
+    "fields": {
+        "name": "Garbage Truck",
+        "category": 4,
+        "prefix": "GTV",
+        "code": "GTV",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 23,
+    "fields": {
+        "name": "Truck Tow",
+        "category": 4,
+        "prefix": "TOW",
+        "code": "TOW",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 24,
+    "fields": {
+        "name": "Mission Essential Equipment",
+        "category": 4,
+        "prefix": "MEE",
+        "code": "MEE",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 25,
+    "fields": {
+        "name": "Motorcycle",
+        "category": 4,
+        "prefix": "MCV",
+        "code": "MCV",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 26,
+    "fields": {
+        "name": "Fighting Vehicle",
+        "category": 5,
+        "prefix": "ACV",
+        "code": "ZFIV",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 27,
+    "fields": {
+        "name": "Command Vehicle",
+        "category": 5,
+        "prefix": "ACV",
+        "code": "ZCMV",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 28,
+    "fields": {
+        "name": "Command Reconnaissance Vehicle",
+        "category": 5,
+        "prefix": "ACV",
+        "code": "ZCRV",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 29,
+    "fields": {
+        "name": "Recovery Vehicle",
+        "category": 5,
+        "prefix": "ACV",
+        "code": "ZRCV",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 30,
+    "fields": {
+        "name": "Motor Boat",
+        "category": 6,
+        "prefix": "SMA",
+        "code": "ZWMB",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 31,
+    "fields": {
+        "name": "Light Support Watercraft",
+        "category": 6,
+        "prefix": "SMA",
+        "code": "ZLSW",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 32,
+    "fields": {
+        "name": "Patrol Boat",
+        "category": 6,
+        "prefix": "SMA",
+        "code": "ZWPB",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 33,
+    "fields": {
+        "name": "Motorized Bancas/Pump Boat/Local",
+        "category": 6,
+        "prefix": "SMA",
+        "code": "ZMPL",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 34,
+    "fields": {
+        "name": "Speed Boat",
+        "category": 6,
+        "prefix": "SMA",
+        "code": "ZWSB",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 35,
+    "fields": {
+        "name": "Sea Craft",
+        "category": 6,
+        "prefix": "SMA",
+        "code": "ZWSC",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 36,
+    "fields": {
+        "name": "Rubber Boat",
+        "category": 6,
+        "prefix": "SMA",
+        "code": "ZWRB",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 37,
+    "fields": {
+        "name": "Aircraft",
+        "category": 7,
+        "prefix": "AMA",
+        "code": "ZAMA",
+        "parent_type": null
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 38,
+    "fields": {
+        "name": "Cargo",
+        "category": 4,
+        "prefix": "TTR",
+        "code": "ZTCR",
+        "parent_type": 20
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 39,
+    "fields": {
+        "name": "Water Dolly",
+        "category": 4,
+        "prefix": "TTR",
+        "code": "ZWD",
+        "parent_type": 20
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 40,
+    "fields": {
+        "name": "VAN",
+        "category": 4,
+        "prefix": "GPV",
+        "code": "ZVAN",
+        "parent_type": 11
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 41,
+    "fields": {
+        "name": "SUV",
+        "category": 4,
+        "prefix": "GPV",
+        "code": "ZSUV",
+        "parent_type": 11
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 42,
+    "fields": {
+        "name": "Sedan",
+        "category": 4,
+        "prefix": "GPV",
+        "code": "ZSED",
+        "parent_type": 11
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 43,
+    "fields": {
+        "name": "Pick-up",
+        "category": 4,
+        "prefix": "GPV",
+        "code": "ZPIU",
+        "parent_type": 11
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 44,
+    "fields": {
+        "name": "Multicab",
+        "category": 4,
+        "prefix": "GPV",
+        "code": "ZMCB",
+        "parent_type": 11
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 45,
+    "fields": {
+        "name": "Jeep",
+        "category": 4,
+        "prefix": "GPV",
+        "code": "ZJEP",
+        "parent_type": 11
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 46,
+    "fields": {
+        "name": "AUV",
+        "category": 4,
+        "prefix": "GPV",
+        "code": "ZAUV",
+        "parent_type": 11
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 47,
+    "fields": {
+        "name": "Others",
+        "category": 4,
+        "prefix": "GPV",
+        "code": "ZOTH",
+        "parent_type": 11
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 48,
+    "fields": {
+        "name": "Truck, Troop Carrier, 1 1/4 Ton HMMWV",
+        "category": 1,
+        "prefix": "TLH",
+        "code": "TLH",
+        "parent_type": 2
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 49,
+    "fields": {
+        "name": "Truck, Troop Carrier, 1 1/4 Ton KM450",
+        "category": 1,
+        "prefix": "TTK",
+        "code": "TTK",
+        "parent_type": 2
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 50,
+    "fields": {
+        "name": "Non-Standard Troop Carrier",
+        "category": 1,
+        "prefix": "TLN",
+        "code": "TLN",
+        "parent_type": 2
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 51,
+    "fields": {
+        "name": "Troop Carrier/Cargo 2 1/2 Ton M35",
+        "category": 2,
+        "prefix": "TCM",
+        "code": "TCM",
+        "parent_type": 4
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 52,
+    "fields": {
+        "name": "Truck, Troop Carrier/Cargo 2 1/2 Ton KM250",
+        "category": 2,
+        "prefix": "TCK",
+        "code": "TCK",
+        "parent_type": 4
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 53,
+    "fields": {
+        "name": "Troop Cargo 5 Ton",
+        "category": 2,
+        "prefix": "TTF",
+        "code": "TTF",
+        "parent_type": 4
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 54,
+    "fields": {
+        "name": "Non-Standard Troop Carrier",
+        "category": 2,
+        "prefix": "TMN",
+        "code": "TMN",
+        "parent_type": 4
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 55,
+    "fields": {
+        "name": "Van Ambulance",
+        "category": 4,
+        "prefix": "VAV",
+        "code": "VAV",
+        "parent_type": 12
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 56,
+    "fields": {
+        "name": "Field Ambulance KM451",
+        "category": 4,
+        "prefix": "TAK",
+        "code": "TAK",
+        "parent_type": 12
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 57,
+    "fields": {
+        "name": "Field Ambulance HMMWV M1152",
+        "category": 4,
+        "prefix": "TAH",
+        "code": "TAH",
+        "parent_type": 12
+    }
+},
+{
+    "model": "mobility.type",
+    "pk": 58,
+    "fields": {
+        "name": "Support Vehicle",
+        "category": 5,
+        "prefix": "ACV",
+        "code": "ZCSV",
+        "parent_type": null
+    }
+}
+]

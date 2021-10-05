@@ -1,0 +1,155 @@
+[
+{
+    "model": "commons.region",
+    "pk": 1,
+    "fields": {
+        "name": "NCR",
+        "designation": "NCR",
+        "island_group": "Luzon"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 2,
+    "fields": {
+        "name": "Region I",
+        "designation": "Region I",
+        "island_group": "Luzon"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 3,
+    "fields": {
+        "name": "Region II",
+        "designation": "Region II",
+        "island_group": "Luzon"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 4,
+    "fields": {
+        "name": "Region III",
+        "designation": "Region III",
+        "island_group": "Luzon"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 5,
+    "fields": {
+        "name": "Region IV-A",
+        "designation": "Region IV-A",
+        "island_group": "Luzon"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 6,
+    "fields": {
+        "name": "Region V",
+        "designation": "Region V",
+        "island_group": "Luzon"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 7,
+    "fields": {
+        "name": "Region VI",
+        "designation": "Region VI",
+        "island_group": "Visayas"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 8,
+    "fields": {
+        "name": "Region VII",
+        "designation": "Region VII",
+        "island_group": "Visayas"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 9,
+    "fields": {
+        "name": "Region VIII",
+        "designation": "Region VIII",
+        "island_group": "Visayas"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 10,
+    "fields": {
+        "name": "Region IX",
+        "designation": "Region IX",
+        "island_group": "Mindanao"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 11,
+    "fields": {
+        "name": "Region X",
+        "designation": "Region X",
+        "island_group": "Mindanao"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 12,
+    "fields": {
+        "name": "Region XI",
+        "designation": "Region XI",
+        "island_group": "Mindanao"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 13,
+    "fields": {
+        "name": "Region XII",
+        "designation": "Region XII",
+        "island_group": "Mindanao"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 14,
+    "fields": {
+        "name": "Region XIII",
+        "designation": "Region XIII",
+        "island_group": "Mindanao"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 15,
+    "fields": {
+        "name": "Region XV",
+        "designation": "Region XV",
+        "island_group": "Luzon"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 16,
+    "fields": {
+        "name": "Region XVI",
+        "designation": "Region XVI",
+        "island_group": "Mindanao"
+    }
+},
+{
+    "model": "commons.region",
+    "pk": 17,
+    "fields": {
+        "name": "Region XVII",
+        "designation": "Region XVII",
+        "island_group": "Luzon"
+    }
+}
+]

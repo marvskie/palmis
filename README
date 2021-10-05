@@ -1,0 +1,4 @@
+fresh installation 
+
+python manage.py migrate
+python manage.py makemigrations engineering, samb, adminbranch

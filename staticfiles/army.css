@@ -1,0 +1,9 @@
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #37571b !important;
+    border-color: transparent !important;
+}
+
+.card-primary.card-outline {
+    border-top: 3px solid #37571b !important;
+}
+

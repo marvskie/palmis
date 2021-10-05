@@ -1,0 +1,192 @@
+[
+{
+    "model": "commons.procurementmode",
+    "pk": 1,
+    "fields": {
+        "code": "public_bidding",
+        "name": "Public Bidding",
+        "full_name": "Public Bidding",
+        "order": 100
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 2,
+    "fields": {
+        "code": "direct_contracting",
+        "name": "Direct Contracting",
+        "full_name": "Direct Contracting",
+        "order": 300
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 3,
+    "fields": {
+        "code": "shopping",
+        "name": "Shopping",
+        "full_name": "Shopping",
+        "order": 500
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 4,
+    "fields": {
+        "code": "negotiated53.1",
+        "name": "Negotiated 53.1",
+        "full_name": "Negotiated Procurement 53.1 - Two Failed Biddings",
+        "order": 601
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 5,
+    "fields": {
+        "code": "negotiated53.2",
+        "name": "Negotiated 53.2",
+        "full_name": "Negotiated Procurement 53.2 - Emergency Cases",
+        "order": 602
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 6,
+    "fields": {
+        "code": "negotiated53.3",
+        "name": "Negotiated 53.3",
+        "full_name": "Negotiated Procurement 53.3 - Take-Over of Contracts",
+        "order": 603
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 7,
+    "fields": {
+        "code": "negotiated53.4",
+        "name": "Negotiated 53.4",
+        "full_name": "Negotiated Procurement 53.4 - Adjacent or Contiguous",
+        "order": 604
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 8,
+    "fields": {
+        "code": "negotiated53.5",
+        "name": "Negotiated 53.5",
+        "full_name": "Negotiated Procurement 53.5 - Agency-to-Agency",
+        "order": 605
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 9,
+    "fields": {
+        "code": "negotiated53.6",
+        "name": "Negotiated 53.6",
+        "full_name": "Negotiated Procurement 53.6 - Scientific, Scholarly or Artistic Work, Exclusive Technology and Media Services",
+        "order": 606
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 10,
+    "fields": {
+        "code": "negotiated53.7",
+        "name": "Negotiated 53.7",
+        "full_name": "Negotiated Procurement 53.7 - Highly Technical Consultants",
+        "order": 607
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 11,
+    "fields": {
+        "code": "negotiated53.8",
+        "name": "Negotiated 53.8",
+        "full_name": "Negotiated Procurement 53.8 - Defense Cooperation Agreement",
+        "order": 608
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 12,
+    "fields": {
+        "code": "negotiated53.9",
+        "name": "Negotiated 53.9",
+        "full_name": "Negotiated Procurement 53.9 - Small Value Procurement",
+        "order": 609
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 13,
+    "fields": {
+        "code": "negotiated53.10",
+        "name": "Negotiated 53.10",
+        "full_name": "Negotiated Procurement 53.10 - Lease of Real Property and Venue",
+        "order": 610
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 14,
+    "fields": {
+        "code": "negotiated53.11",
+        "name": "Negotiated 53.11",
+        "full_name": "Negotiated Procurement 53.11 - NGO Participation",
+        "order": 611
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 15,
+    "fields": {
+        "code": "negotiated53.12",
+        "name": "Negotiated 53.12",
+        "full_name": "Negotiated Procurement 53.12 - Community Participation",
+        "order": 612
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 16,
+    "fields": {
+        "code": "negotiated53.13",
+        "name": "Negotiated 53.13",
+        "full_name": "Negotiated Procurement 53.13 - United Nations Agencies, International Organizations or International Financing Institutions",
+        "order": 613
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 17,
+    "fields": {
+        "code": "limited_source",
+        "name": "Limited Source Bidding",
+        "full_name": "Limited Source Bidding",
+        "order": 200
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 18,
+    "fields": {
+        "code": "repeat_order",
+        "name": "Repeat Order",
+        "full_name": "Repeat Order",
+        "order": 400
+    }
+},
+{
+    "model": "commons.procurementmode",
+    "pk": 19,
+    "fields": {
+        "code": "None",
+        "name": "None",
+        "full_name": "None",
+        "order": 100
+    }
+}
+]
